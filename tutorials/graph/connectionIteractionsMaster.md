@@ -54,7 +54,7 @@ You can also create geometry connections by dragging off existing geometry conne
 
 ### More than one geometry connection
 
-Most geometry nodes can handle multiple incoming geometry connections. Some nodes, like the **Collect** node will automatically accept a second, third etc. connection.
+Most geometry nodes can handle multiple incoming geometry connections. Some nodes, like the **Collect** node will automatically accept a second, third etc. connection. It is important to note that the order that you connect the geometry matters on nodes like this, as this will be the order that the node computes.
 
 However most geometry nodes will replace the already existing geometry connection.
 
