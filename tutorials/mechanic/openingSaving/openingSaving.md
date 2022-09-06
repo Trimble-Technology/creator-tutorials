@@ -4,7 +4,7 @@ Start a new graph using the app menu.
 
 * By default the app will always start a new graph unless the user has already opened a graph.
 
-***WARNING: Creating a new graph will end this tutorial***
+<span style="color:red">***WARNING: Creating a new graph will end this tutorial***</span>
 
 * Start a new graph by opening the app menu and select ‘New graph’.
   * If you have unsaved work, you’ll be prompted to save the previous graph.
@@ -20,7 +20,7 @@ Searching for a graph:
 
 ![|249x371](https://lh6.googleusercontent.com/5zcfCUDFq3NV0s6ABeZ-6vWDC0LDn7lm9WIxI2g-cxhK_D9H26p038DoCrRb1p-reddKtpOan_N3B89tUIzXrTFzF1p9cPeXa3N1eHg987S3WjGO22FelbQLBU6Yard6IasY9040Yvb7bANINKANztSe8v8b3GHM09ZKLTXpHsmgob2vsF38sacqNQ)
 
-***WARNING: Opening a new graph will end this tutorial***
+<span style="color:red">***WARNING: Opening a new graph will end this tutorial***</span>
 
 Once a search successfully returns a desired result, double click to open the graph.
 
