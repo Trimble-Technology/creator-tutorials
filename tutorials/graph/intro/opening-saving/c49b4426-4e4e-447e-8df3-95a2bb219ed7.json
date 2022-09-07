@@ -14,7 +14,7 @@
         {
           "id": "0b9650f7-db6a-4a33-bbb2-3aee5c5468c5",
           "title": "Creating a New Graph",
-          "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/86628597-0f1c-431f-8f08-aa702340c75b.md",
+          "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/opening-saving/0b9650f7-db6a-4a33-bbb2-3aee5c5468c5.md",
           "actions": [
             {
               "type": "loadMateriaGraph",
@@ -29,7 +29,7 @@
         {
           "id": "5111f754-0174-4d8b-ae1e-1c50ac2c3ba1",
           "title": "Searching & Opening a Graph",
-          "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/90a986f3-28f1-43b2-9c1c-0792c6f7687f.md",
+          "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/opening-saving/5111f754-0174-4d8b-ae1e-1c50ac2c3ba1.md",
           "actions": [
             {
               "type": "loadMateriaGraph",
@@ -44,7 +44,7 @@
         {
             "id": "70bb277b-a79a-40f4-9cd1-9414dfd16783",
             "title": "Naming/Renaming a Graph",
-            "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/73d8a3f3-09f3-45c2-8fa4-e2e5789d108a.md",
+            "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/opening-saving/70bb277b-a79a-40f4-9cd1-9414dfd16783.md",
             "actions": [
               {
                 "type": "loadMateriaGraph",
@@ -59,7 +59,7 @@
           {
             "id": "d88bf976-9f46-4828-9541-9107cfff939e",
             "title": "Saving a Graph",
-            "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/437e9f13-bfb0-4824-9bcb-bf585f66c011.md",
+            "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/opening-saving/d88bf976-9f46-4828-9541-9107cfff939e.md",
             "actions": [
               {
                 "type": "loadMateriaGraph",
