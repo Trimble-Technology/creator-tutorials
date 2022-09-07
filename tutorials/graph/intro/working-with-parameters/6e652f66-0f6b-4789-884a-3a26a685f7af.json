@@ -14,7 +14,7 @@
         {
           "id": "15a46a5b-c5ac-4eb1-a873-cb5e4f1160f2",
           "title": "Creating a Parameter",
-          "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/downloading-uploading/806e6acd-8662-4697-a03f-9462c9fd4c08.md",
+          "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/working-with-parameters/15a46a5b-c5ac-4eb1-a873-cb5e4f1160f2.md",
           "actions": [
             {
               "type": "loadMateriaGraph",
@@ -29,7 +29,7 @@
         {
           "id": "f4228bd2-37fe-40ba-9abd-1a0d3faa1a41",
           "title": "Removing a Parameter",
-          "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/downloading-uploading/cc0a8a6a-2f1d-46f4-8a94-285b5551c77e.md",
+          "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/working-with-parameters/f4228bd2-37fe-40ba-9abd-1a0d3faa1a41.md",
           "actions": [
             {
               "type": "loadMateriaGraph",
