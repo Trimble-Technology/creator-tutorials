@@ -1,10 +1,10 @@
 # Step 1 - Creating a New Graph
 
+<span style="color:red">***WARNING: Creating a new graph will end this tutorial***</span>
+
 Start a new graph using the app menu.
 
 * By default the app will always start a new graph unless the user has already opened a graph.
-
-<span style="color:red">***WARNING: Creating a new graph will end this tutorial***</span>
 
 * Start a new graph by opening the app menu and select ‘New graph’.
   * If you have unsaved work, you’ll be prompted to save the previous graph.
