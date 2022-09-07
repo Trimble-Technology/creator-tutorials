@@ -1,0 +1,46 @@
+{
+    "header": {
+      "assetSchemaVersion": 1,
+      "contentSchemaVersion": 1,
+      "assetType": "tutorial:materia:graph"
+    },
+    "content": {
+      "id": "6e652f66-0f6b-4789-884a-3a26a685f7af",
+      "title": "Working with Parameters",
+      "text": null,
+      "tags": [null],
+      "tutorialType": "intro",
+      "steps": [
+        {
+          "id": "15a46a5b-c5ac-4eb1-a873-cb5e4f1160f2",
+          "title": "Creating a Parameter",
+          "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/downloading-uploading/806e6acd-8662-4697-a03f-9462c9fd4c08.md",
+          "actions": [
+            {
+              "type": "loadMateriaGraph",
+              "arguments": {
+                "uri": "whp:59cbbc1a-b5e3-415b-afaf-0f4d9a7ac3b6",
+                "configuration": null
+              }
+            }
+          ],
+          "hints": []
+        },
+        {
+          "id": "f4228bd2-37fe-40ba-9abd-1a0d3faa1a41",
+          "title": "Removing a Parameter",
+          "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/downloading-uploading/cc0a8a6a-2f1d-46f4-8a94-285b5551c77e.md",
+          "actions": [
+            {
+              "type": "loadMateriaGraph",
+              "arguments": {
+                "uri": "whp:dd3a06e0-84ea-4388-86f6-7c148a18ec62",
+                "configuration": null
+              }
+            }
+          ],
+          "hints": []
+        }
+      ]
+    }
+  }
