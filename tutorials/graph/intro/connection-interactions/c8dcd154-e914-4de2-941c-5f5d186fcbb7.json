@@ -14,7 +14,7 @@
         {
           "id": "32f66d45-49e8-4d43-b937-232fa15358c8",
           "title": "Connection Types",
-          "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/opening-saving/0b9650f7-db6a-4a33-bbb2-3aee5c5468c5.md",
+          "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/connection-interactions/32f66d45-49e8-4d43-b937-232fa15358c8.md",
           "actions": [
             {
               "type": "loadMateriaGraph",
@@ -29,7 +29,7 @@
         {
           "id": "e2d9adb3-0d72-488b-b133-6406d1a8ee65",
           "title": "Creating a Geometry Connection",
-          "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/opening-saving/5111f754-0174-4d8b-ae1e-1c50ac2c3ba1.md",
+          "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/connection-interactions/e2d9adb3-0d72-488b-b133-6406d1a8ee65.md",
           "actions": [
             {
               "type": "loadMateriaGraph",
@@ -44,7 +44,7 @@
         {
             "id": "90cf6807-61cc-44cf-b593-3a935c27bafb",
             "title": "Creating a Data Connection",
-            "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/opening-saving/70bb277b-a79a-40f4-9cd1-9414dfd16783.md",
+            "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/connection-interactions/90cf6807-61cc-44cf-b593-3a935c27bafb.md",
             "actions": [
               {
                 "type": "loadMateriaGraph",
@@ -59,7 +59,7 @@
           {
             "id": "f94c1f9c-e7b4-4d8c-820f-e46c4d99f39e",
             "title": "Deleting Connections",
-            "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/opening-saving/d88bf976-9f46-4828-9541-9107cfff939e.md",
+            "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/connection-interactions/f94c1f9c-e7b4-4d8c-820f-e46c4d99f39e.md",
             "actions": [
               {
                 "type": "loadMateriaGraph",
