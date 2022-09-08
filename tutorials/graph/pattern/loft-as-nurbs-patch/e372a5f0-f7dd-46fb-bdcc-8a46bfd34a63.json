@@ -1,0 +1,22 @@
+{
+  "header": {
+    "assetSchemaVersion": 1,
+    "contentSchemaVersion": 1,
+    "assetType": "tutorial:materia:graph"
+  },
+  "content": {
+    "id": "e372a5f0-f7dd-46fb-bdcc-8a46bfd34a63",
+    "name": "Loft as a NURBS Patch",
+    "text": "Text\ntext\ntext",
+    "tags": [null],
+    "tutorialType": "pattern",
+    "actions": [
+      {
+        "type": "loadMateriaGraph",
+        "arguments": {
+          "uri": "whp:d62fe689-b7c0-4fd6-8d17-70deef935725"
+        }
+      }
+    ]
+  }
+}

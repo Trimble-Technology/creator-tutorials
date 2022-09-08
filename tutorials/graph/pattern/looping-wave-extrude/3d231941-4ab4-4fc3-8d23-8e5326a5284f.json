@@ -5,19 +5,16 @@
     "assetType": "tutorial:materia:graph"
   },
   "content": {
-    "id": "1eb16fe5-01ba-41c4-ac51-6a95b6b27cf8",
-    "name": "My No-step Tutorial Title",
+    "id": "3d231941-4ab4-4fc3-8d23-8e5326a5284f",
+    "name": "Looping; Wave extrude",
     "text": "Text\ntext\ntext",
-    "tags": [
-      "tag1",
-      "tag2"
-    ],
-    "tutorialType": "tutorialType",
+    "tags": [null],
+    "tutorialType": "pattern",
     "actions": [
       {
         "type": "loadMateriaGraph",
         "arguments": {
-          "uri": "whp:1eb16fe5-01ba-41c4-ac51-6a95b6b27ccc"
+          "uri": "whp:ce6b13eb-c4a5-4a3a-a9e1-a2bb1c9c2022"
         }
       }
     ]

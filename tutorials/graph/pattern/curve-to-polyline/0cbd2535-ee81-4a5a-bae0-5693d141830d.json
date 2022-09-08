@@ -1,0 +1,22 @@
+{
+  "header": {
+    "assetSchemaVersion": 1,
+    "contentSchemaVersion": 1,
+    "assetType": "tutorial:materia:graph"
+  },
+  "content": {
+    "id": "0cbd2535-ee81-4a5a-bae0-5693d141830d",
+    "name": "Curve to Polyline",
+    "text": "Text\ntext\ntext",
+    "tags": [null],
+    "tutorialType": "pattern",
+    "actions": [
+      {
+        "type": "loadMateriaGraph",
+        "arguments": {
+          "uri": "whp:21440fcd-3234-4ada-b4f3-a81951976752"
+        }
+      }
+    ]
+  }
+}

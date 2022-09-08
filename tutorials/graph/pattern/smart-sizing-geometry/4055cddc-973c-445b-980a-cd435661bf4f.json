@@ -1,0 +1,22 @@
+{
+  "header": {
+    "assetSchemaVersion": 1,
+    "contentSchemaVersion": 1,
+    "assetType": "tutorial:materia:graph"
+  },
+  "content": {
+    "id": "4055cddc-973c-445b-980a-cd435661bf4f",
+    "name": "Smart Sizing Geometry",
+    "text": "Text\ntext\ntext",
+    "tags": [null],
+    "tutorialType": "pattern",
+    "actions": [
+      {
+        "type": "loadMateriaGraph",
+        "arguments": {
+          "uri": "whp:b783bdc2-5bea-49b6-b68e-a7eabee7993c"
+        }
+      }
+    ]
+  }
+}

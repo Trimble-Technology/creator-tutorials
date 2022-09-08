@@ -1,0 +1,22 @@
+{
+  "header": {
+    "assetSchemaVersion": 1,
+    "contentSchemaVersion": 1,
+    "assetType": "tutorial:materia:graph"
+  },
+  "content": {
+    "id": "ced438f3-0608-4de3-956b-4323ac1cec63",
+    "name": "Triangulate an Outline",
+    "text": "Text\ntext\ntext",
+    "tags": [null],
+    "tutorialType": "pattern",
+    "actions": [
+      {
+        "type": "loadMateriaGraph",
+        "arguments": {
+          "uri": "whp:c9ec5808-aa2a-452c-9938-96b9b590aade"
+        }
+      }
+    ]
+  }
+}

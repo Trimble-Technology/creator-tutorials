@@ -1,0 +1,22 @@
+{
+  "header": {
+    "assetSchemaVersion": 1,
+    "contentSchemaVersion": 1,
+    "assetType": "tutorial:materia:graph"
+  },
+  "content": {
+    "id": "842cec10-01fd-4ae7-8f85-df77b0e5c77a",
+    "name": "Points to Curve",
+    "text": "Text\ntext\ntext",
+    "tags": [null],
+    "tutorialType": "pattern",
+    "actions": [
+      {
+        "type": "loadMateriaGraph",
+        "arguments": {
+          "uri": "whp:5da4c5d6-1dd3-4225-bc98-3e975318b5d1"
+        }
+      }
+    ]
+  }
+}

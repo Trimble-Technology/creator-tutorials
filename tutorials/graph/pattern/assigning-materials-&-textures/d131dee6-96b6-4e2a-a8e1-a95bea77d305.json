@@ -1,0 +1,22 @@
+{
+  "header": {
+    "assetSchemaVersion": 1,
+    "contentSchemaVersion": 1,
+    "assetType": "tutorial:materia:graph"
+  },
+  "content": {
+    "id": "d131dee6-96b6-4e2a-a8e1-a95bea77d305",
+    "name": "Assigning Materials & Textures",
+    "text": "Text\ntext\ntext",
+    "tags": [null],
+    "tutorialType": "pattern",
+    "actions": [
+      {
+        "type": "loadMateriaGraph",
+        "arguments": {
+          "uri": "whp:8dd11f58-74bd-41e8-b9c0-a6719ff02e6e"
+        }
+      }
+    ]
+  }
+}
