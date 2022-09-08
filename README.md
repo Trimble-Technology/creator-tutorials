@@ -23,3 +23,5 @@ CAPS-nocaps = mouse actions
 **3D viewer** = The section of the app that displays the 3D representation of the current ‘output selected’ node (if it has a computed representation).
 
 **NURBS** = Non-uniform rational B-spline (all caps!)
+
+**Polyline** = A polyline is a continuous line that is composed of one or more connected straight line segments, which, together, make up a shape.
