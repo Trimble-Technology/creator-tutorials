@@ -1,76 +1,78 @@
 {
-    "header": {
-      "assetSchemaVersion": 1,
-      "contentSchemaVersion": 1,
-      "assetType": "tutorial:materia:graph"
-    },
-    "content": {
-      "id": "c49b4426-4e4e-447e-8df3-95a2bb219ed7",
-      "title": "Opening & Saving Graphs ",
-      "text": null,
-      "tags": [null],
-      "tutorialType": "intro",
-      "steps": [
-        {
-          "id": "0b9650f7-db6a-4a33-bbb2-3aee5c5468c5",
-          "title": "Creating a New Graph",
-          "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/opening-saving/0b9650f7-db6a-4a33-bbb2-3aee5c5468c5.md",
-          "actions": [
-            {
-              "type": "loadMateriaGraph",
-              "arguments": {
-                "uri": "whp:4dc766f1-308c-443d-9cd3-d5a7ed291649",
-                "configuration": null
-              }
-            }
-          ],
-          "hints": []
-        },
-        {
-          "id": "5111f754-0174-4d8b-ae1e-1c50ac2c3ba1",
-          "title": "Searching & Opening a Graph",
-          "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/opening-saving/5111f754-0174-4d8b-ae1e-1c50ac2c3ba1.md",
-          "actions": [
-            {
-              "type": "loadMateriaGraph",
-              "arguments": {
-                "uri": "whp:a7acd843-f54f-45e9-9518-ef73798ccdd8",
-                "configuration": null
-              }
-            }
-          ],
-          "hints": []
-        },
-        {
-            "id": "70bb277b-a79a-40f4-9cd1-9414dfd16783",
-            "title": "Naming/Renaming a Graph",
-            "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/opening-saving/70bb277b-a79a-40f4-9cd1-9414dfd16783.md",
-            "actions": [
-              {
-                "type": "loadMateriaGraph",
-                "arguments": {
-                  "uri": "whp:cba9185d-eebe-4319-833f-181a5989eed7",
-                  "configuration": null
-                }
-              }
-            ],
-            "hints": []
-          },
+  "header": {
+    "assetSchemaVersion": 1,
+    "contentSchemaVersion": 1,
+    "assetType": "tutorial:materia:graph"
+  },
+  "content": {
+    "id": "c49b4426-4e4e-447e-8df3-95a2bb219ed7",
+    "name": "Opening & Saving Graphs ",
+    "text": null,
+    "tags": [
+      null
+    ],
+    "tutorialType": "intro",
+    "steps": [
+      {
+        "id": "0b9650f7-db6a-4a33-bbb2-3aee5c5468c5",
+        "name": "Creating a New Graph",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/opening-saving/0b9650f7-db6a-4a33-bbb2-3aee5c5468c5.md",
+        "actions": [
           {
-            "id": "d88bf976-9f46-4828-9541-9107cfff939e",
-            "title": "Saving a Graph",
-            "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/opening-saving/d88bf976-9f46-4828-9541-9107cfff939e.md",
-            "actions": [
-              {
-                "type": "loadMateriaGraph",
-                "arguments": {
-                  "uri": "whp:13042aef-e468-4727-9ae4-05d4380ea43c",
-                  "configuration": null
-                }
-              }
-            ],
-            "hints": []
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:4dc766f1-308c-443d-9cd3-d5a7ed291649",
+              "configuration": null
+            }
           }
-      ]
-    }
+        ],
+        "hints": []
+      },
+      {
+        "id": "5111f754-0174-4d8b-ae1e-1c50ac2c3ba1",
+        "name": "Searching & Opening a Graph",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/opening-saving/5111f754-0174-4d8b-ae1e-1c50ac2c3ba1.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:a7acd843-f54f-45e9-9518-ef73798ccdd8",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "70bb277b-a79a-40f4-9cd1-9414dfd16783",
+        "name": "Naming/Renaming a Graph",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/opening-saving/70bb277b-a79a-40f4-9cd1-9414dfd16783.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:cba9185d-eebe-4319-833f-181a5989eed7",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "d88bf976-9f46-4828-9541-9107cfff939e",
+        "name": "Saving a Graph",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/opening-saving/d88bf976-9f46-4828-9541-9107cfff939e.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:13042aef-e468-4727-9ae4-05d4380ea43c",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      }
+    ]
   }
+}

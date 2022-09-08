@@ -1,166 +1,168 @@
 {
-    "header": {
-      "assetSchemaVersion": 1,
-      "contentSchemaVersion": 1,
-      "assetType": "tutorial:materia:graph"
-    },
-    "content": {
-      "id": "0c421713-0d16-456e-a2f6-403af9bbc7fc",
-      "title": "Node Interactions",
-      "text": null,
-      "tags": [null],
-      "tutorialType": "intro",
-      "steps": [
-        {
-          "id": "86628597-0f1c-431f-8f08-aa702340c75b",
-          "title": "Node Types",
-          "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/86628597-0f1c-431f-8f08-aa702340c75b.md",
-          "actions": [
-            {
-              "type": "loadMateriaGraph",
-              "arguments": {
-                "uri": "whp:963ebb28-75c7-4fcf-89b6-90e700ac4435",
-                "configuration": null
-              }
+  "header": {
+    "assetSchemaVersion": 1,
+    "contentSchemaVersion": 1,
+    "assetType": "tutorial:materia:graph"
+  },
+  "content": {
+    "id": "0c421713-0d16-456e-a2f6-403af9bbc7fc",
+    "name": "Node Interactions",
+    "text": null,
+    "tags": [
+      null
+    ],
+    "tutorialType": "intro",
+    "steps": [
+      {
+        "id": "86628597-0f1c-431f-8f08-aa702340c75b",
+        "name": "Node Types",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/86628597-0f1c-431f-8f08-aa702340c75b.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:963ebb28-75c7-4fcf-89b6-90e700ac4435",
+              "configuration": null
             }
-          ],
-          "hints": []
-        },
-        {
-          "id": "90a986f3-28f1-43b2-9c1c-0792c6f7687f",
-          "title": "Creating Nodes",
-          "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/90a986f3-28f1-43b2-9c1c-0792c6f7687f.md",
-          "actions": [
-            {
-              "type": "loadMateriaGraph",
-              "arguments": {
-                "uri": "whp:69dbd68f-3d6f-4424-b5e3-8ea5b4a39f6e",
-                "configuration": null
-              }
-            }
-          ],
-          "hints": []
-        },
-        {
-            "id": "73d8a3f3-09f3-45c2-8fa4-e2e5789d108a",
-            "title": "Tagging Nodes for Output",
-            "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/73d8a3f3-09f3-45c2-8fa4-e2e5789d108a.md",
-            "actions": [
-              {
-                "type": "loadMateriaGraph",
-                "arguments": {
-                  "uri": "whp:fcdab6d5-7d2d-4150-b49f-bcea85d3cb1d",
-                  "configuration": null
-                }
-              }
-            ],
-            "hints": []
-          },
-          {
-            "id": "437e9f13-bfb0-4824-9bcb-bf585f66c011",
-            "title": "Expanding Nodes",
-            "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/437e9f13-bfb0-4824-9bcb-bf585f66c011.md",
-            "actions": [
-              {
-                "type": "loadMateriaGraph",
-                "arguments": {
-                  "uri": "whp:9ffdcdd2-efd4-4c2d-9086-2ea36b164b38",
-                  "configuration": null
-                }
-              }
-            ],
-            "hints": []
-          },
-          {
-            "id": "4346fe91-0041-4b7a-9a9f-ec61b5299f24",
-            "title": "Changing Node Inputs",
-            "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/4346fe91-0041-4b7a-9a9f-ec61b5299f24.md",
-            "actions": [
-              {
-                "type": "loadMateriaGraph",
-                "arguments": {
-                  "uri": "whp:2933310e-7e0d-40ef-9f61-c4f557809220",
-                  "configuration": null
-                }
-              }
-            ],
-            "hints": []
-          },
-          {
-            "id": "c0481a88-840e-42c0-a95e-f5e0a9ce4e18",
-            "title": "Renaming a Node",
-            "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/c0481a88-840e-42c0-a95e-f5e0a9ce4e18.md",
-            "actions": [
-              {
-                "type": "loadMateriaGraph",
-                "arguments": {
-                  "uri": "whp:db6ffe66-cd60-4f4a-abc6-29160459c695",
-                  "configuration": null
-                }
-              }
-            ],
-            "hints": []
-          },
-          {
-            "id": "1fe33dfb-fb3a-4b24-92df-a2ef93a89b2d",
-            "title": "Layout Selection",
-            "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/1fe33dfb-fb3a-4b24-92df-a2ef93a89b2d.md",
-            "actions": [
-              {
-                "type": "loadMateriaGraph",
-                "arguments": {
-                  "uri": "whp:69c87d65-2125-4996-b98a-5e407774b58a",
-                  "configuration": null
-                }
-              }
-            ],
-            "hints": []
-          },
-          {
-            "id": "f330ac2f-8cc9-4795-9c15-acf46d774801",
-            "title": "Deleting Nodes",
-            "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/f330ac2f-8cc9-4795-9c15-acf46d774801.md",
-            "actions": [
-              {
-                "type": "loadMateriaGraph",
-                "arguments": {
-                  "uri": "whp:8b674636-4686-42a3-bf57-a5f5526bbabb",
-                  "configuration": null
-                }
-              }
-            ],
-            "hints": []
-          },
-          {
-            "id": "68e34cea-0806-4e2c-a7e3-a4055cda6c74",
-            "title": "Copying Nodes",
-            "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/68e34cea-0806-4e2c-a7e3-a4055cda6c74.md",
-            "actions": [
-              {
-                "type": "loadMateriaGraph",
-                "arguments": {
-                  "uri": "whp:b0ad21cf-faf5-4162-b94a-816d138ea69c",
-                  "configuration": null
-                }
-              }
-            ],
-            "hints": []
-          },
-          {
-            "id": "2d998b65-9c78-46e5-811b-978bd6a63f50",
-            "title": "Inspecting Outputs",
-            "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/2d998b65-9c78-46e5-811b-978bd6a63f50.md",
-            "actions": [
-              {
-                "type": "loadMateriaGraph",
-                "arguments": {
-                  "uri": "whp:ec72087f-8a00-4a53-9a12-0a626cd8de92",
-                  "configuration": null
-                }
-              }
-            ],
-            "hints": []
           }
-      ]
-    }
+        ],
+        "hints": []
+      },
+      {
+        "id": "90a986f3-28f1-43b2-9c1c-0792c6f7687f",
+        "name": "Creating Nodes",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/90a986f3-28f1-43b2-9c1c-0792c6f7687f.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:69dbd68f-3d6f-4424-b5e3-8ea5b4a39f6e",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "73d8a3f3-09f3-45c2-8fa4-e2e5789d108a",
+        "name": "Tagging Nodes for Output",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/73d8a3f3-09f3-45c2-8fa4-e2e5789d108a.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:fcdab6d5-7d2d-4150-b49f-bcea85d3cb1d",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "437e9f13-bfb0-4824-9bcb-bf585f66c011",
+        "name": "Expanding Nodes",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/437e9f13-bfb0-4824-9bcb-bf585f66c011.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:9ffdcdd2-efd4-4c2d-9086-2ea36b164b38",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "4346fe91-0041-4b7a-9a9f-ec61b5299f24",
+        "name": "Changing Node Inputs",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/4346fe91-0041-4b7a-9a9f-ec61b5299f24.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:2933310e-7e0d-40ef-9f61-c4f557809220",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "c0481a88-840e-42c0-a95e-f5e0a9ce4e18",
+        "name": "Renaming a Node",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/c0481a88-840e-42c0-a95e-f5e0a9ce4e18.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:db6ffe66-cd60-4f4a-abc6-29160459c695",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "1fe33dfb-fb3a-4b24-92df-a2ef93a89b2d",
+        "name": "Layout Selection",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/1fe33dfb-fb3a-4b24-92df-a2ef93a89b2d.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:69c87d65-2125-4996-b98a-5e407774b58a",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "f330ac2f-8cc9-4795-9c15-acf46d774801",
+        "name": "Deleting Nodes",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/f330ac2f-8cc9-4795-9c15-acf46d774801.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:8b674636-4686-42a3-bf57-a5f5526bbabb",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "68e34cea-0806-4e2c-a7e3-a4055cda6c74",
+        "name": "Copying Nodes",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/68e34cea-0806-4e2c-a7e3-a4055cda6c74.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:b0ad21cf-faf5-4162-b94a-816d138ea69c",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "2d998b65-9c78-46e5-811b-978bd6a63f50",
+        "name": "Inspecting Outputs",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/2d998b65-9c78-46e5-811b-978bd6a63f50.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:ec72087f-8a00-4a53-9a12-0a626cd8de92",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      }
+    ]
   }
+}

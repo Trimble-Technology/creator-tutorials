@@ -1,46 +1,48 @@
 {
-    "header": {
-      "assetSchemaVersion": 1,
-      "contentSchemaVersion": 1,
-      "assetType": "tutorial:materia:graph"
-    },
-    "content": {
-      "id": "86f4e712-23c6-41d3-94fc-d3ec855f0981",
-      "title": "Downloading & Uploading",
-      "text": null,
-      "tags": [null],
-      "tutorialType": "intro",
-      "steps": [
-        {
-          "id": "806e6acd-8662-4697-a03f-9462c9fd4c08",
-          "title": "Downloading Assets",
-          "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/downloading-uploading/806e6acd-8662-4697-a03f-9462c9fd4c08.md",
-          "actions": [
-            {
-              "type": "loadMateriaGraph",
-              "arguments": {
-                "uri": "whp:518394b6-5fcf-435b-b2cb-85f476ee36b6",
-                "configuration": null
-              }
+  "header": {
+    "assetSchemaVersion": 1,
+    "contentSchemaVersion": 1,
+    "assetType": "tutorial:materia:graph"
+  },
+  "content": {
+    "id": "86f4e712-23c6-41d3-94fc-d3ec855f0981",
+    "name": "Downloading & Uploading",
+    "text": null,
+    "tags": [
+      null
+    ],
+    "tutorialType": "intro",
+    "steps": [
+      {
+        "id": "806e6acd-8662-4697-a03f-9462c9fd4c08",
+        "name": "Downloading Assets",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/downloading-uploading/806e6acd-8662-4697-a03f-9462c9fd4c08.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:518394b6-5fcf-435b-b2cb-85f476ee36b6",
+              "configuration": null
             }
-          ],
-          "hints": []
-        },
-        {
-          "id": "cc0a8a6a-2f1d-46f4-8a94-285b5551c77e",
-          "title": "Uploading Assets",
-          "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/downloading-uploading/cc0a8a6a-2f1d-46f4-8a94-285b5551c77e.md",
-          "actions": [
-            {
-              "type": "loadMateriaGraph",
-              "arguments": {
-                "uri": "whp:6c6f9c61-d0fe-45d0-bc1f-5141b1c73847",
-                "configuration": null
-              }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "cc0a8a6a-2f1d-46f4-8a94-285b5551c77e",
+        "name": "Uploading Assets",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/downloading-uploading/cc0a8a6a-2f1d-46f4-8a94-285b5551c77e.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:6c6f9c61-d0fe-45d0-bc1f-5141b1c73847",
+              "configuration": null
             }
-          ],
-          "hints": []
-        }
-      ]
-    }
+          }
+        ],
+        "hints": []
+      }
+    ]
   }
+}

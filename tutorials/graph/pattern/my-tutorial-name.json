@@ -1,0 +1,25 @@
+{
+  "header": {
+    "assetSchemaVersion": 1,
+    "contentSchemaVersion": 1,
+    "assetType": "tutorial:materia:graph"
+  },
+  "content": {
+    "id": "1eb16fe5-01ba-41c4-ac51-6a95b6b27cf8",
+    "name": "My No-step Tutorial Title",
+    "text": "Text\ntext\ntext",
+    "tags": [
+      "tag1",
+      "tag2"
+    ],
+    "tutorialType": "tutorialType",
+    "actions": [
+      {
+        "type": "loadMateriaGraph",
+        "arguments": {
+          "uri": "whp:1eb16fe5-01ba-41c4-ac51-6a95b6b27ccc"
+        }
+      }
+    ]
+  }
+}
