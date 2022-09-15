@@ -15,7 +15,7 @@
     "steps": [
       {
         "id": "806e6acd-8662-4697-a03f-9462c9fd4c08",
-        "name": "Downloading Assets",
+        "name": "Downloading assets",
         "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/downloading-uploading/806e6acd-8662-4697-a03f-9462c9fd4c08.md",
         "actions": [
           {
@@ -30,7 +30,7 @@
       },
       {
         "id": "cc0a8a6a-2f1d-46f4-8a94-285b5551c77e",
-        "name": "Uploading Assets",
+        "name": "Uploading assets",
         "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/downloading-uploading/cc0a8a6a-2f1d-46f4-8a94-285b5551c77e.md",
         "actions": [
           {

@@ -19,3 +19,14 @@
 | Graph viewer          |  The section of the app that displays the graph + nodes.         |
 | 3D viewer             |  The section of the app that displays the 3D geometry            |
 | NURBS                 |  Non-uniform rational B-spline (all caps!)                       |
+
+## Best practices:
+
+| Name of tutorial      |  Title Case                                                      |
+| Name of step          |  Sentence case                                                   |
+
+
+| Element               |  Practice                                                        |
+|-----------------------|-----------------------------------------------------------------:|
+| Name of tutorial      |  Title Case                                                      |
+| Name of step          |  Sentence case                                                   |

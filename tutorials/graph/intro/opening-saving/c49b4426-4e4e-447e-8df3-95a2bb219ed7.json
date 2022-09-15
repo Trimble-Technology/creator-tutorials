@@ -15,7 +15,7 @@
     "steps": [
       {
         "id": "0b9650f7-db6a-4a33-bbb2-3aee5c5468c5",
-        "name": "Creating a New Graph",
+        "name": "Creating a new graph",
         "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/opening-saving/0b9650f7-db6a-4a33-bbb2-3aee5c5468c5.md",
         "actions": [
           {
@@ -30,7 +30,7 @@
       },
       {
         "id": "5111f754-0174-4d8b-ae1e-1c50ac2c3ba1",
-        "name": "Searching & Opening a Graph",
+        "name": "Searching & opening a graph",
         "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/opening-saving/5111f754-0174-4d8b-ae1e-1c50ac2c3ba1.md",
         "actions": [
           {
@@ -45,7 +45,7 @@
       },
       {
         "id": "70bb277b-a79a-40f4-9cd1-9414dfd16783",
-        "name": "Naming/Renaming a Graph",
+        "name": "Naming/renaming a graph",
         "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/opening-saving/70bb277b-a79a-40f4-9cd1-9414dfd16783.md",
         "actions": [
           {
@@ -60,7 +60,7 @@
       },
       {
         "id": "d88bf976-9f46-4828-9541-9107cfff939e",
-        "name": "Saving a Graph",
+        "name": "Saving a graph",
         "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/opening-saving/d88bf976-9f46-4828-9541-9107cfff939e.md",
         "actions": [
           {

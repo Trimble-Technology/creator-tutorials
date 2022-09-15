@@ -15,7 +15,7 @@
     "steps": [
       {
         "id": "32f66d45-49e8-4d43-b937-232fa15358c8",
-        "name": "Connection Types",
+        "name": "Connection types",
         "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/connection-interactions/32f66d45-49e8-4d43-b937-232fa15358c8.md",
         "actions": [
           {
@@ -30,7 +30,7 @@
       },
       {
         "id": "e2d9adb3-0d72-488b-b133-6406d1a8ee65",
-        "name": "Creating a Geometry Connection",
+        "name": "Creating a geometry connection",
         "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/connection-interactions/e2d9adb3-0d72-488b-b133-6406d1a8ee65.md",
         "actions": [
           {
@@ -45,7 +45,7 @@
       },
       {
         "id": "90cf6807-61cc-44cf-b593-3a935c27bafb",
-        "name": "Creating a Data Connection",
+        "name": "Creating a data connection",
         "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/connection-interactions/90cf6807-61cc-44cf-b593-3a935c27bafb.md",
         "actions": [
           {
@@ -60,7 +60,7 @@
       },
       {
         "id": "f94c1f9c-e7b4-4d8c-820f-e46c4d99f39e",
-        "name": "Deleting Connections",
+        "name": "Deleting connections",
         "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/connection-interactions/f94c1f9c-e7b4-4d8c-820f-e46c4d99f39e.md",
         "actions": [
           {

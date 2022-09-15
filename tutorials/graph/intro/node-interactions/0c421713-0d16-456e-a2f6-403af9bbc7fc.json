@@ -15,7 +15,7 @@
     "steps": [
       {
         "id": "86628597-0f1c-431f-8f08-aa702340c75b",
-        "name": "Node Types",
+        "name": "Node types",
         "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/86628597-0f1c-431f-8f08-aa702340c75b.md",
         "actions": [
           {
@@ -30,7 +30,7 @@
       },
       {
         "id": "90a986f3-28f1-43b2-9c1c-0792c6f7687f",
-        "name": "Creating Nodes",
+        "name": "Creating nodes",
         "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/90a986f3-28f1-43b2-9c1c-0792c6f7687f.md",
         "actions": [
           {
@@ -45,7 +45,7 @@
       },
       {
         "id": "73d8a3f3-09f3-45c2-8fa4-e2e5789d108a",
-        "name": "Tagging Nodes for Output",
+        "name": "Tagging nodes for output",
         "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/73d8a3f3-09f3-45c2-8fa4-e2e5789d108a.md",
         "actions": [
           {
@@ -60,7 +60,7 @@
       },
       {
         "id": "437e9f13-bfb0-4824-9bcb-bf585f66c011",
-        "name": "Expanding Nodes",
+        "name": "Expanding nodes",
         "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/437e9f13-bfb0-4824-9bcb-bf585f66c011.md",
         "actions": [
           {
@@ -75,7 +75,7 @@
       },
       {
         "id": "4346fe91-0041-4b7a-9a9f-ec61b5299f24",
-        "name": "Changing Node Inputs",
+        "name": "Changing node inputs",
         "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/4346fe91-0041-4b7a-9a9f-ec61b5299f24.md",
         "actions": [
           {
@@ -90,7 +90,7 @@
       },
       {
         "id": "c0481a88-840e-42c0-a95e-f5e0a9ce4e18",
-        "name": "Renaming a Node",
+        "name": "Renaming a node",
         "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/c0481a88-840e-42c0-a95e-f5e0a9ce4e18.md",
         "actions": [
           {
@@ -105,7 +105,7 @@
       },
       {
         "id": "1fe33dfb-fb3a-4b24-92df-a2ef93a89b2d",
-        "name": "Layout Selection",
+        "name": "Layout selection",
         "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/1fe33dfb-fb3a-4b24-92df-a2ef93a89b2d.md",
         "actions": [
           {
@@ -120,7 +120,7 @@
       },
       {
         "id": "f330ac2f-8cc9-4795-9c15-acf46d774801",
-        "name": "Deleting Nodes",
+        "name": "Deleting nodes",
         "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/f330ac2f-8cc9-4795-9c15-acf46d774801.md",
         "actions": [
           {
@@ -135,7 +135,7 @@
       },
       {
         "id": "68e34cea-0806-4e2c-a7e3-a4055cda6c74",
-        "name": "Copying Nodes",
+        "name": "Copying nodes",
         "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/68e34cea-0806-4e2c-a7e3-a4055cda6c74.md",
         "actions": [
           {
@@ -150,7 +150,7 @@
       },
       {
         "id": "2d998b65-9c78-46e5-811b-978bd6a63f50",
-        "name": "Inspecting Outputs",
+        "name": "Inspecting outputs",
         "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/node-interactions/2d998b65-9c78-46e5-811b-978bd6a63f50.md",
         "actions": [
           {
