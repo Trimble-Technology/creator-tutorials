@@ -1,0 +1,9 @@
+We now want to parameterize the **choice** node so that we can configure it via the “Configure window”.
+
+As a refresher:
+1. RMB-click on the **choice** node.
+2. Click the “Parameter” option.
+
+We will also change the name of the **choice** node to specify its function. To do so, zoom into the graph until the edit icon appears next to the node name. Click it and replace the text with [Type].
+
+Now we have a drop down in the “Configure window” to control the type of Shade Structure we want.

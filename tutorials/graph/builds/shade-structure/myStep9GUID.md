@@ -1,0 +1,10 @@
+Create a **number** node, this will be our second of three parameters for this graph. Rename the node to [Length], and parameterize it. Set these inputs to the following values:
+
+- *value*	=	[4000]
+- *min*	=	[1500]
+- *max*	=	[10000]
+- *step*	=	[500]
+
+These settings will set the slider that will now appear on the “Configuration window”.
+
+Then connect the value output from our new “Length” parameter node to the *size* input of the **smart size** node.

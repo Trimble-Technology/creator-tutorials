@@ -1,0 +1,1 @@
+From the **get primitive** node that outputs the supporting structure of our Shade Structure, connect and create a **smart size** node. This is a node that will resize an inputted geometry to a set size along an axis. In this case, set the *axis* input to [y].
