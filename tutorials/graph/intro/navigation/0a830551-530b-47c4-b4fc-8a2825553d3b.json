@@ -16,12 +16,12 @@
       {
         "id": "0aaa5968-2f87-492a-9017-848576b89d6b",
         "name": "Application layout",
-        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/opening-saving/0b9650f7-db6a-4a33-bbb2-3aee5c5468c5.md",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/navigation/0aaa5968-2f87-492a-9017-848576b89d6b.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "whp",
+              "uri": "whp:abc177d2-72d7-4460-90b4-e58762181314",
               "configuration": null
             }
           }
@@ -31,12 +31,12 @@
       {
         "id": "183a3099-951c-406e-aff0-ae9b12733d8e",
         "name": "UI overview",
-        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/opening-saving/5111f754-0174-4d8b-ae1e-1c50ac2c3ba1.md",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/navigation/183a3099-951c-406e-aff0-ae9b12733d8e.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "whp",
+              "uri": "whp:e4417242-46cd-4181-b5a3-71f207dd4fda",
               "configuration": null
             }
           }
@@ -46,12 +46,12 @@
       {
         "id": "d30614ba-ef29-456c-a8fa-cfad50eaee19",
         "name": "Graph viewer navigation",
-        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/opening-saving/70bb277b-a79a-40f4-9cd1-9414dfd16783.md",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/navigation/d30614ba-ef29-456c-a8fa-cfad50eaee19.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "whp",
+              "uri": "whp:e4417242-46cd-4181-b5a3-71f207dd4fda",
               "configuration": null
             }
           }
@@ -61,12 +61,12 @@
       {
         "id": "5cdc8781-4e84-4e09-810e-c7d94649e71a",
         "name": "3D view navigation",
-        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/opening-saving/d88bf976-9f46-4828-9541-9107cfff939e.md",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/navigation/5cdc8781-4e84-4e09-810e-c7d94649e71a.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "whp",
+              "uri": "whp:e4417242-46cd-4181-b5a3-71f207dd4fda",
               "configuration": null
             }
           }
