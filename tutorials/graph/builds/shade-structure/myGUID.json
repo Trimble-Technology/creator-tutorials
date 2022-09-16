@@ -1,0 +1,228 @@
+{
+  "header": {
+    "assetSchemaVersion": 1,
+    "contentSchemaVersion": 1,
+    "assetType": "tutorial:materia:graph"
+  },
+  "content": {
+    "id": "33cb0960-3b71-48f6-a3a3-674b0c4a39c7",
+    "name": "Shade Structure",
+    "text": null,
+    "tags": [
+      null
+    ],
+    "tutorialType": "intro",
+    "steps": [
+      {
+        "id": "a7f62c01-7fcf-4777-a8b4-ccb26bcf0a63",
+        "name": "Uploading geometry",
+        "text": "md link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:05408311-3453-4c1a-acc3-b9b3c86ac5e8",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "8ce4a247-6a32-4b97-8c7d-437ac2961b3d",
+        "name": "Switch node",
+        "text": "md link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:2d35d377-60e0-41e5-a7f3-5a5180495d0e",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "faaad393-9f4e-4754-9959-a8aebb854dfa",
+        "name": "Connecting the geometry",
+        "text": "md link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:3cbaccce-7404-4e41-996f-a0ec68057471",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "8b11e628-f474-4cff-a8e0-df1b3ff4350b",
+        "name": "Choice node",
+        "text": "md link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:352f4513-76da-4e24-a343-323ce8c490c5",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "02eaac0c-9b4c-497c-9bbb-c4d5201790cd",
+        "name": "Connecting the index",
+        "text": "md link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:fa4a7e88-f5a3-45d0-ba03-206241a3b91a",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "7420f728-f89b-4815-b51f-2271dacb6339",
+        "name": "Parameterizing nodes",
+        "text": "md link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:1d72ec72-059e-4d38-bb35-30de2a69a4c4",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "7a66f422-0c45-4cec-8322-0e781a7dd99c",
+        "name": "Get primitive",
+        "text": "md link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:03cd72c2-1324-4a0d-8a01-47e8895f8df6",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "7d04396f-a1a7-4b47-b534-54d842640d4e",
+        "name": "Resizing the structure",
+        "text": "md link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:32809ee0-17ff-44e1-8731-ca85be74d5aa",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "b04b084c-0600-4e36-86d1-3f8e8f49477a",
+        "name": "Length",
+        "text": "md link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:1b07f477-b0db-4576-b335-530d2a8a075e",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "022f37a0-ea77-44b9-9cac-fd4269049643",
+        "name": "Copying the purlins",
+        "text": "md link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:29ae84f4-df61-486f-b96d-74e79f7c834a",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "589cee3e-3159-4378-9b0e-ff65626e70d6",
+        "name": "Number of purlins",
+        "text": "md link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:b1419dbc-3429-42f7-9ed4-a5dd03be6b8b",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "5f3ee26d-8d8a-4366-9dd4-7dc3b3dbb010",
+        "name": "Collect",
+        "text": "md link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:554fa97b-6a8b-4d71-af86-0d93a5f58330",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "01565706-d577-4268-b7fd-4d9b87d5f6fe",
+        "name": "Nearly there!",
+        "text": "md link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:9ee86dcb-3f90-4dc5-9fa3-e97fdab97f43",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "6c64ac8c-2211-4a42-9f44-77c142ae9612",
+        "name": "All set!",
+        "text": "md link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:eacdf947-101a-4812-b2d9-2f7af6e5c69c",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      }
+    ]
+  }
+}

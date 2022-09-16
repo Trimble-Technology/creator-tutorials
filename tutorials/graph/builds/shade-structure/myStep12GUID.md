@@ -1,0 +1,1 @@
+We now have all the basic pieces in place! We can now bring everything together using a **collect** node. Create a **collect** node and connect the **smart size** (the supporting structure) and **copy** (the purlins) geometry outputs into it.
