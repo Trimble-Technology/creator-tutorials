@@ -11,12 +11,12 @@
     "tags": [
       null
     ],
-    "tutorialType": "intro",
+    "tutorialType": "build",
     "steps": [
       {
         "id": "a7f62c01-7fcf-4777-a8b4-ccb26bcf0a63",
         "name": "Uploading geometry",
-        "text": "md link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/shade-structure/a7f62c01-7fcf-4777-a8b4-ccb26bcf0a63.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -31,7 +31,7 @@
       {
         "id": "8ce4a247-6a32-4b97-8c7d-437ac2961b3d",
         "name": "Switch node",
-        "text": "md link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/shade-structure/8ce4a247-6a32-4b97-8c7d-437ac2961b3d.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -46,7 +46,7 @@
       {
         "id": "faaad393-9f4e-4754-9959-a8aebb854dfa",
         "name": "Connecting the geometry",
-        "text": "md link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/shade-structure/faaad393-9f4e-4754-9959-a8aebb854dfa.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -61,7 +61,7 @@
       {
         "id": "8b11e628-f474-4cff-a8e0-df1b3ff4350b",
         "name": "Choice node",
-        "text": "md link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/shade-structure/8b11e628-f474-4cff-a8e0-df1b3ff4350b.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -76,7 +76,7 @@
       {
         "id": "02eaac0c-9b4c-497c-9bbb-c4d5201790cd",
         "name": "Connecting the index",
-        "text": "md link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/shade-structure/02eaac0c-9b4c-497c-9bbb-c4d5201790cd.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -91,7 +91,7 @@
       {
         "id": "7420f728-f89b-4815-b51f-2271dacb6339",
         "name": "Parameterizing nodes",
-        "text": "md link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/shade-structure/7420f728-f89b-4815-b51f-2271dacb6339.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -106,7 +106,7 @@
       {
         "id": "7a66f422-0c45-4cec-8322-0e781a7dd99c",
         "name": "Get primitive",
-        "text": "md link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/shade-structure/7a66f422-0c45-4cec-8322-0e781a7dd99c.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -121,7 +121,7 @@
       {
         "id": "7d04396f-a1a7-4b47-b534-54d842640d4e",
         "name": "Resizing the structure",
-        "text": "md link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/shade-structure/7d04396f-a1a7-4b47-b534-54d842640d4e.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -136,7 +136,7 @@
       {
         "id": "b04b084c-0600-4e36-86d1-3f8e8f49477a",
         "name": "Length",
-        "text": "md link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/shade-structure/b04b084c-0600-4e36-86d1-3f8e8f49477a.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -151,7 +151,7 @@
       {
         "id": "022f37a0-ea77-44b9-9cac-fd4269049643",
         "name": "Copying the purlins",
-        "text": "md link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/shade-structure/022f37a0-ea77-44b9-9cac-fd4269049643.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -166,7 +166,7 @@
       {
         "id": "589cee3e-3159-4378-9b0e-ff65626e70d6",
         "name": "Number of purlins",
-        "text": "md link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/shade-structure/589cee3e-3159-4378-9b0e-ff65626e70d6.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -181,7 +181,7 @@
       {
         "id": "5f3ee26d-8d8a-4366-9dd4-7dc3b3dbb010",
         "name": "Collect",
-        "text": "md link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/shade-structure/5f3ee26d-8d8a-4366-9dd4-7dc3b3dbb010.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -196,7 +196,7 @@
       {
         "id": "01565706-d577-4268-b7fd-4d9b87d5f6fe",
         "name": "Nearly there!",
-        "text": "md link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/shade-structure/01565706-d577-4268-b7fd-4d9b87d5f6fe.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -211,7 +211,7 @@
       {
         "id": "6c64ac8c-2211-4a42-9f44-77c142ae9612",
         "name": "All set!",
-        "text": "md link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/shade-structure/6c64ac8c-2211-4a42-9f44-77c142ae9612.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
