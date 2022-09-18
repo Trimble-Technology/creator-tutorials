@@ -16,7 +16,7 @@
       {
         "id": "e0d07c82-1af2-437b-a3b7-3006c64366cf",
         "name": "Basic forms",
-        "text": "github .md link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/vancouver-cauldron/e0d07c82-1af2-437b-a3b7-3006c64366cf.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -31,7 +31,7 @@
       {
         "id": "f30798be-dee6-4345-b6c3-a6f05b04090c",
         "name": "Two circles",
-        "text": "github .md link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/vancouver-cauldron/f30798be-dee6-4345-b6c3-a6f05b04090c.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -46,7 +46,7 @@
       {
         "id": "ab641204-a2a0-40e4-bfce-57b70e02299f",
         "name": "Circle inputs",
-        "text": "github .md link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/vancouver-cauldron/ab641204-a2a0-40e4-bfce-57b70e02299f.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -61,7 +61,7 @@
       {
         "id": "251b00f8-9a7a-4ed4-a737-4e0cf82eb8de",
         "name": "The upper circle",
-        "text": "github .md link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/vancouver-cauldron/251b00f8-9a7a-4ed4-a737-4e0cf82eb8de.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -76,7 +76,7 @@
       {
         "id": "adaab89b-b46b-4455-853d-eff475c85fc7",
         "name": "Too many points",
-        "text": "github .md link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/vancouver-cauldron/adaab89b-b46b-4455-853d-eff475c85fc7.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -91,7 +91,7 @@
       {
         "id": "8f9815d8-0a1d-41e5-9ba4-017e3c5ace84",
         "name": "Cauldron height",
-        "text": "github .md link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/vancouver-cauldron/8f9815d8-0a1d-41e5-9ba4-017e3c5ace84.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -106,7 +106,7 @@
       {
         "id": "aaaf9a34-7770-4d49-9bf4-56de8f2a8782",
         "name": "Twist",
-        "text": "github .md link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/vancouver-cauldron/aaaf9a34-7770-4d49-9bf4-56de8f2a8782.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -121,7 +121,7 @@
       {
         "id": "c6ac82af-8c27-4ecb-b24f-1a6fd461a0d7",
         "name": "Adding geometry",
-        "text": "github .md link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/vancouver-cauldron/c6ac82af-8c27-4ecb-b24f-1a6fd461a0d7.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -136,7 +136,7 @@
       {
         "id": "c0343faf-731b-4213-bb51-12e4958c826d",
         "name": "Leg radius",
-        "text": "github .md link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/vancouver-cauldron/c0343faf-731b-4213-bb51-12e4958c826d.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -151,7 +151,7 @@
       {
         "id": "8947cf5e-a85f-4243-a1e6-822cc727ce64",
         "name": "Materials",
-        "text": "github .md link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/vancouver-cauldron/8947cf5e-a85f-4243-a1e6-822cc727ce64.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -166,7 +166,7 @@
       {
         "id": "292dcbb5-9780-451c-97f1-e45c6c3545f7",
         "name": "All set!",
-        "text": "github .md link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/vancouver-cauldron/292dcbb5-9780-451c-97f1-e45c6c3545f7.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
