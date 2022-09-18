@@ -1,0 +1,183 @@
+{
+  "header": {
+    "assetSchemaVersion": 1,
+    "contentSchemaVersion": 1,
+    "assetType": "tutorial:materia:graph"
+  },
+  "content": {
+    "id": "a3a03cc3-8aa0-4491-9b9b-47b90340e987",
+    "name": "Vancouver Cauldron",
+    "text": null,
+    "tags": [
+      null
+    ],
+    "tutorialType": "build",
+    "steps": [
+      {
+        "id": "e0d07c82-1af2-437b-a3b7-3006c64366cf",
+        "name": "Basic forms",
+        "text": "github .md link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:713d604f-f8d0-4cac-81c4-fe9332f03463",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "f30798be-dee6-4345-b6c3-a6f05b04090c",
+        "name": "Two circles",
+        "text": "github .md link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:0c99356e-b5f4-46a7-a69b-b9567f753953",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "ab641204-a2a0-40e4-bfce-57b70e02299f",
+        "name": "Circle inputs",
+        "text": "github .md link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:e0d5d668-0780-433f-a63e-568316b1f8b6",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "251b00f8-9a7a-4ed4-a737-4e0cf82eb8de",
+        "name": "The upper circle",
+        "text": "github .md link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:5d846486-b3a6-4e89-ab5d-d2813a8663b9",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "adaab89b-b46b-4455-853d-eff475c85fc7",
+        "name": "Too many points",
+        "text": "github .md link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:f50d0f37-7471-4057-b59a-a913e6260ee5",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "8f9815d8-0a1d-41e5-9ba4-017e3c5ace84",
+        "name": "Cauldron height",
+        "text": "github .md link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:b8d1d433-16f7-402b-8cf1-f2395be7fd8a",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "aaaf9a34-7770-4d49-9bf4-56de8f2a8782",
+        "name": "Twist",
+        "text": "github .md link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:8d64948d-4281-4b8d-85ad-09b906b56307",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "c6ac82af-8c27-4ecb-b24f-1a6fd461a0d7",
+        "name": "Adding geometry",
+        "text": "github .md link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:6b20c91a-b83a-4210-b504-7bd1be6886d7",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "c0343faf-731b-4213-bb51-12e4958c826d",
+        "name": "Leg radius",
+        "text": "github .md link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:97b32b3c-055b-4bd4-82de-9bc745487cd6",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "8947cf5e-a85f-4243-a1e6-822cc727ce64",
+        "name": "Materials",
+        "text": "github .md link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:c7807509-8d74-424c-aef9-dee1a4c619d4",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "292dcbb5-9780-451c-97f1-e45c6c3545f7",
+        "name": "All set!",
+        "text": "github .md link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:dab3d8fb-0471-4b81-ba25-553c57421371",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      }
+    ]
+  }
+}
