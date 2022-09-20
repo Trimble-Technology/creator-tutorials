@@ -36,7 +36,7 @@
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "whp:e4417242-46cd-4181-b5a3-71f207dd4fda",
+              "uri": "whp:abc177d2-72d7-4460-90b4-e58762181314",
               "configuration": null
             }
           }
@@ -51,7 +51,7 @@
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "whp:e4417242-46cd-4181-b5a3-71f207dd4fda",
+              "uri": "whp:abc177d2-72d7-4460-90b4-e58762181314",
               "configuration": null
             }
           }
@@ -66,7 +66,7 @@
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "whp:e4417242-46cd-4181-b5a3-71f207dd4fda",
+              "uri": "whp:abc177d2-72d7-4460-90b4-e58762181314",
               "configuration": null
             }
           }
