@@ -149,14 +149,14 @@
         "hints": []
       },
       {
-        "id": "guid",
+        "id": "93df0ae4-3716-43e6-92ca-4d771adc596c",
         "name": "The main cauldron",
         "text": "md file",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "whp uri",
+              "uri": "whp:0d668eef-de95-4114-bd12-e3820b2c0f6a",
               "configuration": null
             }
           }
@@ -164,14 +164,14 @@
         "hints": []
       },
       {
-        "id": "guid",
+        "id": "ac02d4de-31b3-471f-875e-ff46b1acd501",
         "name": "Split curves",
         "text": "md file",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "whp uri",
+              "uri": "whp:1c67eef1-7a06-4f0b-9624-11073214ef06",
               "configuration": null
             }
           }
@@ -179,14 +179,14 @@
         "hints": []
       },
       {
-        "id": "guid",
+        "id": "4230d451-7c41-47ee-85b3-a1203cfe4093",
         "name": "Start point",
         "text": "md file",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "whp uri",
+              "uri": "whp:7638605f-543b-4941-9589-dfb511ea9ca3",
               "configuration": null
             }
           }
@@ -194,14 +194,14 @@
         "hints": []
       },
       {
-        "id": "guid",
+        "id": "89e1a8c5-40e7-409c-827b-3d3d1c5e7d98",
         "name": "The main cauldron cylinder",
         "text": "md file",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "whp uri",
+              "uri": "whp:d0442bb6-f05c-4a5b-8b98-353b276307e7",
               "configuration": null
             }
           }
@@ -209,14 +209,14 @@
         "hints": []
       },
       {
-        "id": "guid",
+        "id": "63a621a6-51aa-43e2-b749-1b9c5e2866cf",
         "name": "End point",
         "text": "md file",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "whp uri",
+              "uri": "whp:e9b15879-6e23-4414-b369-56ddde4678d1",
               "configuration": null
             }
           }
@@ -224,14 +224,14 @@
         "hints": []
       },
       {
-        "id": "guid",
-        "name": "Cauldron radius",
+        "id": "3fcf03a2-d34f-4721-8664-14abc530d8f7",
+        "name": "Cylinder settings",
         "text": "md file",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "whp uri",
+              "uri": "whp:921f8f85-274b-47b1-a3bb-c76941b92450",
               "configuration": null
             }
           }
@@ -239,14 +239,14 @@
         "hints": []
       },
       {
-        "id": "guid",
+        "id": "8d70dadf-1952-49e9-a8ad-e735ad2d01fb",
         "name": "All together",
         "text": "md file",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "whp uri",
+              "uri": "whp:f33863a1-4202-45c6-8b65-39eb0d501091",
               "configuration": null
             }
           }
@@ -261,7 +261,7 @@
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "whp:c7807509-8d74-424c-aef9-dee1a4c619d4",
+              "uri": "whp:4f2236ed-ed11-473d-968b-781c8068873b",
               "configuration": null
             }
           }
@@ -269,14 +269,14 @@
         "hints": []
       },
       {
-        "id": "guid",
+        "id": "98fadd8c-f657-4c5d-a315-f7fd6b51dfc7",
         "name": "The Olympic Cauldron",
         "text": "md file",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "whp uri",
+              "uri": "whp:4850a9a8-e550-4f9e-9ee4-b14f40ceeae4",
               "configuration": null
             }
           }
