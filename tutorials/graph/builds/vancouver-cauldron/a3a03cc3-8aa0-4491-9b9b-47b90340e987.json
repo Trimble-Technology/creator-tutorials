@@ -141,7 +141,112 @@
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "whp:97b32b3c-055b-4bd4-82de-9bc745487cd6",
+              "uri": "whp:95b82572-11b4-45d7-b979-35f7eff1e9ea",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "guid",
+        "name": "The main cauldron",
+        "text": "md file",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp uri",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "guid",
+        "name": "Split curves",
+        "text": "md file",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp uri",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "guid",
+        "name": "Start point",
+        "text": "md file",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp uri",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "guid",
+        "name": "The main cauldron cylinder",
+        "text": "md file",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp uri",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "guid",
+        "name": "End point",
+        "text": "md file",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp uri",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "guid",
+        "name": "Cauldron radius",
+        "text": "md file",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp uri",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "guid",
+        "name": "All together",
+        "text": "md file",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp uri",
               "configuration": null
             }
           }
@@ -164,14 +269,14 @@
         "hints": []
       },
       {
-        "id": "292dcbb5-9780-451c-97f1-e45c6c3545f7",
-        "name": "All set!",
-        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/vancouver-cauldron/292dcbb5-9780-451c-97f1-e45c6c3545f7.md",
+        "id": "guid",
+        "name": "The Olympic Cauldron",
+        "text": "md file",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "whp:dab3d8fb-0471-4b81-ba25-553c57421371",
+              "uri": "whp uri",
               "configuration": null
             }
           }
