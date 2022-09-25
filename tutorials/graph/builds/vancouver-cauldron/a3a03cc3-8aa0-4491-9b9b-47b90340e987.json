@@ -151,7 +151,7 @@
       {
         "id": "93df0ae4-3716-43e6-92ca-4d771adc596c",
         "name": "The main cauldron",
-        "text": "md file",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/vancouver-cauldron/93df0ae4-3716-43e6-92ca-4d771adc596c.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -166,7 +166,7 @@
       {
         "id": "ac02d4de-31b3-471f-875e-ff46b1acd501",
         "name": "Split curves",
-        "text": "md file",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/vancouver-cauldron/ac02d4de-31b3-471f-875e-ff46b1acd501.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -181,7 +181,7 @@
       {
         "id": "4230d451-7c41-47ee-85b3-a1203cfe4093",
         "name": "Start point",
-        "text": "md file",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/vancouver-cauldron/4230d451-7c41-47ee-85b3-a1203cfe4093.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -196,7 +196,7 @@
       {
         "id": "89e1a8c5-40e7-409c-827b-3d3d1c5e7d98",
         "name": "The main cauldron cylinder",
-        "text": "md file",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/vancouver-cauldron/89e1a8c5-40e7-409c-827b-3d3d1c5e7d98.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -211,7 +211,7 @@
       {
         "id": "63a621a6-51aa-43e2-b749-1b9c5e2866cf",
         "name": "End point",
-        "text": "md file",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/vancouver-cauldron/63a621a6-51aa-43e2-b749-1b9c5e2866cf.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -226,7 +226,7 @@
       {
         "id": "3fcf03a2-d34f-4721-8664-14abc530d8f7",
         "name": "Cylinder settings",
-        "text": "md file",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/vancouver-cauldron/3fcf03a2-d34f-4721-8664-14abc530d8f7.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -241,7 +241,7 @@
       {
         "id": "8d70dadf-1952-49e9-a8ad-e735ad2d01fb",
         "name": "All together",
-        "text": "md file",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/vancouver-cauldron/8d70dadf-1952-49e9-a8ad-e735ad2d01fb.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -271,7 +271,7 @@
       {
         "id": "98fadd8c-f657-4c5d-a315-f7fd6b51dfc7",
         "name": "The Olympic Cauldron",
-        "text": "md file",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/vancouver-cauldron/98fadd8c-f657-4c5d-a315-f7fd6b51dfc7.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
