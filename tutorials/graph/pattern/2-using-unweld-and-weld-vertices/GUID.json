@@ -1,0 +1,24 @@
+{
+  "header": {
+    "assetSchemaVersion": 1,
+    "contentSchemaVersion": 1,
+    "assetType": "tutorial:materia:graph"
+  },
+  "content": {
+    "id": "tutorial guid",
+    "name": "Using Unweld/Weld Vertices",
+    "text": "github link",
+    "tags": [
+      null
+    ],
+    "tutorialType": "pattern",
+    "actions": [
+      {
+        "type": "loadMateriaGraph",
+        "arguments": {
+          "uri": "graph uri"
+        }
+      }
+    ]
+  }
+}
