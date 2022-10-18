@@ -16,7 +16,7 @@
       {
         "type": "loadMateriaGraph",
         "arguments": {
-          "uri": "graph uri"
+          "uri": "whp:f6425a54-9768-4904-9e21-e1f3f3be94c5"
         }
       }
     ]
