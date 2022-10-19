@@ -1,0 +1,96 @@
+{
+    "name": "number",
+    "alternateNames": [
+      "float",
+      "double",
+      "decimal",
+      "real",
+      "parameter"
+    ],
+    "defaultNodeName": "number",
+    "path": [
+      "value",
+      "parameter"
+    ],
+    "help": "Creates a number/float value.",
+    "input": {
+      "value": {
+        "type": "float",
+        "displayName": "value"
+      },
+      "defaultValue": {
+        "type": "float",
+        "default": 0.0,
+        "displayName": "default",
+        "description": "The default number/float value. If the value input is null, value output will be this default value."
+      },
+      "setToDefault": {
+        "type": "button",
+        "displayName": "set to default"
+      },
+      "minMaxMode": {
+        "type": "enum",
+        "displayName": "min/max mode",
+        "default": 1,
+        "options": [
+          "hard",
+          "soft"
+        ],
+        "description": "Soft: will allow values outside of the slider range.  Hard: won't allow values outside the slider range."
+      },
+      "min": {
+        "type": "float",
+        "displayName": "min",
+        "description": "Minimum value of the slider range."
+      },
+      "max": {
+        "type": "float",
+        "default": 10000,
+        "displayName": "max",
+        "description": "Maximum value of the slider range."
+      },
+      "step": {
+        "type": "float",
+        "default": 0,
+        "displayName": "step",
+        "description": "Step increment of the slider."
+      },
+      "hideControl": {
+        "type": "boolean",
+        "displayName": "hide control",
+        "default": false
+      },
+      "hideLabel": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "hide label",
+        "hideWhen": "hideControl"
+      },
+      "hideInputField": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "hide input field",
+        "hideWhen": "hideControl"
+      },
+      "hideSlider": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "hide slider",
+        "hideWhen": "hideControl"
+      }
+    },
+    "type": "FloatValue",
+    "output": {
+      "value": {
+        "type": "float",
+        "displayName": "value",
+        "defaultOutput": true
+      },
+      "inputIsNull": {
+        "type": "boolean",
+        "description": "Output is true when the value input is null",
+        "displayName": "input is null"
+      }
+    },
+    "nodeClass": "value"
+  }
