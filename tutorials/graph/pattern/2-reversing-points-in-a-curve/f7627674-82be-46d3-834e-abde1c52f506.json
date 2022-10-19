@@ -1,0 +1,24 @@
+{
+  "header": {
+    "assetSchemaVersion": 1,
+    "contentSchemaVersion": 1,
+    "assetType": "tutorial:materia:graph"
+  },
+  "content": {
+    "id": "f7627674-82be-46d3-834e-abde1c52f506",
+    "name": "Reversing Points in a Curve",
+    "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/pattern/2-reversing-points-in-a-curve/f7627674-82be-46d3-834e-abde1c52f506.md",
+    "tags": [
+      null
+    ],
+    "tutorialType": "pattern",
+    "actions": [
+      {
+        "type": "loadMateriaGraph",
+        "arguments": {
+          "uri": "whp:41cbfd29-ee99-499a-90c2-3f2aa33a2161"
+        }
+      }
+    ]
+  }
+}

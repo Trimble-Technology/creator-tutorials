@@ -1,0 +1,24 @@
+{
+  "header": {
+    "assetSchemaVersion": 1,
+    "contentSchemaVersion": 1,
+    "assetType": "tutorial:materia:graph"
+  },
+  "content": {
+    "id": "c97ee60f-3ea9-47e3-afb2-b4c5db47af04",
+    "name": "Switching Between Geometries",
+    "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/pattern/2-switching-between-geometries/c97ee60f-3ea9-47e3-afb2-b4c5db47af04.md",
+    "tags": [
+      null
+    ],
+    "tutorialType": "pattern",
+    "actions": [
+      {
+        "type": "loadMateriaGraph",
+        "arguments": {
+          "uri": "whp:3ad85c61-8384-405e-899d-87fae866f4c3"
+        }
+      }
+    ]
+  }
+}

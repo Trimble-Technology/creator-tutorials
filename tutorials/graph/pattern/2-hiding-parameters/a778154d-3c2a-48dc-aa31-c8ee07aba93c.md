@@ -1,0 +1,5 @@
+Hiding parameters can be done using conditional statements in Creator. All parameter capable nodes have an input option of *hide control*, which when switched on, hides that parameter in the “Parameter panel”. In this graph, we can control this *hide control* input with a conditional statement using the **equal** and **not** nodes. 
+
+In the “Parameter panel” switch the “Output primitive” parameter between “sphere” and “box”. You'll notice that the other parameter switches between “Sphere color” and “Box color”. This is due to the simultaneous hiding and unhiding of those two parameters using the conditional statements.
+
+Click through the nodes and their outputs, starting at the output primitive **choice** node, and then through the **equal** and **not** nodes to see where they’re connecting and what they’re outputting in order to hide the color parameters.

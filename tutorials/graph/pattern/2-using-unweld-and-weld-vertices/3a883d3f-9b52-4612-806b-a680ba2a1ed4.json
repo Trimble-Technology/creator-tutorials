@@ -1,0 +1,24 @@
+{
+  "header": {
+    "assetSchemaVersion": 1,
+    "contentSchemaVersion": 1,
+    "assetType": "tutorial:materia:graph"
+  },
+  "content": {
+    "id": "3a883d3f-9b52-4612-806b-a680ba2a1ed4",
+    "name": "Using Unweld/Weld Vertices",
+    "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/pattern/2-using-unweld-and-weld-vertices/3a883d3f-9b52-4612-806b-a680ba2a1ed4.md",
+    "tags": [
+      null
+    ],
+    "tutorialType": "pattern",
+    "actions": [
+      {
+        "type": "loadMateriaGraph",
+        "arguments": {
+          "uri": "whp:9767be50-e717-464a-93cf-07d1fcbe3bdb"
+        }
+      }
+    ]
+  }
+}

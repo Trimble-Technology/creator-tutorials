@@ -21,7 +21,7 @@
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "whp:59cbbc1a-b5e3-415b-afaf-0f4d9a7ac3b6",
+              "uri": "whp:37825942-baef-48e5-920a-3d08b33ef1ea",
               "configuration": null
             }
           }
@@ -36,7 +36,7 @@
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "whp:dd3a06e0-84ea-4388-86f6-7c148a18ec62",
+              "uri": "whp:1c7007b6-7dae-482a-b33f-2c3fb111d365",
               "configuration": null
             }
           }

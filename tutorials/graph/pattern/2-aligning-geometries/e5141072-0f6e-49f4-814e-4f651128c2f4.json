@@ -1,0 +1,24 @@
+{
+  "header": {
+    "assetSchemaVersion": 1,
+    "contentSchemaVersion": 1,
+    "assetType": "tutorial:materia:graph"
+  },
+  "content": {
+    "id": "e5141072-0f6e-49f4-814e-4f651128c2f4",
+    "name": "Aligning Geometries",
+    "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/pattern/2-aligning-geometries/e5141072-0f6e-49f4-814e-4f651128c2f4.md",
+    "tags": [
+      null
+    ],
+    "tutorialType": "pattern",
+    "actions": [
+      {
+        "type": "loadMateriaGraph",
+        "arguments": {
+          "uri": "whp:75b7ba9d-d2b6-4cf4-a030-2777bf2e22f1"
+        }
+      }
+    ]
+  }
+}
