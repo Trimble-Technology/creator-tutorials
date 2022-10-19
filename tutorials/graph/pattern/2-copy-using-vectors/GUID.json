@@ -42,6 +42,21 @@
           }
         ],
         "hints": []
+      },
+      {
+        "id": "Step 3 GUID",
+        "name": "Step 3 name",
+        "text": "Step 3 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step 3 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
       }
     ]
   }

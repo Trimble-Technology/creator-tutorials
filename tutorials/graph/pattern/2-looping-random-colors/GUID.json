@@ -42,6 +42,36 @@
           }
         ],
         "hints": []
+      },
+      {
+        "id": "Step 3 GUID",
+        "name": "Step 3 name",
+        "text": "Step 3 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step 3 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step 4 GUID",
+        "name": "Step 4 name",
+        "text": "Step 4 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step 4 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
       }
     ]
   }
