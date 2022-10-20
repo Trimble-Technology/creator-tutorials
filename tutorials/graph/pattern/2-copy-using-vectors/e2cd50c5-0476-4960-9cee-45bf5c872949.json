@@ -1,0 +1,63 @@
+{
+  "header": {
+    "assetSchemaVersion": 1,
+    "contentSchemaVersion": 1,
+    "assetType": "tutorial:materia:graph"
+  },
+  "content": {
+    "id": "e2cd50c5-0476-4960-9cee-45bf5c872949",
+    "name": "Copy Using Vectors",
+    "text": null,
+    "tags": [
+      null
+    ],
+    "tutorialType": "pattern",
+    "steps": [
+      {
+        "id": "7d769e12-8f43-4a15-b8d3-f02b40b1164f",
+        "name": "The node",
+        "text": "Step 1 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:f5479648-1441-4d94-99ed-df7adefcd947",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "40636419-e084-465d-bf94-946e60460db6",
+        "name": "Normals and up vectors",
+        "text": "Step 2 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:f727a860-ff20-442c-bee6-cb74af6846d4",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "9c127a0e-906f-4444-9417-f25a73db1c1e",
+        "name": "Non-linear curves",
+        "text": "Step 3 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:7fed5e8b-2af4-48a5-b063-84e472775635",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      }
+    ]
+  }
+}
