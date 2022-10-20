@@ -1,0 +1,78 @@
+{
+  "header": {
+    "assetSchemaVersion": 1,
+    "contentSchemaVersion": 1,
+    "assetType": "tutorial:materia:graph"
+  },
+  "content": {
+    "id": "8de5f617-b427-4650-8b10-3936921a63d0",
+    "name": "Looping • Random Colors",
+    "text": null,
+    "tags": [
+      null
+    ],
+    "tutorialType": "pattern",
+    "steps": [
+      {
+        "id": "d649a3f9-cd28-4d07-a3e9-c0c5f2eedd2b",
+        "name": "Iterator and get primitive",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/pattern/2-looping-random-colors/d649a3f9-cd28-4d07-a3e9-c0c5f2eedd2b.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:1e797a66-302e-4970-9e0e-1dd9753dc729",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "0bddaab3-f956-4d84-8f3f-ea2338048b58",
+        "name": "Random vector",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/pattern/2-looping-random-colors/0bddaab3-f956-4d84-8f3f-ea2338048b58.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:5485cb4f-a942-4861-a123-ffe2bb34a6b1",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "51a59506-335a-401c-a2df-cd4c455e9a8b",
+        "name": "Loop",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/pattern/2-looping-random-colors/51a59506-335a-401c-a2df-cd4c455e9a8b.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:c2148c2f-ec1a-40f2-b314-89da70ab1969",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "012dbf1c-e38e-4cd9-bc2b-a2541d2005d2",
+        "name": "Random colors",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/pattern/2-looping-random-colors/012dbf1c-e38e-4cd9-bc2b-a2541d2005d2.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:ab9cfb50-f0f4-44f2-99e1-05feccbc7496",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      }
+    ]
+  }
+}
