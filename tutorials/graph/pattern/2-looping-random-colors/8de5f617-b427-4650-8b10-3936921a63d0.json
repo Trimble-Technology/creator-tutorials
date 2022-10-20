@@ -16,7 +16,7 @@
       {
         "id": "d649a3f9-cd28-4d07-a3e9-c0c5f2eedd2b",
         "name": "Iterator and get primitive",
-        "text": "Step 1 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/pattern/2-looping-random-colors/d649a3f9-cd28-4d07-a3e9-c0c5f2eedd2b.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -31,7 +31,7 @@
       {
         "id": "0bddaab3-f956-4d84-8f3f-ea2338048b58",
         "name": "Random vector",
-        "text": "Step 2 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/pattern/2-looping-random-colors/0bddaab3-f956-4d84-8f3f-ea2338048b58.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -46,7 +46,7 @@
       {
         "id": "51a59506-335a-401c-a2df-cd4c455e9a8b",
         "name": "Loop",
-        "text": "Step 3 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/pattern/2-looping-random-colors/51a59506-335a-401c-a2df-cd4c455e9a8b.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -61,7 +61,7 @@
       {
         "id": "012dbf1c-e38e-4cd9-bc2b-a2541d2005d2",
         "name": "Random colors",
-        "text": "Step 4 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/pattern/2-looping-random-colors/012dbf1c-e38e-4cd9-bc2b-a2541d2005d2.md",
         "actions": [
           {
             "type": "loadMateriaGraph",

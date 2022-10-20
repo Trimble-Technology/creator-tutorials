@@ -16,7 +16,7 @@
       {
         "id": "7d769e12-8f43-4a15-b8d3-f02b40b1164f",
         "name": "The node",
-        "text": "Step 1 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/pattern/2-copy-using-vectors/7d769e12-8f43-4a15-b8d3-f02b40b1164f.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -31,7 +31,7 @@
       {
         "id": "40636419-e084-465d-bf94-946e60460db6",
         "name": "Normals and up vectors",
-        "text": "Step 2 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/pattern/2-copy-using-vectors/40636419-e084-465d-bf94-946e60460db6.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -46,7 +46,7 @@
       {
         "id": "9c127a0e-906f-4444-9417-f25a73db1c1e",
         "name": "Non-linear curves",
-        "text": "Step 3 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/pattern/2-copy-using-vectors/9c127a0e-906f-4444-9417-f25a73db1c1e.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
