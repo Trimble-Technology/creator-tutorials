@@ -1,0 +1,48 @@
+{
+    "name": "null",
+    "alternateNames": [
+      "layout",
+      "routing"
+    ],
+    "defaultNodeName": "",
+    "path": [
+      "geometry"
+    ],
+    "help": "Does nothing. Can be used to layout graphs.",
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "description": "input geometry",
+        "displayName": "geometry"
+      }
+    },
+    "type": "Null",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "description": "output geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "description": "point positions",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "description": "point positions x coordinate",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "description": "point positions y coordinate",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "description": "point positions z coordinate",
+        "displayName": "points.z"
+      }
+    },
+    "nodeClass": "node"
+  }
