@@ -87,6 +87,201 @@
           }
         ],
         "hints": []
+      },
+      {
+        "id": "Step 6 GUID",
+        "name": "Step 6 name",
+        "text": "Step 6 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step 6 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step 7 GUID",
+        "name": "Step 7 name",
+        "text": "Step 7 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step 7 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step 8 GUID",
+        "name": "Step 8 name",
+        "text": "Step 8 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step 8 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step 9 GUID",
+        "name": "Step 9 name",
+        "text": "Step 9 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step 9 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step 10 GUID",
+        "name": "Step 10 name",
+        "text": "Step 10 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step 10 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step 11 GUID",
+        "name": "Step 11 name",
+        "text": "Step 11 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step 11 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step 12 GUID",
+        "name": "Step 12 name",
+        "text": "Step 12 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step 12 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step 13 GUID",
+        "name": "Step 13 name",
+        "text": "Step 13 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step 13 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step 14 GUID",
+        "name": "Step 14 name",
+        "text": "Step 14 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step 14 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step 15 GUID",
+        "name": "Step 15 name",
+        "text": "Step 15 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step 15 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step 16 GUID",
+        "name": "Step 16 name",
+        "text": "Step 16 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step 16 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step 17 GUID",
+        "name": "Step 17 name",
+        "text": "Step 17 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step 17 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step 18 GUID",
+        "name": "Step 18 name",
+        "text": "Step 18 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step 18 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
       }
     ]
   }
