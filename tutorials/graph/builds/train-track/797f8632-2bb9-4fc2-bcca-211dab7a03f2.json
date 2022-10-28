@@ -16,7 +16,7 @@
       {
         "id": "d5ab4bf8-1c5e-4a13-bac3-f2279d984b05",
         "name": "The basics",
-        "text": "Step 1 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/train-track/d5ab4bf8-1c5e-4a13-bac3-f2279d984b05.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -31,7 +31,7 @@
       {
         "id": "ff390dfc-6bbf-4745-8d37-d28391494a63",
         "name": "Vectors to points",
-        "text": "Step 2 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/train-track/ff390dfc-6bbf-4745-8d37-d28391494a63.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -46,7 +46,7 @@
       {
         "id": "fc93d411-cbbe-4829-928d-8cd3350dbea2",
         "name": "Points to curve",
-        "text": "Step 3 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/train-track/fc93d411-cbbe-4829-928d-8cd3350dbea2.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -61,7 +61,7 @@
       {
         "id": "5740f9bc-cccc-455c-87e2-4a1d2d69e00b",
         "name": "Curve resolution",
-        "text": "Step 4 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/train-track/5740f9bc-cccc-455c-87e2-4a1d2d69e00b.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -76,7 +76,7 @@
       {
         "id": "3226d2a9-2c67-4f1f-833d-e39ea574256d",
         "name": "Sleeper",
-        "text": "Step 5 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/train-track/3226d2a9-2c67-4f1f-833d-e39ea574256d.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -91,7 +91,7 @@
       {
         "id": "a6eb674a-2d21-4ef2-a972-8c9d65ba70ce",
         "name": "Sleeper size",
-        "text": "Step 6 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/train-track/a6eb674a-2d21-4ef2-a972-8c9d65ba70ce.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -106,7 +106,7 @@
       {
         "id": "a7b296cf-064f-41aa-8807-d14d21e56c73",
         "name": "Copying the sleeper",
-        "text": "Step 7 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/train-track/a7b296cf-064f-41aa-8807-d14d21e56c73.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -121,7 +121,7 @@
       {
         "id": "0ca6afce-e1c1-411f-b696-fec92742e452",
         "name": "Orienting the sleepers",
-        "text": "Step 8 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/train-track/0ca6afce-e1c1-411f-b696-fec92742e452.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -136,7 +136,7 @@
       {
         "id": "a151cc79-e063-4ee8-850a-12fe2303f5e7",
         "name": "Up vectors",
-        "text": "Step 9 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/train-track/a151cc79-e063-4ee8-850a-12fe2303f5e7.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -151,7 +151,7 @@
       {
         "id": "b7f1cc11-4478-4b31-972c-d048a638912c",
         "name": "Rail profile",
-        "text": "Step 10 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/train-track/b7f1cc11-4478-4b31-972c-d048a638912c.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -166,7 +166,7 @@
       {
         "id": "ce838a8a-1b5b-4549-aef7-57b76b6403a2",
         "name": "Track width",
-        "text": "Step 11 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/train-track/ce838a8a-1b5b-4549-aef7-57b76b6403a2.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -181,7 +181,7 @@
       {
         "id": "398db9d8-45c8-443a-b18a-ef6f4d366e4e",
         "name": "Copy to width",
-        "text": "Step 12 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/train-track/398db9d8-45c8-443a-b18a-ef6f4d366e4e.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -196,7 +196,7 @@
       {
         "id": "a61733a1-4198-4b12-a31b-ed0b8263f14a",
         "name": "Copying logic",
-        "text": "Step 13 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/train-track/a61733a1-4198-4b12-a31b-ed0b8263f14a.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -211,7 +211,7 @@
       {
         "id": "bac65ad2-6c2f-4904-bd99-dc1526d5c263",
         "name": "Per rail",
-        "text": "Step 14 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/train-track/bac65ad2-6c2f-4904-bd99-dc1526d5c263.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -226,7 +226,7 @@
       {
         "id": "b17a7e77-3955-436a-aea6-b33395f50efc",
         "name": "Lofting",
-        "text": "Step 15 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/train-track/b17a7e77-3955-436a-aea6-b33395f50efc.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -241,7 +241,7 @@
       {
         "id": "b0eb3e0b-86c4-4f23-9d68-a5a960918976",
         "name": "Loft caps",
-        "text": "Step 16 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/train-track/b0eb3e0b-86c4-4f23-9d68-a5a960918976.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -256,7 +256,7 @@
       {
         "id": "df938635-5bc4-48b0-a6d5-771150e7ed48",
         "name": "Combine meshes",
-        "text": "Step 17 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/train-track/df938635-5bc4-48b0-a6d5-771150e7ed48.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -271,7 +271,7 @@
       {
         "id": "7d4e484d-79d5-419a-9a65-43382a78028f",
         "name": "Colors",
-        "text": "Step 18 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/train-track/7d4e484d-79d5-419a-9a65-43382a78028f.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -286,7 +286,7 @@
       {
         "id": "4b9f67d4-6ffa-4e2f-81a2-059f642b5b20",
         "name": "All together",
-        "text": "Step 19 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/train-track/4b9f67d4-6ffa-4e2f-81a2-059f642b5b20.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -301,7 +301,7 @@
       {
         "id": "04d5966d-946d-49c1-a2ea-90e7cb42b25b",
         "name": "Finale",
-        "text": "Step 20 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/train-track/04d5966d-946d-49c1-a2ea-90e7cb42b25b.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
