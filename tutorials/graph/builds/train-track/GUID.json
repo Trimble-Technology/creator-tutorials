@@ -5,7 +5,7 @@
     "assetType": "tutorial:materia:graph"
   },
   "content": {
-    "id": "Tutorial GUID",
+    "id": "797f8632-2bb9-4fc2-bcca-211dab7a03f2",
     "name": "Train Track",
     "text": null,
     "tags": [
@@ -14,14 +14,14 @@
     "tutorialType": "build",
     "steps": [
       {
-        "id": "Step 1 GUID",
-        "name": "Step 1 name",
+        "id": "d5ab4bf8-1c5e-4a13-bac3-f2279d984b05",
+        "name": "The basics",
         "text": "Step 1 Github link",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "Step 1 URI",
+              "uri": "whp:d796c7a7-3a5e-4281-9379-fa2dfc7e7e7c",
               "configuration": null
             }
           }
@@ -29,14 +29,14 @@
         "hints": []
       },
       {
-        "id": "Step 2 GUID",
-        "name": "Step 2 name",
+        "id": "ff390dfc-6bbf-4745-8d37-d28391494a63",
+        "name": "Vectors to points",
         "text": "Step 2 Github link",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "Step 2 URI",
+              "uri": "whp:f465ac3a-b908-49c6-89fb-42667a994997",
               "configuration": null
             }
           }
@@ -44,14 +44,14 @@
         "hints": []
       },
       {
-        "id": "Step 3 GUID",
-        "name": "Step 3 name",
+        "id": "fc93d411-cbbe-4829-928d-8cd3350dbea2",
+        "name": "Points to curve",
         "text": "Step 3 Github link",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "Step 3 URI",
+              "uri": "whp:d749b495-25c7-4188-8d9e-02593cd9b8b9",
               "configuration": null
             }
           }
@@ -59,14 +59,14 @@
         "hints": []
       },
       {
-        "id": "Step 4 GUID",
-        "name": "Step 4 name",
+        "id": "5740f9bc-cccc-455c-87e2-4a1d2d69e00b",
+        "name": "Curve resolution",
         "text": "Step 4 Github link",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "Step 4 URI",
+              "uri": "whp:91f05e07-2934-4801-b31d-391cdb0b95a7",
               "configuration": null
             }
           }
@@ -74,14 +74,14 @@
         "hints": []
       },
       {
-        "id": "Step 5 GUID",
-        "name": "Step 5 name",
+        "id": "3226d2a9-2c67-4f1f-833d-e39ea574256d",
+        "name": "Sleeper",
         "text": "Step 5 Github link",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "Step 5 URI",
+              "uri": "whp:4b4cfd36-f00c-47c4-8a65-c9f39cee36c3",
               "configuration": null
             }
           }
@@ -89,14 +89,14 @@
         "hints": []
       },
       {
-        "id": "Step 6 GUID",
-        "name": "Step 6 name",
+        "id": "a6eb674a-2d21-4ef2-a972-8c9d65ba70ce",
+        "name": "Sleeper size",
         "text": "Step 6 Github link",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "Step 6 URI",
+              "uri": "whp:562edfde-ef8f-4fb0-a6e5-1120aa6caec1",
               "configuration": null
             }
           }
@@ -104,14 +104,14 @@
         "hints": []
       },
       {
-        "id": "Step 7 GUID",
-        "name": "Step 7 name",
+        "id": "a7b296cf-064f-41aa-8807-d14d21e56c73",
+        "name": "Copying the sleeper",
         "text": "Step 7 Github link",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "Step 7 URI",
+              "uri": "whp:70294c4b-1152-43cc-bb6a-83240f34530b",
               "configuration": null
             }
           }
@@ -119,14 +119,14 @@
         "hints": []
       },
       {
-        "id": "Step 8 GUID",
-        "name": "Step 8 name",
+        "id": "0ca6afce-e1c1-411f-b696-fec92742e452",
+        "name": "Orienting the sleepers",
         "text": "Step 8 Github link",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "Step 8 URI",
+              "uri": "whp:a07ddc0e-2939-4a8d-a9fa-6db8d5d01fed",
               "configuration": null
             }
           }
@@ -134,14 +134,14 @@
         "hints": []
       },
       {
-        "id": "Step 9 GUID",
-        "name": "Step 9 name",
+        "id": "a151cc79-e063-4ee8-850a-12fe2303f5e7",
+        "name": "Up vectors",
         "text": "Step 9 Github link",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "Step 9 URI",
+              "uri": "whp:713a91f4-5250-4735-aff7-b1329b74905f",
               "configuration": null
             }
           }
@@ -149,14 +149,14 @@
         "hints": []
       },
       {
-        "id": "Step 10 GUID",
-        "name": "Step 10 name",
+        "id": "b7f1cc11-4478-4b31-972c-d048a638912c",
+        "name": "Rail profile",
         "text": "Step 10 Github link",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "Step 10 URI",
+              "uri": "whp:29a917d8-133d-40be-8d8b-46ad7af73660",
               "configuration": null
             }
           }
@@ -164,14 +164,14 @@
         "hints": []
       },
       {
-        "id": "Step 11 GUID",
-        "name": "Step 11 name",
+        "id": "ce838a8a-1b5b-4549-aef7-57b76b6403a2",
+        "name": "Track width",
         "text": "Step 11 Github link",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "Step 11 URI",
+              "uri": "whp:7cdf7e60-27fc-4c79-8944-3425d740afd8",
               "configuration": null
             }
           }
@@ -179,14 +179,14 @@
         "hints": []
       },
       {
-        "id": "Step 12 GUID",
-        "name": "Step 12 name",
+        "id": "398db9d8-45c8-443a-b18a-ef6f4d366e4e",
+        "name": "Copy to width",
         "text": "Step 12 Github link",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "Step 12 URI",
+              "uri": "whp:d4d0390f-f867-4493-ba1f-02382befa578",
               "configuration": null
             }
           }
@@ -194,14 +194,14 @@
         "hints": []
       },
       {
-        "id": "Step 13 GUID",
-        "name": "Step 13 name",
+        "id": "a61733a1-4198-4b12-a31b-ed0b8263f14a",
+        "name": "Copying logic",
         "text": "Step 13 Github link",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "Step 13 URI",
+              "uri": "whp:c75ef4cf-5b88-400f-98a3-1408fc327e8b",
               "configuration": null
             }
           }
@@ -209,14 +209,14 @@
         "hints": []
       },
       {
-        "id": "Step 14 GUID",
-        "name": "Step 14 name",
+        "id": "bac65ad2-6c2f-4904-bd99-dc1526d5c263",
+        "name": "Per rail",
         "text": "Step 14 Github link",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "Step 14 URI",
+              "uri": "whp:b58b28a8-d95c-4702-936d-3d7d38ead33c",
               "configuration": null
             }
           }
@@ -224,14 +224,14 @@
         "hints": []
       },
       {
-        "id": "Step 15 GUID",
-        "name": "Step 15 name",
+        "id": "b17a7e77-3955-436a-aea6-b33395f50efc",
+        "name": "Lofting",
         "text": "Step 15 Github link",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "Step 15 URI",
+              "uri": "whp:d330055d-468a-4696-9f67-0e474b9c93bc",
               "configuration": null
             }
           }
@@ -239,14 +239,14 @@
         "hints": []
       },
       {
-        "id": "Step 16 GUID",
-        "name": "Step 16 name",
+        "id": "b0eb3e0b-86c4-4f23-9d68-a5a960918976",
+        "name": "Loft caps",
         "text": "Step 16 Github link",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "Step 16 URI",
+              "uri": "whp:0a952356-c3a9-4822-9f70-484306001824",
               "configuration": null
             }
           }
@@ -254,14 +254,14 @@
         "hints": []
       },
       {
-        "id": "Step 17 GUID",
-        "name": "Step 17 name",
+        "id": "df938635-5bc4-48b0-a6d5-771150e7ed48",
+        "name": "Combine meshes",
         "text": "Step 17 Github link",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "Step 17 URI",
+              "uri": "whp:03e637a2-7493-4851-832e-e3f52d8c701f",
               "configuration": null
             }
           }
@@ -269,14 +269,44 @@
         "hints": []
       },
       {
-        "id": "Step 18 GUID",
-        "name": "Step 18 name",
+        "id": "7d4e484d-79d5-419a-9a65-43382a78028f",
+        "name": "Colors",
         "text": "Step 18 Github link",
         "actions": [
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "Step 18 URI",
+              "uri": "whp:9a4c34bb-4efc-4266-8139-1a7a9a2391ed",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "4b9f67d4-6ffa-4e2f-81a2-059f642b5b20",
+        "name": "All together",
+        "text": "Step 19 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:32014608-d951-4be7-a6e7-b25e49223d9e",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "04d5966d-946d-49c1-a2ea-90e7cb42b25b",
+        "name": "Finale",
+        "text": "Step 20 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:edd893da-ff25-42e9-9a65-7eb9d2302fbb",
               "configuration": null
             }
           }
