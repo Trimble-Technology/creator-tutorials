@@ -88,6 +88,246 @@
         ],
         "hints": []
       }
+            {
+        "id": "Step6 GUID",
+        "name": "Step6 name",
+        "text": "Step6 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step6 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step7 GUID",
+        "name": "Step7 name",
+        "text": "Step7 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step7 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step8 GUID",
+        "name": "Step8 name",
+        "text": "Step8 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step8 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step9 GUID",
+        "name": "Step9 name",
+        "text": "Step9 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step9 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step10 GUID",
+        "name": "Step10 name",
+        "text": "Step10 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step10 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step11 GUID",
+        "name": "Step11 name",
+        "text": "Step11 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step11 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step12 GUID",
+        "name": "Step12 name",
+        "text": "Step12 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step12 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step13 GUID",
+        "name": "Step13 name",
+        "text": "Step13 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step13 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step14 GUID",
+        "name": "Step14 name",
+        "text": "Step14 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step14 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step15 GUID",
+        "name": "Step15 name",
+        "text": "Step15 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step15 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step16 GUID",
+        "name": "Step16 name",
+        "text": "Step16 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step16 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step17 GUID",
+        "name": "Step17 name",
+        "text": "Step17 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step17 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step18 GUID",
+        "name": "Step18 name",
+        "text": "Step18 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step18 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step19 GUID",
+        "name": "Step19 name",
+        "text": "Step19 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step19 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step20 GUID",
+        "name": "Step20 name",
+        "text": "Step20 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step20 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step21 GUID",
+        "name": "Step21 name",
+        "text": "Step12 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step12 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
     ]
   }
 }
