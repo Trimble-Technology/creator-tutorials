@@ -1,0 +1,3 @@
+As the shelf is essentially a grid of hexagons, we now need to copy our singular hexagon into a grid. We will do this by copying the hexagon in one direction, then copying that array of hexagons in the other direction.
+
+Create a **copy** node from the **circle** node via a geometry connection. Connect the _value_ output from the “Modules high” **integer** node to the _# of copies_ input of the newly made **copy** node.

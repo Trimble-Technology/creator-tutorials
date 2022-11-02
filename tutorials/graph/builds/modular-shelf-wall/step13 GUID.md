@@ -1,0 +1,5 @@
+Create a **collect **node and make a geometry connection from both the **get primitive** and **offset 2d path** nodes to it.
+
+From the new **collect** node create a **triangulate 2d path** node via geometry connection and set the _work plane_ input to `Y = 0`. Then with another geometry connection, create an **extrude mesh** node from the **triangulate 2d path** node.
+
+To determine the extrusion distance, connect the _value_ output of the “Shelf depth” **number** node to the _distance_ input on the **extrude** node.
