@@ -16,7 +16,7 @@
       {
         "id": "d0e018ce-31ac-4a34-a7e3-893c9889673b",
         "name": "Hexagon",
-        "text": "Step1 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/d0e018ce-31ac-4a34-a7e3-893c9889673b.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -31,7 +31,7 @@
       {
         "id": "b2a54d23-d3c5-479e-8f32-76b1253e9fd6",
         "name": "Hexagon radius",
-        "text": "Step2 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/b2a54d23-d3c5-479e-8f32-76b1253e9fd6.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -46,7 +46,7 @@
       {
         "id": "bfb36f9a-191c-4293-b607-1e76b4c5a282",
         "name": "Grid",
-        "text": "Step3 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/bfb36f9a-191c-4293-b607-1e76b4c5a282.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -61,7 +61,7 @@
       {
         "id": "d16b102b-b1bd-4eb5-8328-29895d0eb55e",
         "name": "Grid height",
-        "text": "Step4 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/d16b102b-b1bd-4eb5-8328-29895d0eb55e.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -76,7 +76,7 @@
       {
         "id": "1cad1bc2-0295-4e17-893a-bd872d405f5b",
         "name": "Grid width",
-        "text": "Step5 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/1cad1bc2-0295-4e17-893a-bd872d405f5b.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -91,7 +91,7 @@
             {
         "id": "0cbd7061-ed77-4371-abd0-cd434e1494a3",
         "name": "Snuggly together",
-        "text": "Step6 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/0cbd7061-ed77-4371-abd0-cd434e1494a3.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -106,7 +106,7 @@
       {
         "id": "c7c93ae2-3eaf-4619-9984-bebe9ef6edca",
         "name": "# of modules",
-        "text": "Step7 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/c7c93ae2-3eaf-4619-9984-bebe9ef6edca.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -121,7 +121,7 @@
       {
         "id": "da647818-ef26-479c-ad6d-8501c7817d1f",
         "name": "Grid width 2",
-        "text": "Step8 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/da647818-ef26-479c-ad6d-8501c7817d1f.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -136,7 +136,7 @@
       {
         "id": "e5f3bc59-9007-4587-9587-0387e23a4fd6",
         "name": "A bit odd",
-        "text": "Step9 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/e5f3bc59-9007-4587-9587-0387e23a4fd6.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -151,7 +151,7 @@
       {
         "id": "1a7c05a2-3fb4-42d8-820f-b9661827ee1b",
         "name": "Removing a column",
-        "text": "Step10 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/1a7c05a2-3fb4-42d8-820f-b9661827ee1b.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -166,7 +166,7 @@
       {
         "id": "6c3995d5-f264-4ad2-8f11-3a340997742d",
         "name": "Per hexagon",
-        "text": "Step11 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/6c3995d5-f264-4ad2-8f11-3a340997742d.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -181,7 +181,7 @@
       {
         "id": "c2f5dd63-8e46-46f1-9e80-7e6412db80ab",
         "name": "Adding thickness",
-        "text": "Step12 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/c2f5dd63-8e46-46f1-9e80-7e6412db80ab.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -196,7 +196,7 @@
       {
         "id": "b5133e26-d635-425e-a70a-67c2cd2d5547",
         "name": "Shelf geometry",
-        "text": "Step13 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/b5133e26-d635-425e-a70a-67c2cd2d5547.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -211,7 +211,7 @@
       {
         "id": "43e38167-4c22-4e24-a866-2090a0b7b175",
         "name": "Shelf color",
-        "text": "Step14 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/43e38167-4c22-4e24-a866-2090a0b7b175.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -226,7 +226,7 @@
       {
         "id": "3419c662-5d88-4d36-acd1-cbfdf9e0735d",
         "name": "Rewelding geometry",
-        "text": "Step15 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/3419c662-5d88-4d36-acd1-cbfdf9e0735d.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -241,7 +241,7 @@
       {
         "id": "715e67c6-bbc1-437e-81cb-dd78c74f3574",
         "name": "Random switch",
-        "text": "Step16 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/715e67c6-bbc1-437e-81cb-dd78c74f3574.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -256,7 +256,7 @@
       {
         "id": "a49ac4c2-ee59-447c-9d98-ccac69eaa9b9",
         "name": "Proper scale",
-        "text": "Step17 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/a49ac4c2-ee59-447c-9d98-ccac69eaa9b9.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -271,7 +271,7 @@
       {
         "id": "183c2a3d-2c25-4f7a-ae90-505acdbec680",
         "name": "Applying scale",
-        "text": "Step18 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/183c2a3d-2c25-4f7a-ae90-505acdbec680.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -286,7 +286,7 @@
       {
         "id": "57a4d92d-644f-4cb2-aa1e-86a49f2047e8",
         "name": "Proper position",
-        "text": "Step19 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/57a4d92d-644f-4cb2-aa1e-86a49f2047e8.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -301,7 +301,7 @@
       {
         "id": "f162c074-201b-47b2-b2e1-a18ab989cb13",
         "name": "Final touches",
-        "text": "Step20 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/f162c074-201b-47b2-b2e1-a18ab989cb13.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
@@ -316,7 +316,7 @@
       {
         "id": "6cacd150-ee34-4d43-9296-d28453c6efe4",
         "name": "Final graph",
-        "text": "Step21 Github link",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/6cacd150-ee34-4d43-9296-d28453c6efe4.md",
         "actions": [
           {
             "type": "loadMateriaGraph",
