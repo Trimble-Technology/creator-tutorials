@@ -1,0 +1,93 @@
+{
+  "header": {
+    "assetSchemaVersion": 1,
+    "contentSchemaVersion": 1,
+    "assetType": "tutorial:materia:graph"
+  },
+  "content": {
+    "id": "Tutorial GUID",
+    "name": "Modular Shelf Wall",
+    "text": null,
+    "tags": [
+      null
+    ],
+    "tutorialType": "build",
+    "steps": [
+      {
+        "id": "Step1 GUID",
+        "name": "Step1 name",
+        "text": "Step1 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step1 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step2 GUID",
+        "name": "Step2 name",
+        "text": "Step2 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step2 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step3 GUID",
+        "name": "Step3 name",
+        "text": "Step3 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step3 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step4 GUID",
+        "name": "Step4 name",
+        "text": "Step4 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step4 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "Step5 GUID",
+        "name": "Step5 name",
+        "text": "Step5 Github link",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "Step5 URI",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      }
+    ]
+  }
+}
