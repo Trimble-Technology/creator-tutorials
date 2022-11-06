@@ -1,0 +1,46 @@
+{
+    "name": "color",
+    "alternateNames": [
+      "parameter"
+    ],
+    "defaultNodeName": "color",
+    "path": [
+      "value",
+      "parameter"
+    ],
+    "help": "Creates an rgb color value. The default range for the rgb components is 0 to 1.",
+    "input": {
+      "value": {
+        "type": "color",
+        "displayName": "value"
+      },
+      "defaultValue": {
+        "type": "color",
+        "displayName": "default"
+      },
+      "setToDefault": {
+        "type": "button",
+        "displayName": "set to default"
+      },
+      "hideControl": {
+        "type": "boolean",
+        "displayName": "hide control",
+        "default": false
+      },
+      "hideLabel": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "hide label",
+        "hideWhen": "hideControl"
+      }
+    },
+    "type": "ColorValue",
+    "output": {
+      "value": {
+        "type": "color",
+        "description": "output color",
+        "displayName": "value"
+      }
+    },
+    "nodeClass": "value"
+}
