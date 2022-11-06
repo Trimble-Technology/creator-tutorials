@@ -20,13 +20,13 @@
       },
       "defaultValue": {
         "type": "float",
-        "default": 0.0,
-        "displayName": "default"
+        "displayName": "default",
+        "default": 0.0
       },
       "setToDefault": {
         "type": "button",
         "displayName": "set to default",
-        "description": "Sets the value input to default when `true`."
+        "description": "Sets the value input to default when true."
       },
       "minMaxMode": {
         "type": "enum",
@@ -45,14 +45,14 @@
       },
       "max": {
         "type": "float",
-        "default": 10000,
         "displayName": "max",
+        "default": 10000,
         "description": "Maximum value of the slider range."
       },
       "step": {
         "type": "float",
-        "default": 0,
         "displayName": "step",
+        "default": 0,
         "description": "The increment the slider steps by."
       },
       "hideControl": {
@@ -62,20 +62,20 @@
       },
       "hideLabel": {
         "type": "boolean",
-        "default": false,
         "displayName": "hide label",
+        "default": false,
         "hideWhen": "hideControl"
       },
       "hideInputField": {
         "type": "boolean",
-        "default": false,
         "displayName": "hide input field",
+        "default": false,
         "hideWhen": "hideControl"
       },
       "hideSlider": {
         "type": "boolean",
-        "default": false,
         "displayName": "hide slider",
+        "default": false,
         "hideWhen": "hideControl"
       }
     },
@@ -88,8 +88,8 @@
       },
       "inputIsNull": {
         "type": "boolean",
-        "description": "Output is true when the value input is null",
-        "displayName": "input is null"
+        "displayName": "input is null",
+        "description": "Output is true when the value input is null."
       }
     },
     "nodeClass": "value"
