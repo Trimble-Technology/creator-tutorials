@@ -1,0 +1,48 @@
+{
+    "name": "string",
+    "alternateNames": [
+      "parameter",
+      "text",
+      "word"
+    ],
+    "defaultNodeName": "string",
+    "path": [
+      "value",
+      "parameter"
+    ],
+    "help": "Creates a string (text) value.",
+    "input": {
+      "value": {
+        "type": "string",
+        "displayName": "value"
+      },
+      "defaultValue": {
+        "type": "string",
+        "displayName": "default"
+      },
+      "setToDefault": {
+        "type": "button",
+        "displayName": "set to default"
+      },
+      "hideControl": {
+        "type": "boolean",
+        "displayName": "hide control",
+        "default": false
+      },
+      "hideLabel": {
+        "type": "boolean",
+        "displayName": "hide label",
+        "default": false,
+        "hideWhen": "hideControl"
+      }
+    },
+    "type": "StringValue",
+    "output": {
+      "value": {
+        "type": "string",
+        "displayName": "value",
+        "defaultOutput": true
+      }
+    },
+    "nodeClass": "value"
+}
