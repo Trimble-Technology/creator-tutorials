@@ -1,0 +1,1 @@
+Create a **points** node and connect the _list_ output of the **combine vector lists** to the _positions_ input of the newly made **points** node. This will convert our list of vectors into a points primitive.

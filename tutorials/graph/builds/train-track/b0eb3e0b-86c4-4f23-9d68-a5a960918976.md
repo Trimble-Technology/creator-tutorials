@@ -1,0 +1,5 @@
+When we copied the profiles along the base curve, we used a triangulated mesh version. We did this so we could then use them as the caps for the loft. In this case, we want the first and last profile mesh from the list of copied profiles.
+
+Getting the first is easy, all we need to do is create a **get primitive** node from the **copy using vectors** node with the _index_ input set to `0`. We will also need to create a **flip mesh normals** node from the **get primitive** node to make sure the final mesh is correct.
+
+To get the other cap, we will do a little trick. Create a **reverse primitive list** node from the **copy using vectors** node. As it says on the box, this node will flip the order of the list of copied profiles. Then all we need to do is create another **get primitive** node from the **reverse primitive list** node with its _index_ set to `0` to get the other cap.

@@ -1,0 +1,333 @@
+{
+  "header": {
+    "assetSchemaVersion": 1,
+    "contentSchemaVersion": 1,
+    "assetType": "tutorial:materia:graph"
+  },
+  "content": {
+    "id": "18984237-9ebe-4ed9-b13f-1b25b59e54fb",
+    "name": "Modular Shelf Wall",
+    "text": null,
+    "tags": [
+      null
+    ],
+    "tutorialType": "build",
+    "steps": [
+      {
+        "id": "d0e018ce-31ac-4a34-a7e3-893c9889673b",
+        "name": "Hexagon",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/d0e018ce-31ac-4a34-a7e3-893c9889673b.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:0a63a44b-87fe-4e7a-a6b3-5fe977b64f23",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "b2a54d23-d3c5-479e-8f32-76b1253e9fd6",
+        "name": "Hexagon radius",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/b2a54d23-d3c5-479e-8f32-76b1253e9fd6.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:48fba380-d408-48e2-9853-a7947d7583c7",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "bfb36f9a-191c-4293-b607-1e76b4c5a282",
+        "name": "Grid",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/bfb36f9a-191c-4293-b607-1e76b4c5a282.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:a5cf123f-df10-433b-8dd1-1b30fbed6e4a",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "d16b102b-b1bd-4eb5-8328-29895d0eb55e",
+        "name": "Grid height",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/d16b102b-b1bd-4eb5-8328-29895d0eb55e.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:2bd1650b-0b1e-4228-903b-707070a01099",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "1cad1bc2-0295-4e17-893a-bd872d405f5b",
+        "name": "Grid width",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/1cad1bc2-0295-4e17-893a-bd872d405f5b.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:bb9efc3f-8416-4315-b520-07ff85f807cc",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+            {
+        "id": "0cbd7061-ed77-4371-abd0-cd434e1494a3",
+        "name": "Snuggly together",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/0cbd7061-ed77-4371-abd0-cd434e1494a3.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:00842e23-a6d0-4aeb-bf8b-809d7475d314",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "c7c93ae2-3eaf-4619-9984-bebe9ef6edca",
+        "name": "# of modules",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/c7c93ae2-3eaf-4619-9984-bebe9ef6edca.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:643e91cb-9061-4ad0-8f8b-0e2eefeafd6e",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "da647818-ef26-479c-ad6d-8501c7817d1f",
+        "name": "Grid width 2",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/da647818-ef26-479c-ad6d-8501c7817d1f.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:b4ed8793-c40c-49f1-8f74-94a42f07a850",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "e5f3bc59-9007-4587-9587-0387e23a4fd6",
+        "name": "A bit odd",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/e5f3bc59-9007-4587-9587-0387e23a4fd6.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:697ed062-6101-435c-8016-d4c151cd29f7",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "1a7c05a2-3fb4-42d8-820f-b9661827ee1b",
+        "name": "Removing a column",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/1a7c05a2-3fb4-42d8-820f-b9661827ee1b.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:e3af0462-dafc-4fbf-a01a-026e1fb333e3",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "6c3995d5-f264-4ad2-8f11-3a340997742d",
+        "name": "Per hexagon",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/6c3995d5-f264-4ad2-8f11-3a340997742d.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:311dbc51-3c7f-40d2-acab-1acf039a8ffb",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "c2f5dd63-8e46-46f1-9e80-7e6412db80ab",
+        "name": "Adding thickness",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/c2f5dd63-8e46-46f1-9e80-7e6412db80ab.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:72a0f0bd-6a4c-4294-bcfc-5ec60d715682",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "b5133e26-d635-425e-a70a-67c2cd2d5547",
+        "name": "Shelf geometry",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/b5133e26-d635-425e-a70a-67c2cd2d5547.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:34c47aa4-3efe-4943-8ee1-f3ce0ddec48b",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "43e38167-4c22-4e24-a866-2090a0b7b175",
+        "name": "Shelf color",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/43e38167-4c22-4e24-a866-2090a0b7b175.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:e206609a-f89b-48f2-86e8-11f0cd28bd92",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "3419c662-5d88-4d36-acd1-cbfdf9e0735d",
+        "name": "Rewelding geometry",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/3419c662-5d88-4d36-acd1-cbfdf9e0735d.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:71f31247-deaa-430a-82a0-945ce07493ed",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "715e67c6-bbc1-437e-81cb-dd78c74f3574",
+        "name": "Random switch",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/715e67c6-bbc1-437e-81cb-dd78c74f3574.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:c01b1265-1e8a-46ba-a646-8fbb933aaa8d",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "a49ac4c2-ee59-447c-9d98-ccac69eaa9b9",
+        "name": "Proper scale",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/a49ac4c2-ee59-447c-9d98-ccac69eaa9b9.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:4e4da025-eaf5-4d05-b0d1-fd71078ea94c",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "183c2a3d-2c25-4f7a-ae90-505acdbec680",
+        "name": "Applying scale",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/183c2a3d-2c25-4f7a-ae90-505acdbec680.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:4fef55ee-24dd-4a92-8937-2c77dec75a7d",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "57a4d92d-644f-4cb2-aa1e-86a49f2047e8",
+        "name": "Proper position",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/57a4d92d-644f-4cb2-aa1e-86a49f2047e8.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:df63ab7b-f4ea-490f-88c1-dfdb3cf54c43",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "f162c074-201b-47b2-b2e1-a18ab989cb13",
+        "name": "Final touches",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/f162c074-201b-47b2-b2e1-a18ab989cb13.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:459e5e49-81ca-40e5-97d9-789dbc90f059",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      },
+      {
+        "id": "6cacd150-ee34-4d43-9296-d28453c6efe4",
+        "name": "Final graph",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/builds/modular-shelf-wall/6cacd150-ee34-4d43-9296-d28453c6efe4.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:4caf9b1f-303f-4528-882f-6c4cd30641f8",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Next, as we need the profiles to be curves to loft them, we will create a **mesh boundary** node from the **copy using vectors** node, followed by a **loft** node connected to the newly made **mesh boundary** node.
