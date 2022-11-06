@@ -8,7 +8,7 @@
       "value",
       "parameter"
     ],
-    "help": "Creates an rgb color value. The default range for the rgb components is 0 to 1.",
+    "help": "Creates a color (vector) value.",
     "input": {
       "value": {
         "type": "color",
@@ -29,8 +29,8 @@
       },
       "hideLabel": {
         "type": "boolean",
-        "default": false,
         "displayName": "hide label",
+        "default": false,
         "hideWhen": "hideControl"
       }
     },
@@ -38,7 +38,6 @@
     "output": {
       "value": {
         "type": "color",
-        "description": "output color",
         "displayName": "value"
       }
     },
