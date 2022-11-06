@@ -1,10 +1,8 @@
 {
-    "name": "number",
+    "name": "integer",
     "alternateNames": [
-      "float",
-      "double",
-      "decimal",
-      "real",
+      "whole",
+      "number",
       "parameter"
     ],
     "defaultNodeName": "number",
@@ -12,21 +10,21 @@
       "value",
       "parameter"
     ],
-    "help": "Creates a number/float value.",
+    "help": "Creates an integer (whole number) value.",
     "input": {
       "value": {
-        "type": "float",
-        "displayName": "value"
+        "type": "integer",
+        "displayName": "value",
+        "default": 0
       },
       "defaultValue": {
-        "type": "float",
+        "type": "integer",
         "displayName": "default",
-        "default": 0.0
+        "default": 0
       },
       "setToDefault": {
         "type": "button",
-        "displayName": "set to default",
-        "description": "Sets the value input to default when true."
+        "displayName": "set to default"
       },
       "minMaxMode": {
         "type": "enum",
@@ -39,21 +37,14 @@
         "description": "Soft: will allow values outside of the slider range. Hard: won't allow values outside the slider range."
       },
       "min": {
-        "type": "float",
+        "type": "integer",
         "displayName": "min",
-        "description": "Minimum value of the slider range."
+        "default": 0
       },
       "max": {
-        "type": "float",
+        "type": "integer",
         "displayName": "max",
-        "default": 10000,
-        "description": "Maximum value of the slider range."
-      },
-      "step": {
-        "type": "float",
-        "displayName": "step",
-        "default": 0,
-        "description": "The increment the slider steps by."
+        "default": 100
       },
       "hideControl": {
         "type": "boolean",
@@ -79,10 +70,10 @@
         "hideWhen": "hideControl"
       }
     },
-    "type": "FloatValue",
+    "type": "IntegerValue",
     "output": {
       "value": {
-        "type": "float",
+        "type": "integer",
         "displayName": "value",
         "defaultOutput": true
       },

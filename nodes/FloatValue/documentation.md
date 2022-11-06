@@ -2,7 +2,7 @@ Creates a number/float value.
 
 When parameterized this node will appear as a slider and input field in the “Parameter panel”.
 
-Note:
+Note(s):
 
 
 
