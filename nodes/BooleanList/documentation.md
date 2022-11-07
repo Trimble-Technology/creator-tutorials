@@ -4,7 +4,7 @@ Auxiliary Function(s):
 
 
 
-* Pattern of boolean values. If the _pattern_ input is true, the _list_ input values will be set to the specified pattern when initialized.
+* Pattern: If the _pattern_ input is `true`, the _list_ input values will be set to the specified pattern when initialized, rather than the default value.
 
 Example(s):
 

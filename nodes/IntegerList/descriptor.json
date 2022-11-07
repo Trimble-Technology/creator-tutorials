@@ -1,0 +1,49 @@
+{
+    "name": "integer list",
+    "alternateNames": [
+      "number"
+    ],
+    "defaultNodeName": "number list",
+    "path": [
+      "value",
+      "list"
+    ],
+    "help": "Creates a list of integer number values.",
+    "input": {
+      "list": {
+        "type": "list:integer",
+        "displayName": "list"
+      },
+      "size": {
+        "type": "integer",
+        "displayName": "size",
+        "default": 10
+      },
+      "iterator": {
+        "type": "boolean",
+        "displayName": "iterator",
+        "default": false,
+        "description": "An iterative list of integer values."
+      },
+      "defaultValue": {
+        "type": "integer",
+        "displayName": "default",
+        "default": 0,
+        "hideWhen": "iterator"
+      },
+      "initialise": {
+        "type": "boolean",
+        "displayName": "initialize",
+        "default": false,
+        "description": "Sets the list input to the specified size and its values to the default."
+      }
+    },
+    "type": "IntegerList",
+    "output": {
+      "list": {
+        "type": "list:integer",
+        "displayName": "list"
+      }
+    },
+    "nodeClass": "value"
+}
