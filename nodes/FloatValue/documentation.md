@@ -12,5 +12,5 @@ Example(s):
 
 
 
+* [Scaling a box](https://creator.trimble.com/graph?assetURI=whp:2b2bfb2f-ffeb-4cd3-ae15-fe1f0b59cf33&version=latest)
 * [Smart sizing geometry](https://creator.trimble.com/graph?assetURI=whp:b783bdc2-5bea-49b6-b68e-a7eabee7993c&version=latest)
-* [Using noise to distort points along a single axis](https://creator.trimble.com/graph?assetURI=whp:45738561-dcda-4b42-9c0b-4e645a341ca4&version=latest)
