@@ -1,17 +1,20 @@
 {
-    "name": "string list",
+    "name": "vector list",
     "alternateNames": [
-      "text"
+      "points",
+      "coordinates",
+      "directions",
+      "xyz"
     ],
-    "defaultNodeName": "string list",
+    "defaultNodeName": "vector list",
     "path": [
       "value",
       "list"
     ],
-    "help": "Creates a list of string (text) values.",
+    "help": "Creates a list of 3 component xyz vector values.",
     "input": {
       "list": {
-        "type": "list:string",
+        "type": "list:vector",
         "displayName": "list"
       },
       "size": {
@@ -20,23 +23,27 @@
         "default": 10
       },
       "defaultValue": {
-        "type": "string",
+        "type": "vector",
         "displayName": "default",
-        "default": ""
+        "default": [
+            0,
+            0,
+            0
+          ]
       },
       "initialise": {
         "type": "boolean",
-        "displayName": "initialize",
         "default": false,
+        "displayName": "initialize",
         "description": "Sets the list input to the specified size and its values to the default."
       }
     },
-    "type": "StringList",
+    "type": "VectorList",
     "output": {
       "list": {
-        "type": "list:string",
+        "type": "list:vector",
         "displayName": "list"
       }
     },
     "nodeClass": "value"
-}
+  }
