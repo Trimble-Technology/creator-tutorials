@@ -1,22 +1,20 @@
 {
-    "name": "boolean 2d paths",
+    "name": "offset 2d path",
     "alternateNames": [
-      "curve",
-      "polygon",
-      "path",
-      "2d boolean"
+      "offset curve",
+      "offset polygon"
     ],
-    "defaultNodeName": "boolean 2d paths",
+    "defaultNodeName": "offset 2d path",
     "path": [
       "geometry",
       "2d path"
     ],
-    "help": "Performs 2d boolean operations on curves/polygons.",
+    "help": "Offsets curves in the chosen workplane.",
     "input": {
       "geometry": {
         "type": "geometry",
-        "displayName": "geometry",
-        "multigeo": true
+        "description": "input geometry",
+        "displayName": "geometry"
       },
       "workplane": {
         "type": "enum",
@@ -30,48 +28,34 @@
       },
       "preFlatten": {
         "type": "boolean",
-        "default": true,
         "displayName": "pre-flatten",
-        "description": "Flattens the input curves/polygons into the chosen workplane before operation."
+        "default": true,
+        "description": "Flattens the input curves into the chosen workplane before offset."
       },
-      "clipType": {
-        "type": "enum",
-        "displayName": "boolean type",
-        "options": [
-          "intersect",
-          "union",
-          "difference",
-          "xor"
-        ]
+      "offset": {
+        "type": "float",
+        "displayName": "offset"
       },
-      "fillType": {
+      "joinType": {
         "type": "enum",
-        "displayName": "fill type",
+        "displayName": "join",
         "options": [
-          "even-odd",
-          "nonzero",
-          "positive",
-          "negative"
+          "miter",
+          "square",
+          "round",
+          "none (simple)"
         ],
-        "description": "google 'clipper fill type'"
+        "description": "Join type of offset curves."
       },
-      "swap": {
-        "type": "enum",
-        "displayName": "primary polygon",
-        "options": [
-          "last",
-          "first"
-        ],
-        "description": "Input curve/polygon to use as the primary."
+      "miterLimit": {
+        "type": "float",
+        "displayName": "miter limit",
+        "hideWhen": "joinType > 0"
       },
-      "swapSubject": {
-        "type": "enum",
-        "displayName": "primary role",
-        "options": [
-          "clip",
-          "subject"
-        ],
-        "description": "The role of the primary curve/polygon."
+      "arcPrecision": {
+        "type": "float",
+        "displayName": "arc precision",
+        "hideWhen": "joinType < 2 || joinType == 3"
       },
       "closeCurves": {
         "type": "boolean",
@@ -79,7 +63,7 @@
         "default": true
       }
     },
-    "type": "CurveBoolean",
+    "type": "OffsetCurve",
     "output": {
       "geometry": {
         "type": "geometry",
