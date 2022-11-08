@@ -1,0 +1,110 @@
+{
+    "name": "boolean 2d paths",
+    "alternateNames": [
+      "curve",
+      "polygon",
+      "path",
+      "2d boolean"
+    ],
+    "defaultNodeName": "boolean 2d paths",
+    "path": [
+      "geometry",
+      "2d path"
+    ],
+    "help": "Performs 2d boolean operations on curves/polygons.",
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry",
+        "multigeo": true
+      },
+      "workplane": {
+        "type": "enum",
+        "displayName": "work plane",
+        "default": 2,
+        "options": [
+          "X = 0",
+          "Y = 0",
+          "Z = 0"
+        ]
+      },
+      "preFlatten": {
+        "type": "boolean",
+        "default": true,
+        "displayName": "pre-flatten",
+        "description": "Flattens the input curves/polygons into the chosen workplane before operation."
+      },
+      "clipType": {
+        "type": "enum",
+        "displayName": "boolean type",
+        "options": [
+          "intersect",
+          "union",
+          "difference",
+          "xor"
+        ]
+      },
+      "fillType": {
+        "type": "enum",
+        "displayName": "fill type",
+        "options": [
+          "even-odd",
+          "nonzero",
+          "positive",
+          "negative"
+        ],
+        "description": "google 'clipper fill type'"
+      },
+      "swap": {
+        "type": "enum",
+        "displayName": "primary polygon",
+        "options": [
+          "last",
+          "first"
+        ],
+        "description": "Input curve/polygon to use as the primary."
+      },
+      "swapSubject": {
+        "type": "enum",
+        "displayName": "primary role",
+        "options": [
+          "clip",
+          "subject"
+        ],
+        "description": "The role of the primary curve/polygon."
+      },
+      "closeCurves": {
+        "type": "boolean",
+        "displayName": "close resulting curves",
+        "default": true
+      }
+    },
+    "type": "CurveBoolean",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "displayName": "points",
+        "description": "points positions"
+      },
+      "points.x": {
+        "type": "list:float",
+        "displayName": "points.x",
+        "description": "points x coordinates"
+      },
+      "points.y": {
+        "type": "list:float",
+        "displayName": "points.y",
+        "description": "points y coordinates"
+      },
+      "points.z": {
+        "type": "list:float",
+        "displayName": "points.z",
+        "description": "points z coordinates"
+      }
+    },
+    "nodeClass": "node"
+  }
