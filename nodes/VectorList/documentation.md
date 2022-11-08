@@ -1,7 +1,7 @@
-Creates a list of string (text) values.
+Creates a list of xyz vector values.
 
 Example(s):
 
 
 
-* [Changing choice options](https://creator.trimble.com/graph?assetURI=whp:1b32b1bd-c550-4ac3-8a48-630fe1a182f2&version=latest)
+* [Points to curve](https://creator.trimble.com/graph?assetURI=whp:3e5bc942-7604-4c0d-a534-b43d093bdb85&version=latest)
