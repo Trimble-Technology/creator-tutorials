@@ -9,11 +9,10 @@
       "geometry",
       "2d path"
     ],
-    "help": "Offsets curves in the chosen workplane.",
+    "help": "Offsets curves in the chosen work plane.",
     "input": {
       "geometry": {
         "type": "geometry",
-        "description": "input geometry",
         "displayName": "geometry"
       },
       "workplane": {
@@ -30,7 +29,7 @@
         "type": "boolean",
         "displayName": "pre-flatten",
         "default": true,
-        "description": "Flattens the input curves into the chosen workplane before offset."
+        "description": "Flattens the input curves into the chosen work plane before offset."
       },
       "offset": {
         "type": "float",
@@ -72,22 +71,22 @@
       "points": {
         "type": "list:vector",
         "displayName": "points",
-        "description": "points positions"
+        "description": "point positions"
       },
       "points.x": {
         "type": "list:float",
         "displayName": "points.x",
-        "description": "points x values"
+        "description": "point x values"
       },
       "points.y": {
         "type": "list:float",
         "displayName": "points.y",
-        "description": "points y values"
+        "description": "point y values"
       },
       "points.z": {
         "type": "list:float",
         "displayName": "points.z",
-        "description": "points z values"
+        "description": "point z values"
       }
     },
     "nodeClass": "node"

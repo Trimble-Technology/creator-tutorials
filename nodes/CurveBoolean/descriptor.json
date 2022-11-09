@@ -11,7 +11,7 @@
       "geometry",
       "2d path"
     ],
-    "help": "Performs 2d boolean operations on curves/polygons.",
+    "help": "Performs 2d boolean operations on curves/polygons in a chosen work plane.",
     "input": {
       "geometry": {
         "type": "geometry",
@@ -30,9 +30,9 @@
       },
       "preFlatten": {
         "type": "boolean",
-        "default": true,
         "displayName": "pre-flatten",
-        "description": "Flattens the input curves/polygons into the chosen workplane before operation."
+        "default": true,
+        "description": "Flattens the input curves/polygons into the chosen work plane before operation."
       },
       "clipType": {
         "type": "enum",
@@ -53,7 +53,7 @@
           "positive",
           "negative"
         ],
-        "description": "google 'clipper fill type'"
+        "description": "Defines the type of fill rule as per the Clipper library."
       },
       "swap": {
         "type": "enum",
@@ -62,7 +62,7 @@
           "last",
           "first"
         ],
-        "description": "Input curve/polygon to use as the primary."
+        "description": "Defines which curve/polygon to use as the primary curve/polygon."
       },
       "swapSubject": {
         "type": "enum",
@@ -88,22 +88,22 @@
       "points": {
         "type": "list:vector",
         "displayName": "points",
-        "description": "points positions"
+        "description": "point positions"
       },
       "points.x": {
         "type": "list:float",
         "displayName": "points.x",
-        "description": "points x values"
+        "description": "point x values"
       },
       "points.y": {
         "type": "list:float",
         "displayName": "points.y",
-        "description": "points y values"
+        "description": "point y values"
       },
       "points.z": {
         "type": "list:float",
         "displayName": "points.z",
-        "description": "points z values"
+        "description": "point z values"
       }
     },
     "nodeClass": "node"
