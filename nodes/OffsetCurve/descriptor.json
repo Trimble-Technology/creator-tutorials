@@ -44,7 +44,7 @@
           "round",
           "none (simple)"
         ],
-        "description": "Join type of offset curves."
+        "description": "Defines the join type of offset curves."
       },
       "miterLimit": {
         "type": "float",
@@ -71,22 +71,22 @@
       "points": {
         "type": "list:vector",
         "displayName": "points",
-        "description": "point positions"
+        "description": "Point positions"
       },
       "points.x": {
         "type": "list:float",
         "displayName": "points.x",
-        "description": "point x values"
+        "description": "Point x values"
       },
       "points.y": {
         "type": "list:float",
         "displayName": "points.y",
-        "description": "point y values"
+        "description": "Point y values"
       },
       "points.z": {
         "type": "list:float",
         "displayName": "points.z",
-        "description": "point z values"
+        "description": "Point z values"
       }
     },
     "nodeClass": "node"

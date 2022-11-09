@@ -80,7 +80,7 @@
         "displayName": "max area",
         "default": 10000,
         "hideWhen": "!refine || library == 0",
-        "description": "Define the max. triangle area."
+        "description": "The max. triangle area."
       },
       "minAngle": {
         "type": "float",
@@ -89,7 +89,7 @@
         "maximum": 34.8,
         "default": 20,
         "hideWhen": "!refine || library == 0",
-        "description": "Defines the min. angle of triangles."
+        "description": "The min. angle of triangles."
       },
       "maxAngle": {
         "type": "float",
@@ -98,7 +98,7 @@
         "maximum": 180,
         "default": 180,
         "hideWhen": "!refine || library == 0",
-        "description": "Defines the max. angle of triangles"
+        "description": "The max. angle of triangles"
       },
       "smoothing": {
         "type": "integer",
@@ -107,12 +107,12 @@
         "minimum": 0,
         "maximum": 100,
         "hideWhen": "!refine || library == 0",
-        "description": "Smooth the triangle layout after triangulation. Works best when the algorithm input is set to sweepline."
+        "description": "Smoothens the triangle layout after triangulation."
       },
       "internalPoints": {
         "type": "list:vector",
         "displayName": "inner points",
-        "description": "Add extra internal points, will force vertex creation at these points."
+        "description": "Adds extra internal points, will force vertex creation at these points."
       }
     },
     "type": "TriangulateCurve",
@@ -124,22 +124,22 @@
       "points": {
         "type": "list:vector",
         "displayName": "points",
-        "description": "point positions."
+        "description": "Point positions."
       },
       "points.x": {
         "type": "list:float",
         "displayName": "points.x",
-        "description": "point x values."
+        "description": "Point x values."
       },
       "points.y": {
         "type": "list:float",
         "displayName": "points.y",
-        "description": "point y values."
+        "description": "Point y values."
       },
       "points.z": {
         "type": "list:float",
         "displayName": "points.z",
-        "description": "point z values."
+        "description": "Point z values."
       }
     },
     "nodeClass": "node"

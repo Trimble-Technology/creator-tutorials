@@ -1,56 +1,51 @@
 {
-    "name": "copy",
+    "name": "copy using vectors",
     "alternateNames": [
       "duplicate",
-      "loop"
+      "loop",
+      "instance",
+      "matrix",
+      "matrice"
     ],
-    "defaultNodeName": "copy",
+    "defaultNodeName": "copy using vectors",
     "path": [
       "geometry",
       "copy | loop"
     ],
-    "help": "Copies and transforms geometry.",
+    "help": "Copies primitives based on lists of input vectors.",
     "input": {
       "geometry": {
         "type": "geometry",
         "displayName": "geometry"
       },
-      "numCopies": {
-        "type": "integer",
-        "displayName": "# of copies",
-        "default": 1
-      },
-      "translate": {
+      "positions": {
         "type": "flexi:vector",
-        "displayName": "translate",
+        "displayName": "positions",
         "default": [
           0,
           0,
           0
-        ]
+        ],
+        "description": "The positions/points to copy to."
       },
-      "rotate": {
+      "normals": {
         "type": "flexi:vector",
-        "displayName": "rotate",
+        "displayName": "normals",
         "default": [
           0,
           0,
-          0
-        ]
-      },
-      "scale": {
-        "type": "flexi:vector",
-        "displayName": "scale",
-        "default": [
-          1,
-          1,
           1
-        ]
+        ],
+        "description": "The direction the copied geometry will face."
       },
-      "uniformScale": {
-        "type": "flexi:float",
-        "displayName": "uniform scale",
-        "default": 1
+      "upVectors": {
+        "type": "flexi:vector",
+        "displayName": "up vectors",
+        "default": [
+          0,
+          1,
+          0
+        ]
       },
       "setIterators": {
         "type": "boolean",
@@ -67,9 +62,15 @@
         "displayName": "combine meshes",
         "default": false,
         "description": "Combines all copied meshes into one mesh."
+      },
+      "mode": {
+        "type": "integer",
+        "displayName": "mode",
+        "default": 4,
+        "description": "Defines variations on up vector orientation, direction of rotation, and handedness/chirality."
       }
     },
-    "type": "Copy",
+    "type": "Copy2",
     "output": {
       "geometry": {
         "type": "geometry",
