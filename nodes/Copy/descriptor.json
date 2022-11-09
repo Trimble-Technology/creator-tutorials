@@ -1,0 +1,101 @@
+{
+    "name": "copy",
+    "alternateNames": [
+      "duplicate",
+      "loop"
+    ],
+    "defaultNodeName": "copy",
+    "path": [
+      "geometry",
+      "copy | loop"
+    ],
+    "help": "Copies and transforms geometry.",
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "numCopies": {
+        "type": "integer",
+        "displayName": "# of copies",
+        "default": 1,
+        "description": "Defines the number of copies to make."
+      },
+      "translate": {
+        "type": "flexi:vector",
+        "displayName": "translate",
+        "default": [
+          0,
+          0,
+          0
+        ]
+      },
+      "rotate": {
+        "type": "flexi:vector",
+        "displayName": "rotate",
+        "default": [
+          0,
+          0,
+          0
+        ]
+      },
+      "scale": {
+        "type": "flexi:vector",
+        "displayName": "scale",
+        "default": [
+          1,
+          1,
+          1
+        ]
+      },
+      "uniformScale": {
+        "type": "flexi:float",
+        "displayName": "uniform scale",
+        "default": 1
+      },
+      "setIterators": {
+        "type": "boolean",
+        "displayName": "use iterator(s)",
+        "default": false
+      },
+      "iteratorTag": {
+        "type": "string",
+        "displayName": "iterator tag",
+        "default": ""
+      },
+      "combineMeshes": {
+        "type": "boolean",
+        "displayName": "combine meshes",
+        "default": false,
+        "description": "Combines all copied meshes into one mesh."
+      }
+    },
+    "type": "Copy",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "displayName": "points",
+        "description": "point positions."
+      },
+      "points.x": {
+        "type": "list:float",
+        "displayName": "points.x",
+        "description": "point x values."
+      },
+      "points.y": {
+        "type": "list:float",
+        "displayName": "points.y",
+        "description": "point y values."
+      },
+      "points.z": {
+        "type": "list:float",
+        "displayName": "points.z",
+        "description": "point z values."
+      }
+    },
+    "nodeClass": "node"
+  }
