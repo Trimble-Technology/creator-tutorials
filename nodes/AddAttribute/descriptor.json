@@ -27,7 +27,8 @@
       },
       "attributeName": {
         "type": "string",
-        "displayName": "attribute name"
+        "displayName": "attribute name",
+        "description": "The name to give the attribute."
       },
       "value": {
         "type": "flexi:anything",
