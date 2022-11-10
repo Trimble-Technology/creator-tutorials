@@ -1,0 +1,60 @@
+{
+    "name": "iterator",
+    "alternateNames": [],
+    "defaultNodeName": "iterator",
+    "path": [
+      "geometry",
+      "copy | loop"
+    ],
+    "help": "To be used in conjunction with a loop node assigned with the same tag. Iterates through a number of loops as defined by that paired loop node.",
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "value": {
+        "type": "integer",
+        "displayName": "idling value",
+        "default": 0,
+        "description": "Current loop iteration, this value is not respected when a loop is computed."
+      },
+      "tag": {
+        "type": "string",
+        "description": "Assigns a tag to define a particular iterator-loop node pair.",
+        "displayName": "tag"
+      }
+    },
+    "type": "Iterator",
+    "output": {
+      "value": {
+        "type": "integer",
+        "displayName": "value",
+        "description": "Current iteration value."
+      },
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "displayName": "points",
+        "description": "Point positions"
+      },
+      "points.x": {
+        "type": "list:float",
+        "displayName": "points.x",
+        "description": "Point x values."
+      },
+      "points.y": {
+        "type": "list:float",
+        "displayName": "points.y",
+        "description": "Point y values."
+      },
+      "points.z": {
+        "type": "list:float",
+        "displayName": "points.z",
+        "description": "Point z values."
+      }
+    },
+    "nodeClass": "communication"
+  }
