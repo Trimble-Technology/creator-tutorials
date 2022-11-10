@@ -1,0 +1,71 @@
+{
+    "name": "loop",
+    "alternateNames": [
+      "iterate",
+      "loop"
+    ],
+    "defaultNodeName": "loop",
+    "path": [
+      "geometry",
+      "copy | loop"
+    ],
+    "help": "To be used in conjunction with an iterator node assigned with the same tag, repeating a section of the graph.",
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "numLoops": {
+        "type": "integer",
+        "displayName": "# of loops",
+        "default": 1,
+        "description": "The total number of iterations to loop through."
+      },
+      "iteratorTag": {
+        "type": "string",
+        "default": "",
+        "displayName": "Assigns a tag to define a particular iterator-loop node pair."
+      },
+      "cumulative": {
+        "type": "boolean",
+        "displayName": "cumulative",
+        "default": false,
+        "description": "Changes the loop from a forEach function to a cumulative function."
+      },
+      "combineMeshes": {
+        "type": "boolean",
+        "displayName": "combine meshes",
+        "default": false,
+        "hideWhen": "cumulative",
+        "description": "Combines all looped meshes into one mesh."
+      }
+    },
+    "type": "Loop",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "displayName": "points",
+        "description": "Point positions"
+      },
+      "points.x": {
+        "type": "list:float",
+        "displayName": "points.x",
+        "description": "Point x values."
+      },
+      "points.y": {
+        "type": "list:float",
+        "displayName": "points.y",
+        "description": "Point y values."
+      },
+      "points.z": {
+        "type": "list:float",
+        "displayName": "points.z",
+        "description": "Point z values."
+      }
+    },
+    "nodeClass": "node"
+  }

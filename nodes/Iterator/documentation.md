@@ -1,4 +1,4 @@
-To be used in conjunction with a loop node assigned with the same tag. Iterates through a number of loops as defined by that paired loop node.
+To be used in conjunction with a **loop** node assigned with the same tag. Iterates through a number of loops as defined by that paired **loop** node.
 
 Note(s):
 
