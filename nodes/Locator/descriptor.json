@@ -1,0 +1,64 @@
+{
+    "name": "locator",
+    "alternateNames": [
+      "handle",
+      "snap"
+    ],
+    "defaultNodeName": "locator",
+    "path": [
+      "geometry",
+      "create"
+    ],
+    "help": "Creates a locator.",
+    "input": {
+      "locatorId": {
+        "type": "flexi:string",
+        "displayName": "id",
+        "default": "0",
+        "description": "Sets an ID for the locator."
+      },
+      "position": {
+        "type": "flexi:vector",
+        "displayName": "position",
+        "default": [
+          0,
+          0,
+          0
+        ],
+        "description": "Sets the position of the locator."
+      },
+      "semanticType": {
+        "type": "flexi:string",
+        "displayName": "type",
+        "default": "",
+        "description": "Sets the semantic type of the locator."
+      }
+    },
+    "type": "Locator",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "displayName": "points",
+        "description": "Point positions."
+      },
+      "points.x": {
+        "type": "list:float",
+        "displayName": "points.x",
+        "description": "Point x values."
+      },
+      "points.y": {
+        "type": "list:float",
+        "displayName": "points.y",
+        "description": "Point y values."
+      },
+      "points.z": {
+        "type": "list:float",
+        "displayName": "points.z",
+        "description": "Point z values."
+      }
+    }
+  }
