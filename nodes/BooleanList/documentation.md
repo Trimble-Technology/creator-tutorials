@@ -1,6 +1,6 @@
 Creates a list of boolean values.
 
-A custom list can be made by clicking on the `<boolean list>` space of the _list _input via the “Add Item” button. Initializing the **boolean list** node will override manually entered values.
+A custom list can be made by clicking on the `<boolean list>` space of the _list_ input via the “Add Item” button. Initializing the **boolean list** node will override manually entered values.
 
 Auxiliary Function(s):
 
