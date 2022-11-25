@@ -1,0 +1,126 @@
+{
+    "name": "sphere",
+    "alternateNames": [
+      "icosphere",
+      "globe",
+      "ball",
+      "poly sphere"
+    ],
+    "defaultNodeName": "sphere",
+    "path": [
+      "geometry",
+      "create"
+    ],
+    "help": "Creates a sphere.",
+    "input": {
+      "center": {
+        "type": "flexi:vector",
+        "displayName": "center",
+        "default": [
+          0,
+          0,
+          0
+        ]
+      },
+      "radius": {
+        "type": "flexi:float",
+        "displayName": "radius",
+        "default": 500
+      },
+      "mode": {
+        "type": "enum",
+        "displayName": "type",
+        "options": [
+          "ico",
+          "columns & rows",
+          "CSG"
+        ],
+        "description": "Defines the construction of the sphere."
+      },
+      "detail": {
+        "type": "flexi:integer",
+        "displayName": "detail",
+        "default": 3,
+        "minimum": 1,
+        "maximum": 6,
+        "hideWhen": "mode > 0",
+        "description": "Defines the level of detail in the ico sphere."
+      },
+      "columns": {
+        "type": "flexi:integer",
+        "displayName": "columns",
+        "default": 24,
+        "minimum": 1,
+        "maximum": 100,
+        "hideWhen": "mode == 0"
+      },
+      "rows": {
+        "type": "flexi:integer",
+        "displayName": "rows",
+        "default": 12,
+        "minimum": 1,
+        "maximum": 50,
+        "hideWhen": "mode == 0"
+      },
+      "phiStart": {
+        "type": "flexi:float",
+        "displayName": "phi start",
+        "default": 0,
+        "minimum": 0,
+        "maximum": 360,
+        "hideWhen": "mode == 0 || mode == 2"
+      },
+      "phiEnd": {
+        "type": "flexi:float",
+        "displayName": "phi end",
+        "default": 360,
+        "minimum": 0,
+        "maximum": 360,
+        "hideWhen": "mode == 0 || mode == 2"
+      },
+      "thetaStart": {
+        "type": "flexi:float",
+        "displayName": "theta start",
+        "default": 0,
+        "minimum": 0,
+        "maximum": 180,
+        "hideWhen": "mode == 0 || mode == 2"
+      },
+      "thetaEnd": {
+        "type": "flexi:float",
+        "displayName": "theta end",
+        "default": 180,
+        "minimum": 0,
+        "maximum": 180,
+        "hideWhen": "mode == 0 || mode == 2"
+      }
+    },
+    "type": "PolySphere",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "displayName": "points",
+        "description": "Point positions."
+      },
+      "points.x": {
+        "type": "list:float",
+        "displayName": "points.x",
+        "description": "Point x values."
+      },
+      "points.y": {
+        "type": "list:float",
+        "displayName": "points.y",
+        "description": "Point y values."
+      },
+      "points.z": {
+        "type": "list:float",
+        "displayName": "points.z",
+        "description": "Point z values."
+      }
+    },
+    "nodeClass": "node"
+  }
