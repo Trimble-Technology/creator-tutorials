@@ -71,22 +71,22 @@
       "points": {
         "type": "list:vector",
         "displayName": "points",
-        "description": "Point positions"
+        "description": "Point positions."
       },
       "points.x": {
         "type": "list:float",
         "displayName": "points.x",
-        "description": "Point x values"
+        "description": "Point x values."
       },
       "points.y": {
         "type": "list:float",
         "displayName": "points.y",
-        "description": "Point y values"
+        "description": "Point y values."
       },
       "points.z": {
         "type": "list:float",
         "displayName": "points.z",
-        "description": "Point z values"
+        "description": "Point z values."
       }
     },
     "nodeClass": "node"
