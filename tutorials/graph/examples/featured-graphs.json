@@ -1,6 +1,92 @@
 {
   "result": [
     {
+      "assetURI": "whp:dee6ce93-4ddf-447f-9c03-f2e71201c678",
+      "assetType": "machine",
+      "assetName": "Santa's Sleigh (featured)",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
+      "creatorUserLastName": "",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-12-21T23:42:15.687Z",
+      "modifyTime": "2022-12-21T23:42:15.687Z",
+      "data": {
+        "bounds": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/88dd69fc-be7b-4eb3-b737-5dd7c3cdadd5",
+          "size": 132,
+          "createTime": "2022-12-21T23:42:22.603Z"
+        },
+        "thumbnail_small": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/dd48102f-9f18-4341-8006-9585e1cee759",
+          "size": 41762,
+          "createTime": "2022-12-21T23:42:23.805Z"
+        },
+        "trimbnail": {
+          "format": "trb",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/7e26fb93-b912-49fe-adf7-d608b76304f6",
+          "size": 4602584,
+          "createTime": "2022-12-21T23:42:21.786Z"
+        },
+        "thumbnail_big": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/52e6e4c9-87f9-482f-8ec3-5b90c7173aad",
+          "size": 515554,
+          "createTime": "2022-12-21T23:42:25.635Z"
+        },
+        "machine": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/7d2fd2aa-4aa8-416d-a1b5-7415ead7f46c",
+          "size": 138681,
+          "createTime": "2022-12-21T23:42:19.470Z"
+        }
+      }
+    },
+    {
+      "assetURI": "whp:1e0d81e9-fcd7-4a3d-ade9-bcc22c6f754e",
+      "assetType": "machine",
+      "assetName": "Ginger Bread House (featured)",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
+      "creatorUserLastName": "",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-12-21T23:45:42.169Z",
+      "modifyTime": "2022-12-21T23:45:42.169Z",
+      "data": {
+        "thumbnail_small": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/1a8658ec-5282-44e8-8eb3-87e4cb73b439",
+          "size": 46356,
+          "createTime": "2022-12-21T23:45:50.104Z"
+        },
+        "bounds": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/0fca2a48-52cd-4e52-a1e1-1ff3c56dc00b",
+          "size": 139,
+          "createTime": "2022-12-21T23:45:48.921Z"
+        },
+        "trimbnail": {
+          "format": "trb",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/31d12224-084d-4691-826d-9d54c79c8936",
+          "size": 1192584,
+          "createTime": "2022-12-21T23:45:48.058Z"
+        },
+        "thumbnail_big": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/8169bef4-24a1-4f8e-ac84-e25e766a60de",
+          "size": 577548,
+          "createTime": "2022-12-21T23:45:51.900Z"
+        },
+        "machine": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/4f4e0b14-b360-407d-b564-d67177cba517",
+          "size": 361245,
+          "createTime": "2022-12-21T23:45:46.158Z"
+        }
+      }
+    },
+    {
       "assetURI": "whp:957417be-34d6-4c40-bedc-8524ba562f1c",
       "assetType": "machine",
       "assetName": "Acoustic Ceiling Panels (featured)",
