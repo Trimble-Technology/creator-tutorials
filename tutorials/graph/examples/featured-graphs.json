@@ -87,6 +87,178 @@
       }
     },
     {
+      "assetURI": "whp:79498e1d-91a9-47c2-a9f3-dbef56c6d9bd",
+      "assetType": "machine",
+      "assetName": "Timber Roof Truss (featured)",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
+      "creatorUserLastName": "",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-12-22T02:57:50.456Z",
+      "modifyTime": "2022-12-22T02:57:50.456Z",
+      "data": {
+        "thumbnail_small": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/df2ff0bd-cb62-41fa-8505-f3f663dd7589",
+          "size": 29445,
+          "createTime": "2022-12-22T02:57:57.257Z"
+        },
+        "bounds": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/0a6d686b-9c7b-4a17-bf90-3da43a25b7f3",
+          "size": 125,
+          "createTime": "2022-12-22T02:57:56.175Z"
+        },
+        "trimbnail": {
+          "format": "trb",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/8ecc7393-8999-43e1-bac2-4d67a6b52571",
+          "size": 15360,
+          "createTime": "2022-12-22T02:57:55.333Z"
+        },
+        "thumbnail_big": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/9d39a848-386c-469b-9237-f8a60d16a56e",
+          "size": 366157,
+          "createTime": "2022-12-22T02:57:58.789Z"
+        },
+        "machine": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/67812980-98f7-48b3-a4b7-f432c42487c1",
+          "size": 138830,
+          "createTime": "2022-12-22T02:57:54.301Z"
+        }
+      }
+    },
+    {
+      "assetURI": "whp:fd7ee6f2-9409-41a5-9df9-4a2bf743e18d",
+      "assetType": "machine",
+      "assetName": "Cafe Table w/ Chairs (featured)",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
+      "creatorUserLastName": "",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-12-22T02:58:00.189Z",
+      "modifyTime": "2022-12-22T02:58:00.189Z",
+      "data": {
+        "thumbnail_small": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/a172abde-7937-4edc-a607-087673cff571",
+          "size": 22409,
+          "createTime": "2022-12-22T02:58:07.622Z"
+        },
+        "bounds": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/d24e5a0e-82a2-4490-80df-c2d5e8e91156",
+          "size": 115,
+          "createTime": "2022-12-22T02:58:06.581Z"
+        },
+        "trimbnail": {
+          "format": "trb",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/19735673-d547-470d-b162-41dcf8af5dab",
+          "size": 559832,
+          "createTime": "2022-12-22T02:58:05.724Z"
+        },
+        "thumbnail_big": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/79ec3e96-7d4a-4a7c-a03c-ea66d526f4d1",
+          "size": 285947,
+          "createTime": "2022-12-22T02:58:09.228Z"
+        },
+        "machine": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/ab7199a9-27f6-4889-bcb7-2649869e232d",
+          "size": 141309,
+          "createTime": "2022-12-22T02:58:03.982Z"
+        }
+      }
+    },
+    {
+      "assetURI": "whp:1d63496e-f4f3-4108-a16c-11227871d705",
+      "assetType": "machine",
+      "assetName": "Bedside table (featured)",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
+      "creatorUserLastName": "",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-12-22T02:58:22.831Z",
+      "modifyTime": "2022-12-22T02:58:22.831Z",
+      "data": {
+        "bounds": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/67dad4d4-7e65-422a-a42b-9208c384a72f",
+          "size": 124,
+          "createTime": "2022-12-22T02:58:28.803Z"
+        },
+        "thumbnail_small": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/950e58d5-6c45-41c7-8c1e-bbe1af21d92a",
+          "size": 40461,
+          "createTime": "2022-12-22T02:58:30.006Z"
+        },
+        "trimbnail": {
+          "format": "trb",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/67431de1-b1e0-4a60-bf86-921dfc988c6a",
+          "size": 235032,
+          "createTime": "2022-12-22T02:58:27.979Z"
+        },
+        "thumbnail_big": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/cd8a51f6-c827-4de1-a20c-9bdfd3d13f92",
+          "size": 486708,
+          "createTime": "2022-12-22T02:58:31.684Z"
+        },
+        "machine": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/d8eb10ac-82d9-4ce7-b1a7-1cc098b16ed3",
+          "size": 90393,
+          "createTime": "2022-12-22T02:58:26.423Z"
+        }
+      }
+    },
+    {
+      "assetURI": "whp:f822e5ab-a292-4e65-8589-a1be69d7a4f7",
+      "assetType": "machine",
+      "assetName": "Wood Framed Wall (featured)",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
+      "creatorUserLastName": "",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-12-22T02:58:35.072Z",
+      "modifyTime": "2022-12-22T02:58:35.072Z",
+      "data": {
+        "bounds": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/5d8ec13b-817c-4796-a42c-20ad657094b7",
+          "size": 130,
+          "createTime": "2022-12-22T02:58:40.873Z"
+        },
+        "thumbnail_small": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/5bb10378-70bd-46c9-8e37-2ddec5819f55",
+          "size": 47895,
+          "createTime": "2022-12-22T02:58:42.137Z"
+        },
+        "trimbnail": {
+          "format": "trb",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/d9b07ca5-b690-448c-a36b-cbda3fcd7425",
+          "size": 44512,
+          "createTime": "2022-12-22T02:58:40.016Z"
+        },
+        "thumbnail_big": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/97de709b-e522-4ea0-b4e6-53ed450200e0",
+          "size": 570260,
+          "createTime": "2022-12-22T02:58:43.851Z"
+        },
+        "machine": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/9d8225f9-70f0-435d-8318-8d381f5e42b6",
+          "size": 204765,
+          "createTime": "2022-12-22T02:58:38.865Z"
+        }
+      }
+    },
+    {
       "assetURI": "whp:957417be-34d6-4c40-bedc-8524ba562f1c",
       "assetType": "machine",
       "assetName": "Acoustic Ceiling Panels (featured)",
