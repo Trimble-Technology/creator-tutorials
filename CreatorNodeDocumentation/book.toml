@@ -1,0 +1,6 @@
+[book]
+authors = ["Cameron Wells"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Trimble Creator Node Documentation"
