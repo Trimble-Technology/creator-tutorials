@@ -1,0 +1,45 @@
+{
+    "name": "color",
+    "alternateNames": [
+      "parameter"
+    ],
+    "defaultNodeName": "color",
+    "path": [
+      "value",
+      "parameter"
+    ],
+    "help": "Creates a color (vector) value.",
+    "input": {
+      "value": {
+        "type": "color",
+        "displayName": "value"
+      },
+      "defaultValue": {
+        "type": "color",
+        "displayName": "default"
+      },
+      "setToDefault": {
+        "type": "button",
+        "displayName": "set to default"
+      },
+      "hideControl": {
+        "type": "boolean",
+        "displayName": "hide control",
+        "default": false
+      },
+      "hideLabel": {
+        "type": "boolean",
+        "displayName": "hide label",
+        "default": false,
+        "hideWhen": "hideControl"
+      }
+    },
+    "type": "ColorValue",
+    "output": {
+      "value": {
+        "type": "color",
+        "displayName": "value"
+      }
+    },
+    "nodeClass": "value"
+}

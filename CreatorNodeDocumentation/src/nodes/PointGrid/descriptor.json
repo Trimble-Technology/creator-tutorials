@@ -1,0 +1,81 @@
+{
+    "name": "point grid",
+    "alternateNames": [],
+    "defaultNodeName": "point grid",
+    "path": [
+      "geometry",
+      "create"
+    ],
+    "help": "Creates a grid of points.",
+    "input": {
+      "origin": {
+        "type": "flexi:vector",
+        "displayName": "origin",
+        "default": [
+          0,
+          0,
+          0
+        ],
+        "description": "Sets the position of the first point in the point grid."
+      },
+      "resolutionX": {
+        "type": "flexi:integer",
+        "displayName": "resolutionX",
+        "default": 11,
+        "minimum": 0,
+        "maximum": 333
+      },
+      "resolutionY": {
+        "type": "flexi:integer",
+        "displayName": "resolutionY",
+        "default": 11,
+        "minimum": 0,
+        "maximum": 333
+      },
+      "resolutionZ": {
+        "type": "flexi:integer",
+        "displayName": "resolutionZ",
+        "default": 1,
+        "minimum": 0,
+        "maximum": 333
+      },
+      "spacing": {
+        "type": "flexi:vector",
+        "displayName": "spacing",
+        "default": [
+          100,
+          100,
+          100
+        ],
+        "description": "Sets the spacing between the points in the grid."
+      }
+    },
+    "type": "PointGrid",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "displayName": "points",
+        "description": "Point positions."
+      },
+      "points.x": {
+        "type": "list:float",
+        "displayName": "points.x",
+        "description": "Point x values."
+      },
+      "points.y": {
+        "type": "list:float",
+        "displayName": "points.y",
+        "description": "Point y values."
+      },
+      "points.z": {
+        "type": "list:float",
+        "displayName": "points.z",
+        "description": "Point z values."
+      }
+    },
+    "nodeClass": "node"
+  }

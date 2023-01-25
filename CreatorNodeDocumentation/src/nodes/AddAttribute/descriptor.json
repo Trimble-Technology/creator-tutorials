@@ -1,0 +1,67 @@
+{
+    "name": "add attribute",
+    "alternateNames": [
+      "set attribute",
+      "write attribute"
+    ],
+    "defaultNodeName": "add attribute",
+    "path": [
+      "geometry",
+      "attribute | metadata"
+    ],
+    "help": "Adds attribute metadata to points, primitives, or nodes.",
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "mode": {
+        "type": "enum",
+        "displayName": "type",
+        "options": [
+          "per point",
+          "per primitive",
+          "on node",
+          "on graph"
+        ]
+      },
+      "attributeName": {
+        "type": "string",
+        "displayName": "attribute name",
+        "description": "The name to give the attribute."
+      },
+      "value": {
+        "type": "flexi:anything",
+        "displayName": "value",
+        "description": "Accepts any data type: boolean, integer, number/float, or string."
+      }
+    },
+    "type": "AddAttribute",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "displayName": "points",
+        "description": "Point positions"
+      },
+      "points.x": {
+        "type": "list:float",
+        "displayName": "points.x",
+        "description": "Point x values"
+      },
+      "points.y": {
+        "type": "list:float",
+        "displayName": "points.y",
+        "description": "Point y values"
+      },
+      "points.z": {
+        "type": "list:float",
+        "displayName": "points.z",
+        "description": "Point z values"
+      }
+    },
+    "nodeClass": "node"
+  }

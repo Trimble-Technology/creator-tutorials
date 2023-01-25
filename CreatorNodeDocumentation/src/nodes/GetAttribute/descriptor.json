@@ -1,0 +1,96 @@
+{
+    "name": "get attribute",
+    "alternateNames": [
+      "attribute to list",
+      "read attribute"
+    ],
+    "defaultNodeName": "get attribute",
+    "path": [
+      "geometry",
+      "attribute | metadata"
+    ],
+    "help": "Extracts attribute metadata by name and data type.",
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "mode": {
+        "type": "enum",
+        "displayName": "mode",
+        "options": [
+          "per point",
+          "per primitive",
+          "on node",
+          "on graph"
+        ]
+      },
+      "attributeType": {
+        "type": "enum",
+        "displayName": "type",
+        "options": [
+          "boolean, integer or float",
+          "vector",
+          "string"
+        ]
+      },
+      "attributeName": {
+        "type": "string",
+        "displayName": "attribute name",
+        "description": "The name of the attribute to get."
+      },
+      "defaultValue": {
+        "type": "float",
+        "displayName": "default",
+        "default": -1,
+        "hideWhen": "attributeType > 0",
+        "description": "The boolean/integer/number value to add to list if attribute does not exist on geometry."
+      },
+      "defaultVectorValue": {
+        "type": "vector",
+        "displayName": "default",
+        "hideWhen": "attributeType == 0 || attributeType == 2",
+        "description": "The vector value to add to list if attribute does not exist on geometry."
+      },
+      "defaultStringValue": {
+        "type": "string",
+        "displayName": "default",
+        "hideWhen": "attributeType < 2",
+        "description": "The string value to add to list if attribute does not exist on geometry."
+      }
+    },
+    "type": "GetAttribute",
+    "output": {
+      "number": {
+        "type": "float",
+        "displayName": "number",
+        "description": "Number/float attribute value (includes boolean and integer)."
+      },
+      "vector": {
+        "type": "vector",
+        "displayName": "vector",
+        "description": "Vector attribute value."
+      },
+      "string": {
+        "type": "string",
+        "displayName": "string",
+        "description": "String attribute value."
+      },
+      "number list": {
+        "type": "list:float",
+        "displayName": "number list",
+        "description": "List of number/float attribute values (inlcudes boolean and integer)."
+      },
+      "vector list": {
+        "type": "list:vector",
+        "displayName": "vector list",
+        "description": "List of vector attribute values."
+      },
+      "string list": {
+        "type": "list:string",
+        "displayName": "string list",
+        "description": "List of string attribute values."
+      }
+    },
+    "nodeClass": "attribute"
+  }
