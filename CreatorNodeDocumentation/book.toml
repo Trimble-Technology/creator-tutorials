@@ -8,3 +8,7 @@ title = "Trimble Creator Node Documentation"
 [output.html]
 no-section-label = true
 fold.enable = true
+theme = "theme"
+
+[output.html.search]
+limit-results = 5
