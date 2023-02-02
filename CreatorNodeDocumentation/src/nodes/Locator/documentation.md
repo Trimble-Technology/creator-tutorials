@@ -1,15 +1,58 @@
-Creates a locator.
+## Locator (Locator):
 
-A locator is a point with orientation and can be used in the following cases: An indicator of an important location, as snapping points between objects, as grips/handles to move geometry etc.
+**_Creates a locator._**
 
-Note(s):
+> This node has data inputs and outputs.
 
-
-
-* In regards to creating snaps, orientation is important. Two snapping locators will orient themselves to meet their positive x-axes (i.e. positive X to positive X). Their rotation around the x-axes is defined by the z-axes (i.e. so that the two z-axes are aligned and pointed in the same direction).
-
-Example(s):
+> This node has geometry inputs and outputs.
 
 
+#### Inputs
 
-* [Using locators](https://creator.trimble.com/graph?assetURI=whp:9e89fa57-1628-443f-a7fa-b799df36e61f&version=latest)
+* _id_
+
+  * The string value that defines the ID of the locator.
+
+* _position_
+
+  * The vector value that defines the position of the locator.
+
+* _type_
+
+  * The string value that defines the position of the locator.
+
+  * Currently there are only two types: the default locator type (when the _type_ input is left empty) and a `snap`. The `snap` type can be set by entering this JSON string: `{"type": "snap"}`.
+
+
+#### Outputs
+
+* _points_
+
+  * The list of points of the output primitives.
+
+* _points.x_
+
+  * The list of x values of the points of the output primitives.
+
+* _points.y_
+
+  * The list of y values of the points of the output primitives.
+
+* _points.z_
+
+  * The list of z values of the points of the output primitives.
+
+
+#### Note(s)
+
+
+
+* In regards to creating snaps, orientation is important. Two snapping locators will orient themselves to meet their positive x-axes (i.e. positive X to positive X). Their rotation around the x-axes is defined by the z-axes (i.e. the two z-axes are aligned and pointed in the same direction).
+* Other names for this node include: Handle, Snap, and Control point.
+
+
+#### Example(s)
+
+
+
+* <a href="https://creator.trimble.com/graph?assetURI=whp:9e89fa57-1628-443f-a7fa-b799df36e61f&version=latest" target="_blank">Using locators</a>
