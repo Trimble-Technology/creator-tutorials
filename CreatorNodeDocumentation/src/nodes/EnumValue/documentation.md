@@ -1,12 +1,12 @@
-## Choice:
+## Choice
 
-Creates an enumeration (choice), shown as a dropdown.
+**_Creates an enumeration (choice), shown as a dropdown._**
 
 When parameterized this node will appear as a dropdown in the “Parameter Panel”.
 
->This node has data inputs and outputs.
+> This node has data inputs and outputs.
 >
->This node does NOT have geometry inputs and outputs.
+> This node does NOT have geometry inputs and outputs.
 
 
 #### Inputs
@@ -59,7 +59,7 @@ When parameterized this node will appear as a dropdown in the “Parameter Panel
 
 
 
-* Other names for this node include: Dropdown, Menu, Choose, Enum, Enumeration, or Parameter.
+* Other names for this node include: Dropdown, Menu, Choose, Enum, Enumeration, Parameter.
 
 
 #### Example(s)

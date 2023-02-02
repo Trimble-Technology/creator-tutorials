@@ -1,12 +1,12 @@
-## Color:
+## Color
 
-Creates a color (vector) value.
+**_Creates a color (vector) value._**
 
 When parameterized this node will appear as three input fields and a color picker in the “Parameter panel”.
 
->This node has data inputs and outputs.
+> This node has data inputs and outputs.
 >
->This node does NOT have geometry inputs and outputs.
+> This node does NOT have geometry inputs and outputs.
 
 
 #### Inputs
