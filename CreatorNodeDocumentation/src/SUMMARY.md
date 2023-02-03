@@ -204,3 +204,15 @@
   - [Ephemeral state]()
   - [Error check]()
 - [Appendix](nodes\Appendix.md)
+
+# Concepts
+
+- [Graph concepts]()
+  - [Parameters]()
+  - [Graph Flow]()
+- [General concepts]()
+  - [Primitives](concepts\primitive.md)
+    - [PolyMesh]()
+    - [NURBS curve]()
+    - [NURBS surface]()
+    - [Points]()
