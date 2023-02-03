@@ -216,3 +216,4 @@
     - [NURBS curve](concepts\GeneralConcepts\nurbsCurve.md)
     - [NURBS surface](concepts\GeneralConcepts\nurbsSurface.md)
     - [Points]()
+  - [Assets](concepts\GeneralConcepts\assets.md)
