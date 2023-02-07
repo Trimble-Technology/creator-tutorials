@@ -31,11 +31,11 @@
 
 * _orderU_
 
-  * The value that defines the order of the U axis of the output rectangle (in the same axis as the _width _input) when the _type_ input is set to `NURBS surface`.
+  * The value that defines the order of the U axis of the output rectangle (in the same axis as the _width _input) when the _type_ input is set to `NURBS surface`. See <a href="/concepts/GeneralConcepts/nurbsSurface.md" target="_blank">NURBS surface</a> for more information.
 
 * _orderV_
 
-  * The value that defines the order of the V axis of the output rectangle (in the the same axis as the _length _input) when the _type_ input is set to `NURBS surface`.
+  * The value that defines the order of the V axis of the output rectangle (in the the same axis as the _length _input) when the _type_ input is set to `NURBS surface`. See <a href="/concepts/GeneralConcepts/nurbsSurface.md" target="_blank">NURBS surface</a> for more information.
 
 * _point columns_
 
@@ -69,7 +69,6 @@
 
 
 
-* The order of a NURBS surface is the exponent of the polynomial that defines its interpolation between the control points (i.e. a higher _order_ value equates to a smoother surface). The control points in the case of the **rectangle **node (when the _type_ input is set to `NURBS surface`) are the points as defined by the _point columns_ and _point rows_ inputs.
 * Other names for this node include: Plane, Square, Grid, and Patch.
 
 

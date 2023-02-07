@@ -41,7 +41,7 @@
 
 * _order_
 
-  * The value that defines the order of the output line.
+  * The value that defines the order of the output line. See <a href="/concepts/GeneralConcepts/nurbsCurve.md" target="_blank">NURBS curves</a> for more information.
 
 
 #### Outputs

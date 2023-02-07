@@ -22,7 +22,7 @@
 
 * _asset uri_
 
-  * The asset URI of the uploaded image asset as defined by the _asset uri_ input. See the “Asset URI” section in the Appendix for more information.
+  * The asset URI of the uploaded image asset as defined by the _asset uri_ input. See <a href="/concepts/GeneralConcepts/assets.md" target="_blank">Assets</a> for more information.
 
 * _asset name_
 
