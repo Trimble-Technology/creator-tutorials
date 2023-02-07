@@ -42,11 +42,11 @@
 
 * _asset uri_
 
-  * The asset URI of the uploaded geometry asset as defined by the _asset uri_ input (as a string value). See the “Asset URI” section in the Appendix for more information.
+  * The asset URI of the uploaded geometry asset as defined by the _asset uri_ input (as a string value). See <a href="/concepts/GeneralConcepts/assets.md" target="_blank">Assets</a> for more information.
 
 * _asset name_
 
-  * The name of the uploaded geometry asset (as a string value).
+  * The name of the uploaded geometry asset (as a string value). 
 
 
 #### Note(s)
