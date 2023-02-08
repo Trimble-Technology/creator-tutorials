@@ -53,4 +53,5 @@
 
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:2d0e0c34-7abb-4d9a-8059-f52783a2bb4b&version=latest" target="_blank">Geometry center</a>
-* <a href="Create a bounding box" target="_blank">https://creator.trimble.com/graph?assetURI=whp:db2e8f1e-4682-4580-89c4-b5b9ad60cc96&version=latest</a>
+* <a href="https://creator.trimble.com/graph?assetURI=whp:db2e8f1e-4682-4580-89c4-b5b9ad60cc96&version=latest" target="_blank">Create a bounding box</a>
+* <a href="https://creator.trimble.com/graph?assetURI=whp:9be3e2e0-6dbb-4c83-a1f1-49a80e7f1cb2&version=latest" target="_blank">Spiral curve</a>

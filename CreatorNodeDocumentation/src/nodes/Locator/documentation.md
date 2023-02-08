@@ -1,9 +1,9 @@
-## Locator (Locator):
+## Locator:
 
 **_Creates a locator._**
 
 > This node has data inputs and outputs.
-
+>
 > This node has geometry inputs and outputs.
 
 
@@ -48,6 +48,7 @@
 
 
 * In regards to creating snaps, orientation is important. Two snapping locators will orient themselves to meet their positive x-axes (i.e. positive X to positive X). Their rotation around the x-axes is defined by the z-axes (i.e. the two z-axes are aligned and pointed in the same direction).
+* See <a href="/concepts/GeneralConcepts/locator.md" target="_blank">Locator</a> for more information on the locator primitive type.
 * Other names for this node include: Handle, Snap, and Control point.
 
 

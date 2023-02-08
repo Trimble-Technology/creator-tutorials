@@ -45,6 +45,7 @@
 
 
 
+* See <a href="/concepts/GeneralConcepts/attribute.md" target="_blank">Attribute</a> for more information on attributes, and their function in the graph.
 * The _value_ input is a special type of input that can accept any type of data.
 * This node can be used in conjunction with the **get attribute** node to later retrieve the attribute data.
 * Other names for this node include: Set attribute and Write attribute.
