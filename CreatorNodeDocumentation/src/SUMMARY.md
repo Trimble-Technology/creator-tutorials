@@ -49,7 +49,7 @@
     - [Set color](nodes\SetColor\documentation.md)
   - [Measure nodes]()
     - [Geometry bounds](nodes\GeometryBounds\documentation.md)
-    - [Geometry center](nodes\GeometryCenteroid\documentation.md)
+    - [Geometry center](nodes\GeometryCentroid\documentation.md)
     - [Geometry size](nodes\GeometrySize\documentation.md)
     - [# points]()
     - [# primitves]()
