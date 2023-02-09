@@ -80,7 +80,7 @@
     - [Delete points]()
     - [Get points]()
     - [Set point weight]()
-    - [Set points]()
+    - [Set points](nodes/SetPoints/documentation.md)
     - [Delete primitives]()
     - [Get primtive]()
     - [Group]()
