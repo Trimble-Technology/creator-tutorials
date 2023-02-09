@@ -44,6 +44,6 @@ jobs:
       with:
         name: book
         path: |
-          book
-        retention-days: 1        
+          CreatorNodeDocumentation/book
+        retention-days: 1
       
