@@ -88,7 +88,7 @@
     - [Shift primtive list]()
     - [Ungroup](nodes/UnGroupPrimtives/documentation.md)
     - [Curve from surface]()
-    - [Loft]()
+    - [Loft](nodes/Skin/documentation.md)
     - [Split surface]()
     - [Triangulate surface]()
     - [Boolean 3d geometry]()
