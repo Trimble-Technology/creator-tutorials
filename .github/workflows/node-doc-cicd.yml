@@ -21,6 +21,14 @@ jobs:
     - name: Checkout source
       uses: actions/checkout@v3
 
+    - name: Dump Github Context
+      run: |
+        echo github.workflow: '${{ github.workflow }}'
+        echo ref: '${{ github.ref }}'
+        echo sha: '${{ github.sha }}'
+        echo event-name: '${{ github.event_name }}'
+        echo run-number: '${{ github.run_number }}'
+
     - name: Setup mdBook
       uses: peaceiris/actions-mdbook@v1
       with:
@@ -28,13 +36,14 @@ jobs:
 
     - name: Build mdBook
       run: |
+        echo Using $(mdbook --version)
         mdbook build
-        cat book/concepts/GeneralConcepts/nurbsCurve.html
 
-    - name: Dump Github Context
-      run: |
-        echo ref: '${{ github.ref }}'
-        echo sha: '${{ github.sha }}'
-        echo event-name: '${{ github.event_name }}'
-        echo run-number: '${{ github.run_number }}'
+    - name: Archive build files
+      uses: actions/upload-artifact@v3
+      with:
+        name: book
+        path: |
+          book
+        retention-days: 1        
       
