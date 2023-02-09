@@ -46,8 +46,8 @@
 
 
 * Loop types:
-    * A non-cumulative loop (the default loop) is a type of loop that repeats the section of a graph between an **iterator**-**loop** node pair for the defined number of iterations/loops. The geometry output of the **loop** node with this type of loop is the result of every iteration/loop, acting similarly to the **copy** node.
-    * A cumulative loop is a type of loop that also repeats a section of the graph for a defined number of iterations/loops. Only with a cumulative loop, the previous iteration is used to inform the next iteration, accumulating changes each iteration resulting in a single output.
+    * A non-cumulative loop (the default loop) is a type of loop that repeats the section of a graph between an **iterator**-**loop** node pair for the defined number of loops. The geometry output of the **loop** node with this type of loop is the result of every iteration/loop, acting similarly to the **copy** node.
+    * A cumulative loop is a type of loop that also repeats a section of the graph for a defined number of loops. Only with a cumulative loop, the previous iteration is used to inform the next iteration, accumulating changes each iteration.
         * The current iteration of the loop as defined by the _idling value_ of the relevant **iterator** node will only compute the nodes as though it were a non-cumulative loop. The full computation of a cumulative loop can only be seen from the final **loop** node.
 * To be used in conjunction with an **iterator** node assigned with the same tag.
 * Other names for this node include: Iterate.
