@@ -60,4 +60,5 @@
 
 
 
+* <a href="https://creator.trimble.com/graph?assetURI=whp:5866ad6e-2308-4113-b199-d6d875b7a175&version=latest" target="_blank">Point grids</a>
 * <a href="https://creator.trimble.com/graph?assetURI=whp:a6e51888-ac0a-41e9-8660-31e752841386&version=latest" target="_blank">Rectangle grid</a>
