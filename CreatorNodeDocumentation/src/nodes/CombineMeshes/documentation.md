@@ -11,7 +11,7 @@
 
 * _group behavior_
 
-  * Sets how input groups will behave. This can be `exclude meshes from groups` (will not combine meshes within input groups), `include meshes from groups` (will combine meshes within all input groups), and `combine per top-level group` (will only combine meshes within each input group).
+  * Sets how input groups will behave. This can be `exclude meshes from groups` (will not combine meshes within input groups), `include meshes from groups` (will combine meshes within all input groups), or `combine per top-level group` (will only combine meshes within each input group).
 
 
 #### Outputs

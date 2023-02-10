@@ -25,7 +25,7 @@ When parameterized this node will appear as a slider and input field in the “P
 
 * _min/max mode_
 
-  * The mode in which the _value_ input is constrained. See the “min/max mode” section in the Appendix for more information.
+  * The mode in which the _value_ input is constrained. See the <a href="/concepts/GeneralConcepts/misc.md" target="_blank">min/max mode</a> section for more information.
 
 * _min_
 

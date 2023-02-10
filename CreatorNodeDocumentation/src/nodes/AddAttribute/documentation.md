@@ -19,7 +19,7 @@
 
 * _value_
 
-  * The value to assign to the attribute. This can be any of the basic data types (number (number, integer, and boolean), vector (vector and color), and string).
+  * The value to assign to the attribute. This can be any of the basic data types (number (number, integer, and boolean), vector (vector and color), or string).
 
 
 #### Outputs

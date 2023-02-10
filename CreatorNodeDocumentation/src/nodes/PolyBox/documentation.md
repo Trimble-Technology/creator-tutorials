@@ -11,7 +11,7 @@
 
 * _type_
 
-  * Sets the type of box to output. These are `normal` and `csg`.
+  * Sets the type of box to output. This can be `normal` or `csg`.
 
 * _center_
 

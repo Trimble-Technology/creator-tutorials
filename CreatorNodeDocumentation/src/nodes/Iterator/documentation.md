@@ -12,7 +12,7 @@
 
   * The integer value to output.
 
-This value doesn’t have any effect on the computed result of the paired **loop** node, rather it allows the change of the _value_ output to inspect nodes within specific iterations.
+  * This value doesn’t have any effect on the computed result of the paired **loop** node, rather it allows the change of the _value_ output to inspect nodes within specific iterations.
 
 * _tag_
 

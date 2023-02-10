@@ -15,7 +15,7 @@
 
 * _asset uri_
 
-  * The asset URI (as a string value) that defines what uploaded geometry asset to output. See the “Asset URI” section in the Appendix for more information.
+  * The asset URI (as a string value) that defines what uploaded geometry asset to output. See <a href="/concepts/GeneralConcepts/assets.md" target="_blank">Assets</a> for more information.
 
 * _use OBJ groups_
 

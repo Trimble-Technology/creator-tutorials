@@ -11,7 +11,7 @@
 
 * _mode_
 
-  * Sets the mode in which group primitives are ungrouped. These can be `flatten whole hierarchy` (which ungroups all groups, even groups within other groups) and `ungroup one level` (which only ungroups the first layer of groups, any group within another group is not ungrouped).
+  * Sets the mode in which group primitives are ungrouped. This can be `flatten whole hierarchy` (which ungroups all groups, even groups within other groups) or `ungroup one level` (which only ungroups the first layer of groups, any group within another group is not ungrouped).
 
 
 #### Outputs
@@ -37,7 +37,7 @@
 
 
 
-* Primitives can be grouped together with the **group **node.
+* Primitives can be grouped together with the **group** node.
 * Other names for this node include: Ungroup primitives, Disassemble, and Split group.
 
 

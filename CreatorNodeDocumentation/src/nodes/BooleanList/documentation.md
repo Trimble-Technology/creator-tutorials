@@ -57,7 +57,7 @@
 
 
 
-* A custom list can be made by clicking on the `&lt;boolean list*` space of the _list _input via the “Add Item” button.
+* A custom list can be made by clicking on the `<boolean list>` space of the _list _input via the “Add Item” button.
 * When the _initialize_ input is `true`, manually inputted values will be overridden by the _default_ input value.
 * The _pattern_ input:
     * When both the _initialize_ and _pattern_ inputs are `true`, the defined pattern overrides the _default_ input value.

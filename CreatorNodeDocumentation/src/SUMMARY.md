@@ -83,10 +83,10 @@
     - [Set points](nodes/SetPoints/documentation.md)
     - [Delete primitives]()
     - [Get primtive]()
-    - [Group](nodes/GroupPrimtives/documentation.md)
+    - [Group](nodes/GroupPrimitives/documentation.md)
     - [Reverse primtive list]()
     - [Shift primtive list]()
-    - [Ungroup](nodes/UnGroupPrimtives/documentation.md)
+    - [Ungroup](nodes/UnGroupPrimitives/documentation.md)
     - [Curve from surface]()
     - [Loft](nodes/Skin/documentation.md)
     - [Split surface]()
@@ -209,7 +209,7 @@
 
 # Concepts
 
-- [Graph concepts]()
+- [Authoring concepts]()
   - [Parameters]()
   - [Graph Flow]()
 - [General concepts]()
@@ -221,3 +221,4 @@
     - [Locator](concepts/GeneralConcepts/locator.md)
   - [Attribute](concepts/GeneralConcepts/attribute.md)
   - [Assets](concepts/GeneralConcepts/assets.md)
+  - [Miscellaneous](concepts/GeneralConcepts/misc.md)

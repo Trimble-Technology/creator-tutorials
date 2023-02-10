@@ -11,11 +11,11 @@
 
 * _mode_
 
-  * Sets the mode in which input curves are lofted. These can be `per geometry input` (which lofts between curves from each separate geometry input), `between geometry inputs` (which lofts between curves in each geometry input), and `all input curves` (which lofts every input curve regardless of geometry input).
+  * Sets the mode in which input curves are lofted. This can be `per geometry input` (which lofts between curves from each separate geometry input), `between geometry inputs` (which lofts between curves in each geometry input), or `all input curves` (which lofts every input curve regardless of geometry input).
 
 * _loft type_
 
-  * Sets the type of loft that the node will output. These can be `mesh` and `NURBS surface`.
+  * Sets the type of loft that the node will output. This can be `mesh` or `NURBS surface`.
 
 * _per_
 

@@ -11,7 +11,7 @@
 
 * _work plane_
 
-  * The work plane in which the 2D boolean operation will be performed in. These are `X=0`, `Y=0`, and `Z=0`.
+  * The work plane in which the 2D boolean operation will be performed in. This can be `X=0`, `Y=0`, or `Z=0`.
 
 * _pre-flatten_
 
@@ -19,7 +19,7 @@
 
 * _boolean type_
 
-  * Sets the type of 2D boolean operation to be performed. These operations include `intersect`, `union`, `difference`, and `xor`.
+  * Sets the type of 2D boolean operation to be performed. This can be `intersect`, `union`, `difference`, or `xor`.
 
 * _fill type_
 
@@ -27,11 +27,11 @@
 
 * _primary polygon_
 
-  * Sets which input curve/polygon is to be considered as the primary polygon in the 2D boolean operation. This is either the `first` or `last` of the list of input curves/polygons.
+  * Sets which input curve/polygon is to be considered as the primary polygon in the 2D boolean operation. This can be the `first` or `last` of the list of input curves/polygons.
 
 * _primary role_
 
-  * Sets the role of the primary curve/polygon (as defined by the _primary polygon_ input). This is either `clip` (the curve/polygon to operate with), or `subject` (the curve/polygon to operate on).
+  * Sets the role of the primary curve/polygon (as defined by the _primary polygon_ input). This can be `clip` (the curve/polygon to operate with), or `subject` (the curve/polygon to operate on).
 
 * _close resulting curves_
 

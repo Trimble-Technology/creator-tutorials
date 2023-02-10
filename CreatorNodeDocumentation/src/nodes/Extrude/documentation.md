@@ -15,7 +15,7 @@
 
 * _keep_
 
-  * Sets which faces of the output primitives to keep. `all` keeps all faces (input faces as well as extruded faces and sides), `sides` keeps only the extruded sides, `extruded cap` keeps only the extruded faces, `caps` keeps only the input faces and the extruded faces, and `sides & extruded cap` keeps the extruded sides and caps, but not the input faces.
+  * Sets which faces of the output primitives to keep. This can be `all` ( both the input faces as well as extruded faces and sides), `sides`, `extruded cap` (only the extruded faces), `caps` (only the input and extruded faces), or `sides & extruded cap` (the extruded sides and caps, but not the input faces).
 
 * _flip direction_
 

@@ -33,7 +33,7 @@ When parameterized this node will appear as a dropdown in the “Parameter Panel
 
 * _reset mode_
 
-  * Sets the mode in which the option index is reset to the value defined by the _default index_ input. These can be `when any input changes` (resets the _value_ input whenever a connected input is changed) or `do not reset index` (does not reset the _value_ input at all).
+  * Sets the mode in which the option index is reset to the value defined by the _default index_ input. This can be `when any input changes` (resets the _value_ input whenever a connected input is changed) or `do not reset index` (does not reset the _value_ input at all).
 
 * _hide control_
 

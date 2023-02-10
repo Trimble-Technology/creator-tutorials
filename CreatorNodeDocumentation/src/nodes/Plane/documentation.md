@@ -15,7 +15,7 @@
 
 * _orientation_
 
-  * Sets the plane in which the output rectangle is orientated. These are `XZ`, `YZ`, and `XY`.
+  * Sets the plane in which the output rectangle is orientated. This can be `XZ`, `YZ`, or `XY`.
 
 * _center_
 

@@ -11,7 +11,7 @@
 
 * _type_
 
-  * Sets the type of attribute to add. These are `per point` (added to each point of the input geometry), `per primitive` (added to each primitive of the input geometry), `on node` (added to the node), and `on graph` (added to the graph).
+  * Sets the type of attribute to add. This can be `per point` (added to each point of the input geometry), `per primitive` (added to each primitive of the input geometry), `on node` (added to the node), or `on graph` (added to the graph).
 
 * _attribute name_
 

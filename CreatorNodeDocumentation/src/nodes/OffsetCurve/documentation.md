@@ -11,7 +11,7 @@
 
 * _work plane_
 
-  * The work plane in which the 2D offset operation will be performed in. These are `X=0`, `Y=0`, and `Z=0`.
+  * The work plane in which the 2D offset operation will be performed in. This can be `X=0`, `Y=0`, or `Z=0`.
 
 * _pre-flatten_
 
@@ -23,7 +23,7 @@
 
 * _join_
 
-  * Sets the type of join that will be performed at the vertices of the 2D offset. These are `miter`, `square`, `round`, and `simple (none)`.
+  * Sets the type of join that will be performed at the vertices of the 2D offset. This can be  `miter`, `square`, `round`, or `simple (none)`.
 
 * _miter limit_
 

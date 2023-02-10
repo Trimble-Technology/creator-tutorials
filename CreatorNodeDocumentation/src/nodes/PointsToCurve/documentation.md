@@ -15,7 +15,7 @@
 
 * _order_
 
-  * The value that defines the order of the output line. See &lt;a href="/concepts/GeneralConcepts/nurbsCurve.md" target="_blank">NURBS curve&lt;/a> for more information.
+  * The value that defines the order of the output line. See <a href="/concepts/GeneralConcepts/nurbsCurve.md" target="_blank">NURBS curve</a> for more information.
 
 * _keepIncomingGeo_
 
@@ -23,7 +23,7 @@
 
 * _beziers_
 
-  * Sets whether the output curve is a [bezier curve](https://en.wikipedia.org/wiki/B%C3%A9zier_curve) or not.
+  * Sets whether the output curve is a <a href="https://en.wikipedia.org/wiki/B%C3%A9zier_curve" target="_blank">bezier curve</a> or not.
 
 
 #### Outputs

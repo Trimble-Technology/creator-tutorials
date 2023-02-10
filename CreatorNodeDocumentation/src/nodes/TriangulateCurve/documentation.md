@@ -11,7 +11,7 @@
 
 * _work plane_
 
-  * The work plane in which the triangulation will be performed in. These are `X=0`, `Y=0`, and `Z=0`.
+  * The work plane in which the triangulation will be performed in. This can be `X=0`, `Y=0`, or `Z=0`.
 
 * _pre-flatten_
 
@@ -19,11 +19,11 @@
 
 * _library_
 
-  * Sets the triangulation library to triangulate input curves. These are `Poly2Tri` (quicker) and `Triangle` (slower, but offers triangle refinement and smoothing).
+  * Sets the triangulation library to triangulate input curves. This can be `Poly2Tri` (quicker) or `Triangle` (slower, but offers triangle refinement and smoothing).
 
 * _input handling_
 
-  * Sets how the input curves are handled within the triangulation. These are `first curve is outline, others are holes` (the first input curve is the outline and following input curves are holes within the resulting triangulation) and `all curves are outlines` (all input curves are outlines and no holes are made).
+  * Sets how the input curves are handled within the triangulation. This can be `first curve is outline, others are holes` (the first input curve is the outline and following input curves are holes within the resulting triangulation) or `all curves are outlines` (all input curves are outlines and no holes are made).
 
 * _make convex hull_
 
@@ -31,7 +31,7 @@
 
 * _algorithm_
 
-  * Sets the algorithm to use for triangulation while the _library_ input is set to `Triangle`. These are `sweepline`, `Dwyer`, and `incremental`.
+  * Sets the algorithm to use for triangulation while the _library_ input is set to `Triangle`. This can be `sweepline`, `Dwyer`, or `incremental`.
 
 * _refine_
 

@@ -11,9 +11,7 @@
 
 * _mode_
 
-  * Sets the mode in which the line is created.
-
-  * There are three different modes: `centered` (as defined by a center point vector and direction vector), `origin + direction` (as defined by a start point vector and direction vector), and `point to point` (as defined by start and end point vectors).
+  * Sets the mode in which the line is created. This can be `centered` (as defined by a center point vector and direction vector), `origin + direction` (as defined by a start point vector and direction vector), or `point to point` (as defined by start and end point vectors).
 
 * _center_
 
@@ -67,9 +65,6 @@
 
 
 
-* The _order_ input
-    * The order of a NURBS curve is the exponent of the polynomial that defines its interpolation between the control points (i.e. a higher _order_ value equates to a smoother curve). The control points in the case of the **line** node are the points as defined by the _number of points_ input.
-    * The minimum value that the _order_ input can be is `2`, the maximum is `10`.
 * Other names for this node include: Curve and Polyline.
 
 

@@ -11,7 +11,7 @@
 
 * _set_
 
-  * Sets what aspect of the input primitives to set the color. This can be either the `surface (diffuse) color` or the `mesh wireframe colors`.
+  * Sets what aspect of the input primitives to set the color. This can be `surface (diffuse) color` or `mesh wireframe colors`.
 
 * _color_
 
