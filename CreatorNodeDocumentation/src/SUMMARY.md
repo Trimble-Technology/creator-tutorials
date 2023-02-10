@@ -93,7 +93,7 @@
     - [Triangulate surface]()
     - [Boolean 3d geometry]()
   - [Transform nodes]()
-    - [Align]()
+    - [Align](nodes/Align/documentation.md)
     - [Mirror]()
     - [Smart size]()
     - [Transform]()
