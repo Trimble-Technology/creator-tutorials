@@ -44,7 +44,6 @@ jobs:
       with:
         name: book_dist
         path: |
-          dist
 
     - name: Download creator file from artifacts
       uses: actions/download-artifact@v2
