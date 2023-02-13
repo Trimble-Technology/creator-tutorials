@@ -39,16 +39,17 @@ jobs:
         echo Using $(mdbook --version)
         mdbook build
 
-    - name: Archive build files
-      uses: actions/upload-artifact@v3
+    - name: Upload creator to artifacts
+      uses: actions/upload-artifact@v2
       with:
-        name: book
+        name: book_dist
         path: |
+          dist
 
     - name: Download creator file from artifacts
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v2
       with:
-        name: book
+        name: book_dist
 
     - name: 'Deploy to Azure Web App'
       id: deploy-to-webapp
@@ -61,12 +62,11 @@ jobs:
         # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
         app_location: '/' # App source code path
         api_location: '' # Api source code path - optional
-        output_location: 'book' # Built app content directory - optional
+        output_location: 'book_dist' # Built app content directory - optional
         skip_app_build: true
         skip_api_build: true
         ###### End of Repository/Build Configurations ######
     
-
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest
