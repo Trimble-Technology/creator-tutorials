@@ -6,7 +6,7 @@
 
 # Nodes
 
-- [Value]()
+- [Value](nodeSections/valueSection.md)
   - [Parameter nodes]()
     - [Boolean](nodes/BooleanValue/documentation.md)
     - [Choice](nodes/EnumValue/documentation.md)
@@ -19,6 +19,8 @@
     - [Boolean list](nodes/BooleanList/documentation.md)
     - [Integer list](nodes/IntegerList/documentation.md)
     - [Number list](nodes/FloatList/documentation.md)
+    - [String list](nodes/StringList/documentation.md)
+    - [Vector list](nodes/VectorList/documentation.md)
 - [Geometry]()
   - [2D Path nodes]()
     - [Boolean 2d paths](nodes/CurveBoolean/documentation.md)
