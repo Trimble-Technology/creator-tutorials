@@ -132,3 +132,26 @@ Default is 1 (no scaling).
 ### Nodes
 
 
+The **Material** node modifies a primitive's material settings. The node can modify specific shading properties, and leave the other properties as-is. Multiple material nodes can be used in sequence to affect different shading aspects of primitives.
+
+The **Set color** node modifies a primitive's albedo color.
+
+
+### Textures
+
+
+Textures are images used to 'map' certain shading properties, like base color, roughness, or bump. This allows for variation of the property across the surface of geometry primitives. Example: make only parts transparent, or reflective.
+
+Import textures by uploading them. They can then be loaded into a graph using the **Image asset** node.
+
+To use them with materials, connect their _asset uri_ output to the desired texture input of a material node.
+
+
+### UV mapping
+
+
+Whenever a texture is used in a material to vary a shading property across a surface geometry primitive, that primitive needs to carry UV coordinates. This is so there is a map between pixels of the texture and 3D locations on the geometry's surface.
+
+`NURBS surface` primitives carry UVs by design, but `PolyMesh` primitives sometimes need UVs to be added.
+
+In general, this requires sophisticated tools beyond the scope of Materia, but Materia does provide one node to apply UV coordinates onto meshes: **Project UV**.
