@@ -1,4 +1,4 @@
-## String
+# String
 
 **_Creates a string value._**
 
@@ -9,7 +9,7 @@ When parameterized this node will appear as an input field in the “Parameter p
 > This node does NOT have geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _value_
 
@@ -32,21 +32,21 @@ When parameterized this node will appear as an input field in the “Parameter p
   * Hides the parameter label (name) within the “Parameter panel” when the node is parameterized.
 
 
-#### Outputs
+### Outputs
 
 * _value_
 
   * The string value as defined by the _value_ input.
 
 
-#### Note(s)
+### Note(s)
 
 
 
 * Other names for this node include: Text, Word, and Parameter.
 
 
-#### Example(s)
+### Example(s)
 
 
 

@@ -1,4 +1,4 @@
-## Geometry size
+# Geometry size
 
 **_Calculates the size of the input primitives._**
 
@@ -7,12 +7,12 @@
 > This node has geometry inputs, but does NOT have geometry outputs.
 
 
-#### Inputs
+### Inputs
 
 No data inputs for this node.
 
 
-#### Outputs
+### Outputs
 
 * _size_
 
@@ -35,7 +35,7 @@ No data inputs for this node.
   * The list of vector values of the geometry sizes of each individual input primitive.
 
 
-#### Example(s)
+### Example(s)
 
 
 

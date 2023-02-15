@@ -1,4 +1,4 @@
-## Rectangle
+# Rectangle
 
 **_Creates a rectangular plane._**
 
@@ -7,7 +7,7 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _type_
 
@@ -46,7 +46,7 @@
   * The value that defines the number of point rows along the same axis as the _length _input.
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -65,14 +65,14 @@
   * The list of z values of the points of the output primitives.
 
 
-#### Note(s)
+### Note(s)
 
 
 
 * Other names for this node include: Plane, Square, Grid, and Patch.
 
 
-#### Example(s)
+### Example(s)
 
 
 

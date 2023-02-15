@@ -1,4 +1,4 @@
-## Align
+# Align
 
 **_Aligns input primitives to each other._**
 
@@ -7,7 +7,7 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _mode_
 
@@ -78,7 +78,7 @@
   * Sets what to do with the first geometry connection/primitive. This can be `keep position`, `include in align`, or `delete`.
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -97,14 +97,14 @@
   * The list of z values of the points of the output primitives.
 
 
-#### Note(s)
+### Note(s)
 
 
 
 * When the _mode_ input is set to `between primitive connections` the primitives in each geometry connection are treated as a group.
 
 
-#### Example(s)
+### Example(s)
 
 
 

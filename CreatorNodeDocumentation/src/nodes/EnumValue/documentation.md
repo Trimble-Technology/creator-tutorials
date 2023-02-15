@@ -1,4 +1,4 @@
-## Choice
+# Choice
 
 **_Creates an enumeration (choice), shown as a dropdown._**
 
@@ -9,7 +9,7 @@ When parameterized this node will appear as a dropdown in the “Parameter Panel
 > This node does NOT have geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _value_
 
@@ -44,7 +44,7 @@ When parameterized this node will appear as a dropdown in the “Parameter Panel
   * Hides the parameter label (name) within the “Parameter panel” when the node is parameterized.
 
 
-#### Outputs
+### Outputs
 
 * _value_
 
@@ -55,7 +55,7 @@ When parameterized this node will appear as a dropdown in the “Parameter Panel
   * The chosen option text as defined by the _value_ input.
 
 
-#### Note(s)
+### Note(s)
 
 
 
@@ -63,7 +63,7 @@ When parameterized this node will appear as a dropdown in the “Parameter Panel
 * Other names for this node include: Dropdown, Menu, Choose, Enum, Enumeration, Parameter.
 
 
-#### Example(s)
+### Example(s)
 
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:2a6de14a-1611-4d3a-959f-a1c34eae6bca&version=latest" target="_blank">Switching between geometries</a>

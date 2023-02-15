@@ -1,4 +1,4 @@
-## Extrude curve
+# Extrude curve
 
 **_Extrudes curves in a vector direction._**
 
@@ -7,7 +7,7 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _extrusion_
 
@@ -22,7 +22,7 @@
   * The number of spans that the output NURBS surface will be divided into.
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -41,14 +41,14 @@
   * The list of z values of the points of the output primitives.
 
 
-#### Note(s)
+### Note(s)
 
 
 
 * The geometry output of this node is a NURBS surface primitive type. In order to convert it to a PolyMesh primitive type use the **triangulate surface** node.
 
 
-#### Example(s)
+### Example(s)
 
 
 

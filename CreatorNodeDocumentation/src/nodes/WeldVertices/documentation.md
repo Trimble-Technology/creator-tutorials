@@ -1,4 +1,4 @@
-## Weld Vertices
+# Weld Vertices
 
 **_Welds overlapping polygon triangle edges based on an angle threshold._**
 
@@ -7,7 +7,7 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _radius_
 
@@ -34,7 +34,7 @@
   * The list of boolean values that defines which vertices to weld together. If empty, all vertices will be welded together.
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -53,14 +53,14 @@
   * The list of z values of the points of the output primitives.
 
 
-#### Note(s)
+### Note(s)
 
 
 
 * Other names for this node include: Smooth normals, Merge points, and Weld polygons.
 
 
-#### Example(s)
+### Example(s)
 
 
 

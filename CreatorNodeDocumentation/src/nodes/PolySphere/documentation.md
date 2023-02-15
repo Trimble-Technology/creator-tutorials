@@ -1,4 +1,4 @@
-## Sphere
+# Sphere
 
 **_Creates a sphere._**
 
@@ -7,7 +7,7 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _center_
 
@@ -50,7 +50,7 @@
   * The value that defines the end angle (in the same axis as the _rows _input) of the output sphere when the _type_ input is set to `column & rows`.
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -69,7 +69,7 @@
   * The list of z values of the points of the output primitives.
 
 
-#### Note(s)
+### Note(s)
 
 
 
@@ -77,7 +77,7 @@
 * Other names for this node include: Icosphere, Ball, Poly sphere, and Globe.
 
 
-#### Example(s)
+### Example(s)
 
 
 

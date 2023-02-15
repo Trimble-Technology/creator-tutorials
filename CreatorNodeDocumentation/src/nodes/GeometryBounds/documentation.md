@@ -1,4 +1,4 @@
-## Geometry bounds
+# Geometry bounds
 
 **_Calculates the bounds of the input primitives._**
 
@@ -7,14 +7,14 @@
 > This node has geometry inputs, but does NOT have geometry outputs.
 
 
-#### Inputs
+### Inputs
 
 * _output opposite_
 
   * Sets whether to invert the output geometry bounds or not.
 
 
-#### Outputs
+### Outputs
 
 * _xMin_
 
@@ -49,14 +49,14 @@
   * The list of vector values of the maximum bounds of each individual input primitive.
 
 
-#### Note(s)
+### Note(s)
 
 
 
 * Other names for this node include: Extent, Minimum, and Maximum.
 
 
-#### Example(s)
+### Example(s)
 
 
 

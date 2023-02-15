@@ -1,4 +1,4 @@
-## Extrude mesh
+# Extrude mesh
 
 **_Extrude all input faces._**
 
@@ -7,7 +7,7 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _distance_
 
@@ -26,7 +26,7 @@
   * Sets whether to flip the normals of the output primitives.
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -45,7 +45,7 @@
   * The list of z values of the points of the output primitives.
 
 
-#### Example(s)
+### Example(s)
 
 
 

@@ -1,4 +1,4 @@
-## Material
+# Material
 
 **_Sets the material properties of primitives._**
 
@@ -7,7 +7,7 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _primitive mask_
 
@@ -114,7 +114,7 @@
   * The value that defines the size of the textures used in the material properties (also known as the UV scale of the textures).
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -133,14 +133,15 @@
   * The list of z values of the points of the output primitives.
 
 
-#### Note(s)
+### Note(s)
 
 
 
+* See <a href="/concepts/GeneralConcepts/material.md" target="_blank">Material</a> for more information on the specfics of materials in Trimble Creator.
 * Other names for this node include: Set Material and Shader.
 
 
-#### Example(s)
+### Example(s)
 
 
 

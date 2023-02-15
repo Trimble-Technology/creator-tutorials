@@ -1,4 +1,4 @@
-## Vector list
+# Vector list
 
 **_Creates a list of xyz vector values._**
 
@@ -7,7 +7,7 @@
 > This node does NOT have geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _list_
 
@@ -26,14 +26,14 @@
   * Sets the _list_ input values as per the values of the _size _and _default _inputs.
 
 
-#### Outputs
+### Outputs
 
 * _list_
 
   * The vector list as defined by the _list _input.
 
 
-#### Note(s)
+### Note(s)
 
 
 
@@ -42,7 +42,7 @@
 * Other names for this node include: Point list, Coordinate list, Direction list, and xyz list.
 
 
-#### Example(s)
+### Example(s)
 
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:3e5bc942-7604-4c0d-a534-b43d093bdb85&version=latest" target="_blank">Points to curve</a>

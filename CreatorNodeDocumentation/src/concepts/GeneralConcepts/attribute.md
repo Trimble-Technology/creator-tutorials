@@ -1,4 +1,4 @@
-## Attribute
+# Attribute
 
 Attributes are metadata that can be attached to Trimble Creator geometry (<a href="/concepts/GeneralConcepts/primitive.md" target="_blank">primitives</a>), points, nodes, and graphs.
 
@@ -11,7 +11,7 @@ Examples:
 * Attach IFC (Industry Foundation Classes) data to the geometry of architectural products, like doors and windows.
 * Enrich <a href="/concepts/GeneralConcepts/locator.md" target="_blank">locators</a> to become connectors or snapping points.
 
-#### Attribute value types
+### Attribute value types
 
 Attributes can be of the following value type:
 
@@ -19,17 +19,17 @@ Attributes can be of the following value type:
 * String (example: `"ABC"`)
 * Vector (example: `[1, 2, 3]`)
 
-#### Attribute name
+### Attribute name
 
 Each attribute has a given name.
 
-#### Types of attributes
+### Types of attributes
 
 Attributes are computed state, carried by nodes.
 
 Attributes are _node centric_. So for example, primitive attributes cannot be different per-primitive in a node. Nor can point attributes. Every primitive in a node is paired to the same point and primitive attributes.
 
-##### Point
+#### Point
 
 Point attributes come in list form. This is list of attribute values, paired to primitives' points.
 
@@ -37,7 +37,7 @@ Each point attribute's list contains one list item per point in the computed out
 
 So if a computed node contains two primitives, one with 10 points and another with 20 points, the point attribute lists will be 30 items long.
 
-##### Primitive
+#### Primitive
 
 Primitive attributes come in list form. This is list of attribute values, paired to primitives of a node.
 
@@ -45,11 +45,11 @@ Each primitive attribute's list contains one list item per primitive in the comp
 
 So if a computed node contains 10 primitives, the primitive attribute lists will be 10 items long.
 
-##### Node
+#### Node
 
 Node attributes are single values, and get passed downstream from node to node in the directed acyclic graph (DAG) flow of a graph.
 
-##### Graph
+#### Graph
 
 Node attributes are single values, and get set at the graph level.
 

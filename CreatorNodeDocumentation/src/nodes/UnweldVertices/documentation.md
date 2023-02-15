@@ -1,4 +1,4 @@
-## Unweld vertices
+# Unweld vertices
 
 **_Splits shared triangle vertices on polygonal meshes._**
 
@@ -7,12 +7,12 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 No data inputs for this node.
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -31,14 +31,14 @@ No data inputs for this node.
   * The list of z values of the points of the output primitives.
 
 
-  #### Note(s)
+  ### Note(s)
 
 
 
 * Other names for this node include: Hard edges, and Facet.
 
 
-#### Example(s)
+### Example(s)
 
 
 

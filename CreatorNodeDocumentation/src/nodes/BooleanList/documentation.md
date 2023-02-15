@@ -1,4 +1,4 @@
-## Boolean list
+# Boolean list
 
 **_Creates a list of boolean values._**
 
@@ -7,7 +7,7 @@
 > This node does NOT have geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _list_
 
@@ -46,14 +46,14 @@
   * Sets the _list_ input values as per the values of the _size_, _default_, _pattern_, _start_, _end_, _skip_, and _every_ inputs.
 
 
-#### Outputs
+### Outputs
 
 * _list_
 
   * The boolean list as defined by the _list _input.
 
 
-#### Note(s)
+### Note(s)
 
 
 
@@ -66,7 +66,7 @@
 * Other names for this node include: Mask and Bitmask.
 
 
-#### Example(s)
+### Example(s)
 
 
 

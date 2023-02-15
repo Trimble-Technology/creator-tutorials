@@ -1,4 +1,4 @@
-## Locator
+# Locator
 
 A locator is a point with orientation.
 
@@ -10,7 +10,7 @@ Some typical use cases of a locator:
 * A grip or handle to move geometry in a 3D view.
 * A lightweight carrier of metadata or attributes.
 
-#### Locator primitive
+### Locator primitive
 
 The Materia locator concept is expressed via a `LocatorPrimitive`. This primitive is essentially a point with orientation. It has the following properties:
 

@@ -1,4 +1,4 @@
-## Set color
+# Set color
 
 **_Sets the color and alpha of primitives._**
 
@@ -7,7 +7,7 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _set_
 
@@ -26,7 +26,7 @@
   * The list of boolean values that defines which input primitives to set the color to. If empty, all input primitives will be set to the defined color.
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -45,14 +45,14 @@
   * The list of z values of the points of the output primitives.
 
 
-#### Note(s)
+### Note(s)
 
 
 
 * Other names for this node include: Alpha, Wireframe, and Transparency.
 
 
-#### Example(s)
+### Example(s)
 
 
 

@@ -1,4 +1,4 @@
-## Geometry asset
+# Geometry asset
 
 **_Imports a geometry asset._**
 
@@ -7,7 +7,7 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _preload asset_
 
@@ -22,7 +22,7 @@
   * Sets whether the output geometry asset utilizes OBJ groups as separate primitives or not (this is only relevant if the geometry asset is of the Wavefront OBJ file format).
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -49,7 +49,7 @@
   * The name of the uploaded geometry asset (as a string value). 
 
 
-#### Note(s)
+### Note(s)
 
 
 
@@ -65,7 +65,7 @@
 * Other names for this node include: Geometry, Load, OBJ, IGES, IGS, STL, DXF, and TrimBIM.
 
 
-#### Example(s)
+### Example(s)
 
 
 

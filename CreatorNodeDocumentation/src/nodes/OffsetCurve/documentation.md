@@ -1,4 +1,4 @@
-## Offset 2d path
+# Offset 2d path
 
 **_Offsets curves in the chosen workplane._**
 
@@ -7,7 +7,7 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _work plane_
 
@@ -38,7 +38,7 @@
   * Sets whether to close the resulting curves after the 2D offset operation.
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -57,7 +57,7 @@
   * The list of z values of the points of the output curve primitives.
 
 
-#### Note(s)
+### Note(s)
 
 
 
@@ -65,7 +65,7 @@
 * Other names for this node include: Offset curve and Offset polygon.
 
 
-#### Example(s)
+### Example(s)
 
 
 

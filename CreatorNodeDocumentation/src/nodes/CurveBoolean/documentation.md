@@ -1,4 +1,4 @@
-## Boolean 2d paths
+# Boolean 2d paths
 
 **_Performs 2D boolean operations on curves/polygons._**
 
@@ -7,7 +7,7 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _work plane_
 
@@ -38,7 +38,7 @@
   * Sets whether to close the resulting curves/polygons after the 2D boolean operation.
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -57,7 +57,7 @@
   * The list of z values of the points of the output curve/polygon primitives.
 
 
-#### Note(s)
+### Note(s)
 
 
 
@@ -67,7 +67,7 @@
 * Other names for this node include: Curve boolean and Polygon boolean.
 
 
-#### Example(s)
+### Example(s)
 
 
 

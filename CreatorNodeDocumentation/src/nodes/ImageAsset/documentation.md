@@ -1,4 +1,4 @@
-## Image asset
+# Image asset
 
 **_Imports an image asset._**
 
@@ -7,7 +7,7 @@
 > This node does NOT have geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _preload asset_
 
@@ -18,7 +18,7 @@
   * The asset URI (as a string value) that defines what uploaded image asset to output. See <a href="/concepts/GeneralConcepts/assets.md" target="_blank">Assets</a> for more information.
 
 
-#### Outputs
+### Outputs
 
 * _asset uri_
 
@@ -29,7 +29,7 @@
   * The name of the uploaded image asset (as a string value). 
 
 
-#### Note(s)
+### Note(s)
 
 
 
@@ -40,7 +40,7 @@
 * Other names for this node include: Picture, Texture, Bitmap, JPEG, JPG, and PNG.
 
 
-#### Example(s)
+### Example(s)
 
 
 

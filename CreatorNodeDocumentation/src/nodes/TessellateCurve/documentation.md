@@ -1,4 +1,4 @@
-## Curve to polyline
+# Curve to polyline
 
 **_Subdivides curves into polylines._**
 
@@ -7,7 +7,7 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _mode_
 
@@ -30,7 +30,7 @@
   * Sets whether to subdivide the existing segments of the input curves, or the curve as a whole.
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -57,7 +57,7 @@
   * The list of lengths of the subdivided curves (full curve lengths, not curve segment lengths).
 
 
-#### Note(s)
+### Note(s)
 
 
 
@@ -65,7 +65,7 @@
 * Other names for this node include: Tessellate curve, Redraw, and Divide curve.
 
 
-#### Example(s)
+### Example(s)
 
 
 

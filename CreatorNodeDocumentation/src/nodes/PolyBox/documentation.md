@@ -1,4 +1,4 @@
-## Box
+# Box
 
 **_Creates a box._**
 
@@ -7,7 +7,7 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _type_
 
@@ -26,7 +26,7 @@
   * The vector value that defines the uniform scale of the output box.
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -45,7 +45,7 @@
   * The list of z values of the points of the output primitives.
 
 
-#### Note(s)
+### Note(s)
 
 
 
@@ -54,7 +54,7 @@
 * Other names for this node include: Cube and Poly box.
 
 
-#### Example(s)
+### Example(s)
 
 
 

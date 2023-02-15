@@ -1,4 +1,4 @@
-## Copy
+# Copy
 
 **_Copies and transforms geometry._**
 
@@ -7,7 +7,7 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _# of copies_
 
@@ -42,7 +42,7 @@
   * Sets whether to combine all copied meshes into a singular mesh primitive. Only meshes are combined. Curves, NURBS surfaces, and other primitive types are ignored with this function.
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -61,7 +61,7 @@
   * The list of z values of the points of the output primitives.
 
 
-#### Note(s)
+### Note(s)
 
 
 
@@ -69,7 +69,7 @@
 * Other names for this node include: Duplicate.
 
 
-#### Example(s)
+### Example(s)
 
 
 

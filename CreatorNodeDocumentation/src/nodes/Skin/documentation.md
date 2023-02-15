@@ -1,4 +1,4 @@
-## Loft
+# Loft
 
 **_Creates lofted geometry between curves._**
 
@@ -7,7 +7,7 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _mode_
 
@@ -38,7 +38,7 @@
   * The order (perpendicular to the input curves) of the resulting loft when the _loft type_ input is set to `NURBS surface`.
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -57,14 +57,14 @@
   * The list of z values of the points of the output primitives.
 
 
-#### Note(s)
+### Note(s)
 
 
 
 * Other names for this node include: Skin and Revolve.
 
 
-#### Example(s)
+### Example(s)
 
 
 

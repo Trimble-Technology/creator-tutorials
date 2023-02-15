@@ -1,4 +1,4 @@
-## PolyMesh
+# PolyMesh
 
 A PolyMesh is a primitive representing a 3D polygonal mesh. A PolyMesh has following notable properties:
 

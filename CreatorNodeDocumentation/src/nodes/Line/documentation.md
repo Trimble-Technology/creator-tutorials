@@ -1,4 +1,4 @@
-## Line
+# Line
 
 **_Creates lines as NURBS curves._**
 
@@ -7,7 +7,7 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _mode_
 
@@ -42,7 +42,7 @@
   * The value that defines the order of the output line. See <a href="/concepts/GeneralConcepts/nurbsCurve.md" target="_blank">NURBS curves</a> for more information.
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -61,14 +61,14 @@
   * The list of z values of the points of the output primitives.
 
 
-#### Note(s)
+### Note(s)
 
 
 
 * Other names for this node include: Curve and Polyline.
 
 
-#### Example(s)
+### Example(s)
 
 
 

@@ -1,4 +1,4 @@
-## String list
+# String list
 
 **_Creates a list of string values._**
 
@@ -7,7 +7,7 @@
 > This node does NOT have geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _list_
 
@@ -26,14 +26,14 @@
   * Sets the _list_ input values as per the values of the _size _and _default _inputs.
 
 
-#### Outputs
+### Outputs
 
 * _list_
 
   * The string list as defined by the _list _input.
 
 
-#### Note(s)
+### Note(s)
 
 
 
@@ -42,7 +42,7 @@
 * Other names for this node include: Text list and Word list.
 
 
-#### Example(s)
+### Example(s)
 
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:c7dc99f1-334b-47ae-9622-fb38812db203&version=latest" target="_blank">Changing choice options</a>

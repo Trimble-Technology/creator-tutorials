@@ -1,4 +1,4 @@
-## Vector
+# Vector
 
 **_Creates an xyz vector value._**
 
@@ -9,7 +9,7 @@ When parameterized this node will appear as three input fields in the “Paramet
 > This node does NOT have geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _value_
 
@@ -32,14 +32,14 @@ When parameterized this node will appear as three input fields in the “Paramet
   * Hides the parameter label (name) within the “Parameter panel” when the node is parameterized.
 
 
-#### Outputs
+### Outputs
 
 * _value_
 
   * The vector value as defined by the _value_ input.
 
 
-#### Note(s)
+### Note(s)
 
 
 
@@ -47,7 +47,7 @@ When parameterized this node will appear as three input fields in the “Paramet
 * Other names for this node include: Point, Coordinate, Direction, xyz, and Parameter.
 
 
-#### Example(s)
+### Example(s)
 
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:dc99eca7-c20c-4256-8fc2-d505f2e00029&version=latest" target="_blank">Adding and getting an attribute</a>

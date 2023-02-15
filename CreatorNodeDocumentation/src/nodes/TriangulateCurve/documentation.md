@@ -1,4 +1,4 @@
-## Triangulate 2d path
+# Triangulate 2d path
 
 **_Converts 2D curves into a triangulated mesh in a chosen workplane._**
 
@@ -7,7 +7,7 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _work plane_
 
@@ -58,7 +58,7 @@
   * A list of extra internal points that will force the creation of vertices at these points.
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -77,7 +77,7 @@
   * The list of z values of the points of the output primitives.
 
 
-#### Note(s)
+### Note(s)
 
 
 
@@ -86,7 +86,7 @@
 * Other names for this node include: Triangulate curve, Tessellate, Mesh, and Path to mesh.
 
 
-#### Example(s):
+### Example(s):
 
 
 

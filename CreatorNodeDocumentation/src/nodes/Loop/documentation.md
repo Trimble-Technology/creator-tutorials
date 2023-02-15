@@ -1,4 +1,4 @@
-## Loop
+# Loop
 
 **Loop _nodes repeat a section of the graph._**
 
@@ -7,7 +7,7 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _# of loops_
 
@@ -22,7 +22,7 @@
   * Sets whether the loop is cumulative or not. See the Note(s) section below for more information.
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -41,7 +41,7 @@
   * The list of z values of the points of the output primitives.
 
 
-#### Note(s)
+### Note(s)
 
 
 
@@ -53,7 +53,7 @@
 * Other names for this node include: Iterate.
 
 
-#### Example(s)
+### Example(s)
 
 
 

@@ -1,4 +1,4 @@
-## Combine meshes
+# Combine meshes
 
 **_Combines meshes into a single mesh._**
 
@@ -7,14 +7,14 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _group behavior_
 
   * Sets how input groups will behave. This can be `exclude meshes from groups` (will not combine meshes within input groups), `include meshes from groups` (will combine meshes within all input groups), or `combine per top-level group` (will only combine meshes within each input group).
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -33,14 +33,14 @@
   * The list of z values of the points of the output primitives.
 
 
-#### Note(s)
+### Note(s)
 
 
 
 * Other names for this node include: Merge meshes, Unify meshes, and Join.
 
 
-#### Example(s)
+### Example(s)
 
 
 

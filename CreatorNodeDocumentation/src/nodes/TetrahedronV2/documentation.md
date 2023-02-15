@@ -1,4 +1,4 @@
-## Tetrahedron
+# Tetrahedron
 
 **_Creates a Tetrahedron._**
 
@@ -7,7 +7,7 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _center_
 
@@ -22,7 +22,7 @@
   * Sets whether to weld the vertices of the output tetrahedron or not.
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -41,7 +41,7 @@
   * The list of z values of the points of the output primitives.
 
 
-#### Example(s)
+### Example(s)
 
 
 

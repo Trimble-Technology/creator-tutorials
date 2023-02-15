@@ -1,4 +1,4 @@
-## Primitive
+# Primitive
 
 **_Primitives are Trimble Creator's computed entities._**
 
@@ -6,7 +6,7 @@ They are created and transformed by nodes, and flow through the nodes and connec
 
 > Examples of primitives:
 > 
-> * `PolyMesh`: a 3D polygonal mesh primtive.
+> * `PolyMesh`: a 3D polygonal mesh primitive.
 > * `NURBS curve` and `NURBS surface`: a <a href="https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline" target="_blank">NURBS</a> curve and NURBS surface primitive.
 
 

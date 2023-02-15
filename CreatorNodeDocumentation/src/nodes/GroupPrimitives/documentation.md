@@ -1,4 +1,4 @@
-## Group
+# Group
 
 **_Groups primitives into a “group” primitive type._**
 
@@ -7,14 +7,14 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _group name_
 
   * The name to give to the group made by the node.
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -33,7 +33,7 @@
   * The list of z values of the points of the output primitives.
 
 
-#### Note(s)
+### Note(s)
 
 
 
@@ -41,7 +41,7 @@
 * Other names for this node include: Group primitives and Assemble.
 
 
-#### Example(s)
+### Example(s)
 
 
 

@@ -1,4 +1,4 @@
-## NURBS surface
+# NURBS surface
 
 A NURBS surface is a primitive representing a 3D <a href="https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline" target="_blank">NURBS</a> surface. A NURBS surface always has a rectangular topology, with coordinates in two axes: U and V values varying between `0` and `1`.
 

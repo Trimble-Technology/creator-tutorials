@@ -1,4 +1,4 @@
-## Geometry center
+# Geometry center
 
 **_Calculates the center of the input primitives._**
 
@@ -7,7 +7,7 @@
 > This node has geometry inputs, but does NOT have geometry outputs.
 
 
-#### Inputs
+### Inputs
 
 * _mode_
 
@@ -18,7 +18,7 @@
   * Sets whether to invert the output geometry center or not.
 
 
-#### Outputs
+### Outputs
 
 * _center_
 
@@ -41,14 +41,14 @@
   * The list of vector values of the geometry centers of each individual input primitive.
 
 
-#### Note(s)
+### Note(s)
 
 
 
 * Other names for this node include: Centroid and Barycenter
 
 
-#### Example(s)
+### Example(s)
 
 
 

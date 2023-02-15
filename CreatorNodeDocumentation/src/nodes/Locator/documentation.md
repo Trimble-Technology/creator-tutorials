@@ -1,4 +1,4 @@
-## Locator:
+# Locator:
 
 **_Creates a locator._**
 
@@ -7,7 +7,7 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _id_
 
@@ -24,7 +24,7 @@
   * Currently there are only two types: the default locator type (when the _type_ input is left empty) and a `snap`. The `snap` type can be set by entering this JSON string: `{"type": "snap"}`.
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -43,7 +43,7 @@
   * The list of z values of the points of the output primitives.
 
 
-#### Note(s)
+### Note(s)
 
 
 
@@ -52,7 +52,7 @@
 * Other names for this node include: Handle, Snap, and Control point.
 
 
-#### Example(s)
+### Example(s)
 
 
 

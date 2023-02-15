@@ -1,4 +1,4 @@
-## Point grid
+# Point grid
 
 **_Creates a grid of points._**
 
@@ -7,7 +7,7 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _origin_
 
@@ -30,7 +30,7 @@
   * The vector value that defines the spacing between points within the grid.
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -49,14 +49,14 @@
   * The list of z values of the points of the output primitives.
 
 
-#### Note(s)
+### Note(s)
 
 
 
 * The points defined by the resolution inputs are set within the positive direction of their respective axes.
 
 
-#### Example(s)
+### Example(s)
 
 
 

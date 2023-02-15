@@ -1,4 +1,4 @@
-## Boolean
+# Boolean
 
 **_Creates a boolean value._**
 
@@ -9,7 +9,7 @@ When parameterized this node will appear as a false/true toggle in the “Parame
 > This node does NOT have geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _value_
 
@@ -32,14 +32,14 @@ When parameterized this node will appear as a false/true toggle in the “Parame
   * Hides the parameter label (name) within the “Parameter panel” when the node is parameterized.
 
 
-#### Outputs
+### Outputs
 
 * _value_
 
   * The boolean value as defined by the _value_ input.
 
 
-#### Note(s)
+### Note(s)
 
 
 
@@ -48,7 +48,7 @@ When parameterized this node will appear as a false/true toggle in the “Parame
 * Other names for this node include: Checkbox, State, Bit, Binary, On/Off, True/False, or Parameter.
 
 
-#### Example(s)
+### Example(s)
 
 
 

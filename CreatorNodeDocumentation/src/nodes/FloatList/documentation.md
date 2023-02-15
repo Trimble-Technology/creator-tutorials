@@ -1,4 +1,4 @@
-## Number list
+# Number list
 
 **_Creates a list of number (floating point) values._**
 
@@ -7,7 +7,7 @@
 > This node does NOT have geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _list_
 
@@ -26,14 +26,14 @@
   * Sets the _list_ input values as per the values of the _size _and _default _inputs.
 
 
-#### Outputs
+### Outputs
 
 * _list_
 
   * The number list as defined by the _list _input.
 
 
-#### Note(s)
+### Note(s)
 
 
 
@@ -42,7 +42,7 @@
 * Other names for this node include: Float list and Decimal list.
 
 
-#### Example(s)
+### Example(s)
 
 
 

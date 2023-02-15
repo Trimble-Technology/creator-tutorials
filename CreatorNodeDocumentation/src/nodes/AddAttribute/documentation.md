@@ -1,4 +1,4 @@
-## Add attribute
+# Add attribute
 
 **_Adds attributes (metadata) to points, primitives, nodes, or graphs._**
 
@@ -7,7 +7,7 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _type_
 
@@ -22,7 +22,7 @@
   * The value to assign to the attribute. This can be any of the basic data types (number (number, integer, and boolean), vector (vector and color), or string).
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -41,7 +41,7 @@
   * The list of z values of the points of the output primitives.
 
 
-#### Note(s)
+### Note(s)
 
 
 
@@ -51,7 +51,7 @@
 * Other names for this node include: Set attribute and Write attribute.
 
 
-#### Example(s)
+### Example(s)
 
 
 

@@ -1,4 +1,4 @@
-## Ungroup
+# Ungroup
 
 **_Ungroups “group” primitives._**
 
@@ -7,14 +7,14 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _mode_
 
   * Sets the mode in which group primitives are ungrouped. This can be `flatten whole hierarchy` (which ungroups all groups, even groups within other groups) or `ungroup one level` (which only ungroups the first layer of groups, any group within another group is not ungrouped).
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -33,7 +33,7 @@
   * The list of z values of the points of the output primitives.
 
 
-#### Note(s)
+### Note(s)
 
 
 
@@ -41,7 +41,7 @@
 * Other names for this node include: Ungroup primitives, Disassemble, and Split group.
 
 
-#### Example(s)
+### Example(s)
 
 
 

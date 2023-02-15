@@ -1,4 +1,4 @@
-## NURBS curve
+# NURBS curve
 
 A NURBS curve is a primitive representing a 3D <a href="https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline" target="_blank">NURBS</a> curve. These curves are smooth mathematical spline interpolations of a set of control points. A NURBS curve is parametrised along a U coordinate, varying between `0` and `1`.
 

@@ -1,4 +1,4 @@
-## Points to curve
+# Points to curve
 
 **_Creates a curve using input points._**
 
@@ -7,7 +7,7 @@
 > This node has geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _points per curve_
 
@@ -26,7 +26,7 @@
   * Sets whether the output curve is a <a href="https://en.wikipedia.org/wiki/B%C3%A9zier_curve" target="_blank">bezier curve</a> or not.
 
 
-#### Outputs
+### Outputs
 
 * _points_
 
@@ -45,14 +45,14 @@
   * The list of z values of the points of the output primitives.
 
 
-#### Note(s)
+### Note(s)
 
 
 
 * Other names for this node include: Create curve.
 
 
-#### Example(s)
+### Example(s)
 
 
 

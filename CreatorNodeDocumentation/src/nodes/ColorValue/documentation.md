@@ -1,4 +1,4 @@
-## Color
+# Color
 
 **_Creates a color (vector) value._**
 
@@ -9,7 +9,7 @@ When parameterized this node will appear as three input fields and a color picke
 > This node does NOT have geometry inputs and outputs.
 
 
-#### Inputs
+### Inputs
 
 * _value_
 
@@ -32,14 +32,14 @@ When parameterized this node will appear as three input fields and a color picke
   * Hides the parameter label (name) within the “Parameter panel” when the node is parameterized.
 
 
-#### Outputs
+### Outputs
 
 * _value_
 
   * The color value as defined by the _value_ input.
 
 
-#### Note(s)
+### Note(s)
 
 
 
@@ -51,7 +51,7 @@ When parameterized this node will appear as three input fields and a color picke
 * Other names for this node include: Parameter.
 
 
-#### Example(s)
+### Example(s)
 
 
 
