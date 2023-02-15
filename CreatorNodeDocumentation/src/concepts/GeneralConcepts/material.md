@@ -5,15 +5,19 @@ Every primitive flowing through a Trimble Creator graph has a material property.
 
 Here's an example from the Trimble Creator app:
 
-nyan cow
+<p align="center">
+  <img width="400" src="images\projectionUV.gif"/>
+</p>
 
 Materials are particularly relevant for surface type primitives like `PolyMesh` and `NURBS surface`. But they are used for other purposes as well. The color channel of the material gives a `NURBS curve` its color, for example.
 
 The **Material** node modifies a primitive's material settings.
 
-This is the graph that generated the rendering above:
+This is the <a href="https://creator.trimble.com/graph?assetURI=whp:b56d0b43-4d3b-4040-bb89-996a325faa0a" target="_blank">graph</a> that generated the rendering above:
 
-image + graph link.
+<p align="center">
+  <img width="400" src="images\CreatorCow.png"/>
+</p>
 
 
 ### PBR Shading
