@@ -12,3 +12,6 @@ theme = "theme"
 
 [output.html.search]
 limit-results = 5
+
+[output.html.print]
+enable = false
