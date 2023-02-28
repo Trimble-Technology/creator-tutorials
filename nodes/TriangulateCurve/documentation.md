@@ -1,13 +1,13 @@
 Converts 2D curves into a triangulated mesh in a chosen workplane.
 
-Note(s):
+Notes
 
 
 
 * The `Poly2Tri` library automatically defines the triangulation.
 * The `Triangle` library allows for manual configuration of the triangulation (experimental).
 
-Example(s):
+Examples
 
 
 

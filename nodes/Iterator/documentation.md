@@ -1,12 +1,12 @@
 To be used in conjunction with a **loop** node assigned with the same tag. Iterates through a number of loops as defined by that paired **loop** node.
 
-Note(s):
+Notes
 
 
 
 * The _idling value_ input does not affect the computed loop at all. Rather it will allow one to inspect the computed outputs of the `idle value` iteration of relevant nodes within the loop.
 
-Example(s):
+Examples
 
 
 

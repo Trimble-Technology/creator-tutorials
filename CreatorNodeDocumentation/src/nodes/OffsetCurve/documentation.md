@@ -57,7 +57,7 @@
   * The list of z values of the points of the output curve primitives.
 
 
-### Note(s)
+### Notes
 
 
 
@@ -65,7 +65,7 @@
 * Other names for this node include: Offset curve and Offset polygon.
 
 
-### Example(s)
+### Examples
 
 
 

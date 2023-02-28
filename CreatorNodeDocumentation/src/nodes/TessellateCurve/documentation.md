@@ -57,7 +57,7 @@
   * The list of lengths of the subdivided curves (full curve lengths, not curve segment lengths).
 
 
-### Note(s)
+### Notes
 
 
 
@@ -65,7 +65,7 @@
 * Other names for this node include: Tessellate curve, Redraw, and Divide curve.
 
 
-### Example(s)
+### Examples
 
 
 

@@ -1,13 +1,13 @@
 Copies primitives based on lists of input vectors.
 
-Note(s):
+Notes
 
 
 
 * The _normals_ input defines the direction a copied geometry will face (based on its original z-axis orientation).
 * The _up vectors_ input defines the rotation around the _normals_ input vector.
 
-Example(s):
+Examples
 
 
 

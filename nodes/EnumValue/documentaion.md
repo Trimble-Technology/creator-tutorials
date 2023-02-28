@@ -2,7 +2,7 @@ Creates an enumeration (choice), shown as a dropdown.
 
 When parameterized this node will appear as a dropdown in the “Parameter Panel”.
 
-Example(s):
+Examples
 
 
 

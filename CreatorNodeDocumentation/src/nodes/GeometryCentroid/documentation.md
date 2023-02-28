@@ -41,14 +41,14 @@
   * The list of vector values of the geometry centers of each individual input primitive.
 
 
-### Note(s)
+### Notes
 
 
 
 * Other names for this node include: Centroid and Barycenter
 
 
-### Example(s)
+### Examples
 
 
 

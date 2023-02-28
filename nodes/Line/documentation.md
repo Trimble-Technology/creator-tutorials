@@ -2,7 +2,7 @@ Creates lines.
 
 There are three different methods to define a line: `centered` (as defined by a center point and direction vector), `origin + direction` (as defined by a start point and direction vector), and `point to point` (as defined by a start and end point).
 
-Example(s):
+Examples
 
 
 

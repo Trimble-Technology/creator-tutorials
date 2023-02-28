@@ -2,13 +2,13 @@ Creates an integer (whole number) value.
 
 When parameterized this node will appear as a slider and input field in the “Parameter panel”.
 
-Note(s):
+Notes
 
 
 
 * If the _value_ input is `null`, the _default_ input will be used as the _value_ output.
 
-Example(s):
+Examples
 
 
 

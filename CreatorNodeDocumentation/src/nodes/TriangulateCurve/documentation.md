@@ -77,7 +77,7 @@
   * The list of z values of the points of the output primitives.
 
 
-### Note(s)
+### Notes
 
 
 
@@ -86,7 +86,7 @@
 * Other names for this node include: Triangulate curve, Tessellate, Mesh, and Path to mesh.
 
 
-### Example(s):
+### Examples
 
 
 

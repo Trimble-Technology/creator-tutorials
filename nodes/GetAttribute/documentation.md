@@ -1,6 +1,6 @@
 Extracts attribute metadata by name and data type.
 
-Example(s):
+Examples
 
 
 

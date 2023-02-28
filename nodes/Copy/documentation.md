@@ -1,6 +1,6 @@
 Copies and transforms geometry.
 
-Example(s):
+Examples
 
 
 

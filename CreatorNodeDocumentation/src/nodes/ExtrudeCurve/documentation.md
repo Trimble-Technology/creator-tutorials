@@ -41,14 +41,14 @@
   * The list of z values of the points of the output primitives.
 
 
-### Note(s)
+### Notes
 
 
 
 * The geometry output of this node is a NURBS surface primitive type. In order to convert it to a PolyMesh primitive type use the **triangulate surface** node.
 
 
-### Example(s)
+### Examples
 
 
 

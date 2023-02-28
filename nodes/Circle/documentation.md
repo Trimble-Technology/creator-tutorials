@@ -1,13 +1,13 @@
 Creates a circle.
 
-Note(s):
+Notes
 
 
 
 * Adjusting the _start angle_ and _end angle_ inputs will create an arc.
 * A mesh circle will be unwelded by default.
 
-Example(s):
+Examples
 
 
 

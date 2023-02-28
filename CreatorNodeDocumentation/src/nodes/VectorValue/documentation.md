@@ -39,7 +39,7 @@ When parameterized this node will appear as three input fields in the “Paramet
   * The vector value as defined by the _value_ input.
 
 
-### Note(s)
+### Notes
 
 
 
@@ -47,7 +47,7 @@ When parameterized this node will appear as three input fields in the “Paramet
 * Other names for this node include: Point, Coordinate, Direction, xyz, and Parameter.
 
 
-### Example(s)
+### Examples
 
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:dc99eca7-c20c-4256-8fc2-d505f2e00029&version=latest" target="_blank">Adding and getting an attribute</a>

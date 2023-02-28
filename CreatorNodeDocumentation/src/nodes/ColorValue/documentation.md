@@ -39,7 +39,7 @@ When parameterized this node will appear as three input fields and a color picke
   * The color value as defined by the _value_ input.
 
 
-### Note(s)
+### Notes
 
 
 
@@ -51,7 +51,7 @@ When parameterized this node will appear as three input fields and a color picke
 * Other names for this node include: Parameter.
 
 
-### Example(s)
+### Examples
 
 
 

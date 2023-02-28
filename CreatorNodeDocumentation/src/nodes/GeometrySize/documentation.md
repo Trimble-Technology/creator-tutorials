@@ -35,7 +35,7 @@ No data inputs for this node.
   * The list of vector values of the geometry sizes of each individual input primitive.
 
 
-### Example(s)
+### Examples
 
 
 

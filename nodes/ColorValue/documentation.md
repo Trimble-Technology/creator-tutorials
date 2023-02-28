@@ -2,7 +2,7 @@ Creates a color (vector) value.
 
 When parameterized this node will appear as three input fields and a color picker in the “Parameter panel”.
 
-Example(s):
+Examples
 
 
 

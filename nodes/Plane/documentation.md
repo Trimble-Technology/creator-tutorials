@@ -2,7 +2,7 @@ Creates a rectangular plane along a set orientation.
 
 The plane can be of the following types: NURBS surface, points, mesh, and polyline.
 
-Example(s):
+Examples
 
 
 

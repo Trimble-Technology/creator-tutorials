@@ -2,7 +2,7 @@ Creates a boolean value.
 
 When parameterized this node will appear as a false/true toggle in the “Parameter Panel”.
 
-Example(s):
+Examples
 
 
 

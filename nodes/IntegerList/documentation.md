@@ -8,7 +8,7 @@ Auxiliary Function(s):
 
 * Iterator: If the _iterator_ input is `true`, the _list_ input values will be set to an iterative list of integers (i.e. 0,1,2, …, n), rather than the _default_ value.
 
-Example(s):
+Examples
 
 
 

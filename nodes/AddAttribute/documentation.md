@@ -1,6 +1,6 @@
 Adds attribute metadata to points, primitives, nodes, or graphs.
 
-Example(s):
+Examples
 
 
 

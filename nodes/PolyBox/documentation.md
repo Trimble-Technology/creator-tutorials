@@ -1,6 +1,6 @@
 Creates a mesh box.
 
-Example(s):
+Examples
 
 
 

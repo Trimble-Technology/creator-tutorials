@@ -39,14 +39,14 @@ When parameterized this node will appear as an input field in the “Parameter p
   * The string value as defined by the _value_ input.
 
 
-### Note(s)
+### Notes
 
 
 
 * Other names for this node include: Text, Word, and Parameter.
 
 
-### Example(s)
+### Examples
 
 
 

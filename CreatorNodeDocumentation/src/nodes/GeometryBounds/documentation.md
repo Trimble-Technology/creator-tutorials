@@ -49,14 +49,14 @@
   * The list of vector values of the maximum bounds of each individual input primitive.
 
 
-### Note(s)
+### Notes
 
 
 
 * Other names for this node include: Extent, Minimum, and Maximum.
 
 
-### Example(s)
+### Examples
 
 
 

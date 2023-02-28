@@ -63,14 +63,14 @@ _input is null_
   * Outputs a boolean value that indicates whether the _value_ input is `null` (`true`) or not (`false`).
 
 
-### Note(s)
+### Notes
 
 
 
 * Other names for this node include: Whole, Number, and Parameter.
 
 
-### Example(s)
+### Examples
 
 
 

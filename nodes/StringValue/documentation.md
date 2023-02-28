@@ -2,7 +2,7 @@ Creates a string (text) value.
 
 When parameterized this node will appear as an input field in the “Parameter panel”.
 
-Example(s):
+Examples
 
 
 

@@ -41,7 +41,7 @@
   * The list of z values of the points of the output primitives.
 
 
-### Note(s)
+### Notes
 
 
 
@@ -50,7 +50,7 @@
 * Other names for this node include: Attribute to list and Read attribute.
 
 
-### Example(s)
+### Examples
 
 
 

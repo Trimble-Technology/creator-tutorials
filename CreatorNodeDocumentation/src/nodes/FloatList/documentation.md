@@ -33,7 +33,7 @@
   * The number list as defined by the _list _input.
 
 
-### Note(s)
+### Notes
 
 
 
@@ -42,7 +42,7 @@
 * Other names for this node include: Float list and Decimal list.
 
 
-### Example(s)
+### Examples
 
 
 

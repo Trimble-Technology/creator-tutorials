@@ -37,7 +37,7 @@
   * The integer list as defined by the _list _input.
 
 
-### Note(s)
+### Notes
 
 
 
@@ -47,7 +47,7 @@
 * Other names for this node include: Number list.
 
 
-### Example(s)
+### Examples
 
 
 

@@ -63,14 +63,14 @@ When parameterized this node will appear as a slider and input field in the “P
   * Outputs a boolean value that indicates whether the _value_ input is `null` (`true`) or not (`false`).
 
 
-### Note(s)
+### Notes
 
 
 
 * Other names for this node include: Float, Double, Decimal, Real, and Parameter.
 
 
-### Example(s)
+### Examples
 
 
 

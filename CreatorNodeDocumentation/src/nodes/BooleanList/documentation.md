@@ -53,7 +53,7 @@
   * The boolean list as defined by the _list _input.
 
 
-### Note(s)
+### Notes
 
 
 
@@ -66,7 +66,7 @@
 * Other names for this node include: Mask and Bitmask.
 
 
-### Example(s)
+### Examples
 
 
 

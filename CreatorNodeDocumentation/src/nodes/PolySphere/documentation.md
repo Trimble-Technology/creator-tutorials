@@ -69,7 +69,7 @@
   * The list of z values of the points of the output primitives.
 
 
-### Note(s)
+### Notes
 
 
 
@@ -77,7 +77,7 @@
 * Other names for this node include: Icosphere, Ball, Poly sphere, and Globe.
 
 
-### Example(s)
+### Examples
 
 
 

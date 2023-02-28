@@ -57,7 +57,7 @@
   * The list of z values of the points of the output curve/polygon primitives.
 
 
-### Note(s)
+### Notes
 
 
 
@@ -67,7 +67,7 @@
 * Other names for this node include: Curve boolean and Polygon boolean.
 
 
-### Example(s)
+### Examples
 
 
 

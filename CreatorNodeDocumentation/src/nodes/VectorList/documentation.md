@@ -33,7 +33,7 @@
   * The vector list as defined by the _list _input.
 
 
-### Note(s)
+### Notes
 
 
 
@@ -42,7 +42,7 @@
 * Other names for this node include: Point list, Coordinate list, Direction list, and xyz list.
 
 
-### Example(s)
+### Examples
 
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:3e5bc942-7604-4c0d-a534-b43d093bdb85&version=latest" target="_blank">Points to curve</a>

@@ -45,14 +45,14 @@
   * The list of z values of the points of the output primitives.
 
 
-### Note(s)
+### Notes
 
 
 
 * Other names for this node include: Tube and Poly cylinder.
 
 
-### Example(s)
+### Examples
 
 
 

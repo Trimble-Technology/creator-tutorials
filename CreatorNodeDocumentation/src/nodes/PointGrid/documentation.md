@@ -49,14 +49,14 @@
   * The list of z values of the points of the output primitives.
 
 
-### Note(s)
+### Notes
 
 
 
 * The points defined by the resolution inputs are set within the positive direction of their respective axes.
 
 
-### Example(s)
+### Examples
 
 
 

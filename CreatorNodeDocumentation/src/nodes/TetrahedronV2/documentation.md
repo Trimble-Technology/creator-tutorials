@@ -41,7 +41,7 @@
   * The list of z values of the points of the output primitives.
 
 
-### Example(s)
+### Examples
 
 
 

@@ -49,7 +49,7 @@
   * The name of the uploaded geometry asset (as a string value). 
 
 
-### Note(s)
+### Notes
 
 
 
@@ -65,7 +65,7 @@
 * Other names for this node include: Geometry, Load, OBJ, IGES, IGS, STL, DXF, and TrimBIM.
 
 
-### Example(s)
+### Examples
 
 
 

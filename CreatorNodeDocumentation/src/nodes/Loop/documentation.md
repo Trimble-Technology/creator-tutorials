@@ -19,7 +19,7 @@
 
 * _cumulative_
 
-  * Sets whether the loop is cumulative or not. See the Note(s) section below for more information.
+  * Sets whether the loop is cumulative or not. See the Notes section below for more information.
 
 
 ### Outputs
@@ -41,7 +41,7 @@
   * The list of z values of the points of the output primitives.
 
 
-### Note(s)
+### Notes
 
 
 
@@ -53,7 +53,7 @@
 * Other names for this node include: Iterate.
 
 
-### Example(s)
+### Examples
 
 
 

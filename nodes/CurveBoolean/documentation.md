@@ -2,7 +2,7 @@ Performs 2D boolean operations on curves/polygons.
 
 2D boolean operations include `Intersect`, `union`, `difference`, and `XOR`.
 
-Example(s):
+Examples
 
 
 

@@ -29,7 +29,7 @@
   * The name of the uploaded image asset (as a string value). 
 
 
-### Note(s)
+### Notes
 
 
 
@@ -40,7 +40,7 @@
 * Other names for this node include: Picture, Texture, Bitmap, JPEG, JPG, and PNG.
 
 
-### Example(s)
+### Examples
 
 
 

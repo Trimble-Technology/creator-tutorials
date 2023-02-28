@@ -2,13 +2,13 @@ Creates a sphere.
 
 The sphere can be defined as an ico, columns & rows, or CSG sphere.
 
-Note(s):
+Notes
 
 
 
 * For the columns & rows sphere, adjusting the _phi _and _theta _start/end inputs will create domes and partial spheres.
 
-Example(s):
+Examples
 
 
 

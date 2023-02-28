@@ -1,6 +1,6 @@
 Creates a grid of points.
 
-Example(s):
+Examples
 
 
 

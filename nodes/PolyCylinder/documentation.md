@@ -1,6 +1,6 @@
 Creates a cylinder between two vector positions.
 
-Example(s):
+Examples
 
 
 

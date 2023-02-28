@@ -8,7 +8,7 @@ Auxiliary Function(s):
 
 * Pattern: If the _pattern_ input is `true`, the _list_ input values will be set to the specified pattern when initialized.
 
-Example(s):
+Examples
 
 
 

@@ -33,7 +33,7 @@
   * The string list as defined by the _list _input.
 
 
-### Note(s)
+### Notes
 
 
 
@@ -42,7 +42,7 @@
 * Other names for this node include: Text list and Word list.
 
 
-### Example(s)
+### Examples
 
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:c7dc99f1-334b-47ae-9622-fb38812db203&version=latest" target="_blank">Changing choice options</a>

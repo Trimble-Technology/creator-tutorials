@@ -1,6 +1,6 @@
 Offsets curves in the chosen workplane.
 
-Example(s):
+Examples
 
 
 

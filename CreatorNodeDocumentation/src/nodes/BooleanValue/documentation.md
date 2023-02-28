@@ -39,7 +39,7 @@ When parameterized this node will appear as a false/true toggle in the “Parame
   * The boolean value as defined by the _value_ input.
 
 
-### Note(s)
+### Notes
 
 
 
@@ -48,7 +48,7 @@ When parameterized this node will appear as a false/true toggle in the “Parame
 * Other names for this node include: Checkbox, State, Bit, Binary, On/Off, True/False, or Parameter.
 
 
-### Example(s)
+### Examples
 
 
 
