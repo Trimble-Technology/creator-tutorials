@@ -2,9 +2,13 @@
 
 Trimble Creator's core concept is a graph. Trimble Creator graphs represent logic that computes geometry (and other data).
 
+<p align="center">
+  <img width="400" src="concepts\GeneralConcepts\images\CreatorCow.png"/>
+</p>
+
 Graphs are a collection of connected nodes. Individual nodes represent compute functions, like the creation of a polygonal box, the noise math operation, or the act of joining two curves.
 
-NOTE: This documentation is currently in an 'in-progress' state and is therefore incomplete. Updates will be made periodically.
+_NOTE: This documentation is currently in an 'in-progress' state and is therefore incomplete. Updates will be made periodically._
 
 
 ### Node types
