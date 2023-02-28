@@ -29,7 +29,7 @@
   - [Attribute nodes](nodeSections/attributeSection.md)
     - [Add attribute](nodes/AddAttribute/documentation.md)
     - [Get attribute](nodes/GetAttribute/documentation.md)
-  - [Copy and Loop nodes](nodeSections/copyAndLoopSection.md)
+  - [Copy & Loop nodes](nodeSections/copyAndLoopSection.md)
     - [Copy](nodes/Copy/documentation.md)
     - [Copy using vectors](nodes/Copy2/documentation.md)
     - [Iterator](nodes/Iterator/documentation.md)
