@@ -34,3 +34,27 @@ Some examples can be found in the [Creation nodes](nodeSections/creationSection.
 These are the meat of Trimble Creator's compute engine. These nodes take incoming geometry and modify it. Sometimes the input and output geometry are of different primitive types.
 
 Some examples can found in the [Geometry nodes](nodeSections/geometrySection.md) section.
+
+#### Geometry Measurement nodes
+
+These nodes typically convert from input to data: they take geometry primitives as input, but do not feature a geometry output.
+
+Some examples can be found in the [Measure nodes](nodeSections/measureSection.md) section.
+
+#### Loop & Switch nodes
+
+Loops and switches are special case nodes that enrich the flow in a graph. These nodes allow elegant solutions to complex problems. They reduce graph size, increase performance, and unlock otherwise impossible graph logic.
+
+A geometry Switch plays a special role in graphs, as it evaluates only one upstream input branch, and blocks evaluation of all other inputs. This contributes to performance.
+
+Some examples can be found in the [Copy and Loop nodes](nodeSections/copyAndLoopSection.md) section.
+
+#### Math nodes
+
+Trimble Creator features an Expression node, but simple math problems can be represented by small chains of math nodes. These are orders of magnitude faster than expressions.
+
+Math nodes can operate on single values, or lists. This includes trigonometry and vector math nodes.
+
+Some examples can be found in the [Math nodes]() section.
+
+#### 
