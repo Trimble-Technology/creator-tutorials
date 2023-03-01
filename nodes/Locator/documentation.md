@@ -6,7 +6,7 @@ Notes
 
 
 
-* In regards to creating snaps, orientation is important. Two snapping locators will orient themselves to meet their positive x-axes (i.e. positive X to positive X). Their rotation around the x-axes is defined by the z-axes (i.e. so that the two z-axes are aligned and pointed in the same direction).
+* When creating snaps, orientation is important. Two snapping locators will orient themselves to meet their positive x-axes (i.e. positive X to positive X). Their rotation around the x-axes is defined by the z-axes (i.e. so that the two z-axes are aligned and pointed in the same direction).
 
 Examples
 
