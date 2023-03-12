@@ -2,12 +2,14 @@
 
 **_Extrudes curves in a vector direction._**
 
-> This node has data inputs and outputs.
->
-> This node has geometry inputs and outputs.
+---
 
 
 ### Inputs
+
+* **_geometry_**
+
+  * Accepts a single geometry connection (unless the SHIFT key is held).
 
 * _extrusion_
 
@@ -15,7 +17,7 @@
 
 * _order_
 
-  * The value that defines the order of the output line. See <a href="/concepts/GeneralConcepts/nurbsSurface.md" target="_blank">NURBS surface</a> for more information.
+  * The value that defines the order of the output line. See [NURBS surface](/concepts/GeneralConcepts/nurbsSurface.md) for more information.
 
 * _number of spans_
 
@@ -23,6 +25,10 @@
 
 
 ### Outputs
+
+* **_geometry_**
+
+  * Output primitives.
 
 * _points_
 

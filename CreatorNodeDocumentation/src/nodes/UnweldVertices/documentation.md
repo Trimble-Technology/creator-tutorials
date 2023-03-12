@@ -2,17 +2,21 @@
 
 **_Splits shared triangle vertices on polygonal meshes._**
 
-> This node has data outputs, but does NOT have data inputs.
->
-> This node has geometry inputs and outputs.
+---
 
 
 ### Inputs
 
-No data inputs for this node.
+* **_geometry_**
+
+  * Accepts a single geometry connection (unless the SHIFT key is held).
 
 
 ### Outputs
+
+* **_geometry_**
+
+  * Output primitives.
 
 * _points_
 

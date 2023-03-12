@@ -2,12 +2,14 @@
 
 **_Welds overlapping polygon triangle edges based on an angle threshold._**
 
-> This node has data inputs and outputs.
->
-> This node has geometry inputs and outputs.
+---
 
 
 ### Inputs
+
+* **_geometry_**
+
+  * Accepts a single geometry connection (unless the SHIFT key is held).
 
 * _radius_
 
@@ -35,6 +37,10 @@
 
 
 ### Outputs
+
+* **_geometry_**
+
+  * Output primitives.
 
 * _points_
 

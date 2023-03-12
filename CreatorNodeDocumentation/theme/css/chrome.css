@@ -459,7 +459,9 @@ ul#searchresults span.teaser em {
     margin-left: auto;
     padding: 0 10px;
     user-select: none;
-    opacity: 0.68;
+    opacity: 0.6;
+    scale: 1.5;
+    font-family: Georgia, serif;
 }
 
 .chapter li > a.toggle div {

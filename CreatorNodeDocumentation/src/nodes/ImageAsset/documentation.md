@@ -2,9 +2,7 @@
 
 **_Imports an image asset._**
 
-> This node has data inputs and outputs.
->
-> This node does NOT have geometry inputs and outputs.
+---
 
 
 ### Inputs
@@ -15,14 +13,14 @@
 
 * _asset uri_
 
-  * The asset URI (as a string value) that defines what uploaded image asset to output. See <a href="/concepts/GeneralConcepts/assets.md" target="_blank">Assets</a> for more information.
+  * The asset URI (as a string value) that defines what uploaded image asset to output. See [Assets](/concepts/GeneralConcepts/assets.md) for more information.
 
 
 ### Outputs
 
 * _asset uri_
 
-  * The asset URI of the uploaded image asset as defined by the _asset uri_ input. See <a href="/concepts/GeneralConcepts/assets.md" target="_blank">Assets</a> for more information.
+  * The asset URI of the uploaded image asset as defined by the _asset uri_ input. See [Assets](/concepts/GeneralConcepts/assets.md) for more information.
 
 * _asset name_
 

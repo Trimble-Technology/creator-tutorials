@@ -2,12 +2,14 @@
 
 **_Groups primitives into a “group” primitive type._**
 
-> This node has data inputs and outputs.
->
-> This node has geometry inputs and outputs.
+---
 
 
 ### Inputs
+
+* **_geometry_**
+
+  * Accepts multiple geometry connections.
 
 * _group name_
 
@@ -15,6 +17,10 @@
 
 
 ### Outputs
+
+* **_geometry_**
+
+  * Output primitives.
 
 * _points_
 

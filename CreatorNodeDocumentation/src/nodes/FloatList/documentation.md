@@ -2,9 +2,11 @@
 
 **_Creates a list of number (floating point) values._**
 
-> This node has data inputs and outputs.
->
-> This node does NOT have geometry inputs and outputs.
+---
+
+This node has data inputs and outputs.
+
+This node does NOT have geometry inputs and outputs.
 
 
 ### Inputs

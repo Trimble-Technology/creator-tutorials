@@ -2,12 +2,14 @@
 
 **_Sets the color and alpha of primitives._**
 
-> This node has data inputs and outputs.
->
-> This node has geometry inputs and outputs.
+---
 
 
 ### Inputs
+
+* **_geometry_**
+
+  * Accepts a single geometry connection (unless the SHIFT key is held).
 
 * _set_
 
@@ -27,6 +29,10 @@
 
 
 ### Outputs
+
+* **_geometry_**
+
+  * Output primitives.
 
 * _points_
 

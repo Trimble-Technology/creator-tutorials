@@ -2,12 +2,14 @@
 
 **_Aligns input primitives to each other._**
 
-> This node has data inputs and outputs.
->
-> This node has geometry inputs and outputs.
+---
 
 
 ### Inputs
+
+* **_geometry_**
+
+  * Accepts multiple geometry connections.
 
 * _mode_
 
@@ -80,6 +82,10 @@
 
 ### Outputs
 
+* **_geometry_**
+
+  * Output primitives.
+
 * _points_
 
   * The list of points of the output primitives.
@@ -101,7 +107,7 @@
 
 
 
-* When the _mode_ input is set to `between primitive connections` the primitives in each geometry connection are treated as a group.
+* When the _mode_ input is set to `between primitive connections` the primitives in each input geometry connection are treated as a group.
 
 
 ### Example(s)

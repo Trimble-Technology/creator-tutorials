@@ -2,9 +2,7 @@
 
 **_Creates a locator._**
 
-> This node has data inputs and outputs.
->
-> This node has geometry inputs and outputs.
+---
 
 
 ### Inputs
@@ -25,6 +23,10 @@
 
 
 ### Outputs
+
+* **_geometry_**
+
+  * Output primitives.
 
 * _points_
 
@@ -48,7 +50,7 @@
 
 
 * In regards to creating snaps, snaps are designed to snap together by their axis like so: `z^ x><x z^`. In other words, the positive x direction of one locator will face the positive x direction of the other and the two positive z directions of both locators will be aligned.
-* See <a href="/concepts/GeneralConcepts/locator.md" target="_blank">Locator</a> for more information on the locator primitive type.
+* See [Locator](/concepts/GeneralConcepts/locator.md) for more information on the locator primitive type.
 * Other names for this node include: Handle, Snap, and Control point.
 
 

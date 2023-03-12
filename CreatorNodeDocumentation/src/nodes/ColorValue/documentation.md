@@ -2,11 +2,7 @@
 
 **_Creates a color (vector) value._**
 
-When parameterized this node will appear as three input fields and a color picker in the “Parameter panel”.
-
-> This node has data inputs and outputs.
->
-> This node does NOT have geometry inputs and outputs.
+---
 
 
 ### Inputs
@@ -43,6 +39,7 @@ When parameterized this node will appear as three input fields and a color picke
 
 
 
+* When parameterized this node will appear as three input fields and a color picker in the Parameter panel.
 * A color value is defined by three values between `0` and `1`.
     * Any inputted value above `1` will be rounded back down to `1`.
     * Any inputted value below `0` will be rounded back up to `0`.

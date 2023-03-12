@@ -2,11 +2,7 @@
 
 **_Creates a string value._**
 
-When parameterized this node will appear as an input field in the “Parameter panel”.
-
-> This node has data inputs and outputs.
->
-> This node does NOT have geometry inputs and outputs.
+---
 
 
 ### Inputs
@@ -43,6 +39,7 @@ When parameterized this node will appear as an input field in the “Parameter p
 
 
 
+* When parameterized this node will appear as an input field in the Parameter panel.
 * Other names for this node include: Text, Word, and Parameter.
 
 

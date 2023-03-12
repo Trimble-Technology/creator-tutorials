@@ -2,9 +2,7 @@
 
 **_Imports a geometry asset._**
 
-> This node has data inputs and outputs.
->
-> This node has geometry inputs and outputs.
+---
 
 
 ### Inputs
@@ -15,7 +13,7 @@
 
 * _asset uri_
 
-  * The asset URI (as a string value) that defines what uploaded geometry asset to output. See <a href="/concepts/GeneralConcepts/assets.md" target="_blank">Assets</a> for more information.
+  * The asset URI (as a string value) that defines what uploaded geometry asset to output. See [Assets](/concepts/GeneralConcepts/assets.md) for more information.
 
 * _use OBJ groups_
 
@@ -23,6 +21,10 @@
 
 
 ### Outputs
+
+* **_geometry_**
+
+  * Output primitives.
 
 * _points_
 
@@ -42,7 +44,7 @@
 
 * _asset uri_
 
-  * The asset URI of the uploaded geometry asset as defined by the _asset uri_ input (as a string value). See <a href="/concepts/GeneralConcepts/assets.md" target="_blank">Assets</a> for more information.
+  * The asset URI of the uploaded geometry asset as defined by the _asset uri_ input (as a string value). See [Assets](/concepts/GeneralConcepts/assets.md) for more information.
 
 * _asset name_
 

@@ -2,11 +2,7 @@
 
 **_Creates a number (floating point) value._**
 
-When parameterized this node will appear as a slider and input field in the “Parameter panel”.
-
-> This node has data inputs and outputs.
->
-> This node does NOT have geometry inputs and outputs.
+---
 
 
 ### Inputs
@@ -67,6 +63,7 @@ When parameterized this node will appear as a slider and input field in the “P
 
 
 
+* When parameterized this node will appear as a slider and input field in the Parameter panel.
 * Other names for this node include: Float, Double, Decimal, Real, and Parameter.
 
 

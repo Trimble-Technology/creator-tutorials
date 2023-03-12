@@ -2,12 +2,18 @@
 
 **_Extrude all input faces._**
 
-> This node has data inputs and outputs.
->
-> This node has geometry inputs and outputs.
+---
+
+This node has data inputs and outputs.
+
+This node has geometry inputs and outputs.
 
 
 ### Inputs
+
+* **_geometry_**
+
+  * Accepts a single geometry connection (unless the SHIFT key is held).
 
 * _distance_
 

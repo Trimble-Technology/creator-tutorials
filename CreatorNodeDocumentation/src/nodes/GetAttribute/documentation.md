@@ -2,12 +2,14 @@
 
 **_Extracts attribute (metadata) by name and data type._**
 
-> This node has data inputs and outputs.
->
-> This node has geometry inputs, but does NOT have geometry outputs.
+---
 
 
 ### Inputs
+
+* **_geometry_**
+
+  * Accepts a single geometry connection (unless the SHIFT key is held).
 
 * _type_
 
@@ -45,7 +47,7 @@
 
 
 
-* See <a href="/concepts/GeneralConcepts/attribute.md" target="_blank">Attribute</a> for more information on attributes, and their function in the graph.
+* See [Attribute](/concepts/GeneralConcepts/attribute.md) for more information on attributes, and their function in the graph.
 * The _value_ input is a special type of input that can accept any type of data.
 * Other names for this node include: Attribute to list and Read attribute.
 

@@ -2,11 +2,11 @@
 
 **_Creates an enumeration (choice), shown as a dropdown._**
 
-When parameterized this node will appear as a dropdown in the “Parameter Panel”.
+---
 
-> This node has data inputs and outputs.
->
-> This node does NOT have geometry inputs and outputs.
+This node has data inputs and outputs.
+
+This node does NOT have geometry inputs and outputs.
 
 
 ### Inputs
@@ -59,6 +59,7 @@ When parameterized this node will appear as a dropdown in the “Parameter Panel
 
 
 
+* When parameterized this node will appear as a dropdown in the Parameter Panel.
 * Setting a _min/max mode_ input to `Soft` will allow values outside the range of the values defined by the relevant _min_ and _max_ inputs. Setting it to `Hard` will not allow values outside the range of the values defined by the relevant _min_ and _max_ inputs.
 * Other names for this node include: Dropdown, Menu, Choose, Enum, Enumeration, Parameter.
 

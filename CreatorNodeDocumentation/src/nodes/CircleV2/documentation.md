@@ -2,9 +2,7 @@
 
 **_Creates a circle._**
 
-> This node has data inputs and outputs.
->
-> This node has geometry inputs and outputs.
+---
 
 
 ### Inputs
@@ -39,6 +37,10 @@
 
 
 ### Outputs
+
+* **_geometry_**
+
+  * Output circle primitives.
 
 * _points_
 
