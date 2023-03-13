@@ -2,11 +2,7 @@
 
 **_Creates an xyz vector value._**
 
-When parameterized this node will appear as three input fields in the “Parameter panel”.
-
-> This node has data inputs and outputs.
->
-> This node does NOT have geometry inputs and outputs.
+---
 
 
 ### Inputs
@@ -43,6 +39,7 @@ When parameterized this node will appear as three input fields in the “Paramet
 
 
 
+* When parameterized this node will appear as three input fields in the Parameter panel.
 * The order of the individual input boxes for the _value_ and _default_ inputs are (from left to right): x, y, and z.
 * Other names for this node include: Point, Coordinate, Direction, xyz, and Parameter.
 

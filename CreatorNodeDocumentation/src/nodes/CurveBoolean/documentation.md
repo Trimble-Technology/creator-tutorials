@@ -2,12 +2,14 @@
 
 **_Performs 2D boolean operations on curves/polygons._**
 
-> This node has data inputs and outputs.
->
-> This node has geometry inputs and outputs.
+---
 
 
 ### Inputs
+
+* **_geometry_**
+
+  * Accepts multiple geometry connections.
 
 * _work plane_
 
@@ -39,6 +41,10 @@
 
 
 ### Outputs
+
+* **_geometry_**
+
+  * Output primitives.
 
 * _points_
 

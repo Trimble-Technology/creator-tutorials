@@ -2,12 +2,14 @@
 
 **_Iterates through a number of loops as defined by a paired _loop _node with the same tag._**
 
-> This node has data inputs and outputs.
->
-> This node has geometry inputs and outputs.
+---
 
 
 ### Inputs
+
+* **_geometry_**
+
+  * Accepts a single geometry connection (unless the SHIFT key is held).
 
 * _idling value_
 
@@ -21,6 +23,10 @@
 
 
 ### Outputs
+
+* **_geometry_**
+
+  * Output primitives.
 
 * _value_
 

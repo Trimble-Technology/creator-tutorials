@@ -2,9 +2,7 @@
 
 **_Creates lines as NURBS curves._**
 
-> This node has data inputs and outputs.
->
-> This node has geometry inputs and outputs.
+---
 
 
 ### Inputs
@@ -39,10 +37,14 @@
 
 * _order_
 
-  * The value that defines the order of the output line. See <a href="/concepts/GeneralConcepts/nurbsCurve.md" target="_blank">NURBS curves</a> for more information.
+  * The value that defines the order of the output line. See [NURBS curve](/concepts/GeneralConcepts/nurbsCurve.md) for more information.
 
 
 ### Outputs
+
+* **_geometry_**
+
+  * Output primitives.
 
 * _points_
 

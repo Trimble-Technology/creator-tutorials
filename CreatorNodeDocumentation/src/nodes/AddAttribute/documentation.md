@@ -2,12 +2,14 @@
 
 **_Adds attributes (metadata) to points, primitives, nodes, or graphs._**
 
-> This node has data inputs and outputs.
->
-> This node has geometry inputs and outputs.
+---
 
 
 ### Inputs
+
+* **_geometry_**
+
+  * Accepts a single geometry connection (unless the SHIFT key is held).
 
 * _type_
 
@@ -23,6 +25,10 @@
 
 
 ### Outputs
+
+* **_geometry_**
+
+  * Output primitives.
 
 * _points_
 
@@ -45,7 +51,7 @@
 
 
 
-* See <a href="/concepts/GeneralConcepts/attribute.md" target="_blank">Attribute</a> for more information on attributes, and their function in the graph.
+* See [Attribute](/concepts/GeneralConcepts/attribute.md) for more information on attributes, and their function in the graph.
 * The _value_ input is a special type of input that can accept any type of data.
 * This node can be used in conjunction with the **get attribute** node to later retrieve the attribute data.
 * Other names for this node include: Set attribute and Write attribute.

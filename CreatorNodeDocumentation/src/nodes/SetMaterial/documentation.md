@@ -2,12 +2,14 @@
 
 **_Sets the material properties of primitives._**
 
-> This node has data inputs and outputs.
->
-> This node has geometry inputs and outputs.
+---
 
 
 ### Inputs
+
+* **_geometry_**
+
+  * Accepts a single geometry connection (unless the SHIFT key is held).
 
 * _primitive mask_
 
@@ -116,6 +118,10 @@
 
 ### Outputs
 
+* **_geometry_**
+
+  * Output primitives.
+
 * _points_
 
   * The list of points of the output primitives.
@@ -137,7 +143,7 @@
 
 
 
-* See <a href="/concepts/GeneralConcepts/material.md" target="_blank">Material</a> for more information on the specfics of materials in Trimble Creator.
+* See [Material](/concepts/GeneralConcepts/material.md) for more information on the specfics of materials in Trimble Creator.
 * Other names for this node include: Set Material and Shader.
 
 

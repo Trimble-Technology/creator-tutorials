@@ -2,12 +2,14 @@
 
 **_Calculates the center of the input primitives._**
 
-> This node has data inputs and outputs.
->
-> This node has geometry inputs, but does NOT have geometry outputs.
+---
 
 
 ### Inputs
+
+* **_geometry_**
+
+  * Accepts a single geometry connection (unless the SHIFT key is held).
 
 * _mode_
 

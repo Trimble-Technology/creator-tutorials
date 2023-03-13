@@ -2,9 +2,7 @@
 
 **_Creates a cylinder between two vector positions._**
 
-> This node has data inputs and outputs.
->
-> This node has geometry inputs and outputs.
+---
 
 
 ### Inputs
@@ -27,6 +25,10 @@
 
 
 ### Outputs
+
+* **_geometry_**
+
+  * Output primitives.
 
 * _points_
 

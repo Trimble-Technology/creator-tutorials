@@ -2,14 +2,14 @@
 
 **_Calculates the size of the input primitives._**
 
-> This node has data outputs, but does NOT have data inputs.
->
-> This node has geometry inputs, but does NOT have geometry outputs.
+---
 
 
 ### Inputs
 
-No data inputs for this node.
+* **_geometry_**
+
+  * Accepts a single geometry connection (unless the SHIFT key is held).
 
 
 ### Outputs

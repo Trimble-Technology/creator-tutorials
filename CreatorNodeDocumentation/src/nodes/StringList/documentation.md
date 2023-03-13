@@ -2,9 +2,7 @@
 
 **_Creates a list of string values._**
 
-> This node has data inputs and outputs.
->
-> This node does NOT have geometry inputs and outputs.
+---
 
 
 ### Inputs

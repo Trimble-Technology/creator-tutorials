@@ -2,9 +2,7 @@
 
 **_Creates a rectangular plane._**
 
-> This node has data inputs and outputs.
->
-> This node has geometry inputs and outputs.
+---
 
 
 ### Inputs
@@ -31,11 +29,11 @@
 
 * _orderU_
 
-  * The value that defines the order of the U axis of the output rectangle (in the same axis as the _width _input) when the _type_ input is set to `NURBS surface`. See <a href="/concepts/GeneralConcepts/nurbsSurface.md" target="_blank">NURBS surface</a> for more information.
+  * The value that defines the order of the U axis of the output rectangle (in the same axis as the _width _input) when the _type_ input is set to `NURBS surface`. See [NURBS surface](/concepts/GeneralConcepts/nurbsSurface.md) for more information.
 
 * _orderV_
 
-  * The value that defines the order of the V axis of the output rectangle (in the the same axis as the _length _input) when the _type_ input is set to `NURBS surface`. See <a href="/concepts/GeneralConcepts/nurbsSurface.md" target="_blank">NURBS surface</a> for more information.
+  * The value that defines the order of the V axis of the output rectangle (in the the same axis as the _length _input) when the _type_ input is set to `NURBS surface`. See [NURBS surface](/concepts/GeneralConcepts/nurbsSurface.md) for more information.
 
 * _point columns_
 
@@ -47,6 +45,10 @@
 
 
 ### Outputs
+
+* **_geometry_**
+
+  * Output primitives.
 
 * _points_
 
