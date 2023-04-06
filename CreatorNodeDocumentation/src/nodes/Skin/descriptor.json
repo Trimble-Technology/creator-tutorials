@@ -1,0 +1,95 @@
+{
+    "name": "loft",
+    "alternateNames": [
+      "skin",
+      "revolve"
+    ],
+    "defaultNodeName": "loft",
+    "path": [
+      "geometry",
+      "modify",
+      "surface"
+    ],
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry",
+        "multigeo": true
+      },
+      "mode": {
+        "type": "enum",
+        "options": [
+          "per geometry input",
+          "between geometry inputs",
+          "all input curves"
+        ],
+        "displayName": "mode"
+      },
+      "outputType": {
+        "type": "enum",
+        "options": [
+          "mesh",
+          "NURBS surface"
+        ],
+        "displayName": "loft type"
+      },
+      "per": {
+        "type": "integer",
+        "default": 0,
+        "displayName": "per",
+        "hideWhen": "mode < 2"
+      },
+      "interpolate": {
+        "type": "boolean",
+        "default": true,
+        "displayName": "interpolate",
+        "hideWhen": "outputType == 0"
+      },
+      "orderU": {
+        "type": "integer",
+        "default": 2,
+        "minimum": 2,
+        "maximum": 10,
+        "displayName": "order U",
+        "hideWhen": "outputType == 0"
+      },
+      "meshSmoothness": {
+        "type": "integer",
+        "default": 1,
+        "minimum": 1,
+        "maximum": 6,
+        "displayName": "mesh smoothness",
+        "hideWhen": "outputType == 1"
+      },
+      "weld": {
+        "type": "boolean",
+        "default": true,
+        "displayName": "weld",
+        "hideWhen": "outputType == 1"
+      }
+    },
+    "type": "Skin",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "displayName": "points.z"
+      }
+    },
+    "nodeClass": "primitive"
+  }

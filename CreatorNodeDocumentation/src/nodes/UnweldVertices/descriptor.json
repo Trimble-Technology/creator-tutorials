@@ -1,0 +1,43 @@
+{
+    "name": "unweld vertices",
+    "alternateNames": [
+      "hard edges",
+      "facet"
+    ],
+    "defaultNodeName": "unweld vertices",
+    "path": [
+      "geometry",
+      "modify",
+      "mesh"
+    ],
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      }
+    },
+    "type": "UnweldVertices",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "displayName": "points.z"
+      }
+    },
+    "nodeClass": "node"
+  }

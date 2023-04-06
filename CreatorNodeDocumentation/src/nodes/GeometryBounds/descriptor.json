@@ -1,0 +1,61 @@
+{
+    "name": "geometry bounds",
+    "alternateNames": [
+      "extent",
+      "min",
+      "max"
+    ],
+    "defaultNodeName": "geometry bounds",
+    "path": [
+      "geometry",
+      "measure",
+      "bounding box"
+    ],
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "reverseResult": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "output opposite"
+      }
+    },
+    "type": "GeometryBounds",
+    "output": {
+      "xMin": {
+        "type": "float",
+        "displayName": "xMin"
+      },
+      "yMin": {
+        "type": "float",
+        "displayName": "yMin"
+      },
+      "zMin": {
+        "type": "float",
+        "displayName": "zMin"
+      },
+      "xMax": {
+        "type": "float",
+        "displayName": "xMax"
+      },
+      "yMax": {
+        "type": "float",
+        "displayName": "yMax"
+      },
+      "zMax": {
+        "type": "float",
+        "displayName": "zMax"
+      },
+      "primitive minimum bounds": {
+        "type": "list:vector",
+        "displayName": "primitive minimum bounds"
+      },
+      "primitive maximum bounds": {
+        "type": "list:vector",
+        "displayName": "primitive maximum bounds"
+      }
+    },
+    "nodeClass": "value"
+  }

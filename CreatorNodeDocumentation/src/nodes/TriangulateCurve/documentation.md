@@ -25,7 +25,7 @@
 
 * _input handling_
 
-  * Sets how the input curves are handled within the triangulation. This can be `first curve is outline, others are holes` (the first input curve is the outline and following input curves are holes within the resulting triangulation) or `all curves are outlines` (all input curves are outlines and no holes are made).
+  * Sets how the input curves are handled within the triangulation. This can be `first curve is outline, others are holes` (the first input curve is the outline and following input curves are holes within the resulting mesh) or `all curves are outlines` (all input curves are outlines and no holes are made).
 
 * _make convex hull_
 

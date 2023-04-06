@@ -1,0 +1,55 @@
+{
+    "name": "geometry center",
+    "alternateNames": ["center","centroid","barycenter"],
+    "defaultNodeName": "geometry center",
+    "path": [
+      "geometry",
+      "measure",
+      "bounding box"
+    ],
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "mode": {
+        "type": "enum",
+        "displayName": "mode",
+        "options":  [
+          "center",
+          "centroid"
+        ],
+        "default": 0
+
+      },
+      "reverseResult": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "output opposite"
+      }
+    },
+    "type": "GeometryCentroid",
+    "output": {
+      "center": {
+        "type": "vector",
+        "displayName": "center"
+      },
+      "centerX": {
+        "type": "float",
+        "displayName": "centerX"
+      },
+      "centerY": {
+        "type": "float",
+        "displayName": "centerY"
+      },
+      "centerZ": {
+        "type": "float",
+        "displayName": "centerZ"
+      },
+      "primitive centers": {
+        "type": "list:vector",
+        "displayName": "primitive centers"
+      }
+    },
+    "nodeClass": "value"
+  }

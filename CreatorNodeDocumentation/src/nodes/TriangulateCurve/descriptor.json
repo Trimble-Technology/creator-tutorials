@@ -1,0 +1,132 @@
+{
+    "name": "triangulate 2d path",
+    "alternateNames": [
+      "create polygon",
+      "tesselate",
+      "tessellate",
+      "path",
+      "curve",
+      "mesh",
+      "path to polygon"
+    ],
+    "defaultNodeName": "triangulate 2d path",
+    "path": [
+      "geometry",
+      "2d path"
+    ],
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "workplane": {
+        "type": "enum",
+        "default": 2,
+        "options": [
+          "X = 0",
+          "Y = 0",
+          "Z = 0"
+        ],
+        "displayName": "work plane"
+      },
+      "preFlatten": {
+        "type": "boolean",
+        "default": true,
+        "displayName": "pre-flatten"
+      },
+      "library": {
+        "type": "enum",
+        "options": [
+          "Poly2Tri",
+          "Triangle"
+        ],
+        "displayName": "library"
+      },
+      "mode": {
+        "type": "enum",
+        "options": [
+          "first curve is outline, other curves are holes",
+          "all curves are outlines"
+        ],
+        "displayName": "input handling"
+      },
+      "convexHull": {
+        "type": "boolean",
+        "displayName": "make convex hull"
+      },
+      "algorithm": {
+        "type": "enum",
+        "options": [
+          "sweepline",
+          "Dwyer",
+          "incremental"
+        ],
+        "displayName": "algorithm",
+        "hideWhen": "library == 0"
+      },
+      "refine": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "refine",
+        "hideWhen": "library == 0"
+      },
+      "maxArea": {
+        "type": "float",
+        "default": 10000,
+        "displayName": "max area",
+        "hideWhen": "!refine || library == 0"
+      },
+      "minAngle": {
+        "type": "float",
+        "minimum": 1,
+        "maximum": 34.8,
+        "default": 20,
+        "displayName": "min angle",
+        "hideWhen": "!refine || library == 0"
+      },
+      "maxAngle": {
+        "type": "float",
+        "minimum": 100,
+        "maximum": 180,
+        "default": 180,
+        "displayName": "max angle",
+        "hideWhen": "!refine || library == 0"
+      },
+      "smoothing": {
+        "type": "integer",
+        "default": 0,
+        "minimum": 0,
+        "maximum": 100,
+        "displayName": "smoothing",
+        "hideWhen": "!refine || library == 0"
+      },
+      "internalPoints": {
+        "type": "list:vector",
+        "displayName": "inner points"
+      }
+    },
+    "type": "TriangulateCurve",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "displayName": "points.z"
+      }
+    },
+    "nodeClass": "node"
+  }

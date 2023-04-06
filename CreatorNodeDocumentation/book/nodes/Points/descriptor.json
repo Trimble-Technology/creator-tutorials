@@ -1,0 +1,59 @@
+{
+    "name": "points",
+    "alternateNames": [
+      "create points"
+    ],
+    "defaultNodeName": "points",
+    "path": [
+      "geometry",
+      "create"
+    ],
+    "input": {
+      "positions": {
+        "type": "list:vector",
+        "displayName": "positions"
+      },
+      "reset": {
+        "type": "button",
+        "default": false,
+        "displayName": "initialize"
+      },
+      "initializationList": {
+        "type": "list:vector",
+        "displayName": "init list"
+      },
+      "outputPolymesh": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "output as mesh vertices"
+      }
+    },
+    "type": "Points",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "displayName": "points.z"
+      },
+      "selection": {
+        "type": "list:boolean",
+        "displayName": "selection"
+      }
+    },
+    "nodeClass": "primitive"
+  }

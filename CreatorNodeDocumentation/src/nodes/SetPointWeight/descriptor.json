@@ -1,0 +1,59 @@
+{
+    "name": "set point weight",
+    "alternateNames": [
+      "edit point weight",
+      "weigth"
+    ],
+    "defaultNodeName": "set point weight",
+    "path": [
+      "geometry",
+      "modify",
+      "points"
+    ],
+    "help": "Sets point weights.",
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "description": "input geometry",
+        "displayName": "geometry"
+      },
+      "weights": {
+        "type": "list:float",
+        "displayName": "weights"
+      },
+      "defaultWeight": {
+        "type": "float",
+        "default": 1,
+        "displayName": "default weight"
+      }
+    },
+    "type": "SetPointWeight",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "description": "points at input positions",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "description": "point position vectors",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "description": "point position x coordinates",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "description": "point position y coordinates",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "description": "point position z coordinates",
+        "displayName": "points.z"
+      }
+    },
+    "nodeClass": "node"
+  }

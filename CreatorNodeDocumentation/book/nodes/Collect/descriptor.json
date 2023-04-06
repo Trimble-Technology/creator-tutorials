@@ -1,0 +1,44 @@
+{
+    "name": "collect",
+    "alternateNames": [
+      "merge",
+      "group",
+      "collate",
+      "test"
+    ],
+    "defaultNodeName": "collect",
+    "path": [
+      "geometry"
+    ],
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry",
+        "multigeo": true
+      }
+    },
+    "type": "Collect",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "displayName": "points.z"
+      }
+    },
+    "nodeClass": "node"
+  }

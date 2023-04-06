@@ -1,0 +1,61 @@
+{
+    "name": "sort number list",
+    "alternateNames": [],
+    "defaultNodeName": "sort number list",
+    "path": [
+      "list",
+      "number"
+    ],
+    "help": "Sorts the values of a number list.",
+    "input": {
+      "list": {
+        "type": "list:float",
+        "displayName": "list"
+      },
+      "value": {
+        "type": "float",
+        "default": 0,
+        "description": "return the closest value to this one, above and below in the list",
+        "displayName": "near value"
+      }
+    },
+    "type": "SortFloatList",
+    "output": {
+      "sorted list": {
+        "type": "list:float",
+        "description": "sorted list of numbers",
+        "displayName": "sorted list"
+      },
+      "original indexes": {
+        "type": "list:integer",
+        "description": "map from new to old indices",
+        "displayName": "original indexes"
+      },
+      "reverse indexes": {
+        "type": "list:integer",
+        "description": "map from old to new indices",
+        "displayName": "reverse indexes"
+      },
+      "value below": {
+        "type": "float",
+        "description": "value in the list closest below given value",
+        "displayName": "value below"
+      },
+      "value above": {
+        "type": "float",
+        "description": "value in the list closest above given value",
+        "displayName": "value above"
+      },
+      "below index": {
+        "type": "integer",
+        "description": "index in the original list, of the 'below' value;  -1 if value < lowest list value",
+        "displayName": "below index"
+      },
+      "above index": {
+        "type": "integer",
+        "description": "index in the original list, of the 'below' value;  -1 if value > highest list value",
+        "displayName": "above index"
+      }
+    },
+    "nodeClass": "list"
+  }

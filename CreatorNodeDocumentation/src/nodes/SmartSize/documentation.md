@@ -2,6 +2,7 @@
 
 **_Rescales geometry while preserving features within set zones._**
 
+---
 
 ### Inputs
 

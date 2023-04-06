@@ -1,0 +1,63 @@
+{
+    "name": "loop",
+    "alternateNames": [
+      "iterate",
+      "loop"
+    ],
+    "defaultNodeName": "loop",
+    "path": [
+      "geometry",
+      "copy | loop"
+    ],
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "numLoops": {
+        "type": "integer",
+        "default": 1,
+        "displayName": "# of loops"
+      },
+      "iteratorTag": {
+        "type": "string",
+        "default": "",
+        "displayName": "iterator tag"
+      },
+      "cumulative": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "cumulative"
+      },
+      "combineMeshes": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "combine meshes",
+        "hideWhen": "cumulative"
+      }
+    },
+    "type": "Loop",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "displayName": "points.z"
+      }
+    },
+    "nodeClass": "node"
+  }

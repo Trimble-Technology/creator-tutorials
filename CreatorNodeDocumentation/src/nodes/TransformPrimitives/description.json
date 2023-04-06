@@ -1,0 +1,108 @@
+{
+    "name": "transform",
+    "alternateNames": [
+      "move",
+      "rotate",
+      "translate",
+      "scale",
+      "position",
+      "size"
+    ],
+    "defaultNodeName": "transform",
+    "path": [
+      "geometry",
+      "transform"
+    ],
+    "help": "Performs transformations on geometry.",
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "description": "input geometry",
+        "displayName": "geometry",
+        "multigeo": true
+      },
+      "translate": {
+        "type": "flexi:vector",
+        "default": [
+          0,
+          0,
+          0
+        ],
+        "displayName": "translate"
+      },
+      "rotate": {
+        "type": "flexi:vector",
+        "default": [
+          0,
+          0,
+          0
+        ],
+        "displayName": "rotate"
+      },
+      "scale": {
+        "type": "flexi:vector",
+        "default": [
+          1,
+          1,
+          1
+        ],
+        "displayName": "scale"
+      },
+      "centerPivot": {
+        "type": "boolean",
+        "default": true,
+        "displayName": "center pivot"
+      },
+      "pivot": {
+        "type": "flexi:vector",
+        "default": [
+          0,
+          0,
+          0
+        ],
+        "displayName": "pivot",
+        "hideWhen": "centerPivot"
+      }
+    },
+    "type": "TransformPrimitives",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "description": "output geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "description": "point positions",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "description": "point positions x coordinate",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "description": "point positions y coordinate",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "description": "point positions z coordinate",
+        "displayName": "points.z"
+      },
+      "translate": {
+        "type": "list:vector",
+        "displayName": "translate"
+      },
+      "rotate": {
+        "type": "list:vector",
+        "displayName": "rotate"
+      },
+      "scale": {
+        "type": "list:vector",
+        "displayName": "scale"
+      }
+    },
+    "nodeClass": "node"
+  }

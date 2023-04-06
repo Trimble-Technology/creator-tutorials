@@ -1,0 +1,52 @@
+{
+    "name": "iterator",
+    "alternateNames": [],
+    "defaultNodeName": "iterator",
+    "path": [
+      "geometry",
+      "copy | loop"
+    ],
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "value": {
+        "type": "integer",
+        "default": 0,
+        "displayName": "idling value"
+      },
+      "tag": {
+        "type": "string",
+        "displayName": "tag"
+      }
+    },
+    "type": "Iterator",
+    "output": {
+      "value": {
+        "type": "integer",
+        "displayName": "value"
+      },
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "displayName": "points.z"
+      }
+    },
+    "nodeClass": "communication"
+  }

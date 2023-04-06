@@ -1,0 +1,85 @@
+{
+    "name": "get attribute",
+    "alternateNames": [
+      "attribute to list",
+      "read attribute"
+    ],
+    "defaultNodeName": "get attribute",
+    "path": [
+      "geometry",
+      "attribute | metadata"
+    ],
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "mode": {
+        "type": "enum",
+        "options": [
+          "per point",
+          "per primitive",
+          "on node",
+          "on graph"
+        ],
+        "displayName": "mode"
+      },
+      "attributeType": {
+        "type": "enum",
+        "options": [
+          "boolean, integer or float",
+          "vector",
+          "string"
+        ],
+        "displayName": "type"
+      },
+      "attributeName": {
+        "type": "string",
+        "displayName": "attribute name"
+      },
+      "defaultValue": {
+        "type": "float",
+        "default": -1,
+        "displayName": "default",
+        "hideWhen": "attributeType > 0"
+      },
+      "defaultVectorValue": {
+        "type": "vector",
+        "displayName": "default",
+        "hideWhen": "attributeType == 0 || attributeType == 2"
+      },
+      "defaultStringValue": {
+        "type": "string",
+        "displayName": "default",
+        "hideWhen": "attributeType < 2"
+      }
+    },
+    "type": "GetAttribute",
+    "output": {
+      "number": {
+        "type": "float",
+        "displayName": "number"
+      },
+      "vector": {
+        "type": "vector",
+        "displayName": "vector"
+      },
+      "string": {
+        "type": "string",
+        "displayName": "string"
+      },
+      "number list": {
+        "type": "list:float",
+        "displayName": "number list"
+      },
+      "vector list": {
+        "type": "list:vector",
+        "displayName": "vector list"
+      },
+      "string list": {
+        "type": "list:string",
+        "displayName": "string list"
+      }
+    },
+    "nodeClass": "attribute"
+  }

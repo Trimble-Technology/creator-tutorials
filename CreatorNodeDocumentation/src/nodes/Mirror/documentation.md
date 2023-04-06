@@ -2,6 +2,7 @@
 
 **_Mirrors geometry across a selected axis._**
 
+---
 
 ### Inputs
 

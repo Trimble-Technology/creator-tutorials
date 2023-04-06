@@ -1,0 +1,101 @@
+{
+    "name": "boolean 2d paths",
+    "alternateNames": [
+      "curve",
+      "polygon",
+      "path",
+      "2d boolean"
+    ],
+    "defaultNodeName": "boolean 2d paths",
+    "path": [
+      "geometry",
+      "2d path"
+    ],
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry",
+        "multigeo": true
+      },
+      "workplane": {
+        "type": "enum",
+        "default": 2,
+        "options": [
+          "X = 0",
+          "Y = 0",
+          "Z = 0"
+        ],
+        "displayName": "work plane"
+      },
+      "preFlatten": {
+        "type": "boolean",
+        "default": true,
+        "displayName": "pre-flatten"
+      },
+      "clipType": {
+        "type": "enum",
+        "options": [
+          "intersect",
+          "union",
+          "difference",
+          "xor"
+        ],
+        "displayName": "boolean type"
+      },
+      "fillType": {
+        "type": "enum",
+        "options": [
+          "even-odd",
+          "nonzero",
+          "positive",
+          "negative"
+        ],
+        "displayName": "fill type"
+      },
+      "swap": {
+        "type": "enum",
+        "options": [
+          "last",
+          "first"
+        ],
+        "displayName": "primary polygon"
+      },
+      "swapSubject": {
+        "type": "enum",
+        "options": [
+          "clip",
+          "subject"
+        ],
+        "displayName": "primary role"
+      },
+      "closeCurves": {
+        "type": "boolean",
+        "default": true,
+        "displayName": "close resulting curves"
+      }
+    },
+    "type": "CurveBoolean",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "displayName": "points.z"
+      }
+    },
+    "nodeClass": "node"
+  }

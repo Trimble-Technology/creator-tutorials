@@ -1,0 +1,52 @@
+{
+    "name": "shift primitive list",
+    "alternateNames": [],
+    "defaultNodeName": "shift primitive list",
+    "path": [
+      "geometry",
+      "modify",
+      "primitives"
+    ],
+    "help": "Shifts the primitive order.",
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "description": "input geometry",
+        "displayName": "geometry"
+      },
+      "shift": {
+        "type": "integer",
+        "default": 0,
+        "displayName": "shift"
+      }
+    },
+    "type": "ShiftPrimitiveList",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "description": "output geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "description": "point positions",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "description": "point positions x coordinate",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "description": "point positions y coordinate",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "description": "point positions z coordinate",
+        "displayName": "points.z"
+      }
+    },
+    "nodeClass": "node"
+  }

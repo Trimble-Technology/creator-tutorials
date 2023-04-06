@@ -1,0 +1,60 @@
+{
+    "name": "add attribute",
+    "alternateNames": [
+      "set attribute",
+      "write attribute"
+    ],
+    "defaultNodeName": "add attribute",
+    "path": [
+      "geometry",
+      "attribute | metadata"
+    ],
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "mode": {
+        "type": "enum",
+        "options": [
+          "per point",
+          "per primitive",
+          "on node",
+          "on graph"
+        ],
+        "displayName": "type"
+      },
+      "attributeName": {
+        "type": "string",
+        "displayName": "attribute name"
+      },
+      "value": {
+        "type": "flexi:anything",
+        "displayName": "value"
+      }
+    },
+    "type": "AddAttribute",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "displayName": "points.z"
+      }
+    },
+    "nodeClass": "node"
+  }

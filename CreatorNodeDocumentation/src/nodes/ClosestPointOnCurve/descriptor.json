@@ -1,0 +1,70 @@
+{
+    "name": "closest point on curve",
+    "alternateNames": [
+      "nearest",
+      "distance"
+    ],
+    "defaultNodeName": "closest point on curve",
+    "path": [
+      "geometry",
+      "measure"
+    ],
+    "help": "Finds the closest point on a input curve to input points.",
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "description": "curves to find closest point on",
+        "displayName": "geometry"
+      },
+      "positions": {
+        "type": "list:vector",
+        "displayName": "positions"
+      },
+      "precision": {
+        "type": "integer",
+        "default": 3,
+        "minimum": 1,
+        "maximum": 6,
+        "displayName": "accuracy"
+      }
+    },
+    "type": "ClosestPointOnCurve",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "description": "output geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "description": "closest point positions",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "description": "closest point x coordinates",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "description": "closest point y coordinates",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "description": "closest point z coordinates",
+        "displayName": "points.z"
+      },
+      "distances": {
+        "type": "list:float",
+        "description": "distance to closest positions",
+        "displayName": "distances"
+      },
+      "u coordinates": {
+        "type": "list:float",
+        "description": "curve u value at closest positions",
+        "displayName": "u coordinates"
+      }
+    },
+    "nodeClass": "node"
+  }

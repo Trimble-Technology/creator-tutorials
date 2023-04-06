@@ -1,0 +1,62 @@
+{
+    "name": "get primitive",
+    "alternateNames": [
+      "delete",
+      "choose"
+    ],
+    "defaultNodeName": "get primitive",
+    "path": [
+      "geometry",
+      "modify",
+      "primitives"
+    ],
+    "help": "Gets primitives using input indices.",
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "description": "input geometry",
+        "displayName": "geometry"
+      },
+      "index": {
+        "type": "flexi:integer",
+        "default": 0,
+        "description": "get primitive with this index from incoming list of primitives 9list of indices also allowed)",
+        "displayName": "index"
+      },
+      "invert": {
+        "type": "boolean",
+        "default": false,
+        "description": "invert the selection",
+        "displayName": "invert"
+      }
+    },
+    "type": "GetPrimitive",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "description": "output geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "description": "point positions",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "description": "point positions x coordinate",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "description": "point positions y coordinate",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "description": "point positions z coordinate",
+        "displayName": "points.z"
+      }
+    },
+    "nodeClass": "node"
+  }

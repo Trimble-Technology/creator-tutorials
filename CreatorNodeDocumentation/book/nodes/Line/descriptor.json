@@ -1,0 +1,102 @@
+{
+    "name": "line",
+    "alternateNames": [],
+    "defaultNodeName": "line",
+    "path": [
+      "geometry",
+      "create"
+    ],
+    "input": {
+      "mode": {
+        "type": "enum",
+        "options": [
+          "centered",
+          "origin + direction",
+          "point to point"
+        ],
+        "displayName": "mode"
+      },
+      "center": {
+        "type": "flexi:vector",
+        "default": [
+          0,
+          0,
+          0
+        ],
+        "displayName": "center",
+        "hideWhen": "mode>0"
+      },
+      "origin": {
+        "type": "flexi:vector",
+        "default": [
+          0,
+          0,
+          0
+        ],
+        "displayName": "start point",
+        "hideWhen": "mode==0"
+      },
+      "direction": {
+        "type": "flexi:vector",
+        "default": [
+          1,
+          0,
+          0
+        ],
+        "displayName": "direction",
+        "hideWhen": "mode==2"
+      },
+      "end": {
+        "type": "flexi:vector",
+        "default": [
+          1000,
+          0,
+          0
+        ],
+        "displayName": "end point",
+        "hideWhen": "mode==0 || mode==1"
+      },
+      "length": {
+        "type": "flexi:float",
+        "default": 1000,
+        "displayName": "length",
+        "hideWhen": "mode==2"
+      },
+      "numPoints": {
+        "type": "flexi:integer",
+        "default": 2,
+        "displayName": "number of points"
+      },
+      "order": {
+        "type": "flexi:integer",
+        "default": 2,
+        "minimum": 2,
+        "maximum": 10,
+        "displayName": "order"
+      }
+    },
+    "type": "Line",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "displayName": "points.z"
+      }
+    },
+    "nodeClass": "primitive"
+  }

@@ -1,0 +1,33 @@
+{
+    "name": "# points",
+    "alternateNames": [
+      "number of points",
+      "amount of points"
+    ],
+    "defaultNodeName": "# points",
+    "path": [
+      "geometry",
+      "measure"
+    ],
+    "help": "Calculates the point count of input primitives.",
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "description": "input geometry",
+        "displayName": "geometry"
+      },
+      "minusOne": {
+        "displayName": "minus one",
+        "type": "boolean",
+        "default": false
+      }
+    },
+    "type": "NumPoints",
+    "output": {
+      "numPoints": {
+        "type": "integer",
+        "displayName": "number of points"
+      }
+    },
+    "nodeClass": "value"
+  }

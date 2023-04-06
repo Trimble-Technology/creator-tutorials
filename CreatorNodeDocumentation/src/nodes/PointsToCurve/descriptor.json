@@ -1,0 +1,63 @@
+{
+    "name": "points to curve",
+    "alternateNames": [
+      "create curve"
+    ],
+    "defaultNodeName": "points to curve",
+    "path": [
+      "geometry",
+      "modify",
+      "curve"
+    ],
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "pointsPerCurve": {
+        "type": "integer",
+        "displayName": "points per curve"
+      },
+      "order": {
+        "type": "integer",
+        "default": 2,
+        "minimum": 2,
+        "maximum": 10,
+        "displayName": "order"
+      },
+      "keepIncomingGeo": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "keepIncomingGeo"
+      },
+      "beziers": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "beziers"
+      }
+    },
+    "type": "PointsToCurve",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "displayName": "points.z"
+      }
+    },
+    "nodeClass": "node"
+  }

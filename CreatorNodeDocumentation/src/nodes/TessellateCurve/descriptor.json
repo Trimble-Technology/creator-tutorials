@@ -1,0 +1,88 @@
+{
+    "name": "curve to polyline",
+    "alternateNames": [
+      "redraw",
+      "divide",
+      "tessellate curve"
+    ],
+    "defaultNodeName": "curve to polyline",
+    "path": [
+      "geometry",
+      "modify",
+      "curve"
+    ],
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "description": "input geometry",
+        "displayName": "geometry"
+      },
+      "mode": {
+        "type": "enum",
+        "options": [
+          "# of segments",
+          "segment length",
+          "approx segment length"
+        ],
+        "displayName": "mode"
+      },
+      "segments": {
+        "type": "integer",
+        "default": 8,
+        "minimum": 1,
+        "maximum": 1000,
+        "displayName": "segments",
+        "hideWhen": "mode == 1 || mode == 2"
+      },
+      "length": {
+        "type": "float",
+        "default": 100,
+        "displayName": "length",
+        "hideWhen": "mode == 0"
+      },
+      "lengthFidelity": {
+        "type": "integer",
+        "default": 100,
+        "minimum": 10,
+        "maximum": 1000,
+        "displayName": "accuracy"
+      },
+      "perSegment": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "per order 2 segment"
+      }
+    },
+    "type": "TesselateCurve",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "displayName": "points.z"
+      },
+      "u coordinates": {
+        "type": "list:float",
+        "displayName": "u coordinates"
+      },
+      "curve lengths": {
+        "type": "list:float",
+        "displayName": "curve lengths"
+      }
+    },
+    "nodeClass": "node"
+  }

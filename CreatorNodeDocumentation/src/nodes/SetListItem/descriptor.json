@@ -1,0 +1,35 @@
+{
+    "name": "set number list item",
+    "alternateNames": [],
+    "defaultNodeName": "set number list item",
+    "path": [
+      "list",
+      "number"
+    ],
+    "help": "Sets an items value in a number list.",
+    "input": {
+      "list": {
+        "type": "list:float",
+        "displayName": "list"
+      },
+      "index": {
+        "type": "integer",
+        "default": 0,
+        "displayName": "index"
+      },
+      "value": {
+        "type": "float",
+        "default": 0,
+        "displayName": "value"
+      }
+    },
+    "type": "SetListItem",
+    "output": {
+      "list": {
+        "type": "list:float",
+        "description": "edited list",
+        "displayName": "list"
+      }
+    },
+    "nodeClass": "list"
+  }
