@@ -1,0 +1,29 @@
+{
+    "name": "absolute value",
+    "alternateNames": [],
+    "defaultNodeName": "absolute value",
+    "path": [
+      "math",
+      "basic"
+    ],
+    "help": "Takes the absolute of a value.",
+    "input": {
+      "value": {
+        "type": "flexi:float",
+        "default": 0,
+        "displayName": "value"
+      }
+    },
+    "type": "Abs",
+    "output": {
+      "result": {
+        "type": "float",
+        "displayName": "result"
+      },
+      "result list": {
+        "type": "list:float",
+        "displayName": "result list"
+      }
+    },
+    "nodeClass": "math"
+  }

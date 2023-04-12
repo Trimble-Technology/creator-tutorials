@@ -1,0 +1,52 @@
+{
+    "name": "multiply vector",
+    "alternateNames": [],
+    "defaultNodeName": "multiply vector",
+    "path": [
+      "math",
+      "vector"
+    ],
+    "help": "Multiplies vectors by factor values and/or with other vectors.",
+    "input": {
+      "vector1": {
+        "type": "flexi:vector",
+        "default": [
+          1,
+          1,
+          1
+        ],
+        "displayName": "vector1"
+      },
+      "vector2": {
+        "type": "flexi:vector",
+        "default": [
+          1,
+          1,
+          1
+        ],
+        "displayName": "vector2"
+      },
+      "factor": {
+        "type": "flexi:float",
+        "default": 1,
+        "displayName": "factor"
+      },
+      "reverseResult": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "reverse"
+      }
+    },
+    "type": "MultiplyVector",
+    "output": {
+      "result": {
+        "type": "vector",
+        "displayName": "result"
+      },
+      "result list": {
+        "type": "list:vector",
+        "displayName": "result list"
+      }
+    },
+    "nodeClass": "math"
+  }

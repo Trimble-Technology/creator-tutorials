@@ -1,0 +1,29 @@
+{
+    "name": "split string",
+    "alternateNames": [],
+    "defaultNodeName": "split string",
+    "path": [
+      "string"
+    ],
+    "help": "Splits string into strings.",
+    "input": {
+      "stringToSplit": {
+        "type": "string",
+        "default": "",
+        "displayName": "string"
+      },
+      "separator": {
+        "type": "string",
+        "default": "",
+        "displayName": "separator"
+      }
+    },
+    "type": "StringSplit",
+    "output": {
+      "string list": {
+        "type": "list:string",
+        "displayName": "string list"
+      }
+    },
+    "nodeClass": "string"
+  }

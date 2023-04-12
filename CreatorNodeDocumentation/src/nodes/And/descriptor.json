@@ -1,0 +1,47 @@
+{
+    "name": "and",
+    "alternateNames": [
+      "&",
+      "&&"
+    ],
+    "defaultNodeName": "and",
+    "path": [
+      "math",
+      "logic"
+    ],
+    "help": "Checks whether all inputs are true.",
+    "input": {
+      "value1": {
+        "type": "flexi:boolean",
+        "default": true,
+        "displayName": "value 1"
+      },
+      "value2": {
+        "type": "flexi:boolean",
+        "default": true,
+        "displayName": "value 2"
+      },
+      "value3": {
+        "type": "flexi:boolean",
+        "default": true,
+        "displayName": "value 3"
+      },
+      "value4": {
+        "type": "flexi:boolean",
+        "default": true,
+        "displayName": "value 4"
+      }
+    },
+    "type": "And",
+    "output": {
+      "result": {
+        "type": "boolean",
+        "displayName": "result"
+      },
+      "result list": {
+        "type": "list:boolean",
+        "displayName": "result list"
+      }
+    },
+    "nodeClass": "math"
+  }

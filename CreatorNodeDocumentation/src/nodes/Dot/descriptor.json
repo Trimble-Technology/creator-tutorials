@@ -1,0 +1,42 @@
+{
+    "name": "dot product",
+    "alternateNames": [],
+    "defaultNodeName": "dot product",
+    "path": [
+      "math",
+      "vector"
+    ],
+    "help": "Performs the dot product of two vectors.",
+    "input": {
+      "vector1": {
+        "type": "flexi:vector",
+        "default": [
+          0,
+          0,
+          0
+        ],
+        "displayName": "vector1"
+      },
+      "vector2": {
+        "type": "flexi:vector",
+        "default": [
+          0,
+          0,
+          0
+        ],
+        "displayName": "vector2"
+      }
+    },
+    "type": "Dot",
+    "output": {
+      "result": {
+        "type": "float",
+        "displayName": "result"
+      },
+      "result list": {
+        "type": "list:float",
+        "displayName": "result list"
+      }
+    },
+    "nodeClass": "math"
+  }

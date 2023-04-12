@@ -1,0 +1,36 @@
+{
+    "name": "power",
+    "alternateNames": [
+      "^"
+    ],
+    "defaultNodeName": "power",
+    "path": [
+      "math",
+      "basic"
+    ],
+    "help": "Calculates a value to the power of another value.",
+    "input": {
+      "value1": {
+        "type": "flexi:float",
+        "default": 0,
+        "displayName": "value 1"
+      },
+      "value2": {
+        "type": "flexi:float",
+        "default": 1,
+        "displayName": "value 2"
+      }
+    },
+    "type": "Power",
+    "output": {
+      "result": {
+        "type": "float",
+        "displayName": "result"
+      },
+      "result list": {
+        "type": "list:float",
+        "displayName": "result list"
+      }
+    },
+    "nodeClass": "math"
+  }

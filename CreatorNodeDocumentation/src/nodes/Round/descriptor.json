@@ -1,0 +1,29 @@
+{
+    "name": "round",
+    "alternateNames": [],
+    "defaultNodeName": "round",
+    "path": [
+      "math",
+      "round"
+    ],
+    "help": "Rounds to the nearest integer.",
+    "input": {
+      "value": {
+        "type": "flexi:float",
+        "default": 0,
+        "displayName": "value"
+      }
+    },
+    "type": "Round",
+    "output": {
+      "result": {
+        "type": "integer",
+        "displayName": "result"
+      },
+      "result list": {
+        "type": "list:integer",
+        "displayName": "result list"
+      }
+    },
+    "nodeClass": "math"
+  }

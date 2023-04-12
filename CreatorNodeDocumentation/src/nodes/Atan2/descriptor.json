@@ -1,0 +1,36 @@
+{
+    "name": "arc tangent 2",
+    "alternateNames": [
+      "atan2"
+    ],
+    "defaultNodeName": "arc tangent 2",
+    "path": [
+      "math",
+      "trigonometry"
+    ],
+    "help": "Performs an arc tangent2 function of two values (x an y).",
+    "input": {
+      "x": {
+        "type": "flexi:float",
+        "default": 1,
+        "displayName": "x"
+      },
+      "y": {
+        "type": "flexi:float",
+        "default": 1,
+        "displayName": "y"
+      }
+    },
+    "type": "Atan2",
+    "output": {
+      "result": {
+        "type": "float",
+        "displayName": "result"
+      },
+      "result list": {
+        "type": "list:float",
+        "displayName": "result list"
+      }
+    },
+    "nodeClass": "math"
+  }

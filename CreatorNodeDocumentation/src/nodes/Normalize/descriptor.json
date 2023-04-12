@@ -1,0 +1,38 @@
+{
+    "name": "normalize vector",
+    "alternateNames": [],
+    "defaultNodeName": "normalize vector",
+    "path": [
+      "math",
+      "vector"
+    ],
+    "help": "Normalizes vectors (makes vector magnitudes == 1).",
+    "input": {
+      "vector": {
+        "type": "flexi:vector",
+        "default": [
+          0,
+          0,
+          0
+        ],
+        "displayName": "vector"
+      },
+      "reverseResult": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "reverse"
+      }
+    },
+    "type": "Normalize",
+    "output": {
+      "result": {
+        "type": "vector",
+        "displayName": "result"
+      },
+      "result list": {
+        "type": "list:vector",
+        "displayName": "result list"
+      }
+    },
+    "nodeClass": "math"
+  }

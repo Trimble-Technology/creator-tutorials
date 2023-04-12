@@ -1,0 +1,81 @@
+{
+    "name": "get vector list item",
+    "alternateNames": [
+      "switch",
+      "choose",
+      "pick",
+      "choice",
+      "list item"
+    ],
+    "defaultNodeName": "get vector list item",
+    "path": [
+      "list",
+      "vector"
+    ],
+    "help": "Gets a vector item from a vector list using an index value.",
+    "input": {
+      "list": {
+        "type": "list:vector",
+        "displayName": "list"
+      },
+      "index": {
+        "type": "flexi:integer",
+        "default": 0,
+        "description": "an index, or list of indices",
+        "displayName": "index"
+      },
+      "errorMode": {
+        "type": "enum",
+        "options": [
+          "error this node",
+          "output default vector"
+        ],
+        "displayName": "errorMode"
+      },
+      "defaultVector": {
+        "type": "vector",
+        "default": [
+          0,
+          0,
+          0
+        ],
+        "displayName": "default vector"
+      }
+    },
+    "type": "GetVectorListItem",
+    "output": {
+      "vector": {
+        "type": "vector",
+        "displayName": "vector"
+      },
+      "x": {
+        "type": "float",
+        "displayName": "x"
+      },
+      "y": {
+        "type": "float",
+        "displayName": "y"
+      },
+      "z": {
+        "type": "float",
+        "displayName": "z"
+      },
+      "vector as list": {
+        "type": "list:vector",
+        "displayName": "vector list"
+      },
+      "x as list": {
+        "type": "list:float",
+        "displayName": "x list"
+      },
+      "y as list": {
+        "type": "list:float",
+        "displayName": "y list"
+      },
+      "z as list": {
+        "type": "list:float",
+        "displayName": "z list"
+      }
+    },
+    "nodeClass": "list"
+  }

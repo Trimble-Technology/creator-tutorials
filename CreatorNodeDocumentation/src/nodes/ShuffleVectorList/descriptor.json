@@ -1,0 +1,28 @@
+{
+    "name": "shuffle vector list",
+    "alternateNames": [
+      "randomize",
+      "randomise"
+    ],
+    "defaultNodeName": "shuffle vector list",
+    "path": [
+      "list",
+      "vector"
+    ],
+    "help": "Shuffles a vector list.",
+    "input": {
+      "list": {
+        "type": "list:vector",
+        "displayName": "list"
+      }
+    },
+    "type": "ShuffleVectorList",
+    "output": {
+      "list": {
+        "type": "list:vector",
+        "description": "shuffled list",
+        "displayName": "list"
+      }
+    },
+    "nodeClass": "list"
+  }

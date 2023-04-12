@@ -1,0 +1,29 @@
+{
+    "name": "square root",
+    "alternateNames": [],
+    "defaultNodeName": "square root",
+    "path": [
+      "math",
+      "basic"
+    ],
+    "help": "Calculates the square root of a value.",
+    "input": {
+      "value": {
+        "type": "flexi:float",
+        "default": 0,
+        "displayName": "value"
+      }
+    },
+    "type": "SquareRoot",
+    "output": {
+      "result": {
+        "type": "float",
+        "displayName": "result"
+      },
+      "result list": {
+        "type": "list:float",
+        "displayName": "result list"
+      }
+    },
+    "nodeClass": "math"
+  }
