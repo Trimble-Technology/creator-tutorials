@@ -8,7 +8,7 @@ Trimble Creator's core concept is a graph. Trimble Creator graphs represent logi
 
 Graphs are a collection of connected nodes. Individual nodes represent compute functions, like the creation of a polygonal box, the noise math operation, or the act of joining two curves.
 
-This graph <a href="https://creator.trimble.com/graph?assetURI=whp:f790227f-a092-4595-86ca-f6e7d2eeac14&version=latest" target="_blank">HERE</a> has every node that exists within Trimble Creator, open up the graph to see them all!
+This graph <a href="https://creator.trimble.com/graph?assetURI=whp:f790227f-a092-4595-86ca-f6e7d2eeac14&version=latest" target="_blank">HERE</a> has every node that exists within Trimble Creator, open it up to see them all!
 
 _NOTE: This documentation is currently in an 'in-progress' state and is therefore incomplete. Updates will be made periodically._
 
