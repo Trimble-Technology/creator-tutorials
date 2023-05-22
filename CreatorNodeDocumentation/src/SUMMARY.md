@@ -117,7 +117,7 @@
     - [Align](nodes/Align/documentation.md)
     - [Mirror](nodes/Mirror/documentation.md)
     - [Smart size](nodes/SmartSize/documentation.md)
-    - [Transform]()
+    - [Transform](nodes/TransformPrimitives/documentation.md)
   - [UV nodes](nodeSections/uvSection.md)
     - [Flip uv]()
     - [Get uv]()
