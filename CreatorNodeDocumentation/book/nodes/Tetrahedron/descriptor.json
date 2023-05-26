@@ -1,0 +1,65 @@
+{
+    "name": "tetrahedron",
+    "alternateNames": [],
+    "defaultNodeName": "tetrahedron",
+    "path": [
+      "geometry",
+      "create"
+    ],
+    "help": "Creates a tetrahedron mesh at vector positions.",
+    "input": {
+      "center": {
+        "type": "flexi:vector",
+        "description": "center",
+        "default": [
+          0,
+          0,
+          0
+        ],
+        "displayName": "center"
+      },
+      "scale": {
+        "type": "flexi:float",
+        "default": 500,
+        "displayName": "scale"
+      },
+      "sharedVertices": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "weld vertices"
+      }
+    },
+    "type": "Tetrahedron",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "description": "output geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "description": "point positions",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "description": "point positions x coordinate",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "description": "point positions y coordinate",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "description": "point positions z coordinate",
+        "displayName": "points.z"
+      }
+    },
+    "deprecated": {
+      "supersededBy": "TetrahedronV2",
+      "deprecationHelpString": "Primitives in this node are incorrectly sized and not positioned at world origin."
+    },
+    "nodeClass": "node"
+  }

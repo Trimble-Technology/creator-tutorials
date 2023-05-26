@@ -1,0 +1,51 @@
+{
+    "name": "closest value",
+    "alternateNames": [
+      "nearest value",
+      "distance",
+      "delta",
+      "difference"
+    ],
+    "defaultNodeName": "closest value",
+    "path": [
+      "list",
+      "number"
+    ],
+    "help": "Finds closest value in number list.",
+    "input": {
+      "sourceValues": {
+        "type": "flexi:float",
+        "displayName": "source values",
+        "description": "find closest values to these values amongst the target values"
+      },
+      "targetValues": {
+        "type": "flexi:float",
+        "displayName": "target values",
+        "description": "find closest values to source values amongst these values"
+      }
+    },
+    "type": "ClosestValue",
+    "output": {
+      "value": {
+        "type": "float",
+        "description": "closest value if no source list provided",
+        "displayName": "value"
+      },
+      "value list": {
+        "type": "list:float",
+        "description": "closest values",
+        "displayName": "value list"
+      },
+      "target indices": {
+        "type": "list:integer",
+        "description": "closest target values' indices",
+        "displayName": "target indices"
+      },
+      "deltas": {
+        "type": "list:float",
+        "description": "value difference between source values to their nearest target values",
+        "displayName": "deltas"
+      }
+    },
+    "nodeClass": "list"
+  }

@@ -1,0 +1,45 @@
+{
+    "name": "shift vector list",
+    "alternateNames": [],
+    "defaultNodeName": "shift vector list",
+    "path": [
+      "list",
+      "vector"
+    ],
+    "help": "Shifts a vector list.",
+    "input": {
+      "list": {
+        "type": "list:vector",
+        "displayName": "list"
+      },
+      "shift": {
+        "type": "integer",
+        "default": 0,
+        "displayName": "shift"
+      }
+    },
+    "type": "ShiftVectorList",
+    "output": {
+      "vector list": {
+        "type": "list:vector",
+        "description": "shifted list",
+        "displayName": "vector list"
+      },
+      "x list": {
+        "type": "list:float",
+        "description": "x components of shifted list",
+        "displayName": "x list"
+      },
+      "y list": {
+        "type": "list:float",
+        "description": "y components of shifted list",
+        "displayName": "y list"
+      },
+      "z list": {
+        "type": "list:float",
+        "description": "z components of shifted list",
+        "displayName": "z list"
+      }
+    },
+    "nodeClass": "list"
+  }

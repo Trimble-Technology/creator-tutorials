@@ -8,6 +8,7 @@
       "geometry",
       "create"
     ],
+    "help": "Creates a circle of selected type.",
     "input": {
       "mode": {
         "type": "enum",
@@ -74,22 +75,27 @@
     "output": {
       "geometry": {
         "type": "geometry",
+        "description": "output geometry",
         "displayName": "geometry"
       },
       "points": {
         "type": "list:vector",
+        "description": "point positions",
         "displayName": "points"
       },
       "points.x": {
         "type": "list:float",
+        "description": "point positions x coordinate",
         "displayName": "points.x"
       },
       "points.y": {
         "type": "list:float",
+        "description": "point positions y coordinate",
         "displayName": "points.y"
       },
       "points.z": {
         "type": "list:float",
+        "description": "point positions z coordinate",
         "displayName": "points.z"
       }
     },

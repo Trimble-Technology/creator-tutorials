@@ -1,0 +1,48 @@
+{
+    "name": "triangle centroids",
+    "alternateNames": [
+      "polygon centers"
+    ],
+    "defaultNodeName": "triangle centroids",
+    "path": [
+      "geometry",
+      "measure"
+    ],
+    "help": "Calculates the center of input triangles.",
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "description": "input geometry",
+        "displayName": "geometry"
+      }
+    },
+    "type": "PolyCentroids",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "description": "output geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "description": "centroid positions",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "description": "centroid x coordinates",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "description": "centroid y coordinates",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "description": "centroid z coordinates",
+        "displayName": "points.z"
+      }
+    },
+    "nodeClass": "node"
+  }

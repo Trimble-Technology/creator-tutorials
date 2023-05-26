@@ -1,0 +1,66 @@
+{
+    "name": "geometry asset",
+    "alternateNames": [
+      "geo import",
+      "load",
+      "geometry",
+      "obj",
+      "iges",
+      "igs",
+      "stl",
+      "dxf"
+    ],
+    "defaultNodeName": "geometry asset",
+    "path": [
+      "geometry",
+      "import"
+    ],
+    "input": {
+      "retrieveOnGraphLoad": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "preload asset"
+      },
+      "assetURI": {
+        "type": "string",
+        "displayName": "asset uri"
+      },
+      "useGroups": {
+        "type": "boolean",
+        "displayName": "use OBJ groups",
+        "default": false
+      }
+    },
+    "type": "GeometryAsset",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "displayName": "points.z"
+      },
+      "assetURI": {
+        "type": "string",
+        "displayName": "asset uri"
+      },
+      "assetName": {
+        "type": "string",
+        "displayName": "asset name"
+      }
+    },
+    "nodeClass": "node"
+  }

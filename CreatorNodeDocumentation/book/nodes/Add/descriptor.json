@@ -1,0 +1,49 @@
+{
+    "name": "add",
+    "alternateNames": [
+      "sum",
+      "addition",
+      "+",
+      "plus"
+    ],
+    "defaultNodeName": "add",
+    "path": [
+      "math",
+      "basic"
+    ],
+    "help": "Sums values.",
+    "input": {
+      "value1": {
+        "type": "flexi:float",
+        "default": 0,
+        "displayName": "value 1"
+      },
+      "value2": {
+        "type": "flexi:float",
+        "default": 0,
+        "displayName": "value 2"
+      },
+      "value3": {
+        "type": "flexi:float",
+        "default": 0,
+        "displayName": "value 3"
+      },
+      "value4": {
+        "type": "flexi:float",
+        "default": 0,
+        "displayName": "value 4"
+      }
+    },
+    "type": "Add",
+    "output": {
+      "result": {
+        "type": "float",
+        "displayName": "result"
+      },
+      "result list": {
+        "type": "list:float",
+        "displayName": "result list"
+      }
+    },
+    "nodeClass": "math"
+  }

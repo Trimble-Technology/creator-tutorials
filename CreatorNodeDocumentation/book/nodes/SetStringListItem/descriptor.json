@@ -1,0 +1,35 @@
+{
+    "name": "set string list item",
+    "alternateNames": [],
+    "defaultNodeName": "set string list item",
+    "path": [
+      "list",
+      "string"
+    ],
+    "help": "Sets a string's value in a string list.",
+    "input": {
+      "list": {
+        "type": "list:string",
+        "displayName": "list"
+      },
+      "index": {
+        "type": "integer",
+        "default": 0,
+        "displayName": "index"
+      },
+      "text": {
+        "type": "string",
+        "default": "",
+        "displayName": "text"
+      }
+    },
+    "type": "SetStringListItem",
+    "output": {
+      "list": {
+        "type": "list:string",
+        "description": "edited list",
+        "displayName": "list"
+      }
+    },
+    "nodeClass": "string"
+  }

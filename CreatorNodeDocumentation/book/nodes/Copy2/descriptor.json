@@ -12,13 +12,16 @@
       "geometry",
       "copy | loop"
     ],
+    "help": "Copies primitives based on lists of input transform vectors.",
     "input": {
       "geometry": {
         "type": "geometry",
+        "description": "input geometry",
         "displayName": "geometry"
       },
       "positions": {
         "type": "flexi:vector",
+        "description": "positions",
         "default": [
           0,
           0,
@@ -28,6 +31,7 @@
       },
       "normals": {
         "type": "flexi:vector",
+        "description": "normals",
         "default": [
           0,
           0,
@@ -57,11 +61,13 @@
       "combineMeshes": {
         "type": "boolean",
         "default": false,
-        "displayName": "combine meshes"
+        "displayName": "combine meshes",
+        "description": "combine all meshes into one (displays faster)"
       },
       "mode": {
         "type": "integer",
         "default": 4,
+        "description": "Variations on up vector orientation, direction of rotation, and handedness/chirality",
         "displayName": "mode"
       }
     },
@@ -69,22 +75,27 @@
     "output": {
       "geometry": {
         "type": "geometry",
+        "description": "output geometry",
         "displayName": "geometry"
       },
       "points": {
         "type": "list:vector",
+        "description": "point positions",
         "displayName": "points"
       },
       "points.x": {
         "type": "list:float",
+        "description": "point positions x coordinate",
         "displayName": "points.x"
       },
       "points.y": {
         "type": "list:float",
+        "description": "point positions y coordinate",
         "displayName": "points.y"
       },
       "points.z": {
         "type": "list:float",
+        "description": "point positions z coordinate",
         "displayName": "points.z"
       }
     },

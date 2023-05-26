@@ -1,0 +1,31 @@
+{
+    "name": "ceiling",
+    "alternateNames": [
+      "roof"
+    ],
+    "defaultNodeName": "ceiling",
+    "path": [
+      "math",
+      "round"
+    ],
+    "help": "Rounds up to the nearest integer.",
+    "input": {
+      "value": {
+        "type": "flexi:float",
+        "default": 0,
+        "displayName": "value"
+      }
+    },
+    "type": "Ceiling",
+    "output": {
+      "result": {
+        "type": "integer",
+        "displayName": "result"
+      },
+      "result list": {
+        "type": "list:integer",
+        "displayName": "result list"
+      }
+    },
+    "nodeClass": "math"
+  }

@@ -1,0 +1,31 @@
+{
+    "name": "sine",
+    "alternateNames": [
+      "sinus"
+    ],
+    "defaultNodeName": "sine",
+    "path": [
+      "math",
+      "trigonometry"
+    ],
+    "help": "Performs a sine function on a value.",
+    "input": {
+      "value": {
+        "type": "flexi:float",
+        "default": 0,
+        "displayName": "value"
+      }
+    },
+    "type": "Sin",
+    "output": {
+      "result": {
+        "type": "float",
+        "displayName": "result"
+      },
+      "result list": {
+        "type": "list:float",
+        "displayName": "result list"
+      }
+    },
+    "nodeClass": "math"
+  }

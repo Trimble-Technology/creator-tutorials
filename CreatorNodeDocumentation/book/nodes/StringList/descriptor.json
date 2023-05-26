@@ -1,0 +1,42 @@
+{
+    "name": "string list",
+    "alternateNames": [
+      "text"
+    ],
+    "defaultNodeName": "string list",
+    "path": [
+      "value",
+      "list"
+    ],
+    "help": "Creates a list of string (text) values.",
+    "input": {
+      "list": {
+        "type": "list:string",
+        "displayName": "list"
+      },
+      "size": {
+        "type": "integer",
+        "default": 10,
+        "displayName": "size"
+      },
+      "defaultValue": {
+        "type": "string",
+        "default": "",
+        "displayName": "default"
+      },
+      "initialise": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "initialize"
+      }
+    },
+    "type": "StringList",
+    "output": {
+      "list": {
+        "type": "list:string",
+        "description": "output list of strings",
+        "displayName": "list"
+      }
+    },
+    "nodeClass": "value"
+  }

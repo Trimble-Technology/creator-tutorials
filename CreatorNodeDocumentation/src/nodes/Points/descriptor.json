@@ -1,56 +1,68 @@
 {
-    "name": "switch",
-    "alternateNames": [
-      "choose",
-      "pick"
-    ],
-    "defaultNodeName": "switch",
-    "path": [
-      "geometry"
-    ],
-    "help": "Switches between geometry inputs using an index value.",
-    "input": {
-      "geometry": {
-        "type": "geometry",
-        "description": "input geometry",
-        "displayName": "geometry",
-        "multigeo": true
-      },
-      "index": {
-        "type": "integer",
-        "default": 0,
-        "minimum": 0,
-        "description": "which incoming geometry input to pass on",
-        "displayName": "index"
-      }
+  "name": "points",
+  "alternateNames": [
+    "create points"
+  ],
+  "defaultNodeName": "points",
+  "path": [
+    "geometry",
+    "create"
+  ],
+  "help": "Creates points at input positions.",
+  "input": {
+    "positions": {
+      "type": "list:vector",
+      "displayName": "positions"
     },
-    "type": "Switch",
-    "output": {
-      "geometry": {
-        "type": "geometry",
-        "description": "output geometry",
-        "displayName": "geometry"
-      },
-      "points": {
-        "type": "list:vector",
-        "description": "point positions",
-        "displayName": "points"
-      },
-      "points.x": {
-        "type": "list:float",
-        "description": "point positions x coordinate",
-        "displayName": "points.x"
-      },
-      "points.y": {
-        "type": "list:float",
-        "description": "point positions y coordinate",
-        "displayName": "points.y"
-      },
-      "points.z": {
-        "type": "list:float",
-        "description": "point positions z coordinate",
-        "displayName": "points.z"
-      }
+    "reset": {
+      "type": "button",
+      "default": false,
+      "displayName": "initialize"
     },
-    "nodeClass": "node"
-  }
+    "initializationList": {
+      "type": "list:vector",
+      "displayName": "init list",
+      "description": "connect a vector list and initialize to push the vectors as point positions"
+    },
+    "outputPolymesh": {
+      "type": "boolean",
+      "default": false,
+      "displayName": "output as mesh vertices",
+      "description": "output a PolyMesh primitive (vertices only), instead of a PointsPrimitive"
+    }
+  },
+  "type": "Points",
+  "output": {
+    "geometry": {
+      "type": "geometry",
+      "description": "output geometry",
+      "displayName": "geometry"
+    },
+    "points": {
+      "type": "list:vector",
+      "description": "point positions",
+      "displayName": "points"
+    },
+    "points.x": {
+      "type": "list:float",
+      "description": "point positions x coordinate",
+      "displayName": "points.x"
+    },
+    "points.y": {
+      "type": "list:float",
+      "description": "point positions y coordinate",
+      "displayName": "points.y"
+    },
+    "points.z": {
+      "type": "list:float",
+      "description": "point positions z coordinate",
+      "displayName": "points.z"
+    },
+    "selection": {
+      "type": "list:boolean",
+      "description": "bitmask of which points are selected",
+      "displayName": "selection"
+    }
+  },
+  "nodeClass": "primitive"
+}

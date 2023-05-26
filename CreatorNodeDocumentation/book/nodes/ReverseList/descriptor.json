@@ -1,0 +1,25 @@
+{
+    "name": "reverse number list",
+    "alternateNames": [],
+    "defaultNodeName": "reverse number list",
+    "path": [
+      "list",
+      "number"
+    ],
+    "help": "Reverses a number list.",
+    "input": {
+      "list": {
+        "type": "list:float",
+        "displayName": "list"
+      }
+    },
+    "type": "ReverseList",
+    "output": {
+      "list": {
+        "type": "list:float",
+        "description": "reversed list",
+        "displayName": "list"
+      }
+    },
+    "nodeClass": "list"
+  }

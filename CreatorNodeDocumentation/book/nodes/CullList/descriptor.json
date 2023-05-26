@@ -1,0 +1,34 @@
+{
+    "name": "cull number list",
+    "alternateNames": [],
+    "defaultNodeName": "cull number list",
+    "path": [
+      "list",
+      "number"
+    ],
+    "help": "Cull a number list using a mask.",
+    "input": {
+      "list": {
+        "type": "list:float",
+        "displayName": "list"
+      },
+      "mask": {
+        "type": "list:boolean",
+        "displayName": "mask"
+      }
+    },
+    "type": "CullList",
+    "output": {
+      "list": {
+        "type": "list:float",
+        "description": "culled list",
+        "displayName": "list"
+      },
+      "reject list": {
+        "type": "list:float",
+        "description": "list of culled values",
+        "displayName": "reject list"
+      }
+    },
+    "nodeClass": "list"
+  }

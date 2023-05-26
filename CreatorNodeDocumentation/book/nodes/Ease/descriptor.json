@@ -1,0 +1,81 @@
+{
+    "name": "ease",
+    "alternateNames": [
+      "animation",
+      "animate",
+      "interpolate",
+      "ramp",
+      "gradient"
+    ],
+    "defaultNodeName": "ease",
+    "path": [
+      "math",
+      "mapping"
+    ],
+    "help": "Performs an ease function on 0->1 input values.",
+    "input": {
+      "t": {
+        "type": "flexi:float",
+        "default": 0,
+        "displayName": "value"
+      },
+      "function": {
+        "type": "enum",
+        "options": [
+          "Linear",
+          "QuadraticIn",
+          "QuadraticOut",
+          "QuadraticInOut",
+          "CubicIn",
+          "CubicOut",
+          "CubicInOut",
+          "QuarticIn",
+          "QuarticOut",
+          "QuarticInOut",
+          "QuinticIn",
+          "QuinticOut",
+          "QuinticInOut",
+          "SinusoidalIn",
+          "SinusoidalOut",
+          "SinusoidalInOut",
+          "ExponentialIn",
+          "ExponentialOut",
+          "ExponentialInOut",
+          "CircularIn",
+          "CircularOut",
+          "CircularInOut",
+          "ElasticIn",
+          "ElasticOut",
+          "ElasticInOut",
+          "BackIn",
+          "BackOut",
+          "BackInOut",
+          "BounceIn",
+          "BounceOut",
+          "BounceInOut"
+        ],
+        "displayName": "function"
+      },
+      "repeatMode": {
+        "type": "enum",
+        "options": [
+          "clamp",
+          "repeat",
+          "swing"
+        ],
+        "displayName": "repeat mode"
+      }
+    },
+    "type": "Ease",
+    "output": {
+      "result": {
+        "type": "float",
+        "displayName": "result"
+      },
+      "result list": {
+        "type": "list:float",
+        "displayName": "result list"
+      }
+    },
+    "nodeClass": "math"
+  }

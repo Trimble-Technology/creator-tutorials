@@ -1,0 +1,21 @@
+{
+    "name": "ephemeral state",
+    "alternateNames": [
+      "temporary state",
+      "dragging slider",
+      "preview"
+    ],
+    "defaultNodeName": "ephemeral",
+    "path": [
+      "utility"
+    ],
+    "help": "Outputs the ephemeral state of the graph. This state is set programmatically.",
+    "type": "Ephemeral",
+    "input": {},
+    "output": {
+      "IsEphemeral": {
+        "type": "boolean",
+        "displayName": "is ephemeral"
+      }
+    }
+  }

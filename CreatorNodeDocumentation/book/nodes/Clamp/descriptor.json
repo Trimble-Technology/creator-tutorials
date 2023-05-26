@@ -1,0 +1,39 @@
+{
+    "name": "clamp",
+    "alternateNames": [],
+    "defaultNodeName": "clamp",
+    "path": [
+      "math",
+      "clamp"
+    ],
+    "help": "Clamps a value between a minimum and a maximum.",
+    "input": {
+      "value": {
+        "type": "flexi:float",
+        "default": 0,
+        "displayName": "value"
+      },
+      "min": {
+        "type": "float",
+        "default": 0,
+        "displayName": "min"
+      },
+      "max": {
+        "type": "float",
+        "default": 1,
+        "displayName": "max"
+      }
+    },
+    "type": "Clamp",
+    "output": {
+      "result": {
+        "type": "float",
+        "displayName": "result"
+      },
+      "result list": {
+        "type": "list:float",
+        "displayName": "result list"
+      }
+    },
+    "nodeClass": "math"
+  }

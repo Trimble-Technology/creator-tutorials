@@ -1,0 +1,30 @@
+{
+    "name": "shift number list",
+    "alternateNames": [],
+    "defaultNodeName": "shift number list",
+    "path": [
+      "list",
+      "number"
+    ],
+    "help": "Shifts the items of a number list.",
+    "input": {
+      "list": {
+        "type": "list:float",
+        "displayName": "list"
+      },
+      "shift": {
+        "type": "integer",
+        "default": 0,
+        "displayName": "shift"
+      }
+    },
+    "type": "ShiftList",
+    "output": {
+      "list": {
+        "type": "list:float",
+        "description": "shifted list",
+        "displayName": "list"
+      }
+    },
+    "nodeClass": "list"
+  }

@@ -1,0 +1,29 @@
+{
+    "name": "radians to degrees",
+    "alternateNames": [],
+    "defaultNodeName": "radians to degrees",
+    "path": [
+      "math",
+      "trigonometry"
+    ],
+    "help": "Converts radians to degrees.",
+    "input": {
+      "value": {
+        "type": "flexi:float",
+        "default": 0,
+        "displayName": "value"
+      }
+    },
+    "type": "RadToDeg",
+    "output": {
+      "result": {
+        "type": "float",
+        "displayName": "result"
+      },
+      "result list": {
+        "type": "list:float",
+        "displayName": "result list"
+      }
+    },
+    "nodeClass": "math"
+  }

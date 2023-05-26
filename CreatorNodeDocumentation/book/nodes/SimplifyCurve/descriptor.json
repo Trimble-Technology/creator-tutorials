@@ -1,0 +1,58 @@
+{
+    "name": "simplify curve",
+    "alternateNames": [
+      "redraw",
+      "reduce"
+    ],
+    "defaultNodeName": "simplify curve",
+    "path": [
+      "geometry",
+      "modify",
+      "curve"
+    ],
+    "help": "Simplifies inputs curves using a angle threshold.",
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "description": "input geometry",
+        "displayName": "geometry"
+      },
+      "angleThreshold": {
+        "type": "float",
+        "default": 180,
+        "minimum": 90,
+        "maximum": 180,
+        "displayName": "angle threshold",
+        "description": "angle between line segments above which to discard of the point connecting the line segments"
+      }
+    },
+    "type": "SimplifyCurve",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "description": "output geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "description": "point positions",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "description": "point positions x coordinate",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "description": "point positions y coordinate",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "description": "point positions z coordinate",
+        "displayName": "points.z"
+      }
+    },
+    "nodeClass": "node"
+  }

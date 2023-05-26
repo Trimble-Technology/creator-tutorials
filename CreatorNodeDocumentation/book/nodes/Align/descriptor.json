@@ -1,0 +1,183 @@
+{
+    "name": "align",
+    "alternateNames": [],
+    "defaultNodeName": "align",
+    "path": [
+      "geometry",
+      "transform"
+    ],
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry",
+        "multigeo": true
+      },
+      "mode": {
+        "type": "enum",
+        "displayName": "mode",
+        "options": [
+          "between primitive connections",
+          "all input primitives"
+        ]
+      },
+      "xAlignment": {
+        "type": "enum",
+        "displayName": "x align target",
+        "options": [
+          "none",
+          "min",
+          "centroid",
+          "max"
+        ]
+      },
+      "xAlignMode": {
+        "type": "enum",
+        "displayName": "x source",
+        "options": [
+          "first connection or primitive",
+          "average of all",
+          "value"
+        ],
+        "hideWhen": "xAlignment == 0"
+      },
+      "xAlignmentTo": {
+        "type": "enum",
+        "displayName": "of x source",
+        "options": [
+          "min",
+          "centroid",
+          "max"
+        ],
+        "hideWhen": "xAlignment == 0 || xAlignMode == 2"
+      },
+      "xAlignmentValue": {
+        "type": "float",
+        "default": 0,
+        "displayName": "x value",
+        "hideWhen": "xAlignMode < 2"
+      },
+      "xAlignmentOffset": {
+        "type": "float",
+        "default": 0,
+        "displayName": "x offset",
+        "hideWhen": "xAlignment == 0"
+      },
+      "yAlignment": {
+        "type": "enum",
+        "displayName": "y align target",
+        "options": [
+          "none",
+          "min",
+          "centroid",
+          "max"
+        ]
+      },
+      "yAlignMode": {
+        "type": "enum",
+        "displayName": "y source",
+        "options": [
+          "first connection or primitive",
+          "average of all",
+          "value"
+        ],
+        "hideWhen": "yAlignment == 0"
+      },
+      "yAlignmentTo": {
+        "type": "enum",
+        "displayName": "of y source",
+        "options": [
+          "min",
+          "centroid",
+          "max"
+        ],
+        "hideWhen": "yAlignment == 0 || yAlignMode == 2"
+      },
+      "yAlignmentValue": {
+        "type": "float",
+        "default": 0,
+        "displayName": "y value",
+        "hideWhen": "yAlignMode < 2"
+      },
+      "yAlignmentOffset": {
+        "type": "float",
+        "default": 0,
+        "displayName": "y offset",
+        "hideWhen": "yAlignment == 0"
+      },
+      "zAlignment": {
+        "type": "enum",
+        "displayName": "z align target",
+        "options": [
+          "none",
+          "min",
+          "centroid",
+          "max"
+        ]
+      },
+      "zAlignMode": {
+        "type": "enum",
+        "displayName": "z source",
+        "options": [
+          "first connection or primitive",
+          "average of all",
+          "value"
+        ],
+        "hideWhen": "zAlignment == 0"
+      },
+      "zAlignmentTo": {
+        "type": "enum",
+        "displayName": "of z source",
+        "options": [
+          "min",
+          "centroid",
+          "max"
+        ],
+        "hideWhen": "zAlignment == 0 || zAlignMode == 2"
+      },
+      "zAlignmentValue": {
+        "type": "float",
+        "default": 0,
+        "displayName": "z value",
+        "hideWhen": "zAlignMode < 2"
+      },
+      "zAlignmentOffset": {
+        "type": "float",
+        "default": 0,
+        "displayName": "z offset",
+        "hideWhen": "zAlignment == 0"
+      },
+      "policyForFirst": {
+        "type": "enum",
+        "displayName": "first object",
+        "options": [
+          "keep position",
+          "include in align",
+          "delete"
+        ]
+      }
+    },
+    "type": "Align",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "displayName": "points.z"
+      }
+    },
+    "nodeClass": "node"
+  }

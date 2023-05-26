@@ -1,0 +1,52 @@
+{
+    "name": "boolean",
+    "alternateNames": [
+      "checkbox",
+      "state",
+      "bit",
+      "binary",
+      "on off",
+      "parameter"
+    ],
+    "defaultNodeName": "boolean",
+    "path": [
+      "value",
+      "parameter"
+    ],
+    "help": "Creates a boolean value.",
+    "input": {
+      "value": {
+        "type": "boolean",
+        "displayName": "value"
+      },
+      "defaultValue": {
+        "type": "boolean",
+        "displayName": "default"
+      },
+      "setToDefault": {
+        "type": "button",
+        "displayName": "set to default"
+      },
+      "hideControl": {
+        "type": "boolean",
+        "displayName": "hide control",
+        "default": false
+      },
+      "hideLabel": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "hide label",
+        "hideWhen": "hideControl"
+      }
+    },
+    "type": "BooleanValue",
+    "output": {
+      "value": {
+        "type": "boolean",
+        "description": "output boolean",
+        "displayName": "value",
+        "defaultOutput": true
+      }
+    },
+    "nodeClass": "value"
+  }

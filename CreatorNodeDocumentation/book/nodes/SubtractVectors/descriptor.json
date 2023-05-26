@@ -1,0 +1,52 @@
+{
+    "name": "subtract vectors",
+    "alternateNames": [],
+    "defaultNodeName": "subtract vectors",
+    "path": [
+      "math",
+      "vector"
+    ],
+    "help": "Subtract vectors from vectors.",
+    "input": {
+      "vector1": {
+        "type": "flexi:vector",
+        "default": [
+          0,
+          0,
+          0
+        ],
+        "displayName": "vector1"
+      },
+      "vector2": {
+        "type": "flexi:vector",
+        "default": [
+          0,
+          0,
+          0
+        ],
+        "displayName": "vector2"
+      },
+      "normalizeResult": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "normalize"
+      },
+      "reverseResult": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "reverse"
+      }
+    },
+    "type": "SubtractVectors",
+    "output": {
+      "result": {
+        "type": "vector",
+        "displayName": "result"
+      },
+      "result list": {
+        "type": "list:vector",
+        "displayName": "result list"
+      }
+    },
+    "nodeClass": "math"
+  }

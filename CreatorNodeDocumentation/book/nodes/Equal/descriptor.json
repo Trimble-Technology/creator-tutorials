@@ -1,0 +1,45 @@
+{
+    "name": "equal",
+    "alternateNames": [
+      "same",
+      "identical",
+      "is",
+      "=",
+      "=="
+    ],
+    "defaultNodeName": "equal",
+    "path": [
+      "math",
+      "compare"
+    ],
+    "help": "Checks whether values are (almost) equal.",
+    "input": {
+      "value1": {
+        "type": "flexi:float",
+        "default": 0,
+        "displayName": "value 1"
+      },
+      "value2": {
+        "type": "flexi:float",
+        "default": 0,
+        "displayName": "value 2"
+      },
+      "tolerance": {
+        "type": "float",
+        "default": 0,
+        "displayName": "tolerance"
+      }
+    },
+    "type": "Equal",
+    "output": {
+      "result": {
+        "type": "boolean",
+        "displayName": "result"
+      },
+      "result list": {
+        "type": "list:boolean",
+        "displayName": "result list"
+      }
+    },
+    "nodeClass": "math"
+  }
