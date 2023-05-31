@@ -2,6 +2,8 @@
 
 **_Collects all primitives from all geometry inputs into a single geometry output._**
 
+---
+
 
 ### Inputs
 

@@ -12,4 +12,4 @@ Examples
 
 
 * <a href="https://creator.trimble.com/?viewLayout=verticalSplit&assetURI=whp:925537ea-6e85-4883-b8ca-ddca2eabd1c8&version=latest" target="_blank">Copy using vectors</a>
-* <a href="Loft along a curve" target="_blank">https://kind-dune-0f6b12f1e.1.azurestaticapps.net/?viewLayout=verticalSplit&assetURI=whp:769bc930-13bb-4bc2-bd03-6fed9168e0ac&version=latest</a>
+* <a href="https://creator.trimble.com/graph?assetURI=whp:b9cbcf7c-7a42-4f0f-b5b3-69a9243d869a&version=latest" target="_blank">Loft along curve</a>

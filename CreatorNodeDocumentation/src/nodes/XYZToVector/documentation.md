@@ -2,6 +2,8 @@
 
 **_Creates a vector from x, y and z components._**
 
+---
+
 
 ### Inputs
 

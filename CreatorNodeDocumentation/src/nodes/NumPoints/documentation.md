@@ -2,6 +2,8 @@
 
 **_Calculates the point count of input primitives._**
 
+---
+
 
 ### Inputs
 
