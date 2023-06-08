@@ -152,4 +152,7 @@
 
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:b432f0b3-3b32-4867-8b38-8647efa60924&version=latest" target="_blank">Assigning materials and textures</a>
+
 * <a href="https://creator.trimble.com/graph?assetURI=whp:db8352d7-1c4f-4f7a-aeb5-fad07cf14a5e&version=latest" target="_blank">Semi-transparent textures</a>
+
+* <a href="https://creator.trimble.com/graph?assetURI=whp:170a9259-2c1d-4629-bdc2-89b15db3f853&version=latest" target="_blank">Tiling textures</a>

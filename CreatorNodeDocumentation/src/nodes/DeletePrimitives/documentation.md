@@ -59,3 +59,5 @@
 ### Example(s)
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:65e34b44-9167-4a3b-af5e-8414812113c7&version=latest" target="_blank">Delete primitives with a boolean pattern</a>
+
+* <a href="https://creator.trimble.com/graph?assetURI=whp:1aaa9e16-e112-463e-bf9a-2c990de46a4e&version=latest" target="_blank">Isolate face holes & boundary</a>

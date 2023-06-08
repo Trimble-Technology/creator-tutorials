@@ -9,6 +9,7 @@ title = "Trimble Creator Node Documentation"
 no-section-label = true
 fold.enable = true
 theme = "theme"
+default-theme = "light"
 
 [output.html.search]
 limit-results = 5
