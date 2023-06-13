@@ -9,22 +9,22 @@
 
 * _list_
 
-  * The list of values to cull.
+  * The list of strings to cull.
 
 * _mask_
 
-  * The list of boolean values that defines which values to cull.
+  * The list of boolean values that defines which strings to cull.
 
 
 #### Outputs
 
 * _list_
 
-  * The list of values after defined values have been culled.
+  * The list of strings after defined values have been culled.
 
 * _reject list_
 
-  * The list of values that have been culled.
+  * The list of strings that have been culled.
 
 
 ### Example(s)

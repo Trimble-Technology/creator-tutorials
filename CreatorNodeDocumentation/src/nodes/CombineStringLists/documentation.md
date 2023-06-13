@@ -1,4 +1,4 @@
-# Combine string list
+# Combine string lists
 
 **_Joins string lists._**
 
