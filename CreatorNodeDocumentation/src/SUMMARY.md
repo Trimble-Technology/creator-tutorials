@@ -103,7 +103,7 @@
     - [Point](nodeSections/pointSection.md)
       - [Delete points](nodes/DeletePoints/documentation.md)
       - [Get points]()
-      - [Set point weight]()
+      - [Set point weight](nodes/SetPointWeight/documentation.md)
       - [Set points](nodes/SetPoints/documentation.md)
     - [Primitive](nodeSections/primitiveSection.md)
       - [Delete primitives](nodes/DeletePrimitives/documentation.md)
