@@ -66,6 +66,6 @@
 
 ### Example(s)
 
-* <a href="https://creator.trimble.com/graph?assetURI=whp:78d72e45-aee2-4e6f-90ca-36bd6fc00e50&version=latest" target="_blank">Expression node example</a>
+* <a href="https://creator.trimble.com/graph?assetURI=whp:cc400e35-5f8d-4268-ae7c-46c929676b15&version=latest" target="_blank">Expressions</a>
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:1f70759c-28f5-444b-872e-761ec4e0b733&version=latest" target="_blank">Apply a trigonometric function to a line (Expression)</a>
