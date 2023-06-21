@@ -41,3 +41,5 @@
 ### Example(s)
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:fcc63271-09bc-48c8-b02b-4d388ee5e3f6&version=latest" target="_blank">Bezier curve</a>
+
+* <a href="https://creator.trimble.com/graph?assetURI=whp:839b72cf-42b2-4847-9ccd-7791be6f352b&version=latest" target="_blank">Setting multiple points within a polyline</a>

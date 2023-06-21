@@ -24,7 +24,7 @@
 
 * _list_
 
-  * The list of values with the list item’s set values.
+  * The edited list of values.
 
 
 ### Example(s)

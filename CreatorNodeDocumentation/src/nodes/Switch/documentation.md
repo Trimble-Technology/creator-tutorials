@@ -41,8 +41,9 @@
 
 ### Note(s)
 
-* A special function of the **switch** node is that the graph will not compute geometry that isn't within the connection selected by the **switch**.
+* A special function of the **switch** node is that the graph will not compute geometry that isn't within the connection selected by the _index_ input.
   * As such, a **switch** node can be used to optimize the computation of the graph. Either, by switching between a higher or lower polygon count geometry, or with the **ephemeral** node (for more information, see [Ephemeral State](/concepts/GeneralConcepts/ephemeralState.md)).
+  * This is not true, however, for the [Number switch](/nodes/FloatSwitch/documentation.md), [Vector switch](/nodes/VectorSwitch/documentation.md), or [String switch](/nodes/StringSwitch/documentation.md) nodes.
 
 * Other names for this node include: Choose and Pick.
 
