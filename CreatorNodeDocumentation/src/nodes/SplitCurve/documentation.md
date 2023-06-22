@@ -47,6 +47,8 @@
 
 * Other names for this node include: Cut, and Carve.
 
+* Very similar functionality to the insert knot node.
+
 
 ### Example(s)
 
