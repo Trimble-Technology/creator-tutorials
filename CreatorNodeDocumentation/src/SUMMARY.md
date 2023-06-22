@@ -70,7 +70,7 @@
     - [Curve](nodeSections/curveSection.md)
       - [Curve to polyline](nodes/TessellateCurve/documentation.md)
       - [Extrude curve](nodes/ExtrudeCurve/documentation.md)
-      - [Insert knot]()
+      - [Insert knot](nodes/InsertKnot/documentation.md)
       - [Join curves](nodes/JoinCurves/documentation.md)
       - [Points to curve](nodes/PointsToCurve/documentation.md)
       - [Simplify curve](nodes/SimplifyCurve/documentation.md)
