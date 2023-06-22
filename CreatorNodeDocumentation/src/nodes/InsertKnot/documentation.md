@@ -43,7 +43,7 @@
 
 * Other names for this node include: Add point.
 
-* Very similar functionality to the split curve node.
+* Very similar functionality to the ***split curve*** node. Both nodes apply a point to a line, the ***insert knot*** node will place a control point on that curve, where as the ***split curve*** node will divide that curve into two separate primitives.
 
 
 ### Example(s)
