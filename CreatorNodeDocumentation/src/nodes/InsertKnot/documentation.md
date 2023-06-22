@@ -2,6 +2,8 @@
 
 **_Inserts a control point on a curve._**
 
+---
+
 
 ### Inputs
 
@@ -41,7 +43,7 @@
 
 * Other names for this node include: Add point.
 
-* Very similar functionality to split curve node.
+* Very similar functionality to the split curve node.
 
 
 ### Example(s)
