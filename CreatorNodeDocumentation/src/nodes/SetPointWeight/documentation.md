@@ -47,9 +47,9 @@
 
 * Sets the weight value of input geometry points based on input data values for use in NURBS curves and surfaces.
 
-* The weight value’s effect exhibits an exponential decay pattern as the ratio between points increases, e.g the difference between a weight ratio of 0 and 2 is less than twice the difference between a weight ratio of 0 and 1.
+* The weight value’s effect exhibits an exponential decay pattern as the ratio between points increases. For example, the difference between a weight ratio of `0` and `2` is less than twice the difference between a weight ratio of `0` and `1`.
 
-* If _default weight_ is in use all points will have the same weight so the exact value is irrelevant unless set to ‘0’ in which case no geometry will be generated.
+* If _default weight_ is in use all points will have the same weight so the exact value is irrelevant unless set to `0` in which case no geometry will be generated.
 
 * Other names for this node include: Edit point weight, and Weight.
 
