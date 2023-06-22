@@ -34,4 +34,4 @@
 
 ### Example(s)
 
-* <a href="https://creator.trimble.com/graph?assetURI=whp:e62cef33-0959-4264-8149-d4c7d5329b43&version=latest" target="_blank">Distance between two objects</a>
+* <a href="https://creator.trimble.com/graph?assetURI=whp:e62cef33-0959-4264-8149-d4c7d5329b43&version=latest" target="_blank">Distance between two object centers</a>
