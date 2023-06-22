@@ -57,3 +57,5 @@
 
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:dc99eca7-c20c-4256-8fc2-d505f2e00029&version=latest" target="_blank">Adding and getting an attribute</a>
+
+* <a href="https://creator.trimble.com/graph?assetURI=whp:a196c0b4-b55c-4601-a8ae-54a2a5dca83c&version=latest" target="_blank">Remove a choice option</a>

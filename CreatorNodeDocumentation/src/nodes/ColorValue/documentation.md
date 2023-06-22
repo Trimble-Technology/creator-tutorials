@@ -53,3 +53,5 @@
 
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:bc96d8e6-ac0b-4daa-92e6-587764b8d6b4&version=latest" target="_blank">Set color</a>
+
+* <a href="https://creator.trimble.com/graph?assetURI=whp:f83cdeb2-5ca0-476e-8e71-c81ad5be4ebe&version=latest" target="_blank">Colors and vectors</a>

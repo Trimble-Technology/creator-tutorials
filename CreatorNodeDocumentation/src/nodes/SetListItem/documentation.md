@@ -9,22 +9,22 @@
 
 * _list_
 
-  * The list of values to set an item within.
+  * The list of values to set a list item within.
 
 * _index_
 
-  * The index value that defines which item to set from the _list _input.
+  * The index value that defines which list item to set from the _list _input.
 
 * _value_
 
-  * The value that defines what to set the item’s value to.
+  * The value that defines what to set the list item’s value to.
 
 
 #### Outputs
 
 * _list_
 
-  * The list of values with the item’s set value.
+  * The list of values with the list item’s set value.
 
 
 ### Example(s)
