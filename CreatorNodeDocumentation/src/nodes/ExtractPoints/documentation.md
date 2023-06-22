@@ -2,6 +2,8 @@
 
 **_Gets the points of input primitives using a mask._**
 
+---
+
 
 ### Inputs
 
@@ -39,7 +41,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Extract points, Isoparm, NURBS.
+* Other names for this node include: Extract points, Isoparm, and NURBS.
 
 
 ### Example(s)
