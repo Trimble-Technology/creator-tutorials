@@ -13,23 +13,23 @@
 
 * _translate_
 
-   * The vector value that defines the translation input primitives will move.
+  * The vector value that defines the translation input primitives will move.
 
 * _rotate_
 
-   * The vector value that defines the rotation input primitives will rotate around based on the _center pivot_ or _pivot_ inputs.
+  * The vector value that defines the rotation input primitives will rotate around based on the _center pivot_ or _pivot_ inputs.
 
 * _scale_
 
-   * The vector value that defines how much the input primitives will be scaled by.
+  * The vector value that defines how much the input primitives will be scaled by.
 
 * _center pivot_
 
-   * Sets whether the input primitives will be manipulated with respect to their centers or not.
+  * Sets whether the input primitives will be manipulated with respect to their centers or not.
 
 * _pivot_
 
-   * The vector value that defines the position of the pivot that the input primitives will be manipulated with respect to when the _center pivot _ input is set to `false`.
+  * The vector value that defines the position of the pivot that the input primitives will be manipulated with respect to when the _center pivot _ input is set to `false`.
 
 
 ### Outputs
