@@ -12,11 +12,12 @@
 
 * _direction_
 
-  * Sets the direction within which to split the surface. This can be ‘U’ or ‘V’.
+  * Sets the direction within which to split the surface. This can be `U` or `V`.
 
 * _location_
 
-  * The value at which to split the surface. Accepts values from 0 - 1.
+  * The value at which to split the surface. Accepts values from `0` - `1`.
+
 
 * _discard_
 
