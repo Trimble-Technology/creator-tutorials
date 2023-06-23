@@ -43,3 +43,5 @@
 ### Example(s)
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:1b92fb94-6002-4c27-86e1-cc6492d3b9bf&version=latest" target="_blank">Triangle centroids</a>
+
+* <a href="https://creator.trimble.com/graph?assetURI=whp:590a937e-dc33-460e-8655-9d5363f5ab16&version=latest" target="_blank">Apply color by triangle</a> (this particular example applies color based on distance from point)
