@@ -228,7 +228,7 @@
   - [JSON builder]()
   - [Combine data]()
   - [Ephemeral state]()
-  - [Error check]()
+  - [Error check](nodes/Error/documentation.md)
 
 # Concepts
 
