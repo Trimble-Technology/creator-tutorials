@@ -54,5 +54,3 @@
 ### Example(s)
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:a88ccc3b-46f5-4ce4-ada4-8af43efebb7b&version=latest" target="_blank">Split surface</a>
-
-* <a href="https://creator.trimble.com/graph?assetURI=whp:01672c88-dfdf-45de-add3-ed2bd96545af&version=latest" target="_blank">Split surface as a progress bar</a>
