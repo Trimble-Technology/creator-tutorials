@@ -83,7 +83,7 @@
     - [Surface](nodeSections/surfaceSection.md)
       - [Curve from surface](nodes/ExtractCurve/documentation.md)
       - [Loft](nodes/Skin/documentation.md)
-      - [Split surface]()
+      - [Split surface](nodes/SplitPatch/documentation.md)
       - [Triangulate surface](nodes/TesselatePatch/documentation.md)
     - [Mesh](nodeSections/meshSection.md)
       - [Clean mesh](nodes/PolyClean/documentation.md)
