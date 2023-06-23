@@ -1,6 +1,6 @@
-# Reverse primitive list
+# Shift primitive list
 
-**_Reverses the order of primitives._**
+**_Shifts the primitive order._**
 
 ---
 
@@ -36,6 +36,6 @@
 
 ### Example(s)
 
-* <a href="https://creator.trimble.com/graph?assetURI=whp:73cf218e-8e17-43d9-8023-a8d4ae5c688b&version=latest" target="_blank">Isolate both ends of a primitive list</a>
+* <a href="https://creator.trimble.com/graph?assetURI=whp:4946923e-ded2-42e7-a0ca-ba7095db0a1b&version=latest" target="_blank">Exclude any 2 neighboring primitives</a>
 
-* <a href="https://creator.trimble.com/graph?assetURI=whp:1b224d85-1520-4d30-9ab6-8d2c9c7dbc68&version=latest" target="_blank">Reverse stacking order of primitives</a>
+* <a href="https://creator.trimble.com/graph?assetURI=whp:0ef10535-1812-40e8-9a67-49f75c608521&version=latest" target="_blank">Shift primitive stacking order</a>

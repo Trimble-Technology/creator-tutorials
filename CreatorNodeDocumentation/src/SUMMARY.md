@@ -111,7 +111,7 @@
       - [Group](nodes/GroupPrimitives/documentation.md)
       - [Ungroup](nodes/UnGroupPrimitives/documentation.md)
       - [Reverse primtive list](nodes/ReversePrimitiveList/documentation.md)
-      - [Shift primtive list]()
+      - [Shift primtive list](nodes/ShiftPrimitiveList/documentation.md)
     - [Boolean 3d geometry]()
   - [Transform](nodeSections/transformSection.md)
     - [Align](nodes/Align/documentation.md)
