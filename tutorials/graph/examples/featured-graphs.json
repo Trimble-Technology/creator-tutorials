@@ -818,49 +818,6 @@
       }
     },
         {
-          "assetURI": "whp:dee6ce93-4ddf-447f-9c03-f2e71201c678",
-          "assetType": "machine",
-          "assetName": "Santa's Sleigh (featured)",
-          "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
-          "creatorUserFirstName": "David S.",
-          "creatorUserLastName": "",
-          "source": "Materia:Creator.Materia",
-          "createTime": "2022-12-21T23:42:15.687Z",
-          "modifyTime": "2022-12-21T23:42:15.687Z",
-          "data": {
-            "bounds": {
-              "format": "json",
-              "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/88dd69fc-be7b-4eb3-b737-5dd7c3cdadd5",
-              "size": 132,
-              "createTime": "2022-12-21T23:42:22.603Z"
-            },
-            "thumbnail_small": {
-              "format": "png",
-              "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/dd48102f-9f18-4341-8006-9585e1cee759",
-              "size": 41762,
-              "createTime": "2022-12-21T23:42:23.805Z"
-            },
-            "trimbnail": {
-              "format": "trb",
-              "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/7e26fb93-b912-49fe-adf7-d608b76304f6",
-              "size": 4602584,
-              "createTime": "2022-12-21T23:42:21.786Z"
-            },
-            "thumbnail_big": {
-              "format": "png",
-              "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/52e6e4c9-87f9-482f-8ec3-5b90c7173aad",
-              "size": 515554,
-              "createTime": "2022-12-21T23:42:25.635Z"
-            },
-            "machine": {
-              "format": "json",
-              "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/7d2fd2aa-4aa8-416d-a1b5-7415ead7f46c",
-              "size": 138681,
-              "createTime": "2022-12-21T23:42:19.470Z"
-            }
-          }
-        },
-        {
           "assetURI": "whp:1e0d81e9-fcd7-4a3d-ade9-bcc22c6f754e",
           "assetType": "machine",
           "assetName": "Ginger Bread House (featured)",
