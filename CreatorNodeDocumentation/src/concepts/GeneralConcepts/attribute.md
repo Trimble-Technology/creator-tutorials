@@ -1,6 +1,6 @@
 # Attribute
 
-Attributes are metadata that can be attached to Trimble Creator geometry (<a href="/concepts/GeneralConcepts/primitive.md" target="_blank">primitives</a>), points, nodes, and graphs.
+Attributes are metadata that can be attached to Trimble Creator geometry ([primitives](/concepts/GeneralConcepts/primitive.md)), points, nodes, and graphs.
 
 In Trimble Creator, attributes "piggy back" on points and primitives as they flow through the graph. This avoids the need to use separate graph branches for metadata and geometry.
 
@@ -9,7 +9,7 @@ If so desired, attributes can also enrich the computed output with custom data t
 Examples:
 
 * Attach IFC (Industry Foundation Classes) data to the geometry of architectural products, like doors and windows.
-* Enrich <a href="/concepts/GeneralConcepts/locator.md" target="_blank">locators</a> to become connectors or snapping points.
+* Enrich [locators](/concepts/GeneralConcepts/locator.md) to become connectors or snapping points.
 
 ### Attribute value types
 
