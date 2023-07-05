@@ -1,0 +1,305 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Boolean 2d paths - Trimble Creator Node Documentation</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item affix "><a href="../../introduction.html">Introduction</a></li><li class="spacer"></li><li class="chapter-item affix "><li class="part-title">Nodes</li><li class="chapter-item "><a href="../../nodeSections/valueSection.html">Value</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../nodeSections/parameterSection.html">Parameters</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../nodes/BooleanValue/documentation.html">Boolean</a></li><li class="chapter-item "><a href="../../nodes/EnumValue/documentation.html">Choice</a></li><li class="chapter-item "><a href="../../nodes/ColorValue/documentation.html">Color</a></li><li class="chapter-item "><a href="../../nodes/IntegerValue/documentation.html">Integer</a></li><li class="chapter-item "><a href="../../nodes/FloatValue/documentation.html">Number</a></li><li class="chapter-item "><a href="../../nodes/StringValue/documentation.html">String</a></li><li class="chapter-item "><a href="../../nodes/VectorValue/documentation.html">Vector</a></li></ol></li><li class="chapter-item "><a href="../../nodeSections/listSection.html">Lists</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../nodes/BooleanList/documentation.html">Boolean list</a></li><li class="chapter-item "><a href="../../nodes/IntegerList/documentation.html">Integer list</a></li><li class="chapter-item "><a href="../../nodes/FloatList/documentation.html">Number list</a></li><li class="chapter-item "><a href="../../nodes/StringList/documentation.html">String list</a></li><li class="chapter-item "><a href="../../nodes/VectorList/documentation.html">Vector list</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../nodeSections/geometrySection.html">Geometry</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../nodeSections/2dPathSection.html">2D path</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../nodes/CurveBoolean/documentation.html" class="active">Boolean 2d paths</a></li><li class="chapter-item "><a href="../../nodes/OffsetCurve/documentation.html">Offset 2d path</a></li><li class="chapter-item "><a href="../../nodes/TriangulateCurve/documentation.html">Triangulate 2d path</a></li></ol></li><li class="chapter-item "><a href="../../nodeSections/attributeSection.html">Attributes</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../nodes/AddAttribute/documentation.html">Add attribute</a></li><li class="chapter-item "><a href="../../nodes/GetAttribute/documentation.html">Get attribute</a></li></ol></li><li class="chapter-item "><a href="../../nodeSections/copyAndLoopSection.html">Copy and Loops</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../nodes/Copy/documentation.html">Copy</a></li><li class="chapter-item "><a href="../../nodes/Copy2/documentation.html">Copy using vectors</a></li><li class="chapter-item "><a href="../../nodes/Iterator/documentation.html">Iterator</a></li><li class="chapter-item "><a href="../../nodes/Loop/documentation.html">Loop</a></li></ol></li><li class="chapter-item "><a href="../../nodeSections/creationSection.html">Creation</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../nodes/PolyBox/documentation.html">Box</a></li><li class="chapter-item "><a href="../../nodes/CircleV2/documentation.html">Circle</a></li><li class="chapter-item "><a href="../../nodes/PolyCylinder/documentation.html">Cylinder</a></li><li class="chapter-item "><a href="../../nodes/Line/documentation.html">Line</a></li><li class="chapter-item "><a href="../../nodes/Locator/documentation.html">Locator</a></li><li class="chapter-item "><a href="../../nodes/PointGrid/documentation.html">Point grid</a></li><li class="chapter-item "><div>Points</div></li><li class="chapter-item "><a href="../../nodes/Plane/documentation.html">Rectangle</a></li><li class="chapter-item "><a href="../../nodes/PolySphere/documentation.html">Sphere</a></li><li class="chapter-item "><a href="../../nodes/TetrahedronV2/documentation.html">Tetrahedron</a></li></ol></li><li class="chapter-item "><a href="../../nodeSections/importSection.html">Import</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../nodes/GeometryAsset/documentation.html">Geometry asset</a></li><li class="chapter-item "><div>Graph asset</div></li><li class="chapter-item "><a href="../../nodes/ImageAsset/documentation.html">Image asset</a></li></ol></li><li class="chapter-item "><a href="../../nodeSections/materialTextureSection.html">Material & texture</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../nodes/ImageAsset/documentation.html">Image asset</a></li><li class="chapter-item "><a href="../../nodes/SetMaterial/documentation.html">Material</a></li><li class="chapter-item "><a href="../../nodes/SetColor/documentation.html">Set color</a></li><li class="chapter-item "><div>Project uv</div></li></ol></li><li class="chapter-item "><a href="../../nodeSections/measureSection.html">Measure</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../nodes/GeometryBounds/documentation.html">Geometry bounds</a></li><li class="chapter-item "><a href="../../nodes/GeometryCentroid/documentation.html">Geometry center</a></li><li class="chapter-item "><a href="../../nodes/GeometrySize/documentation.html">Geometry size</a></li><li class="chapter-item "><div># points</div></li><li class="chapter-item "><div># primitves</div></li><li class="chapter-item "><div>Closest point on curve</div></li><li class="chapter-item "><div>Closest points to points</div></li><li class="chapter-item "><div>Mesh area</div></li><li class="chapter-item "><div>Normals</div></li><li class="chapter-item "><div>Triangle centroids</div></li><li class="chapter-item "><div>Get UV</div></li></ol></li><li class="chapter-item expanded "><a href="../../nodeSections/modifySection.html">Modify</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../nodeSections/curveSection.html">Curve</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../nodes/TessellateCurve/documentation.html">Curve to polyline</a></li><li class="chapter-item "><a href="../../nodes/ExtrudeCurve/documentation.html">Extrude curve</a></li><li class="chapter-item "><div>Insert knot</div></li><li class="chapter-item "><div>Join curves</div></li><li class="chapter-item "><a href="../../nodes/PointsToCurve/documentation.html">Points to curve</a></li><li class="chapter-item "><div>Simplify curve</div></li><li class="chapter-item "><div>Split curve</div></li><li class="chapter-item "><div>Unroll curve</div></li><li class="chapter-item expanded "><a href="../../nodes/CurveBoolean/documentation.html" class="active">Boolean 2d paths</a></li><li class="chapter-item "><a href="../../nodes/OffsetCurve/documentation.html">Offset 2d path</a></li><li class="chapter-item "><div>Curve from surface</div></li><li class="chapter-item "><a href="../../nodes/SetPoints/documentation.html">Set points</a></li></ol></li><li class="chapter-item "><a href="../../nodeSections/surfaceSection.html">Surface</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>Curve from surface</div></li><li class="chapter-item "><a href="../../nodes/Skin/documentation.html">Loft</a></li><li class="chapter-item "><div>Split surface</div></li><li class="chapter-item "><div>Triangulate surface</div></li></ol></li><li class="chapter-item "><a href="../../nodeSections/meshSection.html">Mesh</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>Clean mesh</div></li><li class="chapter-item "><a href="../../nodes/CombineMeshes/documentation.html">Combine meshes</a></li><li class="chapter-item "><a href="../../nodes/Extrude/documentation.html">Extrude mesh</a></li><li class="chapter-item "><div>Flip mesh normals</div></li><li class="chapter-item "><div>Mesh boundary</div></li><li class="chapter-item "><a href="../../nodes/UnweldVertices/documentation.html">Unweld vertices</a></li><li class="chapter-item "><a href="../../nodes/WeldVertices/documentation.html">Weld vertices</a></li><li class="chapter-item "><a href="../../nodes/TriangulateCurve/documentation.html">Triangulate 2d path</a></li><li class="chapter-item "><div>Triangulate surface</div></li><li class="chapter-item "><a href="../../nodes/Skin/documentation.html">Loft</a></li><li class="chapter-item "><a href="../../nodes/SetPoints/documentation.html">Set points</a></li><li class="chapter-item "><div>Mesh area</div></li><li class="chapter-item "><div>Triangle centroids</div></li><li class="chapter-item "><div>Normals</div></li></ol></li><li class="chapter-item "><a href="../../nodeSections/pointSection.html">Point</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>Delete points</div></li><li class="chapter-item "><div>Get points</div></li><li class="chapter-item "><div>Set point weight</div></li><li class="chapter-item "><a href="../../nodes/SetPoints/documentation.html">Set points</a></li></ol></li><li class="chapter-item "><a href="../../nodeSections/primitiveSection.html">Primitive</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>Delete primitives</div></li><li class="chapter-item "><div>Get primtive</div></li><li class="chapter-item "><a href="../../nodes/GroupPrimitives/documentation.html">Group</a></li><li class="chapter-item "><a href="../../nodes/UnGroupPrimitives/documentation.html">Ungroup</a></li><li class="chapter-item "><div>Reverse primtive list</div></li><li class="chapter-item "><div>Shift primtive list</div></li></ol></li><li class="chapter-item "><div>Boolean 3d geometry</div></li></ol></li><li class="chapter-item "><a href="../../nodeSections/transformSection.html">Transform</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../nodes/Align/documentation.html">Align</a></li><li class="chapter-item "><div>Mirror</div></li><li class="chapter-item "><div>Smart size</div></li><li class="chapter-item "><div>Transform</div></li></ol></li><li class="chapter-item "><a href="../../nodeSections/uvSection.html">UV nodes</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>Flip uv</div></li><li class="chapter-item "><div>Get uv</div></li><li class="chapter-item "><div>Project uv</div></li></ol></li><li class="chapter-item "><div>Collect</div></li><li class="chapter-item "><div>Null</div></li><li class="chapter-item "><div>Switch</div></li></ol></li><li class="chapter-item "><a href="../../nodeSections/listSection2.html">Lists</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../nodeSections/numberListSection.html">Number lists</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>Clamped number list</div></li><li class="chapter-item "><div>Closest value</div></li><li class="chapter-item "><div>Combine number lists</div></li><li class="chapter-item "><div>Cull number list</div></li><li class="chapter-item "><div>Get number list item</div></li><li class="chapter-item "><div>Match number lists</div></li><li class="chapter-item "><div>Reverse number list</div></li><li class="chapter-item "><div>Set number list item</div></li><li class="chapter-item "><div>Set number list items</div></li><li class="chapter-item "><div>Shift number list</div></li><li class="chapter-item "><div>Shuffle number list</div></li><li class="chapter-item "><div>Sort number list</div></li></ol></li><li class="chapter-item "><a href="../../nodeSections/stringListSection.html">String Lists</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>Combine string lists</div></li><li class="chapter-item "><div>Cull string list</div></li><li class="chapter-item "><div>Find string in list</div></li><li class="chapter-item "><div>Get string list item</div></li><li class="chapter-item "><div>Reverse string list</div></li><li class="chapter-item "><div>Set string list item</div></li><li class="chapter-item "><div>String list to string</div></li></ol></li><li class="chapter-item "><a href="../../nodeSections/vectorListSection.html">Vector lists</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>Combine vector lists</div></li><li class="chapter-item "><div>Cull vector list</div></li><li class="chapter-item "><div>Get vector list itrm</div></li><li class="chapter-item "><div>Reverse vector list</div></li><li class="chapter-item "><div>Set vector list item</div></li><li class="chapter-item "><div>Set vector list items</div></li><li class="chapter-item "><div>Shift vector list</div></li><li class="chapter-item "><div>Shuffle vector list</div></li></ol></li><li class="chapter-item "><div>List length</div></li></ol></li><li class="chapter-item "><a href="../../nodeSections/mathSection.html">Math</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../nodeSections/basicMathSection.html">Basic math</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>Absolute value</div></li><li class="chapter-item "><div>Add</div></li><li class="chapter-item "><div>Divide</div></li><li class="chapter-item "><div>Modulo</div></li><li class="chapter-item "><div>Multiply</div></li><li class="chapter-item "><div>Power</div></li><li class="chapter-item "><div>Square root</div></li><li class="chapter-item "><div>Subtract</div></li></ol></li><li class="chapter-item "><a href="../../nodeSections/clampSection.html">Clamp</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>Clamp</div></li><li class="chapter-item "><div>Maximum</div></li><li class="chapter-item "><div>Minimum</div></li></ol></li><li class="chapter-item "><a href="../../nodeSections/compareSection.html">Compare</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>Equal</div></li><li class="chapter-item "><div>Equal vectors</div></li><li class="chapter-item "><div>Greater</div></li><li class="chapter-item "><div>Less</div></li></ol></li><li class="chapter-item "><a href="../../nodeSections/logicSection.html">Logic</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>And</div></li><li class="chapter-item "><div>Not</div></li><li class="chapter-item "><div>Or</div></li></ol></li><li class="chapter-item "><a href="../../nodeSections/mappingSection.html">Mapping</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>Ease</div></li><li class="chapter-item "><div>Range</div></li></ol></li><li class="chapter-item "><a href="../../nodeSections/randomSection.html">Random</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>Noise</div></li><li class="chapter-item "><div>Random number</div></li><li class="chapter-item "><div>Random vector</div></li></ol></li><li class="chapter-item "><a href="../../nodeSections/roundingSection.html">Rounding</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>Ceiling</div></li><li class="chapter-item "><div>Floor</div></li><li class="chapter-item "><div>Round</div></li></ol></li><li class="chapter-item "><a href="../../nodeSections/switchSection.html">Value switch</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>Number switch</div></li><li class="chapter-item "><div>String switch</div></li><li class="chapter-item "><div>Vector switch</div></li></ol></li><li class="chapter-item "><a href="../../nodeSections/trigSection.html">Trigonometry</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>Arc cosine</div></li><li class="chapter-item "><div>Arc sine</div></li><li class="chapter-item "><div>Arc tangent</div></li><li class="chapter-item "><div>Arc tangent 2</div></li><li class="chapter-item "><div>Cosine</div></li><li class="chapter-item "><div>Degrees to radians</div></li><li class="chapter-item "><div>Pi</div></li><li class="chapter-item "><div>Radians to degrees</div></li><li class="chapter-item "><div>Sine</div></li><li class="chapter-item "><div>Tangent</div></li></ol></li><li class="chapter-item "><a href="../../nodeSections/vectorMathSection.html">Vector math</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>Add vectors</div></li><li class="chapter-item "><div>Angle between</div></li><li class="chapter-item "><div>Cross product</div></li><li class="chapter-item "><div>Dot product</div></li><li class="chapter-item "><div>Multiply vector</div></li><li class="chapter-item "><div>Normalize vector</div></li><li class="chapter-item "><div>Subtract vectors</div></li><li class="chapter-item "><div>Vector magnitude</div></li><li class="chapter-item "><div>Vector to xyz</div></li><li class="chapter-item "><div>Xyz to vector</div></li></ol></li><li class="chapter-item "><div>Expression</div></li></ol></li><li class="chapter-item "><a href="../../nodeSections/stringSection.html">String</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>Equal strings</div></li><li class="chapter-item "><div>Join strings</div></li><li class="chapter-item "><div>Split string</div></li><li class="chapter-item "><div>String switch</div></li><li class="chapter-item "><div>JSON builder</div></li></ol></li><li class="chapter-item "><a href="../../nodeSections/utilitySection.html">Utility</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><div>JSON builder</div></li><li class="chapter-item "><div>Combine data</div></li><li class="chapter-item "><div>Ephemeral state</div></li><li class="chapter-item "><div>Error check</div></li></ol></li><li class="chapter-item "><li class="part-title">Concepts</li><li class="chapter-item "><div>General concepts</div><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../concepts/GeneralConcepts/graph.html">Graph</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../concepts/GeneralConcepts/node.html">Node</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../concepts/GeneralConcepts/nodeInput.html">Node input</a></li><li class="chapter-item "><a href="../../concepts/GeneralConcepts/nodeOutput.html">Node output</a></li><li class="chapter-item "><a href="../../concepts/GeneralConcepts/nodeError.html">Node errors</a></li></ol></li><li class="chapter-item "><a href="../../concepts/GeneralConcepts/connection.html">Connection</a></li><li class="chapter-item "><a href="../../concepts/GeneralConcepts/parameter.html">Parameter</a></li><li class="chapter-item "><a href="../../concepts/GeneralConcepts/outputNode.html">Output node</a></li><li class="chapter-item "><a href="../../concepts/GeneralConcepts/ephemeralState.html">Ephemeral state</a></li></ol></li><li class="chapter-item "><div>Compute</div></li><li class="chapter-item "><div>Subgraphs</div></li><li class="chapter-item "><a href="../../concepts/GeneralConcepts/primitive.html">Primitives</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../concepts/GeneralConcepts/polyMesh.html">PolyMesh</a></li><li class="chapter-item "><a href="../../concepts/GeneralConcepts/nurbsCurve.html">NURBS curve</a></li><li class="chapter-item "><a href="../../concepts/GeneralConcepts/nurbsSurface.html">NURBS surface</a></li><li class="chapter-item "><a href="../../concepts/GeneralConcepts/points.html">Points</a></li><li class="chapter-item "><a href="../../concepts/GeneralConcepts/locator.html">Locator</a></li></ol></li><li class="chapter-item "><a href="../../concepts/GeneralConcepts/attribute.html">Attribute</a></li><li class="chapter-item "><a href="../../concepts/GeneralConcepts/assets.html">Assets</a></li><li class="chapter-item "><a href="../../concepts/GeneralConcepts/material.html">Material</a></li><li class="chapter-item "><a href="../../concepts/GeneralConcepts/misc.html">Miscellaneous</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Trimble Creator Node Documentation</h1>
+
+                    <div class="right-buttons">
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="boolean-2d-paths"><a class="header" href="#boolean-2d-paths">Boolean 2d paths</a></h1>
+<p><strong><em>Performs 2D boolean operations on curves/polygons.</em></strong></p>
+<hr />
+<h3 id="inputs"><a class="header" href="#inputs">Inputs</a></h3>
+<ul>
+<li>
+<p><strong><em>geometry</em></strong></p>
+<ul>
+<li>Accepts multiple geometry connections.</li>
+</ul>
+</li>
+<li>
+<p><em>work plane</em></p>
+<ul>
+<li>The work plane in which the 2D boolean operation will be performed in. This can be <code>X=0</code>, <code>Y=0</code>, or <code>Z=0</code>.</li>
+</ul>
+</li>
+<li>
+<p><em>pre-flatten</em></p>
+<ul>
+<li>Flattens the input curves/polygons into the work plane defined by the <em>work plane</em> input before the 2D boolean operation.</li>
+</ul>
+</li>
+<li>
+<p><em>boolean type</em></p>
+<ul>
+<li>Sets the type of 2D boolean operation to be performed. This can be <code>intersect</code>, <code>union</code>, <code>difference</code>, or <code>xor</code>.</li>
+</ul>
+</li>
+<li>
+<p><em>fill type</em></p>
+<ul>
+<li>Sets the type of fill that is considered when the 2D boolean operation is performed. For more information visit: <a href="http://www.angusj.com/delphi/clipper/documentation/Docs/Units/ClipperLib/Types/PolyFillType.htm">http://www.angusj.com/delphi/clipper/documentation/Docs/Units/ClipperLib/Types/PolyFillType.htm</a></li>
+</ul>
+</li>
+<li>
+<p><em>primary polygon</em></p>
+<ul>
+<li>Sets which input curve/polygon is to be considered as the primary polygon in the 2D boolean operation. This can be the <code>first</code> or <code>last</code> of the list of input curves/polygons.</li>
+</ul>
+</li>
+<li>
+<p><em>primary role</em></p>
+<ul>
+<li>Sets the role of the primary curve/polygon (as defined by the <em>primary polygon</em> input). This can be <code>clip</code> (the curve/polygon to operate with), or <code>subject</code> (the curve/polygon to operate on).</li>
+</ul>
+</li>
+<li>
+<p><em>close resulting curves</em></p>
+<ul>
+<li>Sets whether to close the resulting curves/polygons after the 2D boolean operation.</li>
+</ul>
+</li>
+</ul>
+<h3 id="outputs"><a class="header" href="#outputs">Outputs</a></h3>
+<ul>
+<li>
+<p><strong><em>geometry</em></strong></p>
+<ul>
+<li>Output primitives.</li>
+</ul>
+</li>
+<li>
+<p><em>points</em></p>
+<ul>
+<li>The list of points of the output curve/polygon primitives.</li>
+</ul>
+</li>
+<li>
+<p><em>points.x</em></p>
+<ul>
+<li>The list of x values of the points of the output curve/polygon primitives.</li>
+</ul>
+</li>
+<li>
+<p><em>points.y</em></p>
+<ul>
+<li>The list of y values of the points of the output curve/polygon primitives.</li>
+</ul>
+</li>
+<li>
+<p><em>points.z</em></p>
+<ul>
+<li>The list of z values of the points of the output curve/polygon primitives.</li>
+</ul>
+</li>
+</ul>
+<h3 id="notes"><a class="header" href="#notes">Note(s)</a></h3>
+<ul>
+<li>2D boolean operations are projected back to the selected work plane defined by the <em>work plane</em> input.
+<ul>
+<li>If <em>pre-flatten</em> is <code>false</code>, then all curves that are to be operated on need to be on the defined work plane. Otherwise the operation will fail, or curves/polygons will be excluded from the operation.</li>
+</ul>
+</li>
+<li>Requires at least two curve/polygon input primitives.</li>
+<li>Other names for this node include: Curve boolean and Polygon boolean.</li>
+</ul>
+<h3 id="examples"><a class="header" href="#examples">Example(s)</a></h3>
+<ul>
+<li><a href="https://creator.trimble.com/graph?assetURI=whp:c505ab4f-1489-4013-b8b8-a396821a6203&version=latest" target="_blank">Boolean union curves</a></li>
+<li><a href="https://creator.trimble.com/graph?assetURI=whp:9fe15144-82d8-4984-90fc-6fa110f4fbbd&version=latest" target="_blank">Triangulate overlapping outlines</a></li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../nodeSections/2dPathSection.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../../nodes/OffsetCurve/documentation.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../nodeSections/2dPathSection.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../../nodes/OffsetCurve/documentation.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../elasticlunr.min.js"></script>
+        <script src="../../mark.min.js"></script>
+        <script src="../../searcher.js"></script>
+
+        <script src="../../clipboard.min.js"></script>
+        <script src="../../highlight.js"></script>
+        <script src="../../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

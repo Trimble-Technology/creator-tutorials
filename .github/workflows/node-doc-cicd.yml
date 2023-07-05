@@ -1,0 +1,83 @@
+name: Node Documentation
+on:
+  push:
+    branches: 
+      - main
+        
+defaults:
+  run:
+    shell: bash
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: CreatorNodeDocumentation
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+
+    steps: 
+    - name: Checkout source
+      uses: actions/checkout@v3
+
+    - name: Dump Github Context
+      run: |
+        echo github.workflow: '${{ github.workflow }}'
+        echo ref: '${{ github.ref }}'
+        echo sha: '${{ github.sha }}'
+        echo event-name: '${{ github.event_name }}'
+        echo run-number: '${{ github.run_number }}'
+
+    - name: Setup mdBook
+      uses: peaceiris/actions-mdbook@v1
+      with:
+        mdbook-version: 'latest'
+
+    - name: Build mdBook
+      run: |
+        echo Using $(mdbook --version)
+        mdbook build
+
+    - name: Upload creator to artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: book
+        path: |
+          CreatorNodeDocumentation/book
+
+    - name: Download creator file from artifacts
+      uses: actions/download-artifact@v2
+      with:
+        name: book
+
+    - name: 'Deploy to Azure Web App'
+      id: deploy-to-webapp
+      uses: Azure/static-web-apps-deploy@v1
+      with:
+        azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_POLITE_DUNE_0E6373C03 }}
+        repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
+        action: 'upload'
+        ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
+        # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
+        app_location: '/' # App source code path
+        api_location: '' # Api source code path - optional
+        output_location: 'book' # Built app content directory - optional
+        skip_app_build: true
+        skip_api_build: true
+        ###### End of Repository/Build Configurations ######
+    
+  close_pull_request_job:
+    if: github.event_name == 'pull_request' && github.event.action == 'closed'
+    runs-on: ubuntu-latest
+    name: Close Pull Request Job
+    steps:
+      - name: Close Pull Request
+        id: closepullrequest
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_POLITE_DUNE_0E6373C03 }}
+          action: "close"   
+
+
+      

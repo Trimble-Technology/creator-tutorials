@@ -1,0 +1,16 @@
+[book]
+authors = ["Cameron Wells"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Trimble Creator Node Documentation"
+
+[output.html]
+no-section-label = true
+fold.enable = true
+
+[output.html.search]
+limit-results = 5
+
+[output.html.print]
+enable = false
