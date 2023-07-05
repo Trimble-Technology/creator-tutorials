@@ -29,3 +29,5 @@
 ### Example(s)
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:fbed43f7-7809-4058-a081-0be7b4d282ca&version=latest" target="_blank">Shuffle number list</a>
+
+* <a href="https://creator.trimble.com/graph?assetURI=whp:011d4f37-c270-4b29-ae82-641ea371f336&version=latest" target="_blank">Shuffle primitive list</a>
