@@ -1,0 +1,86 @@
+    {
+      "assetURI": "whp:f822e5ab-a292-4e65-8589-a1be69d7a4f7",
+      "assetType": "machine",
+      "assetName": "Wood Framed Wall (featured)",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
+      "creatorUserLastName": "",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-12-22T02:58:35.072Z",
+      "modifyTime": "2022-12-22T02:58:35.072Z",
+      "data": {
+        "bounds": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/5d8ec13b-817c-4796-a42c-20ad657094b7",
+          "size": 130,
+          "createTime": "2022-12-22T02:58:40.873Z"
+        },
+        "thumbnail_small": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/5bb10378-70bd-46c9-8e37-2ddec5819f55",
+          "size": 47895,
+          "createTime": "2022-12-22T02:58:42.137Z"
+        },
+        "trimbnail": {
+          "format": "trb",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/d9b07ca5-b690-448c-a36b-cbda3fcd7425",
+          "size": 44512,
+          "createTime": "2022-12-22T02:58:40.016Z"
+        },
+        "thumbnail_big": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/97de709b-e522-4ea0-b4e6-53ed450200e0",
+          "size": 570260,
+          "createTime": "2022-12-22T02:58:43.851Z"
+        },
+        "machine": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/9d8225f9-70f0-435d-8318-8d381f5e42b6",
+          "size": 204765,
+          "createTime": "2022-12-22T02:58:38.865Z"
+        }
+      }
+    },
+    {
+      "assetURI": "whp:957417be-34d6-4c40-bedc-8524ba562f1c",
+      "assetType": "machine",
+      "assetName": "Acoustic Ceiling Panels (featured)",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
+      "creatorUserLastName": "",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-11-01T21:29:32.650Z",
+      "modifyTime": "2022-11-01T21:29:32.650Z",
+      "data": {
+        "bounds": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/c2dcbea5-a86e-4eaa-b06e-ce380f171edb",
+          "size": 124,
+          "createTime": "2022-11-01T21:29:39.286Z"
+        },
+        "thumbnail_small": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/813c7412-e130-4ff5-8f62-febab0b38ae7",
+          "size": 20783,
+          "createTime": "2022-11-01T21:29:40.391Z"
+        },
+        "trimbnail": {
+          "format": "trb",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/869eb73a-367a-4a82-9336-34b78ce7a1dc",
+          "size": 1189304,
+          "createTime": "2022-11-01T21:29:38.457Z"
+        },
+        "thumbnail_big": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/392217cb-bb8d-4edd-91c1-e57dc2eff49e",
+          "size": 284071,
+          "createTime": "2022-11-01T21:29:41.939Z"
+        },
+        "machine": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/d4f995de-8daf-43c4-beef-e2fd198e1bba",
+          "size": 214133,
+          "createTime": "2022-11-01T21:29:36.579Z"
+        }
+      }
+    },
