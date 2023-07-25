@@ -319,7 +319,7 @@ mark.fade-out {
     font-size: 1.25em;
     font-variant-caps: all-small-caps;
     padding: 5px 0 0 5px;
-    color: #6a6e79;
+    color: var(--searchresults-header-fg);
 }
 
 .searchresults-outer {
@@ -328,9 +328,9 @@ mark.fade-out {
     max-width: var(--content-max-width);
     border-style: none solid solid solid;
     border-width: 1px;
-    border-color: #e0e1e9;
+    border-color: var(--searchresults-li-bg);
     box-shadow: 0 0 3px var(--searchbar-shadow-color);
-    background-color: #ffff;
+    background-color: var(--searchresults-li-bg);
 }
 
 ul#searchresults {
