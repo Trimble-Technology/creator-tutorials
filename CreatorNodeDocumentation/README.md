@@ -1,5 +1,6 @@
 # Node Documentation
 
+## Build
 This doc is built on *mdBook*. To quote them directly:
 
 "mdBook is a command line tool to create books with Markdown"
@@ -19,9 +20,11 @@ To run/build/locally host the mdBook, one first has to install the mdBook CLI to
 
 To then actually build the book and locally host it: 
 
-- In the ``CreatorNodeDocumentation` directory
+- In the `CreatorNodeDocumentation` directory
 - run `mdbook serve`
 - Go to http://localhost:3000
 
 For more info see: https://rust-lang.github.io/mdBook/cli/serve.html
 
+## Deploy
+XXX
