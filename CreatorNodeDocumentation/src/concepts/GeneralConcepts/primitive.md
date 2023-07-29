@@ -1,8 +1,8 @@
 # Primitive
 
-**_Primitives are Trimble Creator's computed entities._**
+**_Primitives are a graph's computed entities._**
 
-They are created and transformed by nodes, and flow through the nodes and connections of a graph.
+Primitives are created and transformed by nodes, and flow through the nodes and connections of a graph.
 
 > Examples of primitives:
 > 

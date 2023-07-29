@@ -16,7 +16,7 @@ The locator concept is expressed via a `LocatorPrimitive`. This primitive is ess
 
 * An ID: a user-settable persistent ID
 * A transform matrix: this gives the locator its position and orientation.
-* Semantic type: can be used to turn a locator into a more complex concept, like a snapping point..
+* Semantic type: can be used to turn a locator into a more complex concept, like a snapping point.
 * This primitive is a 3D object, and can be transformed like one, for example using a **transform** node.
 
-As with all Trimble Creator primitives, it can carry attributes.
+As with all primitives, it can carry attributes.
