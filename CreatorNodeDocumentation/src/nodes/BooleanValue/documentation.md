@@ -21,11 +21,11 @@
 
 * _hide control_
 
-  * Hides the parameter control within the “Parameter panel” when the node is parameterized.
+  * Hides the parameter control within the parameter panel when the node is parameterized.
 
 * _hide label_
 
-  * Hides the parameter label (name) within the “Parameter panel” when the node is parameterized.
+  * Hides the parameter label (name) within the parameter panel when the node is parameterized.
 
 
 ### Outputs
@@ -39,7 +39,7 @@
 
 
 
-* When parameterized this node will appear as a false/true toggle in the Parameter Panel.
+* When parameterized this node will appear as a false/true toggle in the parameter panel.
 * A boolean value is in essence a `0` or `1` integer value. `0` is `false` and `1` is `true`.
 * The _value_ input can accept any numerical value (floating value or integer). The **boolean** node will convert a value of `0` to `false` (`0`) whereas any other value other than `0` will return `true` (`1`).
 * Other names for this node include: Checkbox, State, Bit, Binary, On/Off, True/False, or Parameter.

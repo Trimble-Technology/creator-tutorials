@@ -1,9 +1,9 @@
 # Material
 
 
-Every primitive flowing through a Trimble Creator graph has a material property.
+Every primitive flowing through a graph has a material property.
 
-Here's an example from the Trimble Creator app:
+Here's an example:
 
 <p align="center">
   <img width="400" src="images\projectionUV.gif"/>
@@ -48,9 +48,7 @@ Opacity is the inverse of the transparency of the primitive it is assigned to.
 * An opacity of 0 means the object is totally transparent.
 * An opacity of 1 means the object is not transparent at all. This is the default.
 
-Opacity can be varied across a surface using a texture. Materia assumes the perceived luminance (0.2126 x red + 0.7152 x green + 0.0722 x blue) of the texture will be used. Using a grayscale image is recommended.
-
-Trimble Creator assumes the texture overrides the provided opacity value, but both texture and value are passed on to client applications.
+Opacity can be varied across a surface using a texture. The texture overrides the provided opacity value.
 
 
 #### Roughness
@@ -60,7 +58,7 @@ Roughness is an indication of how rough, smooth or 'diffuse' the primitive's sur
 
 Chalk is very rough. A glass window is not.
 
-Roughness can be varied across a surface using a texture. Trimble Creator assumes the perceived luminance (0.2126 x red + 0.7152 x green + 0.0722 x blue) of the texture will be used. Using a grayscale image is recommended.
+Roughness can be varied across a surface using a texture. Using a grayscale image is recommended.
 
 Roughness value range is 0 to 1. Texture values can be multiplied using a provided multiplier value.
 
@@ -72,7 +70,7 @@ Default is 1 (fully rough, or diffuse).
 
 The metallic property is an indication of how much a primitive's surface acts like a metal.
 
-Metallic can be varied across a surface using a texture. Trimble Creator assumes the perceived luminance (0.2126 x red + 0.7152 x green + 0.0722 x blue) of the texture will be used. Using a grayscale image is recommended.
+Metallic can be varied across a surface using a texture. Using a grayscale image is recommended.
 
 Metallic value range is 0 to 1. Texture values can be multiplied using a provided multiplier value.
 
@@ -84,7 +82,7 @@ Default is 0 (not metallic).
 
 Reflectance is an indication of how reflective or 'specular' the primitive's surface is.
 
-Reflectance can be varied across a surface using a texture. Trimble Creator assumes the perceived luminance (0.2126 x red + 0.7152 x green + 0.0722 x blue) of the texture will be used. Using a grayscale image is recommended.
+Reflectance can be varied across a surface using a texture. Using a grayscale image is recommended.
 
 Reflectance value range is 0 to 1. Texture values can be multiplied using a provided multiplier value.
 
@@ -96,7 +94,7 @@ Default is 0 (not reflective, nor specular).
 
 A <a href="https://en.wikipedia.org/wiki/Bump_mapping" target="_blank">bump map</a> is used to simulate geometric detail on a surface it is applied to.
 
-Bump requires a texture, and UV coordinates. Trimble Creator assumes the red channel of the texture will be used to perturb the normal as a derivative map. A derivative map uses a grayscale texture (or if a color image, the red channel thereof) to generate a <a href="https://en.wikipedia.org/wiki/Normal_mapping" target="_blank">normal map</a> on-the-fly.
+Bump requires a texture, and UV coordinates.
 
 Bump value range is 0 to 1 for the texture, but can be multiplied using a provided multiplier value. Negative values will invert the bump details.
 
@@ -158,4 +156,4 @@ Whenever a texture is used in a material to vary a shading property across a sur
 
 `NURBS surface` primitives carry UVs by design, but `PolyMesh` primitives sometimes need UVs to be added.
 
-In general, this requires sophisticated tools beyond the scope of Materia, but Materia does provide one node to apply UV coordinates onto meshes: **Project UV**.
+In general, this requires sophisticated UV mapping tools.  This node provides basic ways of to applying UV coordinates onto `PolyMesh` primitives: **Project UV**.

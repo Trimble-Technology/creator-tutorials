@@ -21,4 +21,4 @@ A graph describes:
 * The ephemeral state of the graph.
 
 
-Materia graphs are directed acyclic graphs (DAG) that evaluate lazily.
+The graphs are directed acyclic graphs (DAG) that evaluate lazily.

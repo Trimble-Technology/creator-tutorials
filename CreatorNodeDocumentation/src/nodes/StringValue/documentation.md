@@ -21,11 +21,11 @@
 
 * _hide control_
 
-  * Hides the parameter control within the “Parameter panel” when the node is parameterized.
+  * Hides the parameter control within the parameter panel when the node is parameterized.
 
 * _hide label_
 
-  * Hides the parameter label (name) within the “Parameter panel” when the node is parameterized.
+  * Hides the parameter label (name) within the parameter panel when the node is parameterized.
 
 
 ### Outputs
@@ -39,7 +39,7 @@
 
 
 
-* When parameterized this node will appear as an input field in the Parameter panel.
+* When parameterized this node will appear as an input field in the parameter panel.
 * Other names for this node include: Text, Word, and Parameter.
 
 

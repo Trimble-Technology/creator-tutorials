@@ -12,7 +12,7 @@ Some typical use cases of a locator:
 
 ### Locator primitive
 
-The Materia locator concept is expressed via a `LocatorPrimitive`. This primitive is essentially a point with orientation. It has the following properties:
+The locator concept is expressed via a `LocatorPrimitive`. This primitive is essentially a point with orientation. It has the following properties:
 
 * An ID: a user-settable persistent ID
 * A transform matrix: this gives the locator its position and orientation.

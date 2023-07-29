@@ -21,11 +21,11 @@
 
 * _hide control_
 
-  * Hides the parameter control within the “Parameter panel” when the node is parameterized.
+  * Hides the parameter control within the parameter panel when the node is parameterized.
 
 * _hide label_
 
-  * Hides the parameter label (name) within the “Parameter panel” when the node is parameterized.
+  * Hides the parameter label (name) within the parameter panel when the node is parameterized.
 
 
 ### Outputs
@@ -39,7 +39,7 @@
 
 
 
-* When parameterized this node will appear as three input fields and a color picker in the Parameter panel.
+* When parameterized this node will appear as three input fields and a color picker in the parameter panel.
 * A color value is defined by three values between `0` and `1`.
     * Any inputted value above `1` will be rounded back down to `1`.
     * Any inputted value below `0` will be rounded back up to `0`.

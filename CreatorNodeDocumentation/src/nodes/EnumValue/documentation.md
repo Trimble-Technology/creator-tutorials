@@ -37,11 +37,11 @@ This node does NOT have geometry inputs and outputs.
 
 * _hide control_
 
-  * Hides the parameter control within the “Parameter panel” when the node is parameterized.
+  * Hides the parameter control within the parameter panel when the node is parameterized.
 
 * _hide label_
 
-  * Hides the parameter label (name) within the “Parameter panel” when the node is parameterized.
+  * Hides the parameter label (name) within the parameter panel when the node is parameterized.
 
 
 ### Outputs
@@ -59,7 +59,7 @@ This node does NOT have geometry inputs and outputs.
 
 
 
-* When parameterized this node will appear as a dropdown in the Parameter Panel.
+* When parameterized this node will appear as a dropdown in the parameter panel.
 * Setting a _min/max mode_ input to `Soft` will allow values outside the range of the values defined by the relevant _min_ and _max_ inputs. Setting it to `Hard` will not allow values outside the range of the values defined by the relevant _min_ and _max_ inputs.
 * Other names for this node include: Dropdown, Menu, Choose, Enum, Enumeration, Parameter.
 

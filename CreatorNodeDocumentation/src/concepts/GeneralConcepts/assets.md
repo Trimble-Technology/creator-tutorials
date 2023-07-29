@@ -1,6 +1,6 @@
 # Assets
 
-Assets are representations of stored data. Some assets may be serialisations of native Trimble Creator objects, e.g. a graph created by a user. Other types of assets may be external in origin and uploaded, e.g. an IGES or OBJ model.
+Assets are representations of stored data. E.g. a graph created by a user. Other types of assets may be external in origin and uploaded, e.g. an IGES or OBJ model.
 
 ### Asset URI
 

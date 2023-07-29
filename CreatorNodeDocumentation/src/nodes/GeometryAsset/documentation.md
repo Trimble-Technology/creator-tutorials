@@ -55,7 +55,7 @@
 
 
 
-* Geometry can be uploaded to Trimble Creator by dragging and dropping the file into the “Graph Viewer”.
+* Geometry can be uploaded by dragging and dropping the file into the graph viewer.
 * Trimble Creator supports following geometry file formats for import, with noted limitations:
     * TrimBIM (.trb)
     * IGES
