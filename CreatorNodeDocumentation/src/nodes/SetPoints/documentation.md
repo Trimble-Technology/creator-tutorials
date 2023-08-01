@@ -53,9 +53,7 @@
 
 ### Notes
 
-
-
-* Other names for this node include: Set positions.
+* Other names for this node include: SetPoints, and Set positions.
 
 
 ### Examples

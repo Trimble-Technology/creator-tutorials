@@ -33,7 +33,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Float to vector, Combine, and Assemble.
+* Other names for this node include: XYZToVector, Float to vector, Combine, and Assemble.
 
 
 ### Example(s)

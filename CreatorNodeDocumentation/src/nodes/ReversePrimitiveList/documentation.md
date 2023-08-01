@@ -34,6 +34,11 @@
   * The list of z values of the points of the output primitives.
 
 
+### Note(s)
+
+* Other names for this node include: ReversePrimitiveList.
+
+
 ### Example(s)
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:73cf218e-8e17-43d9-8023-a8d4ae5c688b&version=latest" target="_blank">Isolate both ends of a primitive list</a>

@@ -45,7 +45,7 @@
 
 * Both the _use seed_ and _seed_ inputs are only relevant when the _spherical_ input is set to `false`.
 
-* Other names for this node include: Float, and Rand.
+* Other names for this node include: RandomVectorV2, Float, and Rand.
 
 
 ### Example(s)

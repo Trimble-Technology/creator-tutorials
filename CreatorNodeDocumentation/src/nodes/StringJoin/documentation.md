@@ -33,7 +33,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Combine strings, and Concatenate strings.
+* Other names for this node include: StringJoin, Combine strings, and Concatenate strings.
 
 
 ### Example(s)

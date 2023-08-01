@@ -53,7 +53,7 @@
 
 ### Note(s)
 
-* Other names for this node include: NURBS to polygon, NURBS patch to triangles, Mesh, Tessellate, and Convert.
+* Other names for this node include: TesselatePatch, NURBS to polygon, NURBS patch to triangles, Mesh, Tessellate, and Convert.
 
 
 ### Example(s)

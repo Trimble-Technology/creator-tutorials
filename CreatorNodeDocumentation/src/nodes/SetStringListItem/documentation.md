@@ -27,6 +27,11 @@
   * The edited list of strings.
 
 
+### Note(s)
+
+* Other names for this node include: SetStringListItem.
+
+
 ### Example(s)
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:189bac23-cc78-4bd7-a071-15cedc3f6bc2&version=latest" target="_blank">Set string list item</a>
