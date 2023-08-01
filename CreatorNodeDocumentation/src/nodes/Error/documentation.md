@@ -33,7 +33,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Error switch.
+* Other names for this node include: Error, Error switch.
 
 
 ### Example(s)

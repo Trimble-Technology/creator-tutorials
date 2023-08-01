@@ -37,11 +37,11 @@ This node does NOT have geometry inputs and outputs.
 
 ### Notes
 
-
-
 * A custom list can be made by clicking on the `&lt;number list*` space of the _list _input via the “Add Item” button.
+
 * When the _initialize_ input is `true`, manually inputted values will be overridden by the _default_ input value.
-* Other names for this node include: Float list and Decimal list.
+
+* Other names for this node include: FloatList, Float list and Decimal list.
 
 
 ### Examples

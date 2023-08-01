@@ -27,6 +27,11 @@
   * The list of strings that have been culled.
 
 
+  ### Note(s)
+
+* Other names for this node include: CullStringList.
+
+
 ### Example(s)
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:a26f41fb-3bb6-43bf-a3ae-219540889fb1&version=latest" target="_blank">Cull string list</a>

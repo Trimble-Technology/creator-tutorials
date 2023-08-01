@@ -61,10 +61,9 @@
 
 ### Notes
 
-
-
 * When parameterized this node will appear as a slider and input field in the parameter panel.
-* Other names for this node include: Float, Double, Decimal, Real, and Parameter.
+
+* Other names for this node include: FloatValue, Float, Double, Decimal, Real, and Parameter.
 
 
 ### Examples

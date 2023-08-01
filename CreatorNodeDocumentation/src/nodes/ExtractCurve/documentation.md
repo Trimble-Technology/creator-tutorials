@@ -45,7 +45,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Isoparm, Extract curve, and NURBS patch.
+* Other names for this node include: ExtractCurve, Extract curve, Isoparm, and NURBS patch.
 
 
 ### Example(s)

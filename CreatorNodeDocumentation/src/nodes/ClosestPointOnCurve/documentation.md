@@ -55,7 +55,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Nearest, and Distance.
+* Other names for this node include: ClosestPointOnCurve, Nearest, and Distance.
 
 
 ### Example(s)

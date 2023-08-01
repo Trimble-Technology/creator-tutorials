@@ -59,6 +59,8 @@
 
   * Connect the _data list_ output of this **Combine data** node to the _values_ input of a [**JSON builder**](/nodes/JsonBuilder/documentation.md) node to provide these parameter values.
 
+* Other names for this node include: CombineData.
+
 
 ### Example(s)
 

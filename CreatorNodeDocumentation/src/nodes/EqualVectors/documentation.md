@@ -29,7 +29,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Same, Identical, Is, =, and ==.
+* Other names for this node include: EqualVectors, Same, Identical, Is, =, and ==.
 
 
 ### Example(s)
