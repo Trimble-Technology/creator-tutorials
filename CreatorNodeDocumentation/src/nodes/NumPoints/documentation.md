@@ -1,4 +1,4 @@
-# # points
+# points
 
 **_Calculates the point count of input primitives._**
 
@@ -25,7 +25,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Number of points, Amount of points.
+* Other names for this node include: NumPoints, Number of points, Amount of points.
 
 
 ### Example(s)

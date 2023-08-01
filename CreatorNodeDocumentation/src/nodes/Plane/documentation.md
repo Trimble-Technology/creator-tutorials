@@ -69,8 +69,6 @@
 
 ### Notes
 
-
-
 * Other names for this node include: Plane, Square, Grid, and Patch.
 
 

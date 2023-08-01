@@ -37,7 +37,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Polygon centers.
+* Other names for this node include: PolyCentroids, Polygon centers.
 
 
 ### Example(s)

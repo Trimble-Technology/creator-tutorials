@@ -29,13 +29,13 @@
 
 ### Notes
 
-
-
 * Images can be uploaded to Trimble Creator by dragging and dropping the file into the graph viewer.
+
 * Following image file formats are supported for import:
     * JPEG / JPG
     * PNG
-* Other names for this node include: Picture, Texture, Bitmap, JPEG, JPG, and PNG.
+
+* Other names for this node include: ImageAsset, Picture, Texture, Bitmap, JPEG, JPG, and PNG.
 
 
 ### Examples

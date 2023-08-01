@@ -35,6 +35,13 @@
   * The list of vector values of the geometry sizes of each individual input primitive.
 
 
+### Notes
+
+
+* Other names for this node include: GeometrySize.
+
+
+
 ### Examples
 
 

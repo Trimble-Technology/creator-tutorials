@@ -45,7 +45,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Delete, Isolate, and Choose.
+* Other names for this node include: GetPrimitive, Delete, Isolate, and Choose.
 
 
 ### Example(s)

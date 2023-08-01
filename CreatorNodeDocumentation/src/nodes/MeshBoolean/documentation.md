@@ -55,7 +55,7 @@
 
     * A mesh 3D boolean operation utilizes vertices and edges of input meshes to perform operations. Therefore, it is often useful to pay attention to where particular geometries are positioned. Say for example we have a box that is subtracting from another box where the position of the subtracting box is positioned so that it lies directly in the middle of a triangle of the first box's mesh. In this instance, there are no intersecting edges or vertices of either mesh, thus making it difficult to calculate consistently.
 
-* Other names for this node include: 3D boolean, Mesh boolean, and CSG.
+* Other names for this node include: MeshBoolean, Mesh boolean, 3D boolean, and CSG.
 
 
 ### Example(s)

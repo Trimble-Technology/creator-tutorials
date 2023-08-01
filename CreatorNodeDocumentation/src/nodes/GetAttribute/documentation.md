@@ -45,11 +45,11 @@
 
 ### Notes
 
-
-
 * See [Attribute](/concepts/GeneralConcepts/attribute.md) for more information on attributes, and their function in the graph.
+
 * The _value_ input is a special type of input that can accept any type of data.
-* Other names for this node include: Attribute to list and Read attribute.
+
+* Other names for this node include: GetAttribute, Attribute to list, and Read attribute.
 
 
 ### Examples
