@@ -51,6 +51,8 @@
 
 * This can also be used to find the closest values to an input value from within a sorted list by using the _near value_ input and the _value below_, _value above_, _below index_, and _above index_ outputs.
 
+* Other names for this node include: SortFloatList.
+
 
 ### Example(s)
 

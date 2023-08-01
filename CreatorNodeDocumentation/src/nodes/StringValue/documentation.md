@@ -37,10 +37,9 @@
 
 ### Notes
 
-
-
 * When parameterized this node will appear as an input field in the parameter panel.
-* Other names for this node include: Text, Word, and Parameter.
+
+* Other names for this node include: StringValue, Text, Word, and Parameter.
 
 
 ### Examples

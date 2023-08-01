@@ -37,7 +37,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Nearest value, Distance, Delta, and Difference.
+* Other names for this node include: ClosestValue, Nearest value, Distance, Delta, and Difference.
 
 
 ### Example(s)

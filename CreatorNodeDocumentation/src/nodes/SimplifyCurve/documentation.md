@@ -41,7 +41,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Redraw, and Reduce.
+* Other names for this node include: SimplifyCurve, Redraw, and Reduce.
 
 
 ### Example(s)

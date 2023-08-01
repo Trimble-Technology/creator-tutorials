@@ -65,7 +65,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Nearest, Distance, Radius, and Neighbour.
+* Other names for this node include: ClosestPointsToPoints, Nearest, Distance, Radius, and Neighbour.
 
 
 ### Example(s)

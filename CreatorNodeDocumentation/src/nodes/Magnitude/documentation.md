@@ -29,7 +29,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Vector length, and Distance.
+* Other names for this node include: Magnitude, Vector length, and Distance.
 
 
 ### Example(s)

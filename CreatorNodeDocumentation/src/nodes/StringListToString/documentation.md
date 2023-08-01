@@ -27,7 +27,7 @@
 
 * To concatenate means to “put in series” or to “chain”. Therefore to concatenate a string list is to “chain” a string list into a single string, separated by a separator.
 
-* Other names for this node include: Concatenate, or Join strings.
+* Other names for this node include: StringListToString, Concatenate, or Join strings.
 
 
 ### Example(s)

@@ -37,9 +37,7 @@
 
   ### Notes
 
-
-
-* Other names for this node include: Hard edges, and Facet.
+* Other names for this node include: UnweldVertices, Hard edges, and Facet.
 
 
 ### Examples

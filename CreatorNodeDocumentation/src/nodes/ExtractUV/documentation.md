@@ -31,7 +31,7 @@
 
 * Currently only operates on PolyMesh primitives, not NURBS surfaces etc. If any primitive type other than a PolyMesh is input, the _default u_ and _default v_ values will be output.
 
-* Other names for this node include: Extract UVs.
+* Other names for this node include: ExtractUV, Extract UVs.
 
 
 ### Example(s)

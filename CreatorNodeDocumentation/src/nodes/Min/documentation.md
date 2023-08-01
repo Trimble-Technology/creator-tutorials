@@ -27,6 +27,11 @@
   * The list of minimum values.
 
 
+### Note(s)
+
+* Other names for this node include: Min.
+
+
 ### Example(s)
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:1b7f6e89-35c1-4681-b43e-cdb70bf65e25&version=latest" target="_blank">Minimum value</a>

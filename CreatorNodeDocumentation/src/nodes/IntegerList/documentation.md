@@ -37,12 +37,13 @@
 
 ### Notes
 
-
-
 * A custom list can be made by clicking on the `<integer list>` space of the _list _input via the “Add Item” button.
+
 * When the _initialize_ input is `true`, manually inputted values will be overridden by the _default_ input value.
+
 * When both the _initialize_ and _iterator _inputs are `true`, the iterative values override the _default_ input value.
-* Other names for this node include: Number list.
+
+* Other names for this node include: IntegerList, Number list.
 
 
 ### Examples

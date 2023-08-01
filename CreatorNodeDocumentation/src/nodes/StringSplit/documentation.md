@@ -23,6 +23,11 @@
   * The list of split string values.
 
 
+### Note(s)
+
+* Other names for this node include: StringSplit.
+
+
 ### Example(s)
 
 * <a href="https://creator.trimble.com/graph?layout=right&assetURI=whp:f769262d-ea7f-42d0-880c-796a853208e3&version=latest" target="_blank">Splitting a string</a>

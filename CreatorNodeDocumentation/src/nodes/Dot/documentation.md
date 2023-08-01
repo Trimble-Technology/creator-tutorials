@@ -31,6 +31,7 @@
 
 * The dot product is the sum of two vectors’ components (x, y, and z values) that have been multiplied together. This results in a single number value.
 
+* Other names for this node include: Dot.
 
 ### Example(s)
 

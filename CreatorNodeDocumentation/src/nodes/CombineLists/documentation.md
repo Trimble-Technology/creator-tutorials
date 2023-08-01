@@ -35,7 +35,7 @@
 
 * Chain multiple **combine number list** nodes together to combine more than four number lists.
 
-* Other names for this node include: Append, Concatenate, Merge, and Join.
+* Other names for this node include: CombineLists, Append, Concatenate, Merge, and Join.
 
 
 ### Example(s)

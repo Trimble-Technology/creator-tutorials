@@ -27,6 +27,11 @@
   * The list of values with the item’s set values.
 
 
+### Note(s)
+
+* Other names for this node include: SetVectorListItems.
+
+
 ### Example(s)
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:839b72cf-42b2-4847-9ccd-7791be6f352b&version=latest" target="_blank">Setting multiple points within a polyline</a>

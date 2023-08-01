@@ -46,8 +46,7 @@
 ### Notes
 
 
-
-* Other names for this node include: Centroid and Barycenter
+* Other names for this node include: GeometryCentroid, Centroid, and Barycenter.
 
 
 ### Examples

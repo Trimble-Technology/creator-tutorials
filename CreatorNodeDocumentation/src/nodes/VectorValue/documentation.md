@@ -37,11 +37,11 @@
 
 ### Notes
 
-
-
 * When parameterized this node will appear as three input fields in the parameter panel.
+
 * The order of the individual input boxes for the _value_ and _default_ inputs are (from left to right): x, y, and z.
-* Other names for this node include: Point, Coordinate, Direction, xyz, and Parameter.
+
+* Other names for this node include: VectorValue, Point, Coordinate, Direction, xyz, and Parameter.
 
 
 ### Examples

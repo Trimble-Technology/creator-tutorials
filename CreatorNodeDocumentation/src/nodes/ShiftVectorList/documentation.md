@@ -29,6 +29,8 @@
 
   * For example, if a list is shifted by a _shift_ input value of `-1`, the vector value at index `0` is now at index `1` and the vector value that was at the end of the list is now at index `0`.
 
+* Other names for this node include: ShiftVectorList.
+
 
 ### Example(s)
 

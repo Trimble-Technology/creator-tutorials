@@ -47,7 +47,7 @@
 
 * An example of an  instance where a mesh boundary will not be made (and therefore will turn a `false` result in the _boolean mask_ output) might be where mesh edges/boundaries are welded together (and thus not a boundary) or, a primitive type other than a PolyMesh is input into this node.
 
-* Other names for this node include: Edges, Contour, and Border.
+* Other names for this node include: MeshBoundary, Edges, Contour, and Border.
 
 
 ### Example(s)

@@ -56,12 +56,15 @@
 
 
 * A custom list can be made by clicking on the `<boolean list>` space of the _list _input via the “Add Item” button.
+
 * When the _initialize_ input is `true`, manually inputted values will be overridden by the _default_ input value.
+
 * The _pattern_ input:
     * When both the _initialize_ and _pattern_ inputs are `true`, the defined pattern overrides the _default_ input value.
     * Changing the _default_ input value will invert the defined pattern.
     * List indexes outside of the pattern range (as defined by the _start_ and _end_ inputs) will be set to the value defined by the _default_ input.
-* Other names for this node include: Mask and Bitmask.
+
+* Other names for this node include: BooleanList, Mask, and Bitmask.
 
 
 ### Examples

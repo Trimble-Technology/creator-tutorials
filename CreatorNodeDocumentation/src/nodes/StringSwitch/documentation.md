@@ -43,7 +43,7 @@
 
 * Unlike the [Switch](/nodes/Switch/documentation.md) node, upstream nodes of all input connections are computed.
 
-* Other names for this node include: Case, and If.
+* Other names for this node include: StringSwitch, Case, and If.
 
 
 ### Example(s)

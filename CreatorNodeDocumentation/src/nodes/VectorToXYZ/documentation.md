@@ -41,7 +41,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Vector to float, Explode, Vector to components, and Decompose.
+* Other names for this node include: VectorToXYZ, Vector to float, Explode, Vector to components, and Decompose.
 
 
 ### Example(s)

@@ -35,7 +35,7 @@
 
 * If the _use seed_ input is set to `false`, a new random value will be created each time the node is computed.
 
-* Other names for this node include: Float, and Rand.
+* Other names for this node include: RandomFloat, Float, and Rand.
 
 
 ### Example(s)

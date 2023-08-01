@@ -1,4 +1,4 @@
-# # primitives
+# primitives
 
 **_Calculates the number of input primitives._**
 
@@ -25,7 +25,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Number of primitives, Amount of primitives.
+* Other names for this node include: NumPrimitives, Number of primitives, and Amount of primitives.
 
 
 ### Example(s)

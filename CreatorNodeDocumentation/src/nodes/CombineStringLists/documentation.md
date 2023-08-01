@@ -35,7 +35,7 @@
 
 * Chain multiple **combine string list** nodes together to combine more than four string lists.
 
-* Other names for this node include: Append, Concatenate, and Merge.
+* Other names for this node include: CombineStringLists, Append, Concatenate, and Merge.
 
 
 ### Example(s)

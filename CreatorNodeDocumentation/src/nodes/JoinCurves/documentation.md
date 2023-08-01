@@ -47,7 +47,7 @@
 
 * The _tolerance_ unit will be the set unit of the graph.
 
-* Other names for this node include: Merge curves, Connect curves, and Combine curves.
+* Other names for this node include: JoinCurves, Merge curves, Connect curves, and Combine curves.
 
 
 ### Example(s)

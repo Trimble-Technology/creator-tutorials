@@ -31,7 +31,7 @@
 
 * Multiple list items can be gotten by inputting a list of indices into the _index_ input.
 
-* Other names for this node include: Switch, Choose, Pick, Choice, or List item.
+* Other names for this node include: GetListItem, Switch, Choose, Pick, Choice, or List item.
 
 
 ### Example(s)

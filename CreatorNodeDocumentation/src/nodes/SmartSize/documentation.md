@@ -70,6 +70,8 @@
 
   * Therefore the sum of both the upper and lower lock zones cannot be greater or equal to `1` so that these zones do not overlap.
 
+* Other names for this node include: SmartSize.
+
 
 ### Example(s)
 

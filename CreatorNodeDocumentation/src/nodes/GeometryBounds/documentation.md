@@ -55,7 +55,7 @@
 
 
 
-* Other names for this node include: Extent, Minimum, and Maximum.
+* Other names for this node include: GeometryBounds, Extent, Minimum, and Maximum.
 
 
 ### Examples

@@ -67,7 +67,7 @@
 
 
 
-* Other names for this node include: Skin and Revolve.
+* Other names for this node include: Skin, and Revolve.
 
 
 ### Examples
