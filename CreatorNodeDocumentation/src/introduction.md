@@ -1,6 +1,6 @@
 # Introduction
 
-Trimble Creator's core concept is a graph. Graphs represent logic that computes geometry primitives (and other data), which flows through the graph.
+The core concept of the app is a graph. Graphs represent logic that computes geometry primitives (and other data), which flows through the graph.
 
 <p align="center">
   <img width="400" src="concepts\GeneralConcepts\images\CreatorCow.png"/>
@@ -8,7 +8,7 @@ Trimble Creator's core concept is a graph. Graphs represent logic that computes 
 
 Graphs are a collection of connected nodes. Individual nodes represent compute functions, like the creation of a polygonal box primitive, a noise generator, or the act of joining two curves.
 
- <a href="https://creator.trimble.com/graph?assetURI=whp:f790227f-a092-4595-86ca-f6e7d2eeac14&version=latest" target="_blank">This graph</a> has most nodes that exists within Trimble Creator.  Check it out!
+ <a href="https://creator.trimble.com/graph?assetURI=whp:1b4e8dd2-0de7-431a-b60e-a8c5a9412250&version=latest" target="_blank">This graph</a> has most nodes that exist within Trimble Creator.  Check it out!
 
 
 ### Node types

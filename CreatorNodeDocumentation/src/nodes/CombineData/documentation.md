@@ -57,7 +57,7 @@
 
 * Typically this node is used to build a set of values for a JSON string to provide a list of parameters and values to a [**graph asset**](/nodes/GraphAsset/documentation.md) node.
 
-  * Connect the _data list_ output of this **Combine data** node to the _values_ input of a [**JSON builder**](/nodes/JsonBuilder/documentation.md) node to provide these parameter values.
+  * Connect the _data list_ output of this [**Combine data**](/nodes/CombineData/documentation.md) node to the _values_ input of a [**JSON builder**](/nodes/JsonBuilder/documentation.md) node to provide these parameter values.
 
 
 ### Example(s)
