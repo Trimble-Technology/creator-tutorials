@@ -31,6 +31,8 @@
 
 * This node returns two lists of booleans, one for each input list (same length) - items are true if the number at their index is found in the other list.
 
+* Other names for this node include: MatchNumberLists.
+
 
 ### Example(s)
 

@@ -53,9 +53,9 @@
 
 ### Notes
 
-
-
 * The points defined by the resolution inputs are set within the positive direction of their respective axes.
+
+* Other names for this node include: PointGrid.
 
 
 ### Examples

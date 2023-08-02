@@ -43,7 +43,7 @@
 
 * Unlike the [Switch](/nodes/Switch/documentation.md) node, all upstream nodes of all input connections are computed.
 
-* Other names for this node include: Case, If, and Value switch.
+* Other names for this node include: FloatSwitch, Case, If, and Value switch.
 
 
 ### Example(s)

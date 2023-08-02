@@ -49,9 +49,7 @@
 
 ### Notes
 
-
-
-* Other names for this node include: Tube and Poly cylinder.
+* Other names for this node include: PolyCylinder, Poly cylinder, and Tube.
 
 
 ### Examples

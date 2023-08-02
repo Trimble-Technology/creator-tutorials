@@ -23,7 +23,7 @@
 
 * This node will shuffle the input vector list each time it is computed. In other words, it will re-shuffle the input vector list whenever the input vector list changes, a node upstream of it has changed (even if the values in the list itself seems to stay the same), or the graph is re-loaded.
 
-* Other names for this node include: Randomize, and Randomise.
+* Other names for this node include: ShuffleVectorList, Randomize, and Randomise.
 
 
 ### Example(s)

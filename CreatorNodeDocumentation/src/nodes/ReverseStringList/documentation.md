@@ -19,6 +19,11 @@
   * The reversed list of string values.
 
 
+### Note(s)
+
+* Other names for this node include: ReverseStringList.
+
+
 ### Example(s)
 
 * No particular examples at this time. Check back later!

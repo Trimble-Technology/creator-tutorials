@@ -41,10 +41,9 @@
 
 ### Notes
 
-
-
 * Primitives can be grouped together with the **group** node.
-* Other names for this node include: Ungroup primitives, Disassemble, and Split group.
+
+* Other names for this node include: UngroupPrimitives, Ungroup primitives, Disassemble, and Split group.
 
 
 ### Examples

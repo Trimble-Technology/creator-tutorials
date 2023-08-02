@@ -47,10 +47,10 @@
 
 ### Note(s)
 
-
-
 * When creating snaps, snaps are designed to snap together by their axis like so: `z^ x><x z^`. In other words, the positive x direction of one locator will face the positive x direction of the other and the two positive z directions of both locators will be aligned.
+
 * See [Locator](/concepts/GeneralConcepts/locator.md) for more information on the locator primitive type.
+
 * Other names for this node include: Handle, Snap, and Control point.
 
 

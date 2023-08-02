@@ -27,6 +27,11 @@
   * The edited list of values.
 
 
+### Note(s)
+
+* Other names for this node include: SetListItems.
+
+
 ### Example(s)
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:ffd32c4c-8dc3-4912-87b0-7f4db09dde06&version=latest" target="_blank">Setting number list items</a>

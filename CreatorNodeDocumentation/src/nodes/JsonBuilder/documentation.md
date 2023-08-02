@@ -37,7 +37,7 @@
 
   * As parameters can be of many different data types, a [**combine data**](/nodes/CombineData/documentation.md) node is often used to supply the input for the _values_ input.
 
-* Other names for this node include: JSON string.
+* Other names for this node include: JSONBuilder and JSON string.
 
 
 ### Example(s)

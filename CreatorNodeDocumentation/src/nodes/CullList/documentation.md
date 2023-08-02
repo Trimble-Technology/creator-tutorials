@@ -29,7 +29,7 @@
 
   ### Note(s)
 
-* Other names for this node include: Split list.
+* Other names for this node include: CullList, Split list.
 
 
 ### Example(s)

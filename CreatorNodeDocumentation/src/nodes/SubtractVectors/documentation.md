@@ -35,6 +35,11 @@
   * The list of results of normalized vectors.
 
 
+### Note(s)
+
+* Other names for this node include: SubtractVectors.
+
+
 ### Example(s)
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:e62cef33-0959-4264-8149-d4c7d5329b43&version=latest" target="_blank">Distance between two objects</a>

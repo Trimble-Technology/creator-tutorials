@@ -41,10 +41,9 @@
 
 ### Notes
 
-
-
 * Group primitives can be ungrouped with the **ungroup** node.
-* Other names for this node include: Group primitives and Assemble.
+
+* Other names for this node include: GroupPrimitives, Group primitives, and Assemble.
 
 
 ### Examples

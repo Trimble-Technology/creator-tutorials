@@ -37,15 +37,17 @@
 
 ### Notes
 
-
-
 * When parameterized this node will appear as three input fields and a color picker in the parameter panel.
+
 * A color value is defined by three values between `0` and `1`.
     * Any inputted value above `1` will be rounded back down to `1`.
     * Any inputted value below `0` will be rounded back up to `0`.
+
 * Vectors can be utilized as a color value.
+
 * A color value can be set via the “color picker” by clicking on the colored box next to the _value_ and _default_ inputs.
-* Other names for this node include: Parameter.
+
+* Other names for this node include: ColorValue and Parameter.
 
 
 ### Examples

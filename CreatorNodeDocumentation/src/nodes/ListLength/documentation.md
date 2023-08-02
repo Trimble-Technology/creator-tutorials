@@ -25,7 +25,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Count, and Size.
+* Other names for this node include: ListLength, Count, and Size.
 
 
 ### Example(s)

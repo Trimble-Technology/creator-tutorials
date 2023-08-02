@@ -55,7 +55,7 @@
 
   * Polylines/NURBS curves where the curve will be left with only a single point.
 
-* Other names for this node include: Erase, and Nuke.
+* Other names for this node include: DeletePoints, Erase, and Nuke.
 
 
 ### Example(s)

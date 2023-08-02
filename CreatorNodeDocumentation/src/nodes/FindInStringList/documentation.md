@@ -37,7 +37,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Search, and Compare.
+* Other names for this node include: FindInStringList, Search, and Compare.
 
 
 ### Example(s)

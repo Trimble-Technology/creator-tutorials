@@ -35,7 +35,7 @@
 
 * Chain multiple **combine vector list** nodes together to combine more than four vector lists.
 
-* Other names for this node include: Append, Concatenate, and Merge.
+* Other names for this node include: CombineVectorLists, Append, Concatenate, and Merge.
 
 
 ### Example(s)

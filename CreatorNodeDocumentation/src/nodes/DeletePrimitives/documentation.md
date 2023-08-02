@@ -53,7 +53,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Erase, and Nuke.
+* Other names for this node include: DeletePrimitives, Erase, and Nuke.
 
 
 ### Example(s)

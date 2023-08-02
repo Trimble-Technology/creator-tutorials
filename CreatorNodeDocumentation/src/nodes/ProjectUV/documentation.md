@@ -53,7 +53,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Texture, and Map.
+* Other names for this node include: ProjectUV, Texture, and Map.
 
 
 ### Example(s)

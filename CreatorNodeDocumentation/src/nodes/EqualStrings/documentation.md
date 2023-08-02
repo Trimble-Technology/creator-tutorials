@@ -29,7 +29,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Same, Identical, String is, ==, and Compare.
+* Other names for this node include: EqualStrings, Same, Identical, String is, ==, and Compare.
 
 
 ### Example(s)

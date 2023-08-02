@@ -49,10 +49,9 @@
 
 ### Notes
 
-
-
 * The geometry output of this node is a NURBS surface primitive type. In order to convert it to a PolyMesh primitive type use the **triangulate surface** node.
 
+* Other names for this node include: ExtrudeCurve.
 
 ### Examples
 

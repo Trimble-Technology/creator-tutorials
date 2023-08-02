@@ -141,10 +141,9 @@
 
 ### Notes
 
-
-
 * See [Material](/concepts/GeneralConcepts/material.md) for more information on the specfics of materials in Trimble Creator.
-* Other names for this node include: Set Material and Shader.
+
+* Other names for this node include: SetMaterial, Set Material, and Shader.
 
 
 ### Examples

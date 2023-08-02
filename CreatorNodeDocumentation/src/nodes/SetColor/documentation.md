@@ -53,9 +53,7 @@
 
 ### Notes
 
-
-
-* Other names for this node include: Alpha, Wireframe, and Transparency.
+* Other names for this node include: SetColor, Alpha, Wireframe, and Transparency.
 
 
 ### Examples

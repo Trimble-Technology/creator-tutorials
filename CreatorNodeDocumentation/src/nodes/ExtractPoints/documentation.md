@@ -41,7 +41,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Extract points, Isoparm, and NURBS.
+* Other names for this node include: ExtractPoints, Extract points, Isoparm, and NURBS.
 
 
 ### Example(s)

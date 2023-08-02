@@ -69,7 +69,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Move, Translate, Rotate, Scale, Position, and Size.
+* Other names for this node include: TransfromPrimitives, Move, Translate, Rotate, Scale, Position, and Size.
 
 
 ### Example(s)

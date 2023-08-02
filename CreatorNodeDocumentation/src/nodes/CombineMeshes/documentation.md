@@ -42,8 +42,7 @@
 ### Notes
 
 
-
-* Other names for this node include: Merge meshes, Unify meshes, and Join.
+* Other names for this node include: CombineMeshes, Merge meshes, Unify meshes, and Join.
 
 
 ### Examples

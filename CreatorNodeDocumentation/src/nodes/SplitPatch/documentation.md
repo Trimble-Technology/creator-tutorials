@@ -49,7 +49,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Split patch, Cut, Nurbs, Carve.
+* Other names for this node include: SplitPatch, Split patch, Cut, Nurbs, Carve.
 
 ### Example(s)
 

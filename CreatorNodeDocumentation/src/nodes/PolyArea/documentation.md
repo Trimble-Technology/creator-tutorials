@@ -25,7 +25,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Triangle area, Mesh surface, and Poly area.
+* Other names for this node include: PolyArea, Poly area, Triangle area, and Mesh surface.
 
 
 ### Example(s)

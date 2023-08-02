@@ -37,7 +37,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Invert, and Reverse mesh.
+* Other names for this node include: ReverseMesh, Reverse Mesh, and Invert.
 
 
 ### Example(s)

@@ -98,7 +98,7 @@
 
     --sidebar-bg: #fafafa;
     --sidebar-fg: hsl(0, 0%, 0%);
-    --sidebar-non-existant: #aaaaaa;
+    --sidebar-non-existant: #6e6e6e;
     --sidebar-active: #1f1fff;
     --sidebar-spacer: #f4f4f4;
 
@@ -137,9 +137,9 @@
     --fg: #d8cece;
 
     --sidebar-bg: #282d3f;
-    --sidebar-fg: #c8c9db;
-    --sidebar-non-existant: #6f7080;
-    --sidebar-active: #ffffff;
+    --sidebar-fg: #ffffff;
+    --sidebar-non-existant: #adadbb;
+    --sidebar-active: #8d8dff;
     --sidebar-spacer: #2d334f;
 
     --scrollbar: var(--sidebar-fg);

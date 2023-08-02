@@ -35,6 +35,11 @@
   * The list of results of vector multiplication.
 
 
+### Note(s)
+
+* Other names for this node include: MultiplyVector.
+
+
 ### Example(s)
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:7b98956b-528e-4a7e-aef1-835cc72cdd2a&version=latest" target="_blank">Rotate towards</a>

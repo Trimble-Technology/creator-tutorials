@@ -31,6 +31,8 @@
 
 * To normalize a vector means to make a vector’s magnitude equate to `1` while maintaining the same direction.
 
+* Other names for this node include: Normalize.
+
 
 ### Example(s)
 

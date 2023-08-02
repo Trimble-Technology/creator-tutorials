@@ -61,7 +61,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Sum, and Addition.
+* Other names for this node include: AddVectorsV2, Sum, and Addition.
 
 
 ### Example(s)

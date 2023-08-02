@@ -53,9 +53,7 @@
 
 ### Notes
 
-
-
-* Other names for this node include: Create curve.
+* Other names for this node include: PointsToCurve and Create curve.
 
 
 ### Examples

@@ -61,9 +61,7 @@
 
 ### Notes
 
-
-
-* Other names for this node include: Smooth normals, Merge points, and Weld polygons.
+* Other names for this node include: WeldVertices, Smooth normals, Merge points, and Weld polygons.
 
 
 ### Examples

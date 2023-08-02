@@ -65,10 +65,9 @@
 
 ### Notes
 
-
-
 * Both the _miter limit_ and _arc precision_ inputs only affect the `miter` and `round` join types respectively and will only be available when those types are defined in the _join_ input.
-* Other names for this node include: Offset curve and Offset polygon.
+
+* Other names for this node include: OffsetCurve, Offset curve, and Offset polygon.
 
 
 ### Examples

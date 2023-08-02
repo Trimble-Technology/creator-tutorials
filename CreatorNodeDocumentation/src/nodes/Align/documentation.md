@@ -105,8 +105,6 @@
 
 ### Notes
 
-
-
 * When the _mode_ input is set to `between primitive connections` the primitives in each input geometry connection are treated as a group.
 
 

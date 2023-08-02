@@ -65,12 +65,12 @@
 
 ### Notes
 
-
-
 * 2D boolean operations are projected back to the selected work plane defined by the _work plane_ input.
     * If _pre-flatten_ is `false`, then all curves that are to be operated on need to be on the defined work plane. Otherwise the operation will fail, or curves/polygons will be excluded from the operation.
+
 * Requires at least two curve/polygon input primitives.
-* Other names for this node include: Curve boolean and Polygon boolean.
+
+* Other names for this node include: CurveBoolean, Curve boolean, and Polygon boolean.
 
 
 ### Examples

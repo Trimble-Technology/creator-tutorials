@@ -73,10 +73,9 @@
 
 ### Notes
 
-
-
 * When the _type_ input is set to `columns & rows`, adjusting the _phi _and _theta _start/end inputs will create domes and partial spheres.
-* Other names for this node include: Icosphere, Ball, Poly sphere, and Globe.
+
+* Other names for this node include: PolySphere, Poly sphere, Icosphere, Ball, and Globe.
 
 
 ### Examples

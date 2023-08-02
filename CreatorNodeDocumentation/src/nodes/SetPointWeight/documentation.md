@@ -51,7 +51,7 @@
 
 * If _default weight_ is in use all points will have the same weight so the exact value is irrelevant unless set to `0` in which case no geometry will be generated.
 
-* Other names for this node include: Edit point weight, and Weight.
+* Other names for this node include: SetPointWeight, Edit point weight, and Weight.
 
 
 ### Example(s)

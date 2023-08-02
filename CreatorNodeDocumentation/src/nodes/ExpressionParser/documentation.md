@@ -61,7 +61,7 @@
 
   * +, -, *, /, \\, %, >, <, =>, =<, ==, =!, &&, ||, &, |, =^, **, ?:, min, max, sin, cos, tan, asin, acos, atan, atan2, sinh, cosh, tanh, round, ceil, floor, trunc, sqrt, pow, exp, log, log10, abs, sign, pi.
 
-* Other names for this node include: Formula and Expression parser.
+* Other names for this node include: ExpressionParser, Expression parser, and Formula.
 
 
 ### Example(s)

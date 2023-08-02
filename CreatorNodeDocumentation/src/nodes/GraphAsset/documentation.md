@@ -75,7 +75,7 @@
 
 * The JSON string can be constructed using various methods, but it is recommended to use the **combine data** and **JSON builder** nodes to do so. An example of this can be found in the example graphs linked below.
 
-* Other names for this node include: Graph import, Graph reference, Subgraph.
+* Other names for this node include: GraphAsset, Graph import, Graph reference, Subgraph.
 
 
 ### Example(s)

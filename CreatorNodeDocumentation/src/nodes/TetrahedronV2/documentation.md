@@ -43,6 +43,11 @@
   * The list of z values of the points of the output primitives.
 
 
+### Notes
+
+* Other names for this node include: TetrahedronV2.
+
+
 ### Examples
 
 

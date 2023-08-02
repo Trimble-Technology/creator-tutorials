@@ -33,11 +33,11 @@
 
 ### Notes
 
-
-
 * A custom list can be made by clicking on the `<vector list>` space of the _list _input via the “Add Item” button.
+
 * When the _initialize_ input is `true`, manually inputted values will be overridden by the _default_ input value.
-* Other names for this node include: Point list, Coordinate list, Direction list, and xyz list.
+
+* Other names for this node include: VectorList, Point list, Coordinate list, Direction list, and xyz list.
 
 
 ### Examples
