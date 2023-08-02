@@ -1,942 +1,866 @@
 {
   "result": [
     {
-      "assetURI": "whp:612a1d7b-2375-44f6-90a3-8f472de26f08",
+      "assetURI": "whp:79498e1d-91a9-47c2-a9f3-dbef56c6d9bd",
       "assetType": "machine",
-      "assetName": "Television (featured)",
-      "creatorUserID": "e55ca804-38f9-433c-8990-beef8e988036",
-      "creatorUserFirstName": "David Silcock",
+      "assetName": "Timber Roof Truss (featured)",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
       "creatorUserLastName": "",
-      "source": "Materia:Creator.Materia-dev",
-      "tags": [
-        "CreatorPublishedGraph"
-      ],
-      "createTime": "2023-08-02T03:07:29.295Z",
-      "modifyTime": "2023-08-02T03:07:29.295Z",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-12-22T02:57:50.456Z",
+      "modifyTime": "2022-12-22T02:57:50.456Z",
       "data": {
-        "bounds": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/7867077d-0e9c-45db-854a-ef4d0eac7258",
-          "size": 127,
-          "createTime": "2023-08-02T03:07:34.889Z"
-        },
         "thumbnail_small": {
           "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/e03d3aed-f788-4fce-89df-be63da7f7dab",
-          "size": 21093,
-          "createTime": "2023-08-02T03:07:35.826Z"
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/df2ff0bd-cb62-41fa-8505-f3f663dd7589",
+          "size": 29445,
+          "createTime": "2022-12-22T02:57:57.257Z"
+        },
+        "bounds": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/0a6d686b-9c7b-4a17-bf90-3da43a25b7f3",
+          "size": 125,
+          "createTime": "2022-12-22T02:57:56.175Z"
         },
         "trimbnail": {
           "format": "trb",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/639ccb04-1c16-49ca-a503-91f85785a2fe",
-          "size": 67928,
-          "createTime": "2023-08-02T03:07:34.107Z"
-        },
-        "comment": {
-          "format": "txt",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/8f95510c-7565-4412-bcac-d7e94754d5f4",
-          "size": 0,
-          "createTime": "2023-08-02T03:07:37.994Z"
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/8ecc7393-8999-43e1-bac2-4d67a6b52571",
+          "size": 15360,
+          "createTime": "2022-12-22T02:57:55.333Z"
         },
         "thumbnail_big": {
           "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/94d226a9-f699-420a-9a5e-624b59f28248",
-          "size": 290661,
-          "createTime": "2023-08-02T03:07:37.206Z"
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/9d39a848-386c-469b-9237-f8a60d16a56e",
+          "size": 366157,
+          "createTime": "2022-12-22T02:57:58.789Z"
         },
         "machine": {
           "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/f61bdea7-44bc-45d2-97e7-4859ff28a508",
-          "size": 162863,
-          "createTime": "2023-08-02T03:07:32.985Z"
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/67812980-98f7-48b3-a4b7-f432c42487c1",
+          "size": 138830,
+          "createTime": "2022-12-22T02:57:54.301Z"
         }
       }
     },
     {
-      "assetURI": "whp:0b4c44b7-e661-4ff3-8225-fbdf25452dc5",
+      "assetURI": "whp:fd7ee6f2-9409-41a5-9df9-4a2bf743e18d",
       "assetType": "machine",
-      "assetName": "Shading Options (featured)",
-      "creatorUserID": "e55ca804-38f9-433c-8990-beef8e988036",
-      "creatorUserFirstName": "David Silcock",
+      "assetName": "Cafe Table w/ Chairs (featured)",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
       "creatorUserLastName": "",
-      "source": "Materia:Creator.Materia-dev",
-      "tags": [
-        "CreatorPublishedGraph"
-      ],
-      "createTime": "2023-08-02T03:09:30.304Z",
-      "modifyTime": "2023-08-02T03:09:30.304Z",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-12-22T02:58:00.189Z",
+      "modifyTime": "2022-12-22T02:58:00.189Z",
       "data": {
         "thumbnail_small": {
           "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/b857deda-9373-433f-995d-088d6a7a10f7",
-          "size": 22949,
-          "createTime": "2023-08-02T03:09:36.462Z"
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/a172abde-7937-4edc-a607-087673cff571",
+          "size": 22409,
+          "createTime": "2022-12-22T02:58:07.622Z"
         },
         "bounds": {
           "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/78fcb945-2827-4580-b20e-b541631e7f47",
-          "size": 117,
-          "createTime": "2023-08-02T03:09:35.537Z"
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/d24e5a0e-82a2-4490-80df-c2d5e8e91156",
+          "size": 115,
+          "createTime": "2022-12-22T02:58:06.581Z"
         },
         "trimbnail": {
           "format": "trb",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/3e134a10-a1d8-48d0-ab18-8d682216080b",
-          "size": 13440,
-          "createTime": "2023-08-02T03:09:34.754Z"
-        },
-        "comment": {
-          "format": "txt",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/6b375a6f-75c0-46e7-87d9-b5436de62a9b",
-          "size": 0,
-          "createTime": "2023-08-02T03:09:38.729Z"
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/19735673-d547-470d-b162-41dcf8af5dab",
+          "size": 559832,
+          "createTime": "2022-12-22T02:58:05.724Z"
         },
         "thumbnail_big": {
           "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/1e800dad-a546-4740-a018-2cf68adebe46",
-          "size": 310747,
-          "createTime": "2023-08-02T03:09:37.911Z"
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/79ec3e96-7d4a-4a7c-a03c-ea66d526f4d1",
+          "size": 285947,
+          "createTime": "2022-12-22T02:58:09.228Z"
         },
         "machine": {
           "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/4fcb63fc-b699-45f8-b841-defd9d9253ea",
-          "size": 138291,
-          "createTime": "2023-08-02T03:09:33.828Z"
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/ab7199a9-27f6-4889-bcb7-2649869e232d",
+          "size": 141309,
+          "createTime": "2022-12-22T02:58:03.982Z"
         }
       }
     },
     {
-      "assetURI": "whp:3538e058-9971-48ac-8da5-4cf18506d92a",
+      "assetURI": "whp:1d63496e-f4f3-4108-a16c-11227871d705",
       "assetType": "machine",
-      "assetName": "Teknion Sanna Lamp (featured)",
-      "creatorUserID": "e55ca804-38f9-433c-8990-beef8e988036",
-      "creatorUserFirstName": "David Silcock",
+      "assetName": "Bedside table (featured)",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
       "creatorUserLastName": "",
-      "source": "Materia:Creator.Materia-dev",
-      "tags": [
-        "CreatorPublishedGraph"
-      ],
-      "createTime": "2023-08-02T03:08:53.473Z",
-      "modifyTime": "2023-08-02T03:08:53.473Z",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-12-22T02:58:22.831Z",
+      "modifyTime": "2022-12-22T02:58:22.831Z",
       "data": {
-        "thumbnail_small": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/9db61093-c302-4930-97e9-c6c1c69c0d4e",
-          "size": 21854,
-          "createTime": "2023-08-02T03:09:00.573Z"
-        },
         "bounds": {
           "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/b8c4f69c-2af6-48bc-bb89-1f1e702b2e9c",
-          "size": 141,
-          "createTime": "2023-08-02T03:08:59.645Z"
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/67dad4d4-7e65-422a-a42b-9208c384a72f",
+          "size": 124,
+          "createTime": "2022-12-22T02:58:28.803Z"
+        },
+        "thumbnail_small": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/950e58d5-6c45-41c7-8c1e-bbe1af21d92a",
+          "size": 40461,
+          "createTime": "2022-12-22T02:58:30.006Z"
         },
         "trimbnail": {
           "format": "trb",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/61d4c615-17fb-4d38-9cc0-6bac4b45b0d0",
-          "size": 1798752,
-          "createTime": "2023-08-02T03:08:58.892Z"
-        },
-        "comment": {
-          "format": "txt",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/dc57724e-e626-4135-abe6-4228f6d34636",
-          "size": 0,
-          "createTime": "2023-08-02T03:09:02.840Z"
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/67431de1-b1e0-4a60-bf86-921dfc988c6a",
+          "size": 235032,
+          "createTime": "2022-12-22T02:58:27.979Z"
         },
         "thumbnail_big": {
           "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/889e5222-cea6-40e1-86c7-4af0956f22f6",
-          "size": 301260,
-          "createTime": "2023-08-02T03:09:02.029Z"
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/cd8a51f6-c827-4de1-a20c-9bdfd3d13f92",
+          "size": 486708,
+          "createTime": "2022-12-22T02:58:31.684Z"
         },
         "machine": {
           "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/75352d6d-b8fb-4a86-98db-25c91932b5d3",
-          "size": 177774,
-          "createTime": "2023-08-02T03:08:57.064Z"
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/d8eb10ac-82d9-4ce7-b1a7-1cc098b16ed3",
+          "size": 90393,
+          "createTime": "2022-12-22T02:58:26.423Z"
         }
       }
     },
     {
-      "assetURI": "whp:afd126a6-29c4-4eb6-8784-3b68977f27fe",
+      "assetURI": "whp:f822e5ab-a292-4e65-8589-a1be69d7a4f7",
       "assetType": "machine",
-      "assetName": "Shade Sail (featured)",
-      "creatorUserID": "e55ca804-38f9-433c-8990-beef8e988036",
-      "creatorUserFirstName": "David Silcock",
+      "assetName": "Wood Framed Wall (featured)",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
       "creatorUserLastName": "",
-      "source": "Materia:Creator.Materia-dev",
-      "tags": [
-        "CreatorPublishedGraph"
-      ],
-      "createTime": "2023-08-02T03:06:56.483Z",
-      "modifyTime": "2023-08-02T03:06:56.483Z",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-12-22T02:58:35.072Z",
+      "modifyTime": "2022-12-22T02:58:35.072Z",
       "data": {
         "bounds": {
           "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/7be50692-22ef-41dd-b557-b1817959503f",
-          "size": 139,
-          "createTime": "2023-08-02T03:07:02.033Z"
-        },
-        "thumbnail_small": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/9e078600-b676-4e93-b736-b9a424c93962",
-          "size": 21605,
-          "createTime": "2023-08-02T03:07:03.047Z"
-        },
-        "trimbnail": {
-          "format": "trb",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/ef7d8d7c-919b-4d45-a4c1-7a391cf8808a",
-          "size": 44976,
-          "createTime": "2023-08-02T03:07:01.218Z"
-        },
-        "comment": {
-          "format": "txt",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/b4fbdb12-d042-4f61-b7a2-582a4000e107",
-          "size": 0,
-          "createTime": "2023-08-02T03:07:05.321Z"
-        },
-        "thumbnail_big": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/a5594cb8-918a-4545-8e5d-4a2ced6ad610",
-          "size": 293712,
-          "createTime": "2023-08-02T03:07:04.536Z"
-        },
-        "machine": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/9faca91e-deb3-43d4-9bd7-faa14fd09a3a",
-          "size": 132622,
-          "createTime": "2023-08-02T03:07:00.032Z"
-        }
-      }
-    },
-    {
-      "assetURI": "whp:3cf2c410-a793-4cce-8e8b-2b5b2e87966b",
-      "assetType": "machine",
-      "assetName": "Delineator Post (featured)",
-      "creatorUserID": "e55ca804-38f9-433c-8990-beef8e988036",
-      "creatorUserFirstName": "David Silcock",
-      "creatorUserLastName": "",
-      "source": "Materia:Creator.Materia-dev",
-      "tags": [
-        "CreatorPublishedGraph"
-      ],
-      "createTime": "2023-08-02T03:06:12.062Z",
-      "modifyTime": "2023-08-02T03:06:12.062Z",
-      "data": {
-        "thumbnail_small": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/1bf71c76-9501-437f-b5bd-195a1d5c185a",
-          "size": 21791,
-          "createTime": "2023-08-02T03:06:19.142Z"
-        },
-        "bounds": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/bc56ccb5-3bb8-4d9e-ae70-0dddbc6c33da",
-          "size": 140,
-          "createTime": "2023-08-02T03:06:18.241Z"
-        },
-        "trimbnail": {
-          "format": "trb",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/c565796b-16f2-43e4-acbb-fe2409e7d9c5",
-          "size": 573264,
-          "createTime": "2023-08-02T03:06:17.439Z"
-        },
-        "comment": {
-          "format": "txt",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/5b78c5c4-da0d-4e0b-bca7-845840163210",
-          "size": 0,
-          "createTime": "2023-08-02T03:06:21.397Z"
-        },
-        "thumbnail_big": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/d4d5a975-9f0b-48c3-a476-5724981d9e31",
-          "size": 296346,
-          "createTime": "2023-08-02T03:06:20.577Z"
-        },
-        "machine": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/92af0fd5-ac04-4833-8928-7e32f45cf792",
-          "size": 182035,
-          "createTime": "2023-08-02T03:06:15.880Z"
-        }
-      }
-    },
-    {
-      "assetURI": "whp:ab615adc-4126-4de0-b855-c02e1f737173",
-      "assetType": "machine",
-      "assetName": "Open Shower Curtain (featured)",
-      "creatorUserID": "e55ca804-38f9-433c-8990-beef8e988036",
-      "creatorUserFirstName": "David Silcock",
-      "creatorUserLastName": "",
-      "source": "Materia:Creator.Materia-dev",
-      "tags": [
-        "CreatorPublishedGraph"
-      ],
-      "createTime": "2023-08-02T03:04:55.212Z",
-      "modifyTime": "2023-08-02T03:04:55.212Z",
-      "data": {
-        "bounds": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/57f85efc-371b-4dbc-8ecd-2ab1c45b6acf",
-          "size": 135,
-          "createTime": "2023-08-02T03:05:01.346Z"
-        },
-        "thumbnail_small": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/1a426b2d-9fc3-4c83-80db-4cfebcc294d0",
-          "size": 23076,
-          "createTime": "2023-08-02T03:05:02.385Z"
-        },
-        "trimbnail": {
-          "format": "trb",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/01dd7970-268b-4cd3-8719-c4ed014d879c",
-          "size": 651608,
-          "createTime": "2023-08-02T03:05:00.537Z"
-        },
-        "comment": {
-          "format": "txt",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/0c90c793-c955-4165-b8be-85b3ec4f35ee",
-          "size": 0,
-          "createTime": "2023-08-02T03:05:04.647Z"
-        },
-        "thumbnail_big": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/55251d23-714e-488c-9789-9a42c5deb426",
-          "size": 317985,
-          "createTime": "2023-08-02T03:05:03.854Z"
-        },
-        "machine": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/b890f872-286f-471e-b245-cfefc7be95b2",
-          "size": 199220,
-          "createTime": "2023-08-02T03:04:58.899Z"
-        }
-      }
-    },
-    {
-      "assetURI": "whp:9fa28478-8e84-4345-a60b-4671dfed0200",
-      "assetType": "machine",
-      "assetName": "Grab Rail (featured)",
-      "creatorUserID": "e55ca804-38f9-433c-8990-beef8e988036",
-      "creatorUserFirstName": "David Silcock",
-      "creatorUserLastName": "",
-      "source": "Materia:Creator.Materia-dev",
-      "tags": [
-        "CreatorPublishedGraph"
-      ],
-      "createTime": "2023-08-02T03:01:18.948Z",
-      "modifyTime": "2023-08-02T03:01:18.948Z",
-      "data": {
-        "bounds": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/148a8f79-a1e1-478e-b063-2d8f4a01d170",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/5d8ec13b-817c-4796-a42c-20ad657094b7",
           "size": 130,
-          "createTime": "2023-08-02T03:01:24.805Z"
+          "createTime": "2022-12-22T02:58:40.873Z"
         },
         "thumbnail_small": {
           "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/643d6784-0a1f-4c64-981b-2a3252c91065",
-          "size": 21360,
-          "createTime": "2023-08-02T03:01:25.792Z"
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/5bb10378-70bd-46c9-8e37-2ddec5819f55",
+          "size": 47895,
+          "createTime": "2022-12-22T02:58:42.137Z"
         },
         "trimbnail": {
           "format": "trb",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/51cb1247-f76a-4f14-8833-ef5f0bc287d9",
-          "size": 51976,
-          "createTime": "2023-08-02T03:01:24.036Z"
-        },
-        "comment": {
-          "format": "txt",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/158aeb15-9d64-4ca6-b234-5423d04be446",
-          "size": 0,
-          "createTime": "2023-08-02T03:01:28.005Z"
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/d9b07ca5-b690-448c-a36b-cbda3fcd7425",
+          "size": 44512,
+          "createTime": "2022-12-22T02:58:40.016Z"
         },
         "thumbnail_big": {
           "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/880152f3-3143-4f29-8c58-b945cf5c0656",
-          "size": 296418,
-          "createTime": "2023-08-02T03:01:27.243Z"
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/97de709b-e522-4ea0-b4e6-53ed450200e0",
+          "size": 570260,
+          "createTime": "2022-12-22T02:58:43.851Z"
         },
         "machine": {
           "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/44b83283-d137-41d6-a6a2-8a4c79800730",
-          "size": 219513,
-          "createTime": "2023-08-02T03:01:22.846Z"
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/9d8225f9-70f0-435d-8318-8d381f5e42b6",
+          "size": 204765,
+          "createTime": "2022-12-22T02:58:38.865Z"
         }
       }
     },
     {
-      "assetURI": "whp:18942362-efdd-40b0-a29b-9af1a80181ba",
-      "assetType": "machine",
-      "assetName": "Ginger Bread House (featured)",
-      "creatorUserID": "e55ca804-38f9-433c-8990-beef8e988036",
-      "creatorUserFirstName": "David Silcock",
-      "creatorUserLastName": "",
-      "source": "Materia:Creator.Materia-dev",
-      "tags": [
-        "CreatorPublishedGraph"
-      ],
-      "createTime": "2023-08-01T22:13:37.713Z",
-      "modifyTime": "2023-08-01T22:13:37.713Z",
-      "data": {
-        "bounds": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/370c1366-32b8-41a9-98b2-1933af4b9d2b",
-          "size": 140,
-          "createTime": "2023-08-01T22:13:43.435Z"
-        },
-        "thumbnail_small": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/67026bd7-867a-4de5-96ef-683284474962",
-          "size": 22378,
-          "createTime": "2023-08-01T22:13:44.390Z"
-        },
-        "trimbnail": {
-          "format": "trb",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/3857aa28-8152-4f71-bb26-ce5a53c533e1",
-          "size": 1190064,
-          "createTime": "2023-08-01T22:13:42.631Z"
-        },
-        "comment": {
-          "format": "txt",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/9a89e957-ac0b-45b2-8bf4-594470517451",
-          "size": 0,
-          "createTime": "2023-08-01T22:13:46.649Z"
-        },
-        "thumbnail_big": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/3daf6661-5e9e-4bd7-b267-bea8510a1daa",
-          "size": 308244,
-          "createTime": "2023-08-01T22:13:45.799Z"
-        },
-        "machine": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/46f61e81-468f-49d3-9f78-04e53d06f359",
-          "size": 361025,
-          "createTime": "2023-08-01T22:13:40.846Z"
-        }
-      }
-    },
-    {
-      "assetURI": "whp:a0e55673-619e-4b04-9199-71aeb0d58918",
-      "assetType": "machine",
-      "assetName": "Solar Panel (featured)",
-      "creatorUserID": "e55ca804-38f9-433c-8990-beef8e988036",
-      "creatorUserFirstName": "David Silcock",
-      "creatorUserLastName": "",
-      "source": "Materia:Creator.Materia-dev",
-      "tags": [
-        "CreatorPublishedGraph"
-      ],
-      "createTime": "2023-08-01T22:11:13.033Z",
-      "modifyTime": "2023-08-01T22:11:13.033Z",
-      "data": {
-        "thumbnail_small": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/d638d49c-f475-47af-990c-725ad118ae13",
-          "size": 22573,
-          "createTime": "2023-08-01T22:11:19.052Z"
-        },
-        "bounds": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/14468083-6603-4374-9158-43e1d8786652",
-          "size": 123,
-          "createTime": "2023-08-01T22:11:18.000Z"
-        },
-        "trimbnail": {
-          "format": "trb",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/af4465a0-5c77-4b0c-84e5-a53dd5018d7b",
-          "size": 123152,
-          "createTime": "2023-08-01T22:11:17.245Z"
-        },
-        "comment": {
-          "format": "txt",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/4ab4936f-9e59-4204-854b-bb231dc01ab1",
-          "size": 0,
-          "createTime": "2023-08-01T22:11:21.343Z"
-        },
-        "thumbnail_big": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/f6043f59-04ba-4d00-89c8-ae11cd0f4790",
-          "size": 311679,
-          "createTime": "2023-08-01T22:11:20.528Z"
-        },
-        "machine": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/77ade61a-4b6d-44a5-9fbb-18def6e6b0b7",
-          "size": 149388,
-          "createTime": "2023-08-01T22:11:15.951Z"
-        }
-      }
-    },
-    {
-      "assetURI": "whp:c37effe6-18c0-4e00-a3cf-74c86cbafc87",
-      "assetType": "machine",
-      "assetName": "Park Bench (featured)",
-      "creatorUserID": "e55ca804-38f9-433c-8990-beef8e988036",
-      "creatorUserFirstName": "David Silcock",
-      "creatorUserLastName": "",
-      "source": "Materia:Creator.Materia-dev",
-      "tags": [
-        "CreatorPublishedGraph"
-      ],
-      "createTime": "2023-08-01T22:09:26.749Z",
-      "modifyTime": "2023-08-01T22:09:26.749Z",
-      "data": {
-        "bounds": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/ae62c319-6a36-494d-92c5-bd894486781e",
-          "size": 126,
-          "createTime": "2023-08-01T22:09:31.615Z"
-        },
-        "thumbnail_small": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/5152cd0c-4354-47a1-9e49-2e40c31133b0",
-          "size": 22962,
-          "createTime": "2023-08-01T22:09:32.628Z"
-        },
-        "trimbnail": {
-          "format": "trb",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/a3a327f8-50e2-4450-b2bc-dd59b520dc72",
-          "size": 68696,
-          "createTime": "2023-08-01T22:09:30.827Z"
-        },
-        "comment": {
-          "format": "txt",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/95efbc0f-4629-49c9-9ef0-c812953d0d9a",
-          "size": 0,
-          "createTime": "2023-08-01T22:09:34.968Z"
-        },
-        "thumbnail_big": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/105bc050-c7ab-4d45-b5cf-a7a892d5593e",
-          "size": 316425,
-          "createTime": "2023-08-01T22:09:34.133Z"
-        },
-        "machine": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/285704f6-5318-40bb-9e9d-62f5a6f072a6",
-          "size": 113643,
-          "createTime": "2023-08-01T22:09:29.741Z"
-        }
-      }
-    },
-    {
-      "assetURI": "whp:9d48d7bb-1eef-439b-90ec-5d4596c9d9d7",
-      "assetType": "machine",
-      "assetName": "Residential Interior Door (featured)",
-      "creatorUserID": "e55ca804-38f9-433c-8990-beef8e988036",
-      "creatorUserFirstName": "David Silcock",
-      "creatorUserLastName": "",
-      "source": "Materia:Creator.Materia-dev",
-      "tags": [
-        "CreatorPublishedGraph"
-      ],
-      "createTime": "2023-08-01T22:07:59.691Z",
-      "modifyTime": "2023-08-01T22:07:59.691Z",
-      "data": {
-        "bounds": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/7043b5a5-d19d-417a-84fb-c2df28efba93",
-          "size": 112,
-          "createTime": "2023-08-01T22:08:04.458Z"
-        },
-        "thumbnail_small": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/c8ada21b-de00-415a-8ccb-d781a6cee3be",
-          "size": 22168,
-          "createTime": "2023-08-01T22:08:05.373Z"
-        },
-        "trimbnail": {
-          "format": "trb",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/7b0a9e76-53c0-4081-b536-6b38ae646ef4",
-          "size": 44832,
-          "createTime": "2023-08-01T22:08:03.697Z"
-        },
-        "comment": {
-          "format": "txt",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/b21a4498-ef29-4633-900d-a462626c186f",
-          "size": 0,
-          "createTime": "2023-08-01T22:08:07.502Z"
-        },
-        "thumbnail_big": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/a4c254f4-cfd5-499c-911e-3e5acf170034",
-          "size": 306318,
-          "createTime": "2023-08-01T22:08:06.738Z"
-        },
-        "machine": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/2ccfc171-9a54-4133-8f9d-96063c353add",
-          "size": 158174,
-          "createTime": "2023-08-01T22:08:02.597Z"
-        }
-      }
-    },
-    {
-      "assetURI": "whp:3fa57c55-4b04-4b99-926b-90dfa7b40b4e",
-      "assetType": "machine",
-      "assetName": "Bifold Patio Door (featured)",
-      "creatorUserID": "e55ca804-38f9-433c-8990-beef8e988036",
-      "creatorUserFirstName": "David Silcock",
-      "creatorUserLastName": "",
-      "source": "Materia:Creator.Materia-dev",
-      "tags": [
-        "CreatorPublishedGraph"
-      ],
-      "createTime": "2023-08-01T22:07:26.846Z",
-      "modifyTime": "2023-08-01T22:07:26.846Z",
-      "data": {
-        "thumbnail_small": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/1a055720-4fdb-4c8d-bb3a-f148bafde18a",
-          "size": 22918,
-          "createTime": "2023-08-01T22:07:32.749Z"
-        },
-        "bounds": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/24d42902-6ec1-42d8-b2ce-51fe0011e5ca",
-          "size": 122,
-          "createTime": "2023-08-01T22:07:31.798Z"
-        },
-        "trimbnail": {
-          "format": "trb",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/f4d1c21e-24ff-4db2-aa23-680e5ca5a850",
-          "size": 63192,
-          "createTime": "2023-08-01T22:07:31.006Z"
-        },
-        "comment": {
-          "format": "txt",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/e9502a1a-730c-45ba-95cd-f247288f5665",
-          "size": 0,
-          "createTime": "2023-08-01T22:07:35.074Z"
-        },
-        "thumbnail_big": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/3c631546-7c2d-46a8-9143-b6858290fa97",
-          "size": 308797,
-          "createTime": "2023-08-01T22:07:34.291Z"
-        },
-        "machine": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/d041f3ce-c966-4f2a-8ccb-4463914c2bdf",
-          "size": 215012,
-          "createTime": "2023-08-01T22:07:29.878Z"
-        }
-      }
-    },
-    {
-      "assetURI": "whp:55ca0fe1-ea9c-44ad-adc3-fd1fe4ef2063",
-      "assetType": "machine",
-      "assetName": "Single Pane Window (featured)",
-      "creatorUserID": "e55ca804-38f9-433c-8990-beef8e988036",
-      "creatorUserFirstName": "David Silcock",
-      "creatorUserLastName": "",
-      "source": "Materia:Creator.Materia-dev",
-      "tags": [
-        "CreatorPublishedGraph"
-      ],
-      "createTime": "2023-08-01T22:06:54.669Z",
-      "modifyTime": "2023-08-01T22:06:54.669Z",
-      "data": {
-        "bounds": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/ebe39ee6-818a-4e5e-8949-0d4c994f3cdc",
-          "size": 122,
-          "createTime": "2023-08-01T22:06:59.599Z"
-        },
-        "thumbnail_small": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/d5cf99ee-cfe5-47df-b519-e085a9ba5c27",
-          "size": 22704,
-          "createTime": "2023-08-01T22:07:00.612Z"
-        },
-        "trimbnail": {
-          "format": "trb",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/19291f81-8707-4d3b-8de6-193f8ca2e241",
-          "size": 21368,
-          "createTime": "2023-08-01T22:06:58.848Z"
-        },
-        "comment": {
-          "format": "txt",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/8bf43344-e2ac-4728-b736-0054d78696da",
-          "size": 0,
-          "createTime": "2023-08-01T22:07:02.864Z"
-        },
-        "thumbnail_big": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/e557a6fb-c654-41c7-bb2e-27159468e3b4",
-          "size": 310970,
-          "createTime": "2023-08-01T22:07:02.076Z"
-        },
-        "machine": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/26c2f53c-1d38-4cfb-8f41-1f75f247223e",
-          "size": 147611,
-          "createTime": "2023-08-01T22:06:57.863Z"
-        }
-      }
-    },
-    {
-      "assetURI": "whp:fc582fc0-9959-4666-ba9e-537867c4a12b",
-      "assetType": "machine",
-      "assetName": "Exterior Sliding Door (featured)",
-      "creatorUserID": "e55ca804-38f9-433c-8990-beef8e988036",
-      "creatorUserFirstName": "David Silcock",
-      "creatorUserLastName": "",
-      "source": "Materia:Creator.Materia-dev",
-      "tags": [
-        "CreatorPublishedGraph"
-      ],
-      "createTime": "2023-08-01T22:06:28.479Z",
-      "modifyTime": "2023-08-01T22:06:28.479Z",
-      "data": {
-        "thumbnail_small": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/6f18841a-2c92-416c-87f8-04a84959a5a5",
-          "size": 22609,
-          "createTime": "2023-08-01T22:06:34.822Z"
-        },
-        "bounds": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/f1948d7c-fc91-4b7f-bf9c-79bb727c22db",
-          "size": 120,
-          "createTime": "2023-08-01T22:06:33.827Z"
-        },
-        "trimbnail": {
-          "format": "trb",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/628ce8e6-0459-429c-8e38-d8f57b3f77b9",
-          "size": 138160,
-          "createTime": "2023-08-01T22:06:33.036Z"
-        },
-        "comment": {
-          "format": "txt",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/d85884b2-e1f2-48bd-b206-79a7fc3174c6",
-          "size": 0,
-          "createTime": "2023-08-01T22:06:37.123Z"
-        },
-        "thumbnail_big": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/5fa50321-ed61-4049-ac34-a7b7904d6357",
-          "size": 307939,
-          "createTime": "2023-08-01T22:06:36.299Z"
-        },
-        "machine": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/c59d81d0-5f51-4df2-81f7-e4de5a9aa9ca",
-          "size": 452112,
-          "createTime": "2023-08-01T22:06:31.749Z"
-        }
-      }
-    },
-    {
-      "assetURI": "whp:f976e7a1-6024-4b8d-aa01-48a53120c559",
-      "assetType": "machine",
-      "assetName": "Toilet (featured)",
-      "creatorUserID": "e55ca804-38f9-433c-8990-beef8e988036",
-      "creatorUserFirstName": "David Silcock",
-      "creatorUserLastName": "",
-      "source": "Materia:Creator.Materia-dev",
-      "tags": [
-        "CreatorPublishedGraph"
-      ],
-      "createTime": "2023-08-01T22:05:21.351Z",
-      "modifyTime": "2023-08-01T22:05:21.351Z",
-      "data": {
-        "bounds": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/02ab4ae1-be14-4e8f-ba4f-cabb9004ded9",
-          "size": 112,
-          "createTime": "2023-08-01T22:05:26.548Z"
-        },
-        "thumbnail_small": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/54673c2a-d0ca-4ce7-bc15-76bc1092a17c",
-          "size": 21500,
-          "createTime": "2023-08-01T22:05:27.479Z"
-        },
-        "trimbnail": {
-          "format": "trb",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/6bbc16e5-93e0-4496-b91f-f0c08adb82c0",
-          "size": 89512,
-          "createTime": "2023-08-01T22:05:25.781Z"
-        },
-        "comment": {
-          "format": "txt",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/ee7439bc-0c2e-4467-acbb-9952335c1eb4",
-          "size": 0,
-          "createTime": "2023-08-01T22:05:29.732Z"
-        },
-        "thumbnail_big": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/f861fd41-740c-43c7-b744-e6f0b5189e7c",
-          "size": 299456,
-          "createTime": "2023-08-01T22:05:28.923Z"
-        },
-        "machine": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/72b140fa-d3fd-4149-93fd-f8604bedbec4",
-          "size": 164918,
-          "createTime": "2023-08-01T22:05:24.539Z"
-        }
-      }
-    },
-    {
-      "assetURI": "whp:efcf3ef3-0aa5-44c9-a5ea-4c7d0cdcb959",
-      "assetType": "machine",
-      "assetName": "The Lotus Temple (featured)",
-      "creatorUserID": "e55ca804-38f9-433c-8990-beef8e988036",
-      "creatorUserFirstName": "David Silcock",
-      "creatorUserLastName": "",
-      "source": "Materia:Creator.Materia-dev",
-      "tags": [
-        "CreatorPublishedGraph"
-      ],
-      "createTime": "2023-08-01T22:04:54.796Z",
-      "modifyTime": "2023-08-01T22:04:54.796Z",
-      "data": {
-        "bounds": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/cf9c1895-44ad-415c-b724-6cf70551437d",
-          "size": 135,
-          "createTime": "2023-08-01T22:05:00.527Z"
-        },
-        "thumbnail_small": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/f856598f-59f0-4880-8955-3706b6d8178e",
-          "size": 21698,
-          "createTime": "2023-08-01T22:05:01.597Z"
-        },
-        "trimbnail": {
-          "format": "trb",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/5624a5af-3913-450c-b043-2417a7c0d768",
-          "size": 264488,
-          "createTime": "2023-08-01T22:04:59.680Z"
-        },
-        "comment": {
-          "format": "txt",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/c70e9ed1-d2aa-46cf-8b64-c8cf56f0db35",
-          "size": 0,
-          "createTime": "2023-08-01T22:05:03.817Z"
-        },
-        "thumbnail_big": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/3391f053-4ba7-4517-939e-883047c723b6",
-          "size": 301511,
-          "createTime": "2023-08-01T22:05:03.040Z"
-        },
-        "machine": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/aa6cbc9a-e269-4378-880c-f49d579fbbe7",
-          "size": 261569,
-          "createTime": "2023-08-01T22:04:58.165Z"
-        }
-      }
-    },
-    {
-      "assetURI": "whp:1f7b18f8-7c46-4527-9f75-ffe9c0459ffa",
-      "assetType": "machine",
-      "assetName": "Double Mulled Window (featured)",
-      "creatorUserID": "e55ca804-38f9-433c-8990-beef8e988036",
-      "creatorUserFirstName": "David Silcock",
-      "creatorUserLastName": "",
-      "source": "Materia:Creator.Materia-dev",
-      "tags": [
-        "CreatorPublishedGraph"
-      ],
-      "createTime": "2023-08-01T22:04:26.839Z",
-      "modifyTime": "2023-08-01T22:04:26.839Z",
-      "data": {
-        "bounds": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/20a15422-13e8-4c8c-a8ee-331a8d46752c",
-          "size": 121,
-          "createTime": "2023-08-01T22:04:31.698Z"
-        },
-        "thumbnail_small": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/b933a209-00ea-40ed-a725-c9e4eafc1e36",
-          "size": 22331,
-          "createTime": "2023-08-01T22:04:32.739Z"
-        },
-        "trimbnail": {
-          "format": "trb",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/9597b3e9-d2bb-4364-8f7c-02e454800eca",
-          "size": 38664,
-          "createTime": "2023-08-01T22:04:30.899Z"
-        },
-        "comment": {
-          "format": "txt",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/5c212308-7cd4-4bc8-a7f8-f843c76fc8d7",
-          "size": 0,
-          "createTime": "2023-08-01T22:04:35.031Z"
-        },
-        "thumbnail_big": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/4f4a6771-1ba6-4a37-bb12-eb1156d20c60",
-          "size": 308926,
-          "createTime": "2023-08-01T22:04:34.266Z"
-        },
-        "machine": {
-          "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/6933dcdb-c650-4822-a35c-18dfc4cab9f8",
-          "size": 196824,
-          "createTime": "2023-08-01T22:04:29.916Z"
-        }
-      }
-    },
-    {
-      "assetURI": "whp:ee5057f9-353e-4d03-a86d-11976231ad44",
+      "assetURI": "whp:957417be-34d6-4c40-bedc-8524ba562f1c",
       "assetType": "machine",
       "assetName": "Acoustic Ceiling Panels (featured)",
-      "creatorUserID": "e55ca804-38f9-433c-8990-beef8e988036",
-      "creatorUserFirstName": "David Silcock",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
       "creatorUserLastName": "",
-      "source": "Materia:Creator.Materia-dev",
-      "tags": [
-        "CreatorPublishedGraph"
-      ],
-      "createTime": "2023-08-01T22:03:53.471Z",
-      "modifyTime": "2023-08-01T22:03:53.471Z",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-11-01T21:29:32.650Z",
+      "modifyTime": "2022-11-01T21:29:32.650Z",
       "data": {
-        "thumbnail_small": {
-          "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/36a9fc26-0034-4f54-92ba-d1adc39197ec",
-          "size": 20475,
-          "createTime": "2023-08-01T22:04:00.071Z"
-        },
         "bounds": {
           "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/addbc1f8-0fad-4f11-b073-45733074f2f5",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/c2dcbea5-a86e-4eaa-b06e-ce380f171edb",
           "size": 124,
-          "createTime": "2023-08-01T22:03:59.118Z"
+          "createTime": "2022-11-01T21:29:39.286Z"
+        },
+        "thumbnail_small": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/813c7412-e130-4ff5-8f62-febab0b38ae7",
+          "size": 20783,
+          "createTime": "2022-11-01T21:29:40.391Z"
         },
         "trimbnail": {
           "format": "trb",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/647d5c81-1e4c-4bef-8fb5-4a34d4fead6c",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/869eb73a-367a-4a82-9336-34b78ce7a1dc",
           "size": 1189304,
-          "createTime": "2023-08-01T22:03:58.360Z"
-        },
-        "comment": {
-          "format": "txt",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/747c9b81-7307-43b0-af02-259ff947e117",
-          "size": 0,
-          "createTime": "2023-08-01T22:04:02.395Z"
+          "createTime": "2022-11-01T21:29:38.457Z"
         },
         "thumbnail_big": {
           "format": "png",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/e38aae39-0bce-46d2-ab98-f1d79f8d5bea",
-          "size": 283776,
-          "createTime": "2023-08-01T22:04:01.625Z"
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/392217cb-bb8d-4edd-91c1-e57dc2eff49e",
+          "size": 284071,
+          "createTime": "2022-11-01T21:29:41.939Z"
         },
         "machine": {
           "format": "json",
-          "url": "https://stg-3dwarehouse.sketchup.com/warehouse/v1.0/content/public/00b45601-96a9-4b5c-bdf3-8ad30fb84c4b",
-          "size": 214251,
-          "createTime": "2023-08-01T22:03:56.672Z"
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/d4f995de-8daf-43c4-beef-e2fd198e1bba",
+          "size": 214133,
+          "createTime": "2022-11-01T21:29:36.579Z"
         }
       }
-    }
+    },
+    {
+      "assetURI": "whp:719dd6a6-391d-41b5-bf2b-a8c4f72a137f",
+      "assetType": "machine",
+      "assetName": "Double Mulled Window (featured)",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
+      "creatorUserLastName": "",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-11-01T21:29:22.631Z",
+      "modifyTime": "2022-11-01T21:29:22.631Z",
+      "data": {
+        "thumbnail_small": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/962100b9-46c2-4419-925f-0c04923982a9",
+          "size": 22631,
+          "createTime": "2022-11-01T21:29:29.373Z"
+        },
+        "bounds": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/e9d43e31-38e2-4512-8675-bc1a90b03204",
+          "size": 121,
+          "createTime": "2022-11-01T21:29:28.354Z"
+        },
+        "trimbnail": {
+          "format": "trb",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/370b5ba4-ccff-426d-86bc-575fc9e7b1f6",
+          "size": 38664,
+          "createTime": "2022-11-01T21:29:27.488Z"
+        },
+        "thumbnail_big": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/23a4efc9-0ad6-4a3b-bc6a-c438ac42eed0",
+          "size": 306883,
+          "createTime": "2022-11-01T21:29:30.917Z"
+        },
+        "machine": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/ca9afd94-2eac-4db9-ae9e-fe55152f8eec",
+          "size": 196547,
+          "createTime": "2022-11-01T21:29:26.441Z"
+        }
+      }
+    },
+    {
+      "assetURI": "whp:8fcbd7d9-712f-4277-b0c5-dbfa30212d99",
+      "assetType": "machine",
+      "assetName": "The Lotus Temple (featured)",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
+      "creatorUserLastName": "",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-11-01T21:29:10.987Z",
+      "modifyTime": "2022-11-01T21:29:10.987Z",
+      "data": {
+        "bounds": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/5c31820d-1b1b-45d4-a491-cf2e16ac05ec",
+          "size": 135,
+          "createTime": "2022-11-01T21:29:17.288Z"
+        },
+        "thumbnail_small": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/f655e626-790b-4691-9c0d-848ec1d64107",
+          "size": 21590,
+          "createTime": "2022-11-01T21:29:18.279Z"
+        },
+        "trimbnail": {
+          "format": "trb",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/061674e1-4289-4905-8ba5-52b560686cb6",
+          "size": 264488,
+          "createTime": "2022-11-01T21:29:16.437Z"
+        },
+        "thumbnail_big": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/6ab98e0b-de07-4f7c-8b9f-1fa2dfb71e56",
+          "size": 292688,
+          "createTime": "2022-11-01T21:29:19.812Z"
+        },
+        "machine": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/f819073d-7eca-4a7b-b7b9-682456d695e5",
+          "size": 261436,
+          "createTime": "2022-11-01T21:29:14.880Z"
+        }
+      }
+    },
+    {
+      "assetURI": "whp:dd3d4165-a266-42ec-899f-bb9451502360",
+      "assetType": "machine",
+      "assetName": "Toilet (featured)",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
+      "creatorUserLastName": "",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-11-01T21:29:03.687Z",
+      "modifyTime": "2022-11-01T21:29:03.687Z",
+      "data": {
+        "bounds": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/1f518112-d0a2-475d-acda-a07bfed3b439",
+          "size": 112,
+          "createTime": "2022-11-01T21:29:09.444Z"
+        },
+        "thumbnail_small": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/79e090db-9e7b-4aa7-b8e8-b22d7a98dd6f",
+          "size": 20384,
+          "createTime": "2022-11-01T21:29:10.551Z"
+        },
+        "trimbnail": {
+          "format": "trb",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/cac7ff99-865c-4bf0-89c7-11a497cddd85",
+          "size": 89512,
+          "createTime": "2022-11-01T21:29:08.616Z"
+        },
+        "thumbnail_big": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/97cdd5d6-75d2-4a33-a6c4-f8d49cdbe4af",
+          "size": 280482,
+          "createTime": "2022-11-01T21:29:12.101Z"
+        },
+        "machine": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/5323e8f1-00cf-42db-b908-a5c55d5c8a60",
+          "size": 164799,
+          "createTime": "2022-11-01T21:29:07.404Z"
+        }
+      }
+    },
+    {
+      "assetURI": "whp:5cf3d6d3-ad0d-49a3-a11c-40a9ffe7dc1d",
+      "assetType": "machine",
+      "assetName": "Bed (featured)",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
+      "creatorUserLastName": "",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-11-01T21:28:58.681Z",
+      "modifyTime": "2022-11-01T21:28:58.681Z",
+      "data": {
+        "thumbnail_small": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/964d8df6-c097-408a-b11d-a16888ce8c8c",
+          "size": 22679,
+          "createTime": "2022-11-01T21:29:06.684Z"
+        },
+        "bounds": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/8be30084-d41b-4131-acd2-faedbcdd897a",
+          "size": 114,
+          "createTime": "2022-11-01T21:29:05.628Z"
+        },
+        "trimbnail": {
+          "format": "trb",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/e686fe67-c098-4248-bd24-74eec7c14c8f",
+          "size": 1117032,
+          "createTime": "2022-11-01T21:29:04.799Z"
+        },
+        "thumbnail_big": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/4c495f82-ecce-488e-99f1-a7d979a82e58",
+          "size": 309633,
+          "createTime": "2022-11-01T21:29:08.262Z"
+        },
+        "machine": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/3e2c406e-93c2-4ef1-88ab-00036b9d36c4",
+          "size": 835301,
+          "createTime": "2022-11-01T21:29:02.946Z"
+        }
+      }
+    },
+    {
+      "assetURI": "whp:e17bfaeb-5053-42c3-a9fb-61f82e0ce35c",
+      "assetType": "machine",
+      "assetName": "Exterior Sliding Door (featured)",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
+      "creatorUserLastName": "",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-11-01T21:28:29.640Z",
+      "modifyTime": "2022-11-01T21:28:29.640Z",
+      "data": {
+        "thumbnail_small": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/aa05e0ca-5ae7-449c-ba0f-6e2b2b800c02",
+          "size": 23299,
+          "createTime": "2022-11-01T21:28:36.983Z"
+        },
+        "bounds": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/18cc1a82-b1a4-4a34-9cc4-761310ea4003",
+          "size": 120,
+          "createTime": "2022-11-01T21:28:35.982Z"
+        },
+        "trimbnail": {
+          "format": "trb",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/e8485105-a90e-4bef-8a0d-6593a1e8c626",
+          "size": 138160,
+          "createTime": "2022-11-01T21:28:35.134Z"
+        },
+        "thumbnail_big": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/7f9741dc-a3ed-4fac-a872-1a6cc0a07197",
+          "size": 313225,
+          "createTime": "2022-11-01T21:28:38.488Z"
+        },
+        "machine": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/e32531c2-239b-4705-98c5-b045ffa631a6",
+          "size": 451754,
+          "createTime": "2022-11-01T21:28:33.776Z"
+        }
+      }
+    },
+    {
+      "assetURI": "whp:0d0e18c3-36f1-4a58-a412-f47f283c5d30",
+      "assetType": "machine",
+      "assetName": "Single Pane Window (featured)",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
+      "creatorUserLastName": "",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-10-31T21:17:48.684Z",
+      "modifyTime": "2022-10-31T21:17:48.684Z",
+      "data": {
+        "bounds": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/682ccafe-e435-4985-9dc2-d7e79b6a0a46",
+          "size": 122,
+          "createTime": "2022-10-31T21:17:53.768Z"
+        },
+        "thumbnail_small": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/c21999e8-14c3-4dfd-af7f-ce8d38f18b0c",
+          "size": 24371,
+          "createTime": "2022-10-31T21:17:54.803Z"
+        },
+        "trimbnail": {
+          "format": "trb",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/e0fce00e-73ee-48d1-84ad-578d9e8e5cd8",
+          "size": 21368,
+          "createTime": "2022-10-31T21:17:52.952Z"
+        },
+        "thumbnail_big": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/4691c475-b479-494c-8877-2ab7216c5b36",
+          "size": 311464,
+          "createTime": "2022-10-31T21:17:56.385Z"
+        },
+        "machine": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/588fea70-9c0e-4b94-acdf-cd11ac07e1d2",
+          "size": 147393,
+          "createTime": "2022-10-31T21:17:51.967Z"
+        }
+      }
+    },
+    {
+      "assetURI": "whp:65978ab4-1f21-42b9-ad2f-b1a981f15702",
+      "assetType": "machine",
+      "assetName": "Bifold Patio Door (featured)",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
+      "creatorUserLastName": "",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-09-19T05:25:41.581Z",
+      "modifyTime": "2022-09-19T05:25:41.581Z",
+      "data": {
+        "thumbnail_small": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/7641e301-367d-4585-b608-f4b630e7ff59",
+          "size": 24956,
+          "createTime": "2022-09-19T05:25:48.648Z"
+        },
+        "bounds": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/cc556ce6-4683-499c-8ebc-d2fafa8834d7",
+          "size": 122,
+          "createTime": "2022-09-19T05:25:47.560Z"
+        },
+        "trimbnail": {
+          "format": "trb",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/82a60243-d6bc-47bc-8d89-d8b4780e9c25",
+          "size": 63192,
+          "createTime": "2022-09-19T05:25:46.708Z"
+        },
+        "thumbnail_big": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/1bf170d7-7045-49bb-a6a8-39d3cb5ce3b0",
+          "size": 315022,
+          "createTime": "2022-09-19T05:25:50.193Z"
+        },
+        "machine": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/c9a7ea3e-0df2-4d19-8a76-d7b59e6c56b3",
+          "size": 214913,
+          "createTime": "2022-09-19T05:25:45.515Z"
+        }
+      }
+    },
+    {
+      "assetURI": "whp:534f65f3-44ec-470a-b3db-3de3227855a9",
+      "assetType": "machine",
+      "assetName": "Residential Interior Door (featured)",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
+      "creatorUserLastName": "",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-09-19T05:24:55.306Z",
+      "modifyTime": "2022-09-19T05:24:55.306Z",
+      "data": {
+        "bounds": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/6a55152f-3839-4160-aabc-8af557387049",
+          "size": 112,
+          "createTime": "2022-09-19T05:25:00.946Z"
+        },
+        "thumbnail_small": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/01963ecc-c489-4b98-aac5-2c1a8aa6fbd6",
+          "size": 23864,
+          "createTime": "2022-09-19T05:25:01.966Z"
+        },
+        "trimbnail": {
+          "format": "trb",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/6afd2753-e389-493c-811f-25c0ad1be742",
+          "size": 44832,
+          "createTime": "2022-09-19T05:25:00.122Z"
+        },
+        "thumbnail_big": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/726523a7-bc02-4594-a6fc-0fe8c302e147",
+          "size": 305115,
+          "createTime": "2022-09-19T05:25:03.526Z"
+        },
+        "machine": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/26a0b4b8-a6b0-4782-9a53-2d4d343a3876",
+          "size": 158014,
+          "createTime": "2022-09-19T05:24:58.976Z"
+        }
+      }
+    },
+    {
+      "assetURI": "whp:d104ddab-1d4f-4ed2-96fe-40b5bb578ecc",
+      "assetType": "machine",
+      "assetName": "Ribbon Feature Light (featured)",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
+      "creatorUserLastName": "",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-09-19T05:24:31.705Z",
+      "modifyTime": "2022-09-19T05:24:31.705Z",
+      "data": {
+        "thumbnail_small": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/d128d489-22db-427b-a2e9-10e178616300",
+          "size": 22556,
+          "createTime": "2022-09-19T05:24:38.255Z"
+        },
+        "bounds": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/e010c74d-138c-492f-847d-f34b53959ee9",
+          "size": 133,
+          "createTime": "2022-09-19T05:24:37.213Z"
+        },
+        "trimbnail": {
+          "format": "trb",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/f950c3d9-843e-425a-8fe3-8224cce17bc2",
+          "size": 71408,
+          "createTime": "2022-09-19T05:24:36.403Z"
+        },
+        "thumbnail_big": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/eea54fb5-f1c4-48a0-856a-595ce10f07cd",
+          "size": 290620,
+          "createTime": "2022-09-19T05:24:39.862Z"
+        },
+        "machine": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/b3a32ab3-06cc-41a5-988d-65f1bce83653",
+          "size": 92856,
+          "createTime": "2022-09-19T05:24:35.267Z"
+        }
+      }
+    },
+    {
+      "assetURI": "whp:6cd49078-cc62-4c71-a94e-392cea2c2ca3",
+      "assetType": "machine",
+      "assetName": "Park Bench (featured)",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
+      "creatorUserLastName": "",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-09-19T05:23:57.716Z",
+      "modifyTime": "2022-09-19T05:23:57.716Z",
+      "data": {
+        "bounds": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/93870ec4-fbaa-4a56-8ae4-7f949b1a8e2d",
+          "size": 126,
+          "createTime": "2022-09-19T05:24:03.489Z"
+        },
+        "thumbnail_small": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/0a661546-ba6b-427c-85a5-2220b793a020",
+          "size": 25862,
+          "createTime": "2022-09-19T05:24:04.511Z"
+        },
+        "trimbnail": {
+          "format": "trb",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/d0ff9577-a86b-4613-b849-49ee7d9a20eb",
+          "size": 68696,
+          "createTime": "2022-09-19T05:24:02.634Z"
+        },
+        "thumbnail_big": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/afa12b61-9bb1-4afe-a75d-387d20614b0e",
+          "size": 329845,
+          "createTime": "2022-09-19T05:24:06.040Z"
+        },
+        "machine": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/225ae5c3-8057-4c69-97c5-bbd519f2f1e2",
+          "size": 113563,
+          "createTime": "2022-09-19T05:24:01.422Z"
+        }
+      }
+    },
+    {
+      "assetURI": "whp:74e1be2d-a977-44be-84fb-7cb338544545",
+      "assetType": "machine",
+      "assetName": "Outdoor Table (featured)",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
+      "creatorUserLastName": "",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-09-19T03:59:50.546Z",
+      "modifyTime": "2022-09-19T03:59:50.546Z",
+      "data": {
+        "bounds": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/42a6f412-4e23-4550-94ed-35a21d572b3f",
+          "size": 132,
+          "createTime": "2022-09-19T03:59:57.243Z"
+        },
+        "thumbnail_small": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/818705cb-3785-456e-be5c-24d08cd0ae23",
+          "size": 23480,
+          "createTime": "2022-09-19T03:59:58.251Z"
+        },
+        "trimbnail": {
+          "format": "trb",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/94246e70-8629-4363-bf6a-ecdb292ed22e",
+          "size": 1092304,
+          "createTime": "2022-09-19T03:59:56.436Z"
+        },
+        "thumbnail_big": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/231f9343-738b-42cd-96b9-e25901e2c333",
+          "size": 301501,
+          "createTime": "2022-09-19T03:59:59.774Z"
+        },
+        "machine": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/49078ea8-2cd4-4e0d-a19e-a6967b21e148",
+          "size": 236042,
+          "createTime": "2022-09-19T03:59:54.443Z"
+        }
+      }
+    },
+    {
+      "assetURI": "whp:ab5e26c6-76c6-4312-83a3-1b7d19b89161",
+      "assetType": "machine",
+      "assetName": "Solar Panel (featured)",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
+      "creatorUserLastName": "",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-09-19T03:59:14.004Z",
+      "modifyTime": "2022-09-19T03:59:14.004Z",
+      "data": {
+        "thumbnail_small": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/17d4450e-a616-4c58-b71c-a7999ed7a994",
+          "size": 23308,
+          "createTime": "2022-09-19T03:59:20.899Z"
+        },
+        "bounds": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/49bf7f9d-42f7-46ec-8432-9c550463fe53",
+          "size": 123,
+          "createTime": "2022-09-19T03:59:19.895Z"
+        },
+        "trimbnail": {
+          "format": "trb",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/507cdddd-56a4-4164-88df-2be2f0eb2a14",
+          "size": 123152,
+          "createTime": "2022-09-19T03:59:19.002Z"
+        },
+        "thumbnail_big": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/44cb008e-35dd-4ea9-9c47-8e10bde08f25",
+          "size": 306182,
+          "createTime": "2022-09-19T03:59:22.396Z"
+        },
+        "machine": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/fd0c9d78-c291-42c9-b6e7-4071ca130155",
+          "size": 149330,
+          "createTime": "2022-09-19T03:59:17.710Z"
+        }
+      }
+    },
+    {
+      "assetURI": "whp:781a77f8-4620-48de-8bf2-dff1e78367eb",
+      "assetType": "machine",
+      "assetName": "Facade Louvre (featured)",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
+      "creatorUserLastName": "",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-09-19T03:58:47.088Z",
+      "modifyTime": "2022-09-19T03:58:47.088Z",
+      "data": {
+        "bounds": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/eb0adda8-b654-4619-bba0-14eabdd03ee7",
+          "size": 119,
+          "createTime": "2022-09-19T03:58:52.678Z"
+        },
+        "thumbnail_small": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/286d00ec-bcc2-4603-93d4-dd4c820d9dd0",
+          "size": 23825,
+          "createTime": "2022-09-19T03:58:53.690Z"
+        },
+        "trimbnail": {
+          "format": "trb",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/997772dc-6ab3-4c2c-9deb-e335139a7d31",
+          "size": 62040,
+          "createTime": "2022-09-19T03:58:51.855Z"
+        },
+        "thumbnail_big": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/80c5dd4d-1d21-4a8d-a2c9-3e3236111df6",
+          "size": 307579,
+          "createTime": "2022-09-19T03:58:55.246Z"
+        },
+        "machine": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/920347b1-a879-44aa-81bb-83532b73f3ca",
+          "size": 61839,
+          "createTime": "2022-09-19T03:58:50.644Z"
+        }
+      }
+    },
+    {
+      "assetURI": "whp:ee96dac5-4491-4598-b6eb-0137d7cdd05c",
+      "assetType": "machine",
+      "assetName": "Cafe Table (featured)",
+      "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+      "creatorUserFirstName": "David S.",
+      "creatorUserLastName": "",
+      "source": "Materia:Creator.Materia",
+      "createTime": "2022-09-19T03:57:49.530Z",
+      "modifyTime": "2022-09-19T03:57:49.530Z",
+      "data": {
+        "bounds": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/70e837f8-feae-42a2-a67e-5acba2444114",
+          "size": 115,
+          "createTime": "2022-09-19T03:57:55.940Z"
+        },
+        "thumbnail_small": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/e3018edd-6bfa-474c-8b2a-813b635b4bcc",
+          "size": 23144,
+          "createTime": "2022-09-19T03:57:56.929Z"
+        },
+        "trimbnail": {
+          "format": "trb",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/20ab320a-061a-4434-b5d2-0d80d592fda5",
+          "size": 511136,
+          "createTime": "2022-09-19T03:57:55.095Z"
+        },
+        "thumbnail_big": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/094e0f8d-3092-4ac5-90fe-92f035c18157",
+          "size": 296240,
+          "createTime": "2022-09-19T03:57:58.476Z"
+        },
+        "machine": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/16f230b4-6320-4f30-bab7-b89ff4673bcb",
+          "size": 143023,
+          "createTime": "2022-09-19T03:57:53.410Z"
+        }
+      }
+    },
+        {
+          "assetURI": "whp:1e0d81e9-fcd7-4a3d-ade9-bcc22c6f754e",
+          "assetType": "machine",
+          "assetName": "Ginger Bread House (featured)",
+          "creatorUserID": "85e1c420-4b2f-43fa-9478-f745fbc4223c",
+          "creatorUserFirstName": "David S.",
+          "creatorUserLastName": "",
+          "source": "Materia:Creator.Materia",
+          "createTime": "2022-12-21T23:45:42.169Z",
+          "modifyTime": "2022-12-21T23:45:42.169Z",
+          "data": {
+            "thumbnail_small": {
+              "format": "png",
+              "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/1a8658ec-5282-44e8-8eb3-87e4cb73b439",
+              "size": 46356,
+              "createTime": "2022-12-21T23:45:50.104Z"
+            },
+            "bounds": {
+              "format": "json",
+              "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/0fca2a48-52cd-4e52-a1e1-1ff3c56dc00b",
+              "size": 139,
+              "createTime": "2022-12-21T23:45:48.921Z"
+            },
+            "trimbnail": {
+              "format": "trb",
+              "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/31d12224-084d-4691-826d-9d54c79c8936",
+              "size": 1192584,
+              "createTime": "2022-12-21T23:45:48.058Z"
+            },
+            "thumbnail_big": {
+              "format": "png",
+              "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/8169bef4-24a1-4f8e-ac84-e25e766a60de",
+              "size": 577548,
+              "createTime": "2022-12-21T23:45:51.900Z"
+            },
+            "machine": {
+              "format": "json",
+              "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/4f4e0b14-b360-407d-b564-d67177cba517",
+              "size": 361245,
+              "createTime": "2022-12-21T23:45:46.158Z"
+            }
+          }
+        }
   ],
   "jsonrpc": "2.0",
-  "id": "a0dffd94-0f02-489a-9360-9f93c3b4ce1f"
+  "id": "b8c5edf5-2897-45c9-86cd-bf82e3b9f7fb"
 }
