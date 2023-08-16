@@ -42,7 +42,7 @@ An errored node will cause downstream nodes to error as well, sometimes invalida
 An example is dividing by zero using the [**divide**](/nodes/Divide/documentation.md) node.
 
 <p align="center">
-  <img width="400" src="images/erroredNode.png"/>
+  <img width="600" src="images/erroredNode.png"/>
 </p>
 
 Errors can be 'caught' using graph logic, by the [**error check**](/nodes/Error/documentation.md) node.
