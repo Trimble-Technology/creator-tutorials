@@ -1,6 +1,110 @@
 {
   "result": [
     {
+      "assetURI": "whp:3b8381d9-5bdc-479b-a449-2c673f599f1a",
+      "assetType": "machine",
+      "assetName": "Bike Rack (featured)",
+      "creatorUserID": "a9e72514-9964-4326-ac2e-46944b8dd886",
+      "creatorUserFirstName": "Cameron Wells",
+      "creatorUserLastName": "",
+      "source": "Materia:Creator.Materia",
+      "tags": [
+        "CreatorPublishedGraph"
+      ],
+      "createTime": "2023-11-02T05:16:55.248Z",
+      "modifyTime": "2023-11-02T05:16:55.248Z",
+      "data": {
+        "bounds": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/d0fc20b7-233e-400c-ad70-865d7c2ce27e",
+          "size": 125,
+          "createTime": "2023-11-02T05:17:03.053Z"
+        },
+        "thumbnail_small": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/a1238afe-ed0b-46bb-9c72-4acee0f25e41",
+          "size": 24588,
+          "createTime": "2023-11-02T05:17:04.503Z"
+        },
+        "trimbnail": {
+          "format": "trb",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/7c16291f-7a48-4b59-80b8-4906336fa77b",
+          "size": 104808,
+          "createTime": "2023-11-02T05:17:01.954Z"
+        },
+        "comment": {
+          "format": "txt",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/9599af78-78f3-46f5-9b3f-caf2d831b4e6",
+          "size": 0,
+          "createTime": "2023-11-02T05:17:07.784Z"
+        },
+        "thumbnail_big": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/25eabb02-1da8-4f44-af4b-3dd2513acb88",
+          "size": 312327,
+          "createTime": "2023-11-02T05:17:06.703Z"
+        },
+        "machine": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/af70a8c2-e65c-4e73-94b6-eac87d762cf1",
+          "size": 62010,
+          "createTime": "2023-11-02T05:16:59.961Z"
+        }
+      }
+    }
+    {
+      "assetURI": "whp:4afd1b56-38f8-4ecc-a820-8d538cbacc3a",
+      "assetType": "machine",
+      "assetName": "Bike Shed (featured)",
+      "creatorUserID": "a9e72514-9964-4326-ac2e-46944b8dd886",
+      "creatorUserFirstName": "Cameron Wells",
+      "creatorUserLastName": "",
+      "source": "Materia:Creator.Materia",
+      "tags": [
+        "CreatorPublishedGraph"
+      ],
+      "createTime": "2023-11-02T05:09:27.999Z",
+      "modifyTime": "2023-11-02T05:09:27.999Z",
+      "data": {
+        "thumbnail_small": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/e6574786-3ef7-45e3-84c9-9a8c0cd92238",
+          "size": 31574,
+          "createTime": "2023-11-02T05:09:36.171Z"
+        },
+        "bounds": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/cc3210ee-cb97-4698-bfdf-ae5f5bc18f61",
+          "size": 128,
+          "createTime": "2023-11-02T05:09:34.690Z"
+        },
+        "trimbnail": {
+          "format": "trb",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/45f9a1e4-0ab0-4861-a1f1-1889c61caf16",
+          "size": 41888,
+          "createTime": "2023-11-02T05:09:33.707Z"
+        },
+        "comment": {
+          "format": "txt",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/1e2682b4-1d80-4c7b-a45e-45424a83d818",
+          "size": 0,
+          "createTime": "2023-11-02T05:09:39.293Z"
+        },
+        "thumbnail_big": {
+          "format": "png",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/d38c2c81-79ec-413f-a5c5-da047b1c306e",
+          "size": 380269,
+          "createTime": "2023-11-02T05:09:38.176Z"
+        },
+        "machine": {
+          "format": "json",
+          "url": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/a3a2e297-51b0-44f0-bba0-833725960f36",
+          "size": 124720,
+          "createTime": "2023-11-02T05:09:32.118Z"
+        }
+      }
+    }
+    {
       "assetURI": "whp:958f5bf8-8562-4594-81c7-5065b7af7857",
       "assetType": "machine",
       "assetName": "Park Bench (featured)",
