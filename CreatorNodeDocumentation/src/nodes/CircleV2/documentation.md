@@ -59,12 +59,12 @@
   * The list of z values of the points of the output primitives.
 
 
-### Notes
+### Note(s)
 
 * Only the `polyline` and `mesh` settings on the _type_ input have the _segments_, _start angle_, and _end angle_ inputs.
     * Adjusting the _start angle_ and _end angle_ inputs will create an arc/semicircle.
 
-* A mesh circle is unwelded by default.
+* A mesh circle is unwelded by default (between _start angle_ and _end angle_.).
 
 * The _segments_ input can be used to make any regular polygon (triangle, quadrilateral, pentagon, etc.).
 

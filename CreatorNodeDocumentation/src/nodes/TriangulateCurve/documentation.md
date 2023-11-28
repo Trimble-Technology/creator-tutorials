@@ -89,7 +89,7 @@
 
 * The `first curve is outline, others are holes` setting of the _input handling_ input results in a single primitive whereas the `all curves are outlines` setting results in a primitive for each input curve.
 
-* If the input curve is irregular and the resulting triangulate mesh results in “zero area triangles”, it is recommended to use the **clean mesh** node to fix the mesh.
+* If the input curve is irregular and the resulting triangulate mesh results in “zero area triangles”, it is recommended to use the [**Clean mesh**](/nodes/PolyClean/documentation.md) node to fix the mesh.
 
 * Other names for this node include: TriangulateCurve, Triangulate curve, Tessellate, Mesh, and Path to mesh.
 

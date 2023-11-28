@@ -47,6 +47,5 @@
 ### Examples
 
 
-* <a href="https://creator.trimble.com/graph?assetURI=whp:dc99eca7-c20c-4256-8fc2-d505f2e00029&version=latest" target="_blank">Adding and getting an attribute</a>
 * <a href="https://creator.trimble.com/graph?assetURI=whp:2b2bfb2f-ffeb-4cd3-ae15-fe1f0b59cf33&version=latest" target="_blank">Scaling a box</a>
 * <a href="https://creator.trimble.com/graph?assetURI=whp:12e6e13a-5702-4623-807b-e0449f690afa&version=latest" target="_blank">Setting a point within a polyline</a>

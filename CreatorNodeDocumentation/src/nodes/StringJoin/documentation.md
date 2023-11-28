@@ -1,6 +1,6 @@
 # Join strings
 
-**_Concatenates strings._**
+**_Joins strings._**
 
 ---
 
@@ -32,6 +32,7 @@
 
 
 ### Note(s)
+
 
 * Other names for this node include: StringJoin, Combine strings, and Concatenate strings.
 

@@ -13,7 +13,7 @@
 
 * _operation type_
 
-  * Sets the type of boolean operation to perform on input geometry. This can be: `Union`, `Subtraction`, Reverse subtraction`, `Intersection`, or `XOR`.
+  * Sets the type of boolean operation to perform on input geometry. This can be: `Union`, `Subtraction`, `Reverse subtraction`, `Intersection`, or `XOR`.
 
 * _weld_
 
@@ -54,6 +54,8 @@
   * Edges and vertices,
 
     * A mesh 3D boolean operation utilizes vertices and edges of input meshes to perform operations. Therefore, it is often useful to pay attention to where particular geometries are positioned. Say for example we have a box that is subtracting from another box where the position of the subtracting box is positioned so that it lies directly in the middle of a triangle of the first box's mesh. In this instance, there are no intersecting edges or vertices of either mesh, thus making it difficult to calculate consistently.
+
+* This node is a [destructive operation](/concepts/GeneralConcepts/destructive.md).
 
 * Other names for this node include: MeshBoolean, Mesh boolean, 3D boolean, and CSG.
 

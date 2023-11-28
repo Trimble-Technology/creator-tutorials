@@ -13,7 +13,7 @@
 
 * _indexList_
 
-  * The list of  index values that defines which items to set from the _list _input.
+  * The list of  index values that defines which items to set from the _list_ input.
 
 * _values_
 

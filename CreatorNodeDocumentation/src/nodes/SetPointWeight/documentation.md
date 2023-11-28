@@ -13,11 +13,11 @@
 
 * _weights_
 
-  * The list of float values that defines the weight of points in a NURBS primitive (curves and surfaces). 
+  * The list of float values that defines the weight of points in a NURBS primitive ([curves](/concepts/GeneralConcepts/nurbsCurve.md) and [surfaces](/concepts/GeneralConcepts/nurbsSurface.md)). 
 
 * _default weight_
 
-  * The weight value that defines the weight of all points when no data is connected to the _weights _input.
+  * The weight value that defines the weight of all points when no data is connected to the _weights_ input.
 
 
 #### Outputs
@@ -45,9 +45,11 @@
 
 ### Note(s)
 
-* Sets the weight value of input geometry points based on input data values for use in NURBS curves and surfaces.
+* Sets the weight value of input geometry points based on input data values for use in NURBS [curves](/concepts/GeneralConcepts/nurbsCurve.md) and [surfaces](/concepts/GeneralConcepts/nurbsSurface.md).
 
 * The weight value’s effect exhibits an exponential decay pattern as the ratio between points increases. For example, the difference between a weight ratio of `0` and `2` is less than twice the difference between a weight ratio of `0` and `1`.
+
+    * For more information on NURBS curve point weights, see: [NURBS curves](/concepts/GeneralConcepts/nurbsCurve.md)
 
 * If _default weight_ is in use all points will have the same weight so the exact value is irrelevant unless set to `0` in which case no geometry will be generated.
 

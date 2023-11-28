@@ -13,7 +13,7 @@
 
 * _index_
 
-  * The index value that defines which list item to set from the _list _input.
+  * The index value that defines which list item to set from the _list_ input.
 
 * _value_
 

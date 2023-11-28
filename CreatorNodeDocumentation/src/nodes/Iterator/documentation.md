@@ -1,6 +1,6 @@
 # Iterator
 
-**_Iterates through a number of loops as defined by a paired _loop _node with the same tag._**
+**_Iterates through a number of loops as defined by a paired loop node with the same tag._**
 
 ---
 
@@ -15,11 +15,11 @@
 
   * The integer value to output.
 
-  * This value doesn’t have any effect on the computed result of the paired **loop** node, rather it allows the change of the _value_ output to inspect nodes within specific iterations.
+  * This value doesn’t have any effect on the computed result of the paired [**loop**](/nodes/Loop/documentation.md) node, rather it allows the change of the _value_ output to inspect nodes within specific iterations.
 
 * _tag_
 
-  * The tag that is used to reference an **iterator**-**loop** pair.
+  * The tag that is used to reference an **iterator** - [**loop**](/nodes/Loop/documentation.md) pair.
 
 
 ### Outputs
@@ -53,9 +53,9 @@
 
 
 
-* The geometry output of the **iterator** node changes depending on if the paired **loop** node has its _cumulative_ input set to `true` or not.
-    * If the paired **loop** node's _cumulative_ input is set to `false`, then the geometry output of the relevant **iterator** node will be the input primitives.
-    * If the paired **loop** node's _cumulative_ input is set to `true`, then the geometry output of the relevant **iterator** node will be the result of the previous iteration.
+* The geometry output of the **iterator** node changes depending on if the paired [**loop**](/nodes/Loop/documentation.md) node has its _cumulative_ input set to `true` or not.
+    * If the paired [**loop**](/nodes/Loop/documentation.md) node's _cumulative_ input is set to `false`, then the geometry output of the relevant **iterator** node will be the input primitives.
+    * If the paired [**loop**](/nodes/Loop/documentation.md) node's _cumulative_ input is set to `true`, then the geometry output of the relevant **iterator** node will be the result of the previous iteration.
 
 
 ### Examples

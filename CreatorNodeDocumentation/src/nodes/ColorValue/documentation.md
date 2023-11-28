@@ -35,15 +35,17 @@
   * The color value as defined by the _value_ input.
 
 
-### Notes
+### Note(s)
 
 * When parameterized this node will appear as three input fields and a color picker in the parameter panel.
 
 * A color value is defined by three values between `0` and `1`.
-    * Any inputted value above `1` will be rounded back down to `1`.
-    * Any inputted value below `0` will be rounded back up to `0`.
+    * Any input value above `1` will be rounded back down to `1`.
+    * Any input value below `0` will be rounded back up to `0`.
 
-* Vectors can be utilized as a color value.
+    * The `0` - `1` range is the same as the RGB `0` - `255` range. See the [**range**](/nodes/Range/documentation.md) node to convert individual values.
+
+* Any vector values can be utilized as a color value.
 
 * A color value can be set via the “color picker” by clicking on the colored box next to the _value_ and _default_ inputs.
 

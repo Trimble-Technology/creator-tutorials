@@ -16,11 +16,11 @@
 
 * _triangle areas_
 
-  * The list of areas for individual triangles of the input PolyMesh primitives.
+  * The list of areas for individual triangles of the input [PolyMesh](/concepts/GeneralConcepts/polyMesh.md) primitives.
 
 * _total area_
 
-  * The total area of all triangles of the input Polymesh primitives.
+  * The total area of all triangles of the input [PolyMesh](/concepts/GeneralConcepts/polyMesh.md) primitives.
 
 
 ### Note(s)

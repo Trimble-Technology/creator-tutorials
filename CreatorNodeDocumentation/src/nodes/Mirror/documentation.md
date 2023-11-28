@@ -28,7 +28,7 @@
 
 * _combine result_
 
-  * Sets how resulting meshes are combined. This can be `leave as is` (will not combine meshes), `combine pairs of meshes` (will combine an individual PolyMesh primitive with its mirrored pair), or `combine all meshes`.
+  * Sets how resulting meshes are combined. This can be `leave as is` (will not combine meshes), `combine pairs of meshes` (will combine an individual [PolyMesh](/concepts/GeneralConcepts/polyMesh.md) primitive with its mirrored pair), or `combine all meshes`.
 
 * _mask_
 
@@ -62,7 +62,7 @@
 
 * The _mode_ inputs first three options (`around min`, `around center`, and `around max`) set the mirror axis position at the bounds of the input primitives.
 
-* Mirrored primitives will also have their UV’s (NURBS curves and surfaces) and normals mirrored as well.
+* Mirrored primitives will also have their UV’s ([NURBS curves](/concepts/GeneralConcepts/nurbsCurve.md) and [surfaces](/concepts/GeneralConcepts/nurbsSurface.md)) and normals mirrored as well.
 
 
 ### Example(s)

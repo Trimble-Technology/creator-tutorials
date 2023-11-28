@@ -23,9 +23,9 @@
 
 ### Note(s)
 
-* This operation is represented as `sin()` within the [Expression](/nodes/ExpressionParser/documentation.md) node.
+* This operation is represented as `sin()` within the [**Expression**](/nodes/ExpressionParser/documentation.md) node.
 
-* This function operates on radians, not degrees. Use the [Degrees to radians](/nodes/DegToRad/documentation.md) node first if using degrees.
+* This function operates on radians, not degrees. Use the [**Degrees to radians**](/nodes/DegToRad/documentation.md) node first if using degrees.
 
 * Other names for this node include: Sin, and Sinus.
 

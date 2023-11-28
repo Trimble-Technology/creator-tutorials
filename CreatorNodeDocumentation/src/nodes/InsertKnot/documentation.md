@@ -41,7 +41,7 @@
 
 ### Note(s)
 
-* Very similar functionality to the ***split curve*** node. Both nodes apply a point to a line, the ***insert knot*** node will place a control point on that curve, where as the ***split curve*** node will divide that curve into two separate primitives.
+* Very similar functionality to the [**Split curve**](/nodes/SplitCurve/documentation.md) node. Both nodes apply a point to a line, while this node will place a control point on that curve, where as the [**Split curve**](/nodes/SplitCurve/documentation.md) node will divide that curve into two separate primitives (or a single individual point).
 
 * Other names for this node include: InsertKnot, Add point.
 

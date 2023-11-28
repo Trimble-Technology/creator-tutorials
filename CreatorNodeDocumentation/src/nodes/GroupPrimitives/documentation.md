@@ -41,7 +41,7 @@
 
 ### Notes
 
-* Group primitives can be ungrouped with the **ungroup** node.
+* Group primitives can be ungrouped with the [**ungroup**](/nodes/UnGroupPrimitives/documentation.md) node.
 
 * Other names for this node include: GroupPrimitives, Group primitives, and Assemble.
 

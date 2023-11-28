@@ -41,6 +41,11 @@
 
 ### Notes
 
+* If you wish to treat multiple primitives as a single primitive (whilst preserving individual primitives) instead, use the [**group**](/nodes/GroupPrimitives/documentation.md) and [**ungroup**](/nodes/UnGroupPrimitives/documentation.md) nodes.
+
+* This node is a [destructive operation](/concepts/GeneralConcepts/destructive.md) if there is more than one primitive in it's _geometry_ input.
+
+* If input meshes have differing [material](/concepts/GeneralConcepts/material.md) properties, then the output combined mesh will adopt the properties of the last input mesh primitive.
 
 * Other names for this node include: CombineMeshes, Merge meshes, Unify meshes, and Join.
 

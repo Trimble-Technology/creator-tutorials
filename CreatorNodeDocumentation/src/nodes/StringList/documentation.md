@@ -21,19 +21,19 @@
 
 * _initialize_
 
-  * Sets the _list_ input values as per the values of the _size _and _default _inputs.
+  * Sets the _list_ input values as per the values of the _size_ and _default_ inputs.
 
 
 ### Outputs
 
 * _list_
 
-  * The string list as defined by the _list _input.
+  * The string list as defined by the _list_ input.
 
 
 ### Notes
 
-* A custom list can be made by clicking on the `<string list>` space of the _list _input via the “Add Item” button.
+* A custom list can be made by clicking on the `<string list>` space of the _list_ input via the “Add Item” button.
 
 * When the _initialize_ input is `true`, manually inputted values will be overridden by the _default_ input value.
 

@@ -27,7 +27,7 @@
 
 * The absolute value will always be positive, never negative. The absolute value can be thought of as the distance an input value is from `0` (eg. the absolute value of  `-10` will be `10`, and the absolute value of  `10` will also be `10`).
 
-* This operation is represented as `abs()` within the [Expression](/nodes/ExpressionParser/documentation.md) node.
+* This operation is represented as `abs()` within the [**Expression**](/nodes/ExpressionParser/documentation.md) node.
 
 * Other names for this node include: Abs.
 

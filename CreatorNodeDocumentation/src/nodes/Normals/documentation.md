@@ -9,7 +9,7 @@
 
 * **_geometry_**
 
- * Accepts a single geometry connection (unless the SHIFT key is held).
+  * Accepts a single geometry connection (unless the SHIFT key is held).
 
 * _mode_
 
@@ -19,15 +19,15 @@
 
 * _tangents_
 
-  * The list of tangent values to replace the calculated tangent values (these values will be used to calculate the other _normals_ and _binormals_ outputs. If left blank, the input primitives _tangents _are used).
+  * The list of tangent values to replace the calculated tangent values (these values will be used to calculate the other _normals_ and _binormals_ outputs. If left blank, the input primitives _tangents_ are used).
 
 * _normals_
 
-  * The list of normal values to replace the calculated normal values (these values will be used to calculate the other _tangents _and _binormals_ outputs. If left blank, the input primitives _normals_ are used).
+  * The list of normal values to replace the calculated normal values (these values will be used to calculate the other _tangents_ and _binormals_ outputs. If left blank, the input primitives _normals_ are used).
 
 * _binormals_
 
-  * The list of binormal values to replace the calculated binormal values (these values will be used to calculate the other _tangents _and _normals_ outputs. If left blank, the input primitives _binormals_ are used).
+  * The list of binormal values to replace the calculated binormal values (these values will be used to calculate the other _tangents_ and _normals_ outputs. If left blank, the input primitives _binormals_ are used).
 
 * _default normal_
 

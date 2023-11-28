@@ -4,10 +4,6 @@
 
 ---
 
-This node has data inputs and outputs.
-
-This node has geometry inputs and outputs.
-
 
 ### Inputs
 

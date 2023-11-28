@@ -67,11 +67,11 @@
   * The list of z values of the points of the output primitives.
 
 
-### Notes
+### Note(s)
 
 
 
-* The _combine meshes_ input has the same function as the **combine meshes** node with its _group behavior_ input set to `exclude meshes from groups`.
+* The _combine meshes_ input has the same function as the [**combine meshes**](/nodes/CombineMeshes/documentation.md) node with its _group behavior_ input set to `exclude meshes from groups`.
 
 * Other names for this node include: Duplicate.
 

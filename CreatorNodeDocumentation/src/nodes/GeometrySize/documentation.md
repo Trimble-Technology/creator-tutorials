@@ -46,4 +46,4 @@
 
 
 
-* <a href="Create a bounding box" target="_blank">https://creator.trimble.com/graph?assetURI=whp:db2e8f1e-4682-4580-89c4-b5b9ad60cc96&version=latest</a>
+* <a href="https://creator.trimble.com/graph?assetURI=whp:db2e8f1e-4682-4580-89c4-b5b9ad60cc96&version=latest" target="_blank">Create a bounding box</a>

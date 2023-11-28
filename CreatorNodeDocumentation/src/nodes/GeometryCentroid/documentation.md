@@ -13,7 +13,7 @@
 
 * _mode_
 
-  * Sets the mode in which the **geometry center** node calculates the center of the input primitives. This can be `center` (the midpoint of the geometry bounds) or `centroid` (the average of the points within the geometry).
+  * Sets the mode in which this node calculates the center of the input primitives. This can be `center` (the midpoint of the geometry bounds) or `centroid` (the average of the points within the geometry).
 
 * _output opposite_
 

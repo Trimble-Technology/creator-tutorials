@@ -1,6 +1,6 @@
 # Loop
 
-**Loop _nodes repeat a section of the graph._**
+**_Loop nodes repeat a section of the graph._**
 
 ---
 
@@ -17,7 +17,7 @@
 
 * _iterator tag_
 
-  * The tag of an **iterator **node to reference an **iterator**-**loop** pair.
+  * The tag of an [**iterator**](/nodes/Iterator/documentation.md) node to reference an [**iterator**](/nodes/Iterator/documentation.md) - **loop** pair.
 
 * _cumulative_
 
@@ -50,11 +50,11 @@
 ### Notes
 
 * Loop types:
-    * A non-cumulative loop (the default loop) is a type of loop that repeats the section of a graph between an **iterator**-**loop** node pair for the defined number of loops. The geometry output of the **loop** node with this type of loop is the result of every iteration/loop, acting similarly to the **copy** node.
+    * A non-cumulative loop (the default loop) is a type of loop that repeats the section of a graph between an [**iterator**](/nodes/Iterator/documentation.md) - **loop** node pair for the defined number of loops. The geometry output of the **loop** node with this type of loop is the result of every iteration/loop, acting similarly to the [**copy**](/nodes/Copy/documentation.md) node.
     * A cumulative loop is a type of loop that also repeats a section of the graph for a defined number of loops. Only with a cumulative loop, the previous iteration is used to inform the next iteration, accumulating changes each iteration.
-        * The current iteration of the loop as defined by the _idling value_ of the relevant **iterator** node will only compute the nodes as though it were a non-cumulative loop. The full computation of a cumulative loop can only be seen from the final **loop** node.
+        * The current iteration of the loop as defined by the _idling value_ of the relevant [**iterator**](/nodes/Iterator/documentation.md) node will only compute the nodes as though it were a non-cumulative loop. The full computation of a cumulative loop can only be seen from the final **loop** node.
         
-* To be used in conjunction with an **iterator** node assigned with the same tag.
+* To be used in conjunction with an [**iterator**](/nodes/Iterator/documentation.md) node assigned with the same tag.
 
 * Other names for this node include: Iterate.
 

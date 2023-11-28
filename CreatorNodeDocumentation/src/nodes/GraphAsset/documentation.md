@@ -21,13 +21,7 @@
 
 * _parameters_
 
-  * The JSON string containing key-value pairs that defines what values to set parameters in the referenced graph.
-
-  * Here are some example of a JSON string
-
-    * {“Parameter1”:value,“Parameter2”:value}
-
-    * {“Length”:1000,“Width”:500}
+  * A JSON string containing key-value pairs that defines what values to set parameters in the referenced graph.
 
 
 ### Outputs
@@ -67,13 +61,13 @@
 
 ### Note(s)
 
-* Some examples of a JSON string for the _parameter_ input are as follows:
+* Some examples of a JSON string for the _parameter_ input are as follows (which can be input as a string value type):
 
   * {“Parameter1”:value,“Parameter2”:value}
 
   * {“Length”:1000,“Width”:500,“Thickness”:300}
 
-* The JSON string can be constructed using various methods, but it is recommended to use the **combine data** and **JSON builder** nodes to do so. An example of this can be found in the example graphs linked below.
+* The JSON string can be constructed using various methods, but it is recommended to use the [**Combine data**](/nodes/CombineData/documentation.md) and [**JSON builder**](/nodes/JsonBuilder/documentation.md) nodes to do so. An example of this can be found in the example graphs linked below.
 
 * Other names for this node include: GraphAsset, Graph import, Graph reference, Subgraph.
 

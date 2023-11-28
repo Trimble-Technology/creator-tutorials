@@ -51,9 +51,9 @@
 
 * This node will delete points from almost any input primitives with some exceptions:
 
-  * NURBS surfaces.
+  * [NURBS surfaces](/concepts/GeneralConcepts/nurbsSurface.md).
 
-  * Polylines/NURBS curves where the curve will be left with only a single point.
+  * Polylines/[NURBS curves](/concepts/GeneralConcepts/nurbsCurve.md) where the resulting curve will be left with only a single point.
 
 * Other names for this node include: DeletePoints, Erase, and Nuke.
 

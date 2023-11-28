@@ -14,7 +14,7 @@
 
 * _initialize_
 
-  * Sets the _positions _input vector values to the vector values as defined by the _init list_ input.
+  * Sets the _positions_ input vector values to the vector values as defined by the _init list_ input.
 
 * _init list_
 
@@ -22,7 +22,7 @@
 
 * _output as mesh vertices_
 
-  * Sets whether the output primitives are as PointsPrimitives or PolyMesh vertices.
+  * Sets whether the output primitives are as [Points primitives](/concepts/GeneralConcepts/points.md) or [PolyMesh](/concepts/GeneralConcepts/polyMesh.md) vertices.
 
 
 ### Outputs

@@ -12,3 +12,5 @@ A NURBS curve has following notable properties:
 <p align="center">
   <img width="600" src="images/NURBS.png"/>
 </p>
+
+For more indepth information on how weights of NURBS curves work, visit here: <a href="https://pages.mtu.edu/~shene/COURSES/cs3621/NOTES/spline/NURBS/NURBS-mod-weight.html" target="_blank">modifying NURBS curve weights</a>. This can be done in the graph with the use of the [**set point weight**](/nodes/SetPointWeight/documentation.md) node.

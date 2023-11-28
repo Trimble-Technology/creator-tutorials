@@ -29,7 +29,7 @@
 
 * _pivot_
 
-  * The vector value that defines the position of the pivot that the input primitives will be manipulated with respect to when the _center pivot _ input is set to `false`.
+  * The vector value that defines the position of the pivot that the input primitives will be manipulated with respect to when the _center pivot_ input is set to `false`.
 
 
 ### Outputs

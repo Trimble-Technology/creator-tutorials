@@ -29,7 +29,7 @@
 
 ### Notes
 
-* Images can be uploaded to Trimble Creator by dragging and dropping the file into the graph viewer.
+* Images can be uploaded to the graph by dragging and dropping the file into the graph viewer.
 
 * Following image file formats are supported for import:
     * JPEG / JPG

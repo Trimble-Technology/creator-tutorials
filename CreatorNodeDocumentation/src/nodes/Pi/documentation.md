@@ -14,7 +14,7 @@ No inputs.
 
 * _pi_
 
-  * The value of pi (3.141592653589793).
+  * The value of pi (`3.141592653589793`).
 
 
 ### Note(s)

@@ -13,23 +13,23 @@
 
 * _center_
 
-  * The vector value that defines the center of the output line when the _mode _input is set to `center`.
+  * The vector value that defines the center of the output line when the _mode_ input is set to `center`.
 
 * _start point_
 
-  * The vector value that defines the start of the output line  when the _mode _input is set to `origin + direction` or `point to point`.
+  * The vector value that defines the start of the output line  when the _mode_ input is set to `origin + direction` or `point to point`.
 
 * _end point_
 
-  * The vector value that defines the end of the output line when the _mode _input is set to `point to point`.
+  * The vector value that defines the end of the output line when the _mode_ input is set to `point to point`.
 
 * _direction_
 
-  * The vector value that defines the direction of the output line when the _mode _input is set to `origin + direction`.
+  * The vector value that defines the direction of the output line when the _mode_ input is set to `origin + direction`.
 
 * _length_
 
-  * The value that defines the length of the output line when the _mode _input is set to `origin + direction`.
+  * The value that defines the length of the output line when the _mode_ input is set to `origin + direction`.
 
 * _number of points_
 
@@ -67,7 +67,7 @@
 
 
 
-* Other names for this node include: Curve and Polyline.
+* Other names for this node include: Curve, and Polyline.
 
 
 ### Examples

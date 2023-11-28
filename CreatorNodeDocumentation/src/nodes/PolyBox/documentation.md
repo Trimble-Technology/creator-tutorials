@@ -53,6 +53,8 @@
 
 * The size of a box when both the _scale_ and _uniform scale_ inputs are `1` are the same unit scale as the set “graph length unit”. For example if the “graph length unit” is in millimeters, then the size of the box will be `1mm,1mm,1mm`.
 
+* The _type_ input defines the library in which a box is created (`normal` and `CSG`). Both are functionally similar, though will have differing triangulation methods.
+
 * Other names for this node include: PolyBox, Poly box, and Cube.
 
 

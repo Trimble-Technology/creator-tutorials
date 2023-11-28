@@ -29,7 +29,7 @@
 
 * _base texture_
 
-  * The string value (image asset URI) that defines the base texture to set to the input primitives when the _set base texture _input is set to `true`.
+  * The string value (image asset URI) that defines the base texture to set to the input primitives when the _set base texture_ input is set to `true`.
 
 * _set opacity_
 
@@ -37,7 +37,7 @@
 
 * _opacity_
 
-  * The value that defines the opacity to set to the input primitives (between a range of `0` and `1`) when the _set opacity _ input is set to `true`.
+  * The value that defines the opacity to set to the input primitives (between a range of `0` and `1`) when the _set opacity_ input is set to `true`.
 
 * _set roughness_
 
@@ -57,11 +57,11 @@
 
 * _metallic_
 
-  * The value that defines the metalness to set to the input primitives (between a range of `0` and `1`) when the _set metallic _input is set to `true`.
+  * The value that defines the metalness to set to the input primitives (between a range of `0` and `1`) when the _set metallic_ input is set to `true`.
 
 * _metallic texture_
 
-  * The string value (image asset URI) that defines the metallic texture to set to the input primitives when the _set metallic _input is set to `true`.
+  * The string value (image asset URI) that defines the metallic texture to set to the input primitives when the _set metallic_ input is set to `true`.
 
 * _set reflectance_
 
@@ -69,11 +69,11 @@
 
 * _reflectance_
 
-  * The value that defines the reflectance to set to the input primitives (between a range of `0` and `1`) when the _set reflectance _input is set to `true`.
+  * The value that defines the reflectance to set to the input primitives (between a range of `0` and `1`) when the _set reflectance_ input is set to `true`.
 
 * _reflectance texture_
 
-  * The string value (image asset URI) that defines the reflectance texture to set to the input primitives when the _set reflectance _input is set to `true`.
+  * The string value (image asset URI) that defines the reflectance texture to set to the input primitives when the _set reflectance_ input is set to `true`.
 
 * _set bump_
 
@@ -81,11 +81,11 @@
 
 * _bump_
 
-  * The value that defines the bump to set to the input primitives (between a range of `0` and `1`) when the _set bump _input is set to `true`.
+  * The value that defines the bump to set to the input primitives (between a range of `0` and `1`) when the _set bump_ input is set to `true`.
 
 * _bump texture_
 
-  * The string value (image asset URI) that defines the bump texture to set to the input primitives when the _set bump _input is set to `true`.
+  * The string value (image asset URI) that defines the bump texture to set to the input primitives when the _set bump_ input is set to `true`.
 
 * _set incandescence_
 
@@ -93,11 +93,11 @@
 
 * _incandescence_
 
-  * The color value (vector) that defines the incandescence to set to the input primitives (between a range of `0` and `1`) when the _set incandescence _input is set to `true`.
+  * The color value (vector) that defines the incandescence to set to the input primitives (between a range of `0` and `1`) when the _set incandescence_ input is set to `true`.
 
 * _incandescence texture_
 
-  * The string value (image asset URI) that defines the incandescence texture to set to the input primitives when the _set incandescence _input is set to `true`.
+  * The string value (image asset URI) that defines the incandescence texture to set to the input primitives when the _set incandescence_ input is set to `true`.
 
 * _set double-sided_
 
@@ -141,7 +141,7 @@
 
 ### Notes
 
-* See [Material](/concepts/GeneralConcepts/material.md) for more information on the specfics of materials in Trimble Creator.
+* See [Material](/concepts/GeneralConcepts/material.md) for more information.
 
 * Other names for this node include: SetMaterial, Set Material, and Shader.
 

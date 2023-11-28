@@ -25,7 +25,7 @@
 
 ### Note(s)
 
-* This operation is represented as `asin()` within the [Expression](/nodes/ExpressionParser/documentation.md) node.
+* This operation is represented as `asin()` within the [**Expression**](/nodes/ExpressionParser/documentation.md) node.
 
 * Other names for this node include: Asin, Inverse sine, and Arc sinus.
 

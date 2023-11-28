@@ -47,13 +47,13 @@
   * The list of z values of the points of the output primitives.
 
 
-### Notes
+### Note(s)
 
 * See [Attribute](/concepts/GeneralConcepts/attribute.md) for more information on attributes, and their function in the graph.
 
 * The _value_ input is a special type of input that can accept any type of data.
 
-* This node can be used in conjunction with the **get attribute** node to later retrieve the attribute data.
+* This node can be used in conjunction with the [**get attribute**](/nodes/GetAttribute/documentation.md) node to later retrieve the attribute data.
 
 * Other names for this node include: AddAttribute, Set attribute and Write attribute.
 

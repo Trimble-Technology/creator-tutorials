@@ -45,7 +45,7 @@
 
 ### Note(s)
 
-* NURBS curves only have a U coordinate and will therefore only be affected by the `flip U` and `flip U & V` modes, effectively reversing the direction of the curve.
+* [NURBS curves](/concepts/GeneralConcepts/nurbsCurve.md) only have a U coordinate and will therefore only be affected by the `flip U` and `flip U & V` modes, effectively reversing the direction of the curve.
 
 * Other names for this node include: FlipUV, Swap, and Reverse curve.
 

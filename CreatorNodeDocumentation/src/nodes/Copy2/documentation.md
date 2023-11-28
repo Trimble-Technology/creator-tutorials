@@ -21,7 +21,7 @@
 
 * _up vectors_
 
-  * The “up direction(s)” (rotation) around the vector defined by the _normals_ input around which the input primitives will orientate themselves.
+  * The rotation(s) that copied input primitives will orientate themselves to (based on the direction set by the _normals_ input). See the Note(s) section below for more information.
 
 * _combine meshes_
 
@@ -29,7 +29,9 @@
 
 * _mode_
 
-  * Sets the mode in which the _normals_ and _up vectors_ inputs are applied to input primitives. For example, when set to `4` X axis = tangent, Y axis = _up vectors_ input, and the Z axis = _normals_ input (in regards to the original orientation of the input primitives).
+  * Sets the mode in which the _normals_ and _up vectors_ inputs are applied to input primitives.
+  
+  * For example, when set to `4` X axis = tangent, Y axis = _up vectors_ input, and the Z axis = _normals_ input (in regards to the original orientation of the input primitives).
 
 
 #### Outputs
@@ -58,15 +60,21 @@
 #### Note(s)
 
 
+* The _positions_, _normals_, and _up vectors_ inputs can be visualized like so (when using a polyline and the _mode_ input is set to `4`):
+
+<p align="center">
+  <img width="600" src="usingCopyUsingVectors.png"/>
+</p>
+
 * Notes specific to the _mode_ input:
 
-    * It is recommended to use _mode_ `4` as it is the intended function of the node. Modes `0` through `3` are considered as deprecated, although will still work.
+    * It is recommended to use _mode_ `4` as it is the intended function of the node. Modes `0` through `3` are considered deprecated, although will still work.
 
     * The tangent of the modes as described above in the _mode_ input section above is the resultant of the _normals_ and _up vectors_ inputs.
 
     * Often vector rotations are described in handedness or chirality (See <a href="https://en.wikipedia.org/wiki/Right-hand_rule" target="_blank">here</a> for more information). In regards to the different modes, modes `0` and `1` are left-handed whereas modes `2`, `3`, and `4` are right-handed.
 
-* The _combine meshes_ input has the same function as the **combine meshes** node with its _group behavior_ input set to `exclude meshes from groups`.
+* The _combine meshes_ input has the same function as the [**combine meshes**](/nodes/CombineMeshes/documentation.md) node with the _group behavior_ input set to `exclude meshes from groups`.
 
 * Other names for this node include: Copy2, Duplicate, Instance, and Matrix.
 

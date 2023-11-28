@@ -63,9 +63,13 @@
   * The list of z values of the points of the output primitives.
 
 
-### Notes
+### Note(s)
 
+* When the _interpolate_ input is set to true, the resulting loft geometry will tightly follow the input curves. This will be more noticable when the _order U_ input is greater than `2`.
 
+<p align="center">
+  <img width="600" src="interpolate.png"/>
+</p>
 
 * Other names for this node include: Skin, and Revolve.
 

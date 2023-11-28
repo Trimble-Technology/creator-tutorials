@@ -1,4 +1,4 @@
-# primitives
+# # primitives
 
 **_Calculates the number of input primitives._**
 
@@ -13,7 +13,7 @@
 
 * _minus one_
 
-  * Sets whether to subtract 1 from the _number of primitives _output or not.
+  * Sets whether to subtract 1 from the _number of primitives_ output or not.
 
 
 ### Outputs

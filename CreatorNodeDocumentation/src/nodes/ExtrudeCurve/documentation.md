@@ -47,9 +47,9 @@
   * The list of z values of the points of the output primitives.
 
 
-### Notes
+### Note(s)
 
-* The geometry output of this node is a NURBS surface primitive type. In order to convert it to a PolyMesh primitive type use the **triangulate surface** node.
+* The geometry output of this node is a [NURBS surface](/concepts/GeneralConcepts/nurbsSurface.md) primitive type. In order to convert it to a PolyMesh primitive type use the [**Triangulate surface**](/nodes/TesselatePatch/documentation.md) node.
 
 * Other names for this node include: ExtrudeCurve.
 

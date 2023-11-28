@@ -41,7 +41,7 @@
 
 ### Notes
 
-* Primitives can be grouped together with the **group** node.
+* Primitives can be grouped together with the [**group**](/nodes/GroupPrimitives/documentation.md) node.
 
 * Other names for this node include: UngroupPrimitives, Ungroup primitives, Disassemble, and Split group.
 

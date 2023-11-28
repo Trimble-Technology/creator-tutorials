@@ -44,7 +44,7 @@
 
 * _above index_
 
-  * The index value of the _value above _output.
+  * The index value of the _value above_ output.
 
 
 ### Note(s)

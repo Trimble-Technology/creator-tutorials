@@ -25,14 +25,14 @@
 
 * _initialize_
 
-  * Sets the _list_ input values as per the values of the _size_, _iterator, _and _default _inputs.
+  * Sets the _list_ input values as per the values of the _size_, _iterator_, and _default_ inputs.
 
 
 ### Outputs
 
 * _list_
 
-  * The integer list as defined by the _list _input.
+  * The integer list as defined by the _list_ input.
 
 
 ### Notes
@@ -41,7 +41,7 @@
 
 * When the _initialize_ input is `true`, manually inputted values will be overridden by the _default_ input value.
 
-* When both the _initialize_ and _iterator _inputs are `true`, the iterative values override the _default_ input value.
+* When both the _initialize_ and _iterator_ inputs are `true`, the iterative values override the _default_ input value.
 
 * Other names for this node include: IntegerList, Number list.
 

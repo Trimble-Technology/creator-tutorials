@@ -21,7 +21,7 @@
 
 * _discard_
 
-  * Sets the calculated primitive to delete. This can be ‘none’, ‘first’, or ‘second’.
+  * Sets the calculated primitive to delete. This can be `none`, `first`, or `second`.
 
 
 ### Outputs

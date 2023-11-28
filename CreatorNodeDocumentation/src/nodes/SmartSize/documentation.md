@@ -66,6 +66,10 @@
 
 * The scaling operation of the node works by only scaling the parts of the input primitives that are not within the range as defined by the _upper_ and _lower lock zones_. The parts of the input geometry that are outside of the specified range will have their features preserved.
 
+<p align="center">
+  <img width="600" src="SmartSizeDiagram.png"/>
+</p>
+
 * The lock zones are specified as a percentage (0 to 1) of the input primitives bounds. The lower lock zone is taken from the minimum bounds of the axis specified by the _axis_ input, whereas the upper lock zone is taken from the maximum bounds.
 
   * Therefore the sum of both the upper and lower lock zones cannot be greater or equal to `1` so that these zones do not overlap.

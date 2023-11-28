@@ -103,7 +103,7 @@
   * The list of z values of the points of the output primitives.
 
 
-### Notes
+### Note(s)
 
 * When the _mode_ input is set to `between primitive connections` the primitives in each input geometry connection are treated as a group.
 

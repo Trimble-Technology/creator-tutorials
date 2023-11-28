@@ -1,4 +1,4 @@
-# points
+# # points
 
 **_Calculates the point count of input primitives._**
 

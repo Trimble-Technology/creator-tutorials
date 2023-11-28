@@ -41,6 +41,12 @@
 
 ### Note(s)
 
+* An example of remapping a value with this node might look like this:
+
+<p align="center">
+  <img width="600" src="RangeDiagram.gif"/>
+</p>
+
 * Other names for this node include: Remap and Lerp.
 
 
