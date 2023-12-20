@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * _center_
 
@@ -20,7 +20,7 @@
   * Sets whether to weld the vertices of the output tetrahedron or not.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

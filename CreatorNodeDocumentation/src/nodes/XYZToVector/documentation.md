@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * _x_
 
@@ -20,7 +20,7 @@
   * The value that defines the z component of the output vector value.
 
 
-### Outputs
+#### Outputs
 
 * _vector_
 

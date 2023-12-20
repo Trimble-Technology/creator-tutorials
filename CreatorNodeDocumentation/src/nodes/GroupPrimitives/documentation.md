@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -16,7 +16,7 @@
   * The name to give to the group made by the node.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

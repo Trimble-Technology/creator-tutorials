@@ -4,34 +4,34 @@
 
 ---
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
   * Accepts a single geometry connection (unless the SHIFT key is held).
 
 
-### Outputs
+#### Outputs
 
 *  **_geometry_**
 
-  * Output primitives.
+   * Output primitives.
 
 * _points_
 
-  * The list of points of the output primitives.
+   * The list of points of the output primitives.
 
 * _points.x_
 
-  * The list of x values of the points of the output primitives.
+   * The list of x values of the points of the output primitives.
 
 * _points.y_
 
-  * The list of y values of the points of the output primitives.
+   * The list of y values of the points of the output primitives.
 
 * _points.z_
 
-  * The list of z values of the points of the output primitives.
+   * The list of z values of the points of the output primitives.
 
   
 ### Note(s)

@@ -68,11 +68,11 @@
 
 * Notes specific to the _mode_ input:
 
-    * It is recommended to use _mode_ `4` as it is the intended function of the node. Modes `0` through `3` are considered deprecated, although will still work.
+    * Using _mode_ `4` is recommended, as it represents the intended function of the node. _Modes_ `0` through `3` are considered deprecated but will still function.
 
     * The tangent of the modes as described above in the _mode_ input section above is the resultant of the _normals_ and _up vectors_ inputs.
 
-    * Often vector rotations are described in handedness or chirality (See <a href="https://en.wikipedia.org/wiki/Right-hand_rule" target="_blank">here</a> for more information). In regards to the different modes, modes `0` and `1` are left-handed whereas modes `2`, `3`, and `4` are right-handed.
+    * Often vector rotations are described in handedness or chirality (See <a href="https://en.wikipedia.org/wiki/Right-hand_rule" target="_blank">here</a> for more information). In regards to the different modes: modes `0` and `1` are left-handed whereas modes `2`, `3`, and `4` are right-handed.
 
 * The _combine meshes_ input has the same function as the [**combine meshes**](/nodes/CombineMeshes/documentation.md) node with the _group behavior_ input set to `exclude meshes from groups`.
 

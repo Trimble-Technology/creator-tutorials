@@ -27,7 +27,7 @@
   * The list of values that have been culled.
 
 
-  ### Note(s)
+### Note(s)
 
 * Other names for this node include: CullList, Split list.
 

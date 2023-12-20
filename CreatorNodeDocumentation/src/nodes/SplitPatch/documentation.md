@@ -4,11 +4,11 @@
 
 ---
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
- * Accepts a single geometry connection (unless the SHIFT key is held).
+  * Accepts a single geometry connection (unless the SHIFT key is held).
 
 * _direction_
 
@@ -24,7 +24,7 @@
   * Sets the calculated primitive to delete. This can be `none`, `first`, or `second`.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

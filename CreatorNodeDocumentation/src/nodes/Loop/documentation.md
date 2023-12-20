@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -24,7 +24,7 @@
   * Sets whether the loop is cumulative or not. See the Notes section below for more information.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

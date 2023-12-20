@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -44,7 +44,7 @@
   * Sets whether to combine all copied meshes into a singular mesh primitive. Only meshes are combined. Curves, NURBS surfaces, and other primitive types are ignored with this function.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

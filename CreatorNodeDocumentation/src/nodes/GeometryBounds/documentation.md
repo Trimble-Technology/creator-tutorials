@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -16,7 +16,7 @@
   * Sets whether to invert the output geometry bounds or not.
 
 
-### Outputs
+#### Outputs
 
 * _xMin_
 

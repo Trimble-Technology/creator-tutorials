@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -32,7 +32,7 @@
   * Sets whether to subdivide the existing segments of the input curves, or the curve as a whole.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

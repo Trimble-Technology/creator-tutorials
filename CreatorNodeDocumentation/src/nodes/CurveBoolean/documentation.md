@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -40,7 +40,7 @@
   * Sets whether to close the resulting curves/polygons after the 2D boolean operation.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 
@@ -63,7 +63,7 @@
   * The list of z values of the points of the output curve/polygon primitives.
 
 
-### Notes
+### Note(s)
 
 * 2D boolean operations are projected back to the selected work plane defined by the _work plane_ input.
     * If _pre-flatten_ is `false`, then all curves that are to be operated on need to be on the defined work plane. Otherwise the operation will fail, or curves/polygons will be excluded from the operation.

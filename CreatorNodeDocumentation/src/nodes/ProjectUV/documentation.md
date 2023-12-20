@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -28,7 +28,7 @@
   * Sets the bounds by which UV coordinates are projected. These can be `per object` (per each individual primitive) or `all objects` (over all input primitives).
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

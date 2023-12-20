@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -20,7 +20,7 @@
   * Sets whether to output only the splitting point or not.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

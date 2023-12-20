@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * _preload asset_
 
@@ -20,7 +20,7 @@
   * Sets whether the output geometry asset utilizes OBJ groups as separate primitives or not (this is only relevant if the geometry asset is of the Wavefront OBJ file format).
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

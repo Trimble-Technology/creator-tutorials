@@ -17,7 +17,7 @@ No inputs.
 
 ### Note(s)
 
-* Knowing and understanding the ephemeral state of a graph can be a key part to creating optimized configurable components. In layman's terms, the ephemeral state is simply a way to explain when a graph has its inputs actively changing (such as dragging a slider of a parameter).
+* Knowing and understanding the ephemeral state of a graph can be a key part to creating optimized configurable components. In layman's terms, the ephemeral state is a way to explain when a graph's inputs are actively changing (such as dragging a slider of a parameter).
 
   * This is useful as we can utilize this state with the special functionality of the [**Switch**](/nodes/FloatSwitch/documentation.md) node whereby we can switch between computationally light and heavy geometry based on what state the graph is in. If the graph is in an ephemeral state, switching to a computationally light geometry will give more immediate and efficient temporary output versus a more computationally heavy (and therefore slower) version of the output. See the graph below for an example.
 

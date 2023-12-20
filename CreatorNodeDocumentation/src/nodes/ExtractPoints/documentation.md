@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -16,7 +16,7 @@
   * The boolean list that defines which points to keep and which points to discard.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

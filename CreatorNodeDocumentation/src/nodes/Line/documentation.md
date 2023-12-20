@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * _mode_
 
@@ -40,7 +40,7 @@
   * The value that defines the order of the output line. See [NURBS curve](/concepts/GeneralConcepts/nurbsCurve.md) for more information.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

@@ -5,14 +5,14 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
   * Accepts multiple geometry connections.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 
@@ -37,7 +37,7 @@
 
 ### Note(s)
 
-* This node does nothing to incoming primitives, other than collecting them into a single list of primitives based on the order of their relevant geometry input connections.
+* This node simply gathers incoming primitives into a list, arranging them in the order of their associated geometry input connections.
 * Other names for this node include: Merge and Collate.
 
 

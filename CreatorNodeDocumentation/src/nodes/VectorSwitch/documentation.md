@@ -41,7 +41,7 @@
 
 ### Note(s)
 
-* Unlike the [**Switch**](/nodes/Switch/documentation.md) node, all upstream nodes of all input connections are computed.
+* Unlike the [**Switch**](/nodes/Switch/documentation.md) node, all upstream nodes of input connections are computed.
 
 * Other names for this node include: VectorSwitch, Case, and If.
 

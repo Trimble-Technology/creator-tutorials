@@ -5,11 +5,11 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
- * Accepts a single geometry connection (unless the SHIFT key is held).
+  * Accepts a single geometry connection (unless the SHIFT key is held).
 
 * _index_
 
@@ -20,7 +20,7 @@
   * Sets whether to invert the selection of output primitives or not.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

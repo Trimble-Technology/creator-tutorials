@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -16,7 +16,7 @@
   * Sets whether to subtract 1 from the _number of primitives_ output or not.
 
 
-### Outputs
+#### Outputs
 
 * _number of primitives_
 

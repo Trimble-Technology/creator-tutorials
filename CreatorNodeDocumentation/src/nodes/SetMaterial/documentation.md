@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -116,7 +116,7 @@
   * The value that defines the size of the textures used in the material properties (also known as the UV scale of the textures).
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

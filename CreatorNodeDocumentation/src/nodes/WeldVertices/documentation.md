@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -36,7 +36,7 @@
   * The list of boolean values that defines which vertices to weld together. If empty, all vertices will be welded together.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

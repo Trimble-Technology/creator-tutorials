@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -20,7 +20,7 @@
   * The list of boolean values that defines which primitives to apply manipulations to as set by the _mode_.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

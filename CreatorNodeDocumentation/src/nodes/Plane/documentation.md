@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * _type_
 
@@ -44,7 +44,7 @@
   * The value that defines the number of point rows along the same axis as the _length_ input.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

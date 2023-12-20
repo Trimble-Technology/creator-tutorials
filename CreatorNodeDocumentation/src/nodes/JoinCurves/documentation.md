@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -20,7 +20,7 @@
   * Sets whether to delete the last point of every joined curve or not.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

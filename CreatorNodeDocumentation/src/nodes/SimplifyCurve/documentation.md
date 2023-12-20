@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -16,7 +16,7 @@
   * The value that defines the maximum angle from which a curve is simplified.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

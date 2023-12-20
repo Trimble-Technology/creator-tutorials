@@ -9,9 +9,9 @@
 
 * **_geometry_**
 
-  * Accepts a single geometry connection (unless the SHIFT key is held).
-
   * The input curves to find closest point on.
+
+  * Accepts a single geometry connection (unless the SHIFT key is held).
 
 * _positions_
 

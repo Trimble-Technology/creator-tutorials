@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -16,7 +16,7 @@
   * The index of the geometry connection to output.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

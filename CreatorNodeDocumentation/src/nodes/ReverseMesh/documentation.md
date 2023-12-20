@@ -5,14 +5,14 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
   * Accepts a single geometry connection (unless the SHIFT key is held).
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

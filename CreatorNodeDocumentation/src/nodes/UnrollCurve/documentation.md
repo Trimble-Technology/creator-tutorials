@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -20,7 +20,7 @@
   * The vector value that defines the direction of the unrolled curve from the _origin_.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

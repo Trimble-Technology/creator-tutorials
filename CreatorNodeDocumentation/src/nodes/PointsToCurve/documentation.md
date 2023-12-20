@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -28,7 +28,7 @@
   * Sets whether the output curve is a <a href="https://en.wikipedia.org/wiki/B%C3%A9zier_curve" target="_blank">bezier curve</a> or not.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -28,7 +28,7 @@
   * The list of boolean values that defines which input primitives to set the color to. If empty, all input primitives will be set to the defined color.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

@@ -6,7 +6,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * _positions_
 
@@ -25,7 +25,7 @@
   * Sets whether the output primitives are as [Points primitives](/concepts/GeneralConcepts/points.md) or [PolyMesh](/concepts/GeneralConcepts/polyMesh.md) vertices.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

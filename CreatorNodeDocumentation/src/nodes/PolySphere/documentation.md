@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * _center_
 
@@ -48,7 +48,7 @@
   * The value that defines the end angle (in the same axis as the _rows_ input) of the output sphere when the _type_ input is set to `column & rows`.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

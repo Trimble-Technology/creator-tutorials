@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * _preload asset_
 
@@ -16,7 +16,7 @@
   * The asset URI (as a string value) that defines what uploaded image asset to output. See [Assets](/concepts/GeneralConcepts/assets.md) for more information.
 
 
-### Outputs
+#### Outputs
 
 * _asset uri_
 

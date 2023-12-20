@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -16,7 +16,7 @@
   * The value that defines the u coordinate of where to insert a point in the curve.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -28,7 +28,7 @@
   * Sets whether to flip the normals of the output primitives.
 
 
-### Outputs
+#### Outputs
 
 * _points_
 

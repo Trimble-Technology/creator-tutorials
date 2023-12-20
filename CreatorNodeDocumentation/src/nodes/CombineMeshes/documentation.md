@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -16,7 +16,7 @@
   * Sets how input groups will behave. This can be `exclude meshes from groups` (will not combine meshes within input groups), `include meshes from groups` (will combine meshes within all input groups), or `combine per top-level group` (will only combine meshes within each input group).
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 
@@ -41,11 +41,11 @@
 
 ### Notes
 
-* If you wish to treat multiple primitives as a single primitive (whilst preserving individual primitives) instead, use the [**group**](/nodes/GroupPrimitives/documentation.md) and [**ungroup**](/nodes/UnGroupPrimitives/documentation.md) nodes.
+* If you wish to treat multiple primitives as a single primitive (whilst preserving individual primitives), use the [**group**](/nodes/GroupPrimitives/documentation.md) and [**ungroup**](/nodes/UnGroupPrimitives/documentation.md) nodes.
 
-* This node is a [destructive operation](/concepts/GeneralConcepts/destructive.md) if there is more than one primitive in it's _geometry_ input.
+* This node is a [destructive operation](/concepts/GeneralConcepts/destructive.md) if there are more than one primitive in it's **_geometry_** input.
 
-* If input meshes have differing [material](/concepts/GeneralConcepts/material.md) properties, then the output combined mesh will adopt the properties of the last input mesh primitive.
+* If the input meshes have different [material](/concepts/GeneralConcepts/material.md) properties, the combined mesh will take on the properties of the last input mesh primitive.
 
 * Other names for this node include: CombineMeshes, Merge meshes, Unify meshes, and Join.
 

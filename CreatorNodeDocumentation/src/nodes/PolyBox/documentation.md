@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * _type_
 
@@ -24,7 +24,7 @@
   * The vector value that defines the uniform scale of the output box.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

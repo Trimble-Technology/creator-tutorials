@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -28,7 +28,7 @@
   * The list of boolean values that defines which input points to set to the vector as defined by the _x_, _y_, and _z_ inputs. If empty, all input points will be set to the defined vector.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

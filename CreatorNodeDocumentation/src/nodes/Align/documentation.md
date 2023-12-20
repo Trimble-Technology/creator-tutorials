@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -80,7 +80,7 @@
   * Sets what to do with the first geometry connection/primitive. This can be `keep position`, `include in align`, or `delete`.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

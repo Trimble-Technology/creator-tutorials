@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -22,7 +22,7 @@
   * The tag that is used to reference an **iterator** - [**loop**](/nodes/Loop/documentation.md) pair.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

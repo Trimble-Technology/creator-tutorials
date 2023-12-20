@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -24,7 +24,7 @@
   * The value to assign to the attribute. This can be any of the basic data types (number (number, integer, and boolean), vector (vector and color), or string).
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 
@@ -50,8 +50,6 @@
 ### Note(s)
 
 * See [Attribute](/concepts/GeneralConcepts/attribute.md) for more information on attributes, and their function in the graph.
-
-* The _value_ input is a special type of input that can accept any type of data.
 
 * This node can be used in conjunction with the [**get attribute**](/nodes/GetAttribute/documentation.md) node to later retrieve the attribute data.
 

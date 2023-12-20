@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -60,7 +60,7 @@
   * A list of extra internal points that will force the creation of vertices at these points.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

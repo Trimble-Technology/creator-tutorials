@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -16,7 +16,7 @@
   * Sets the mode in which group primitives are ungrouped. This can be `flatten whole hierarchy` (which ungroups all groups, even groups within other groups) or `ungroup one level` (which only ungroups the first layer of groups, any group within another group is not ungrouped).
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

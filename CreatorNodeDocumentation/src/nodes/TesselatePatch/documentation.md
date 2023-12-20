@@ -5,11 +5,11 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
- * Accepts a single geometry connection (unless the SHIFT key is held).
+  * Accepts a single geometry connection (unless the SHIFT key is held).
 
 * _mode_
 
@@ -28,7 +28,7 @@
   * The value that defines the quality for the U coordinate of the resulting triangulated mesh when _mode_ is set to `separate U & V quality`.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

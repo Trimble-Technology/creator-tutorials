@@ -5,11 +5,11 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
- * Accepts a single geometry connection (unless the SHIFT key is held).
+  * Accepts a single geometry connection (unless the SHIFT key is held).
 
 * _mask_
 
@@ -24,7 +24,7 @@
   * Sets whether to invert the selection of deleted points or not.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

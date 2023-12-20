@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -24,7 +24,7 @@
   * The number of spans that the output NURBS surface will be divided into.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

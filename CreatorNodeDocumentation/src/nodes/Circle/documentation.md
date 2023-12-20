@@ -11,7 +11,7 @@
 > Superseeded by [Circle](/nodes/CircleV2/documentation.md)
 
 
-### Inputs
+#### Inputs
 
 * _type_
 
@@ -42,7 +42,7 @@
   * The value that defines the ending angle of the output circle.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

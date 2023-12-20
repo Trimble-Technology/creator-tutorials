@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -40,7 +40,7 @@
   * Sets whether to close the resulting curves after the 2D offset operation.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

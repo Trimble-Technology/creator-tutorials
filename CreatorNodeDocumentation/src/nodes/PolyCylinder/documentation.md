@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * _start_
 
@@ -24,7 +24,7 @@
   * The value that defines how many segments the output cylinder has.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

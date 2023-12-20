@@ -4,7 +4,7 @@
 
 ---
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -39,7 +39,7 @@
   * A list of boolean values that defines which input primitive points are scaled. If empty, all input primitive points will be scaled.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

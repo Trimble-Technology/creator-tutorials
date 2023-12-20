@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -40,7 +40,7 @@
   * The order (perpendicular to the input curves) of the resulting loft when the _loft type_ input is set to `NURBS surface`.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

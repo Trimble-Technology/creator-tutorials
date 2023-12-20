@@ -27,7 +27,7 @@
 
 * This operation is represented as `cos()` within the [**Expression**](/nodes/ExpressionParser/documentation.md) node.
 
-* This node operates on radians, not degrees. Use the [**Degrees to radians**](/nodes/DegToRad/documentation.md) node first if working with degrees.
+* This node uses radians. Use the [**Degrees to radians**](/nodes/DegToRad/documentation.md) node first if working with degrees.
 
 * Other names for this node include: Cos, and Cosinus.
 

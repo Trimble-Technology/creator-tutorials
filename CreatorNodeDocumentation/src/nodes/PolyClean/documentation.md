@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -24,7 +24,7 @@
   * Sets whether to delete points not associated with any triangles or not.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

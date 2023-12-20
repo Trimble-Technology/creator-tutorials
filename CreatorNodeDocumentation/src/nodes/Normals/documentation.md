@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -34,7 +34,7 @@
   * The default normal value.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

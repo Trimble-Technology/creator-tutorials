@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * _expression_
 
@@ -44,7 +44,7 @@
   * The value that is used to define “w” in the _expression_ input.
 
 
-### Outputs
+#### Outputs
 
 * _result_
 

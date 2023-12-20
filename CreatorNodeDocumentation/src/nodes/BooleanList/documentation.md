@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * _list_
 
@@ -44,7 +44,7 @@
   * Sets the _list_ input values as per the values of the _size_, _default_, _pattern_, _start_, _end_, _skip_, and _every_ inputs.
 
 
-### Outputs
+#### Outputs
 
 * _list_
 

@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -20,7 +20,7 @@
   * Sets whether to extract the curve from the surface’s u coordinate or not. If false, the node will use the v coordinate.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

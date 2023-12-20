@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -28,7 +28,7 @@
   * Sets whether to keep the points of deleted primitives or not.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

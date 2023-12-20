@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * _value_
 
@@ -28,7 +28,7 @@
   * Hides the parameter label (name) within the parameter panel when the node is parameterized.
 
 
-### Outputs
+#### Outputs
 
 * _value_
 

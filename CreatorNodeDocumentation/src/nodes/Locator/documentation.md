@@ -1,11 +1,11 @@
-# Locator:
+# Locator
 
 **_Creates a locator._**
 
 ---
 
 
-### Inputs
+#### Inputs
 
 * _id_
 
@@ -20,7 +20,7 @@
   * The string value that defines the position of the locator.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

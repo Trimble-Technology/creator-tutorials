@@ -4,7 +4,7 @@
 
 ---
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -35,7 +35,7 @@
   * The list of boolean values that defines which primitives to mirror. If empty, all primitives will be mirrored.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 

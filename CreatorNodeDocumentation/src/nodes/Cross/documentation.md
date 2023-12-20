@@ -35,11 +35,15 @@
   * The list of cross products of the input vectors.
 
 
-  ### Note(s)
+### Note(s)
 
 * The cross product is the perpendicular vector of two input vectors. The size of this vector is determined by the size of the input vectors and the angle between them.
 
-Other names for this node include: Cross.
+<p align="center">
+  <img width="600" src="CrossProduct.png"/>
+</p>
+
+* Other names for this node include: Cross.
 
 
 ### Example(s)

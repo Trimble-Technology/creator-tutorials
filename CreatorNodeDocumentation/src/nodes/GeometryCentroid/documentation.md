@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -20,7 +20,7 @@
   * Sets whether to invert the output geometry center or not.
 
 
-### Outputs
+#### Outputs
 
 * _center_
 
