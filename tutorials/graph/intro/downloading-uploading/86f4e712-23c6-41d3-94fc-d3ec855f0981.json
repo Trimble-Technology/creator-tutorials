@@ -42,6 +42,21 @@
           }
         ],
         "hints": []
+      },
+      {
+        "id": "7eba4c58-9099-441c-bd4f-75c45cc6c30b",
+        "name": "Applying Units",
+        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/working-with-parameters/7eba4c58-9099-441c-bd4f-75c45cc6c30b.md",
+        "actions": [
+          {
+            "type": "loadMateriaGraph",
+            "arguments": {
+              "uri": "whp:753b3bc5-8906-4bc7-9d3e-e1c42e326256",
+              "configuration": null
+            }
+          }
+        ],
+        "hints": []
       }
     ]
   }
