@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -24,7 +24,7 @@
   * The number of spans that the output NURBS surface will be divided into.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 
@@ -49,12 +49,11 @@
 
 ### Note(s)
 
+* The geometry output of this node is a [NURBS surface](/concepts/GeneralConcepts/nurbsSurface.md) primitive type. In order to convert it to a PolyMesh primitive type use the [**Triangulate surface**](/nodes/TesselatePatch/documentation.md) node.
 
+* Other names for this node include: ExtrudeCurve.
 
-* The geometry output of this node is a NURBS surface primitive type. In order to convert it to a PolyMesh primitive type use the **triangulate surface** node.
-
-
-### Example(s)
+### Examples
 
 
 

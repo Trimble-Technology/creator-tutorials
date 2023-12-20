@@ -1,0 +1,22 @@
+{
+    "name": "pi",
+    "alternateNames": [
+      "π"
+    ],
+    "defaultNodeName": "pi",
+    "path": [
+      "math",
+      "trigonometry"
+    ],
+    "help": "Outputs the value of pi.",
+    "input": {},
+    "type": "Pi",
+    "output": {
+      "pi": {
+        "type": "float",
+        "description": "the value of pi",
+        "displayName": "pi"
+      }
+    },
+    "nodeClass": "value"
+  }

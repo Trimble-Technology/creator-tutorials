@@ -1,0 +1,62 @@
+{
+    "name": "join curves",
+    "alternateNames": [
+      "merge",
+      "connect"
+    ],
+    "defaultNodeName": "join curves",
+    "path": [
+      "geometry",
+      "modify",
+      "curve"
+    ],
+    "help": "Joins curve ends using a distance threshold.",
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "description": "input geometry",
+        "displayName": "geometry"
+      },
+      "tolerance": {
+        "type": "float",
+        "default": 1e-16,
+        "description": "max distance between end points for curves to join",
+        "displayName": "tolerance"
+      },
+      "deleteLastPoint": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "delete last point",
+        "description": "deletes the last point of every joined curve"
+      }
+    },
+    "type": "JoinCurves",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "description": "output geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "description": "point positions",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "description": "point positions x coordinate",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "description": "point positions y coordinate",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "description": "point positions z coordinate",
+        "displayName": "points.z"
+      }
+    },
+    "nodeClass": "node"
+  }

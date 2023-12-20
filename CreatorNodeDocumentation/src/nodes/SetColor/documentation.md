@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -28,7 +28,7 @@
   * The list of boolean values that defines which input primitives to set the color to. If empty, all input primitives will be set to the defined color.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 
@@ -51,14 +51,12 @@
   * The list of z values of the points of the output primitives.
 
 
-### Note(s)
+### Notes
+
+* Other names for this node include: SetColor, Alpha, Wireframe, and Transparency.
 
 
-
-* Other names for this node include: Alpha, Wireframe, and Transparency.
-
-
-### Example(s)
+### Examples
 
 
 

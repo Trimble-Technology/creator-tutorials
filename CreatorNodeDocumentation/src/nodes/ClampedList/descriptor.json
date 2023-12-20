@@ -1,0 +1,60 @@
+{
+    "name": "clamped number list",
+    "alternateNames": [],
+    "defaultNodeName": "clamped number list",
+    "path": [
+      "list",
+      "number"
+    ],
+    "help": "Creates a clamped and spaced number list.",
+    "input": {
+      "list": {
+        "type": "list:float",
+        "displayName": "list"
+      },
+      "mode": {
+        "type": "enum",
+        "options": [
+          "collapse out from index",
+          "collapse up",
+          "collapse down"
+        ],
+        "displayName": "mode"
+      },
+      "index": {
+        "type": "integer",
+        "default": 0,
+        "displayName": "index"
+      },
+      "min": {
+        "type": "float",
+        "default": 0,
+        "displayName": "minimum"
+      },
+      "max": {
+        "type": "float",
+        "default": 10,
+        "displayName": "maximum"
+      },
+      "minSpacing": {
+        "type": "float",
+        "default": 0,
+        "displayName": "minimum spacing"
+      },
+      "spaceBorders": {
+        "type": "boolean",
+        "default": true,
+        "displayName": "pad borders",
+        "description": "if true space is added between edge values and min or max"
+      }
+    },
+    "type": "ClampedList",
+    "output": {
+      "list": {
+        "type": "list:float",
+        "description": "altered list",
+        "displayName": "list"
+      }
+    },
+    "nodeClass": "list"
+  }

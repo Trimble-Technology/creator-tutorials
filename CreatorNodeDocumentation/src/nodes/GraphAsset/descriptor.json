@@ -1,0 +1,79 @@
+{
+    "name": "graph asset",
+    "alternateNames": [
+      "graph import",
+      "graph reference"
+    ],
+    "defaultNodeName": "graph asset",
+    "path": [
+      "geometry",
+      "import"
+    ],
+    "help": "References graphs.",
+    "input": {
+      "retrieveOnGraphLoad": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "preload asset",
+        "description": "Loads the referenced graph asset on load of this graph."
+      },
+      "assetURI": {
+        "type": "string",
+        "displayName": "asset uri"
+      },
+      "latestVersion": {
+        "type": "boolean",
+        "displayName": "latest version"
+      },
+      "parameters": {
+        "type": "string",
+        "default": "{}",
+        "displayName": "parameters",
+        "description": "parameters as JSON string containing key-value pairs"
+      }
+    },
+    "type": "GraphAsset",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "description": "output geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "description": "point positions",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "description": "point positions x coordinate",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "description": "point positions y coordinate",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "description": "point positions z coordinate",
+        "displayName": "points.z"
+      },
+      "assetURI": {
+        "type": "string",
+        "description": "uri of the referenced graph asset",
+        "displayName": "asset uri"
+      },
+      "assetName": {
+        "type": "string",
+        "description": "name of the referenced graph asset",
+        "displayName": "asset name"
+      },
+      "parameters": {
+        "type": "string",
+        "default": "{}",
+        "displayName": "parameters",
+        "description": "the graph's parameters as JSON string containing key-value pairs"
+      }
+    }
+  }

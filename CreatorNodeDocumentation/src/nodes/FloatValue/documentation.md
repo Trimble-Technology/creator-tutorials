@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * _value_
 
@@ -21,7 +21,7 @@
 
 * _min/max mode_
 
-  * The mode in which the _value_ input is constrained. See the <a href="/concepts/GeneralConcepts/misc.md" target="_blank">min/max mode</a> section for more information.
+  * The mode in which the _value_ input is constrained.
 
 * _min_
 
@@ -33,22 +33,22 @@
 
 * _hide control_
 
-  * Hides the parameter control within the “Parameter panel” when the node is parameterized.
+  * Hides the parameter control within the parameter panel when the node is parameterized.
 
 * _hide label_
 
-  * Hides the parameter label (name) within the “Parameter panel” when the node is parameterized.
+  * Hides the parameter label (name) within the parameter panel when the node is parameterized.
 
 * _hide input field_
 
-  * Hides the parameter input field within the “Parameter panel” when the node is parameterized.
+  * Hides the parameter input field within the parameter panel when the node is parameterized.
 
 * _hide slider_
 
-  * Hides the parameter slider within the “Parameter panel” when the node is parameterized.
+  * Hides the parameter slider within the parameter panel when the node is parameterized.
 
 
-### Outputs
+#### Outputs
 
 * _value_
 
@@ -59,15 +59,16 @@
   * Outputs a boolean value that indicates whether the _value_ input is `null` (`true`) or not (`false`).
 
 
-### Note(s)
+### Notes
+
+* When parameterized this node will appear as a slider and input field in the parameter panel.
+
+* Setting a _min/max mode_ input to `Soft` will allow values outside the range of the values defined by the relevant _min_ and _max_ inputs. Setting it to `Hard` will not allow values outside the range of the values defined by the relevant _min_ and _max_ inputs (thus clamping any values to this range).
+
+* Other names for this node include: FloatValue, Float, Double, Decimal, Real, and Parameter.
 
 
-
-* When parameterized this node will appear as a slider and input field in the Parameter panel.
-* Other names for this node include: Float, Double, Decimal, Real, and Parameter.
-
-
-### Example(s)
+### Examples
 
 
 

@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * _mode_
 
@@ -13,23 +13,23 @@
 
 * _center_
 
-  * The vector value that defines the center of the output line when the _mode _input is set to `center`.
+  * The vector value that defines the center of the output line when the _mode_ input is set to `center`.
 
 * _start point_
 
-  * The vector value that defines the start of the output line  when the _mode _input is set to `origin + direction` or `point to point`.
+  * The vector value that defines the start of the output line  when the _mode_ input is set to `origin + direction` or `point to point`.
 
 * _end point_
 
-  * The vector value that defines the end of the output line when the _mode _input is set to `point to point`.
+  * The vector value that defines the end of the output line when the _mode_ input is set to `point to point`.
 
 * _direction_
 
-  * The vector value that defines the direction of the output line when the _mode _input is set to `origin + direction`.
+  * The vector value that defines the direction of the output line when the _mode_ input is set to `origin + direction`.
 
 * _length_
 
-  * The value that defines the length of the output line when the _mode _input is set to `origin + direction`.
+  * The value that defines the length of the output line when the _mode_ input is set to `origin + direction`.
 
 * _number of points_
 
@@ -40,7 +40,7 @@
   * The value that defines the order of the output line. See [NURBS curve](/concepts/GeneralConcepts/nurbsCurve.md) for more information.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 
@@ -63,14 +63,14 @@
   * The list of z values of the points of the output primitives.
 
 
-### Note(s)
+### Notes
 
 
 
-* Other names for this node include: Curve and Polyline.
+* Other names for this node include: Curve, and Polyline.
 
 
-### Example(s)
+### Examples
 
 
 

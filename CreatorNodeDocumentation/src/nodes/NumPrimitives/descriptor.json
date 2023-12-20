@@ -1,0 +1,34 @@
+{
+    "name": "# primitives",
+    "alternateNames": [
+      "number of primitives",
+      "amount of primitives"
+    ],
+    "defaultNodeName": "# primitives",
+    "path": [
+      "geometry",
+      "measure"
+    ],
+    "help": "Calculates the number of input primitives.",
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "description": "input geometry",
+        "displayName": "geometry"
+      },
+      "minusOne": {
+        "displayName": "minus one",
+        "type": "boolean",
+        "default": false
+      }
+    },
+    "type": "NumPrimitives",
+    "output": {
+      "numPrimitives": {
+        "type": "integer",
+        "description": "number of primitives",
+        "displayName": "numPrimitives"
+      }
+    },
+    "nodeClass": "value"
+  }

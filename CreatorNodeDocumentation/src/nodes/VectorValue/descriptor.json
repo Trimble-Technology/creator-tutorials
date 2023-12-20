@@ -1,0 +1,65 @@
+{
+    "name": "vector",
+    "alternateNames": [
+      "point",
+      "coordinate",
+      "direction",
+      "xyz"
+    ],
+    "defaultNodeName": "vector",
+    "path": [
+      "value",
+      "parameter"
+    ],
+    "help": "Creates a 3 component xyz vector value.",
+    "input": {
+      "value": {
+        "type": "vector",
+        "displayName": "value"
+      },
+      "defaultValue": {
+        "type": "vector",
+        "displayName": "default"
+      },
+      "setToDefault": {
+        "type": "button",
+        "displayName": "set to default"
+      },
+      "hideControl": {
+        "type": "boolean",
+        "displayName": "hide control",
+        "default": false
+      },
+      "hideLabel": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "hide label",
+        "hideWhen": "hideControl"
+      }
+    },
+    "type": "VectorValue",
+    "output": {
+      "value": {
+        "type": "vector",
+        "description": "vector output",
+        "displayName": "value",
+        "defaultOutput": true
+      },
+      "x": {
+        "type": "float",
+        "description": "vector x component",
+        "displayName": "x"
+      },
+      "y": {
+        "type": "float",
+        "description": "vector y component",
+        "displayName": "y"
+      },
+      "z": {
+        "type": "float",
+        "description": "vector z component",
+        "displayName": "z"
+      }
+    },
+    "nodeClass": "value"
+  }

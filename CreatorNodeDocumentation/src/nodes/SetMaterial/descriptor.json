@@ -1,0 +1,207 @@
+{
+    "name": "material",
+    "alternateNames": [
+      "set material",
+      "shader",
+      "shading",
+      "roughness",
+      "reflectance",
+      "albedo",
+      "opacity",
+      "transparency",
+      "emission",
+      "bump"
+    ],
+    "defaultNodeName": "material",
+    "path": [
+      "geometry",
+      "material | texture"
+    ],
+    "input": {
+      "mask": {
+        "type": "list:boolean",
+        "displayName": "primitive mask"
+      },
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "setAlbedo": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "set base color"
+      },
+      "albedo": {
+        "type": "flexi:color",
+        "default": [
+          1,
+          1,
+          1
+        ],
+        "displayName": "base color",
+        "description": "albedo color",
+        "hideWhen": "!setAlbedo"
+      },
+      "setAlbedoTexture": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "set base texture"
+      },
+      "albedoTexture": {
+        "type": "flexi:string",
+        "displayName": "base texture",
+        "hideWhen": "!setAlbedoTexture"
+      },
+      "setOpacity": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "set opacity"
+      },
+      "opacity": {
+        "type": "flexi:float",
+        "default": 1,
+        "minimum": 0,
+        "maximum": 1,
+        "displayName": "opacity",
+        "hideWhen": "!setOpacity"
+      },
+      "setRoughness": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "set roughness"
+      },
+      "roughness": {
+        "type": "flexi:float",
+        "default": 1,
+        "minimum": 0,
+        "maximum": 1,
+        "displayName": "specular roughness",
+        "hideWhen": "!setRoughness"
+      },
+      "roughnessTexture": {
+        "type": "flexi:string",
+        "displayName": "roughness texture",
+        "hideWhen": "!setRoughness"
+      },
+      "setMetallic": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "set metallic"
+      },
+      "metallic": {
+        "type": "flexi:float",
+        "default": 0,
+        "minimum": 0,
+        "maximum": 1,
+        "displayName": "metallic",
+        "hideWhen": "!setMetallic"
+      },
+      "metallicTexture": {
+        "type": "flexi:string",
+        "displayName": "metallic texture",
+        "hideWhen": "!setMetallic"
+      },
+      "setReflectance": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "set reflectance"
+      },
+      "reflectance": {
+        "type": "flexi:float",
+        "default": 0,
+        "minimum": 0,
+        "maximum": 1,
+        "displayName": "reflectance",
+        "hideWhen": "!setReflectance"
+      },
+      "reflectanceTexture": {
+        "type": "flexi:string",
+        "displayName": "reflectance texture",
+        "hideWhen": "!setReflectance"
+      },
+      "setBump": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "set bump"
+      },
+      "bump": {
+        "type": "flexi:float",
+        "default": 0,
+        "minimum": -10,
+        "maximum": 10,
+        "displayName": "bump",
+        "hideWhen": "!setBump"
+      },
+      "bumpTexture": {
+        "type": "flexi:string",
+        "displayName": "bump texture",
+        "hideWhen": "!setBump"
+      },
+      "setEmission": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "set incandescence"
+      },
+      "emission": {
+        "type": "flexi:color",
+        "default": [
+          0,
+          0,
+          0
+        ],
+        "displayName": "incandescence",
+        "hideWhen": "!setEmission"
+      },
+      "emissionTexture": {
+        "type": "flexi:string",
+        "displayName": "incandescence texture",
+        "hideWhen": "!setEmission"
+      },
+      "setDoubleSided": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "set double-sided"
+      },
+      "doubleSided": {
+        "type": "flexi:boolean",
+        "default": true,
+        "displayName": "double-sided",
+        "hideWhen": "!setDoubleSided"
+      },
+      "setUVscale": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "set texture size"
+      },
+      "UVscale": {
+        "type": "flexi:float",
+        "default": 1,
+        "displayName": "texture size",
+        "hideWhen": "!setUVscale"
+      }
+    },
+    "type": "SetMaterial",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "displayName": "points.z"
+      }
+    },
+    "nodeClass": "node"
+  }

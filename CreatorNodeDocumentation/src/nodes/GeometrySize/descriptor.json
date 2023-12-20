@@ -1,0 +1,40 @@
+{
+    "name": "geometry size",
+    "alternateNames": [],
+    "defaultNodeName": "geometry size",
+    "path": [
+      "geometry",
+      "measure",
+      "bounding box"
+    ],
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      }
+    },
+    "type": "GeometrySize",
+    "output": {
+      "size": {
+        "type": "vector",
+        "displayName": "size"
+      },
+      "sizeX": {
+        "type": "float",
+        "displayName": "sizeX"
+      },
+      "sizeY": {
+        "type": "float",
+        "displayName": "sizeY"
+      },
+      "sizeZ": {
+        "type": "float",
+        "displayName": "sizeZ"
+      },
+      "primitive sizes": {
+        "type": "list:vector",
+        "displayName": "primitive sizes"
+      }
+    },
+    "nodeClass": "value"
+  }

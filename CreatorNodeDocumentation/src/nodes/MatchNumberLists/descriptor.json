@@ -1,0 +1,34 @@
+{
+    "name": "match number lists",
+    "alternateNames": [],
+    "defaultNodeName": "match number lists",
+    "path": [
+      "list",
+      "number"
+    ],
+    "help": "Returns two lists of booleans, one for each input list (same length) - items are true if the number at their index is found in the other list.",
+    "input": {
+      "list1": {
+        "type": "list:float",
+        "displayName": "list 1"
+      },
+      "list2": {
+        "type": "list:float",
+        "displayName": "list 2"
+      }
+    },
+    "type": "MatchNumberLists",
+    "output": {
+      "list1 matches": {
+        "type": "list:boolean",
+        "description": "list of booleans: true if number at this index in list 1 was found in list 2",
+        "displayName": "list 1 matches"
+      },
+      "list2 matches": {
+        "type": "list:boolean",
+        "description": "list of booleans: true if number at this index in list 2 was found in list 1",
+        "displayName": "list 2 matches"
+      }
+    },
+    "nodeClass": "list"
+  }

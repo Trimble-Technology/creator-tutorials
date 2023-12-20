@@ -5,14 +5,14 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
   * Accepts a single geometry connection (unless the SHIFT key is held).
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 
@@ -35,15 +35,15 @@
   * The list of z values of the points of the output primitives.
 
 
-  ### Note(s)
+  ### Notes
+
+* Other names for this node include: UnweldVertices, Hard edges, and Facet.
 
 
-
-* Other names for this node include: Hard edges, and Facet.
-
-
-### Example(s)
+### Examples
 
 
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:3ea02aa1-c685-4932-960e-0580ebcf86ed&version=latest" target="_blank">Weld angles</a>
+
+* <a href="https://creator.trimble.com/graph?assetURI=whp:f419f1c8-f85f-4f92-b5f4-f0e8f6379a43&version=latest" target="_blank">Unwelded v. welded number of points</a>

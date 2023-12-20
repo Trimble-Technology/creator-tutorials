@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * _list_
 
@@ -44,27 +44,32 @@
   * Sets the _list_ input values as per the values of the _size_, _default_, _pattern_, _start_, _end_, _skip_, and _every_ inputs.
 
 
-### Outputs
+#### Outputs
 
 * _list_
 
-  * The boolean list as defined by the _list _input.
+  * The boolean list as defined by the _list_ input.
 
 
-### Note(s)
+### Notes
 
 
 
-* A custom list can be made by clicking on the `<boolean list>` space of the _list _input via the “Add Item” button.
+* A custom list can be made by clicking on the `<boolean list>` space of the _list_ input via the “Add Item” button.
+
+* When the _initialize_ input is set to `true`, any values manually entered into the _list_ input will be replaced with the _default_ input value.
+
 * When the _initialize_ input is `true`, manually inputted values will be overridden by the _default_ input value.
+
 * The _pattern_ input:
-    * When both the _initialize_ and _pattern_ inputs are `true`, the defined pattern overrides the _default_ input value.
-    * Changing the _default_ input value will invert the defined pattern.
-    * List indexes outside of the pattern range (as defined by the _start_ and _end_ inputs) will be set to the value defined by the _default_ input.
-* Other names for this node include: Mask and Bitmask.
+    * When both the _initialize_ and _pattern_ inputs are set to `true`, the _default_ input (and therefore _list_ input) will be replaced with the pattern set by the _start_, _end_, _skip_, and _every_ inputs.
+    * Changing the _default_ input value will invert the set pattern.
+    * List indexes outside of the pattern range (as set by the _start_ and _end_ inputs) will be set to the value according to the _default_ input.
+
+* Other names for this node include: BooleanList, Mask, and Bitmask.
 
 
-### Example(s)
+### Examples
 
 
 

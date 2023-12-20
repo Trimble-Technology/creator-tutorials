@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * _value_
 
@@ -21,29 +21,28 @@
 
 * _hide control_
 
-  * Hides the parameter control within the “Parameter panel” when the node is parameterized.
+  * Hides the parameter control within the parameter panel when the node is parameterized.
 
 * _hide label_
 
-  * Hides the parameter label (name) within the “Parameter panel” when the node is parameterized.
+  * Hides the parameter label (name) within the parameter panel when the node is parameterized.
 
 
-### Outputs
+#### Outputs
 
 * _value_
 
   * The string value as defined by the _value_ input.
 
 
-### Note(s)
+### Notes
+
+* When parameterized this node will appear as an input field in the parameter panel.
+
+* Other names for this node include: StringValue, Text, Word, and Parameter.
 
 
-
-* When parameterized this node will appear as an input field in the Parameter panel.
-* Other names for this node include: Text, Word, and Parameter.
-
-
-### Example(s)
+### Examples
 
 
 

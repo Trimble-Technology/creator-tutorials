@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -13,14 +13,14 @@
 
 * _mode_
 
-  * Sets the mode in which the **geometry center** node calculates the center of the input primitives. This can be `center` (the midpoint of the geometry bounds) or `centroid` (the average of the points within the geometry).
+  * Sets the mode in which this node calculates the center of the input primitives. This can be `center` (the midpoint of the geometry bounds) or `centroid` (the average of the points within the geometry).
 
 * _output opposite_
 
   * Sets whether to invert the output geometry center or not.
 
 
-### Outputs
+#### Outputs
 
 * _center_
 
@@ -43,14 +43,13 @@
   * The list of vector values of the geometry centers of each individual input primitive.
 
 
-### Note(s)
+### Notes
 
 
+* Other names for this node include: GeometryCentroid, Centroid, and Barycenter.
 
-* Other names for this node include: Centroid and Barycenter
 
-
-### Example(s)
+### Examples
 
 
 

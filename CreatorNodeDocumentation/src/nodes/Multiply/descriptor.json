@@ -1,0 +1,46 @@
+{
+    "name": "multiply",
+    "alternateNames": [
+      "*"
+    ],
+    "defaultNodeName": "multiply",
+    "path": [
+      "math",
+      "basic"
+    ],
+    "help": "Multiplies values.",
+    "input": {
+      "value1": {
+        "type": "flexi:float",
+        "default": 1,
+        "displayName": "value 1"
+      },
+      "value2": {
+        "type": "flexi:float",
+        "default": 1,
+        "displayName": "value 2"
+      },
+      "value3": {
+        "type": "flexi:float",
+        "default": 1,
+        "displayName": "value3"
+      },
+      "value4": {
+        "type": "flexi:float",
+        "default": 1,
+        "displayName": "value4"
+      }
+    },
+    "type": "Multiply",
+    "output": {
+      "result": {
+        "type": "float",
+        "displayName": "result"
+      },
+      "result list": {
+        "type": "list:float",
+        "displayName": "result list"
+      }
+    },
+    "nodeClass": "math"
+  }

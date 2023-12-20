@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * _preload asset_
 
@@ -16,7 +16,7 @@
   * The asset URI (as a string value) that defines what uploaded image asset to output. See [Assets](/concepts/GeneralConcepts/assets.md) for more information.
 
 
-### Outputs
+#### Outputs
 
 * _asset uri_
 
@@ -27,18 +27,18 @@
   * The name of the uploaded image asset (as a string value). 
 
 
-### Note(s)
+### Notes
 
+* Images can be uploaded to the graph by dragging and dropping the file into the graph viewer.
 
-
-* Images can be uploaded to Trimble Creator by dragging and dropping the file into the Graph Viewer.
-* Trimble Creator supports following image file formats for import:
+* Following image file formats are supported for import:
     * JPEG / JPG
     * PNG
-* Other names for this node include: Picture, Texture, Bitmap, JPEG, JPG, and PNG.
+
+* Other names for this node include: ImageAsset, Picture, Texture, Bitmap, JPEG, JPG, and PNG.
 
 
-### Example(s)
+### Examples
 
 
 

@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * _preload asset_
 
@@ -20,7 +20,7 @@
   * Sets whether the output geometry asset utilizes OBJ groups as separate primitives or not (this is only relevant if the geometry asset is of the Wavefront OBJ file format).
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 
@@ -55,7 +55,7 @@
 
 
 
-* Geometry can be uploaded to Trimble Creator by dragging and dropping the file into the “Graph Viewer”.
+* Geometry can be uploaded by dragging and dropping the file into the graph viewer.
 * Trimble Creator supports following geometry file formats for import, with noted limitations:
     * TrimBIM (.trb)
     * IGES
@@ -64,10 +64,10 @@
         * Vertices, faces, groups, but no normals, nor UVs.
     * DXF
         * Polyline entity type only.
-* Other names for this node include: Geometry, Load, OBJ, IGES, IGS, STL, DXF, and TrimBIM.
+* Other names for this node include: GeometryAsset, Geometry, Load, OBJ, IGES, IGS, STL, DXF, and TrimBIM.
 
 
-### Example(s)
+### Examples
 
 
 

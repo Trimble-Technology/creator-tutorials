@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * _type_
 
@@ -33,7 +33,7 @@
 
 * _orderV_
 
-  * The value that defines the order of the V axis of the output rectangle (in the the same axis as the _length _input) when the _type_ input is set to `NURBS surface`. See [NURBS surface](/concepts/GeneralConcepts/nurbsSurface.md) for more information.
+  * The value that defines the order of the V axis of the output rectangle (in the the same axis as the _length_ input) when the _type_ input is set to `NURBS surface`. See [NURBS surface](/concepts/GeneralConcepts/nurbsSurface.md) for more information.
 
 * _point columns_
 
@@ -41,10 +41,10 @@
 
 * _point rows_
 
-  * The value that defines the number of point rows along the same axis as the _length _input.
+  * The value that defines the number of point rows along the same axis as the _length_ input.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 
@@ -67,14 +67,12 @@
   * The list of z values of the points of the output primitives.
 
 
-### Note(s)
-
-
+### Notes
 
 * Other names for this node include: Plane, Square, Grid, and Patch.
 
 
-### Example(s)
+### Examples
 
 
 

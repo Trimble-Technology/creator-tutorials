@@ -5,14 +5,14 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
   * Accepts a single geometry connection (unless the SHIFT key is held).
 
 
-### Outputs
+#### Outputs
 
 * _size_
 
@@ -35,8 +35,15 @@
   * The list of vector values of the geometry sizes of each individual input primitive.
 
 
-### Example(s)
+### Notes
+
+
+* Other names for this node include: GeometrySize.
 
 
 
-* <a href="Create a bounding box" target="_blank">https://creator.trimble.com/graph?assetURI=whp:db2e8f1e-4682-4580-89c4-b5b9ad60cc96&version=latest</a>
+### Examples
+
+
+
+* <a href="https://creator.trimble.com/graph?assetURI=whp:db2e8f1e-4682-4580-89c4-b5b9ad60cc96&version=latest" target="_blank">Create a bounding box</a>

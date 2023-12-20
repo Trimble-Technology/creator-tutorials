@@ -1,0 +1,39 @@
+{
+    "name": "equal strings",
+    "alternateNames": [
+      "same",
+      "identical",
+      "string is",
+      "==",
+      "compare"
+    ],
+    "defaultNodeName": "equal strings",
+    "path": [
+      "string"
+    ],
+    "help": "Logically compares strings.",
+    "input": {
+      "string1": {
+        "type": "flexi:string",
+        "default": "",
+        "displayName": "string 1"
+      },
+      "string2": {
+        "type": "flexi:string",
+        "default": "",
+        "displayName": "string 2"
+      }
+    },
+    "type": "EqualStrings",
+    "output": {
+      "result": {
+        "type": "boolean",
+        "displayName": "result"
+      },
+      "result list": {
+        "type": "list:boolean",
+        "displayName": "result list"
+      }
+    },
+    "nodeClass": "string"
+  }

@@ -1,0 +1,31 @@
+{
+    "name": "not",
+    "alternateNames": [
+      "!"
+    ],
+    "defaultNodeName": "not",
+    "path": [
+      "math",
+      "logic"
+    ],
+    "help": "Negates the input.",
+    "input": {
+      "value": {
+        "type": "flexi:boolean",
+        "default": false,
+        "displayName": "value"
+      }
+    },
+    "type": "Not",
+    "output": {
+      "result": {
+        "type": "boolean",
+        "displayName": "result"
+      },
+      "result list": {
+        "type": "list:boolean",
+        "displayName": "result list"
+      }
+    },
+    "nodeClass": "math"
+  }

@@ -14,21 +14,6 @@
     "tutorialType": "intro",
     "steps": [
       {
-        "id": "ed74cb43-0cd9-461e-9589-ee95d3bf398c",
-        "name": "Downloading as a Live Component",
-        "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/downloading-uploading/ed74cb43-0cd9-461e-9589-ee95d3bf398c.md",
-        "actions": [
-          {
-            "type": "loadMateriaGraph",
-            "arguments": {
-              "uri": "whp:ca90a00a-afcc-4634-8acf-e5bf2c992a7e",
-              "configuration": null
-            }
-          }
-        ],
-        "hints": []
-      },
-      {
         "id": "806e6acd-8662-4697-a03f-9462c9fd4c08",
         "name": "Downloading assets",
         "text": "https://raw.githubusercontent.com/Trimble-Technology/creator-tutorials/main/tutorials/graph/intro/downloading-uploading/806e6acd-8662-4697-a03f-9462c9fd4c08.md",

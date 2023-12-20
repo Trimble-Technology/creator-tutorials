@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * _list_
 
@@ -21,26 +21,26 @@
 
 * _initialize_
 
-  * Sets the _list_ input values as per the values of the _size _and _default _inputs.
+  * Sets the _list_ input values as per the values of the _size_ and _default_ inputs.
 
 
-### Outputs
+#### Outputs
 
 * _list_
 
-  * The string list as defined by the _list _input.
+  * The string list as defined by the _list_ input.
 
 
-### Note(s)
+### Notes
 
+* A custom list can be made by clicking on the `<string list>` space of the _list_ input via the “Add Item” button.
 
-
-* A custom list can be made by clicking on the `<string list>` space of the _list _input via the “Add Item” button.
 * When the _initialize_ input is `true`, manually inputted values will be overridden by the _default_ input value.
-* Other names for this node include: Text list and Word list.
+
+* Other names for this node include: StringList, Text list, and Word list.
 
 
-### Example(s)
+### Examples
 
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:c7dc99f1-334b-47ae-9622-fb38812db203&version=latest" target="_blank">Changing choice options</a>

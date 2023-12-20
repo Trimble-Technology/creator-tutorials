@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * _origin_
 
@@ -28,7 +28,7 @@
   * The vector value that defines the spacing between points within the grid.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 
@@ -51,14 +51,14 @@
   * The list of z values of the points of the output primitives.
 
 
-### Note(s)
-
-
+### Notes
 
 * The points defined by the resolution inputs are set within the positive direction of their respective axes.
 
+* Other names for this node include: PointGrid.
 
-### Example(s)
+
+### Examples
 
 
 

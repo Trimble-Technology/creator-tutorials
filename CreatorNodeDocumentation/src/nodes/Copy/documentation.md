@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -44,7 +44,7 @@
   * Sets whether to combine all copied meshes into a singular mesh primitive. Only meshes are combined. Curves, NURBS surfaces, and other primitive types are ignored with this function.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 
@@ -71,11 +71,12 @@
 
 
 
-* The _combine meshes_ input has the same function as the **combine meshes** node with its _group behavior_ input set to `exclude meshes from groups`.
+* The _combine meshes_ input has the same function as the [**combine meshes**](/nodes/CombineMeshes/documentation.md) node with its _group behavior_ input set to `exclude meshes from groups`.
+
 * Other names for this node include: Duplicate.
 
 
-### Example(s)
+### Examples
 
 
 

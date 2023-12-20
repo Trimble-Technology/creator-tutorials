@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -32,7 +32,7 @@
   * Sets whether to subdivide the existing segments of the input curves, or the curve as a whole.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 
@@ -63,15 +63,14 @@
   * The list of lengths of the subdivided curves (full curve lengths, not curve segment lengths).
 
 
-### Note(s)
-
-
+### Notes
 
 * If the _mode_ input is set to `segment length` and the input value does not evenly divide the curve, the last segment length will be the remainder.
-* Other names for this node include: Tessellate curve, Redraw, and Divide curve.
+
+* Other names for this node include: TessellateCurve, Tessellate curve, Redraw, and Divide curve.
 
 
-### Example(s)
+### Examples
 
 
 

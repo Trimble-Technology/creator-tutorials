@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -16,7 +16,7 @@
   * Sets the mode in which group primitives are ungrouped. This can be `flatten whole hierarchy` (which ungroups all groups, even groups within other groups) or `ungroup one level` (which only ungroups the first layer of groups, any group within another group is not ungrouped).
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 
@@ -39,15 +39,14 @@
   * The list of z values of the points of the output primitives.
 
 
-### Note(s)
+### Notes
+
+* Primitives can be grouped together with the [**group**](/nodes/GroupPrimitives/documentation.md) node.
+
+* Other names for this node include: UngroupPrimitives, Ungroup primitives, Disassemble, and Split group.
 
 
-
-* Primitives can be grouped together with the **group** node.
-* Other names for this node include: Ungroup primitives, Disassemble, and Split group.
-
-
-### Example(s)
+### Examples
 
 
 

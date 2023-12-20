@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -28,7 +28,7 @@
   * The list of boolean values that defines which input points to set to the vector as defined by the _x_, _y_, and _z_ inputs. If empty, all input points will be set to the defined vector.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 
@@ -51,14 +51,12 @@
   * The list of z values of the points of the output primitives.
 
 
-### Note(s)
+### Notes
+
+* Other names for this node include: SetPoints, and Set positions.
 
 
-
-* Other names for this node include: Set positions.
-
-
-### Example(s)
+### Examples
 
 
 

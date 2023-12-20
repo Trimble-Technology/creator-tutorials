@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -80,7 +80,7 @@
   * Sets what to do with the first geometry connection/primitive. This can be `keep position`, `include in align`, or `delete`.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 
@@ -105,12 +105,10 @@
 
 ### Note(s)
 
-
-
 * When the _mode_ input is set to `between primitive connections` the primitives in each input geometry connection are treated as a group.
 
 
-### Example(s)
+### Examples
 
 
 

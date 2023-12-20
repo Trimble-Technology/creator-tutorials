@@ -1,0 +1,68 @@
+{
+    "name": "cylinder",
+    "alternateNames": [
+      "tube",
+      "poly cylinder"
+    ],
+    "defaultNodeName": "cylinder",
+    "path": [
+      "geometry",
+      "create"
+    ],
+    "input": {
+      "start": {
+        "type": "flexi:vector",
+        "default": [
+          0,
+          0,
+          0
+        ],
+        "displayName": "start"
+      },
+      "end": {
+        "type": "flexi:vector",
+        "default": [
+          0,
+          0,
+          1000
+        ],
+        "displayName": "end"
+      },
+      "radius": {
+        "type": "flexi:float",
+        "default": 500,
+        "displayName": "radius"
+      },
+      "segments": {
+        "type": "flexi:integer",
+        "default": 16,
+        "minimum": 3,
+        "maximum": 100,
+        "displayName": "segments"
+      }
+    },
+    "type": "PolyCylinder",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "displayName": "points.z"
+      }
+    },
+    "nodeClass": "node"
+  }

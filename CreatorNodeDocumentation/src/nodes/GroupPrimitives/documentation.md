@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -16,7 +16,7 @@
   * The name to give to the group made by the node.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 
@@ -39,15 +39,14 @@
   * The list of z values of the points of the output primitives.
 
 
-### Note(s)
+### Notes
+
+* Group primitives can be ungrouped with the [**ungroup**](/nodes/UnGroupPrimitives/documentation.md) node.
+
+* Other names for this node include: GroupPrimitives, Group primitives, and Assemble.
 
 
-
-* Group primitives can be ungrouped with the **ungroup** node.
-* Other names for this node include: Group primitives and Assemble.
-
-
-### Example(s)
+### Examples
 
 
 

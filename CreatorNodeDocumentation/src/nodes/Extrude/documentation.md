@@ -4,12 +4,8 @@
 
 ---
 
-This node has data inputs and outputs.
 
-This node has geometry inputs and outputs.
-
-
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -32,7 +28,7 @@ This node has geometry inputs and outputs.
   * Sets whether to flip the normals of the output primitives.
 
 
-### Outputs
+#### Outputs
 
 * _points_
 
@@ -51,7 +47,12 @@ This node has geometry inputs and outputs.
   * The list of z values of the points of the output primitives.
 
 
-### Example(s)
+  ### Note(s)
+
+* Other names for this node include: Extrude.
+
+
+### Examples
 
 
 

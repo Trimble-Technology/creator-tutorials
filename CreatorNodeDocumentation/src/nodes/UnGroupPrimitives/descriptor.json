@@ -1,0 +1,52 @@
+{
+    "name": "ungroup",
+    "alternateNames": [
+      "ungroup primitives",
+      "disassemble",
+      "split group"
+    ],
+    "defaultNodeName": "ungroup",
+    "path": [
+      "geometry",
+      "modify",
+      "primitives"
+    ],
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "mode": {
+        "type": "enum",
+        "options": [
+          "flatten whole hierarchy",
+          "ungroup one level"
+        ],
+        "displayName": "mode"
+      }
+    },
+    "type": "UnGroupPrimitives",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "displayName": "points.z"
+      }
+    },
+    "nodeClass": "node"
+  }

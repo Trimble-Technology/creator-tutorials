@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -36,7 +36,7 @@
   * The list of boolean values that defines which vertices to weld together. If empty, all vertices will be welded together.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 
@@ -59,15 +59,15 @@
   * The list of z values of the points of the output primitives.
 
 
-### Note(s)
+### Notes
+
+* Other names for this node include: WeldVertices, Smooth normals, Merge points, and Weld polygons.
 
 
-
-* Other names for this node include: Smooth normals, Merge points, and Weld polygons.
-
-
-### Example(s)
+### Examples
 
 
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:3ea02aa1-c685-4932-960e-0580ebcf86ed&version=latest" target="_blank">Weld angles</a>
+
+* <a href="https://creator.trimble.com/graph?assetURI=whp:f419f1c8-f85f-4f92-b5f4-f0e8f6379a43&version=latest" target="_blank">Unwelded v. welded number of points</a>

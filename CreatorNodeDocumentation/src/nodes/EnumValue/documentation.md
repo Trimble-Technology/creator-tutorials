@@ -4,12 +4,7 @@
 
 ---
 
-This node has data inputs and outputs.
-
-This node does NOT have geometry inputs and outputs.
-
-
-### Inputs
+#### Inputs
 
 * _value_
 
@@ -37,14 +32,14 @@ This node does NOT have geometry inputs and outputs.
 
 * _hide control_
 
-  * Hides the parameter control within the “Parameter panel” when the node is parameterized.
+  * Hides the parameter control within the parameter panel when the node is parameterized.
 
 * _hide label_
 
-  * Hides the parameter label (name) within the “Parameter panel” when the node is parameterized.
+  * Hides the parameter label (name) within the parameter panel when the node is parameterized.
 
 
-### Outputs
+#### Outputs
 
 * _value_
 
@@ -57,14 +52,12 @@ This node does NOT have geometry inputs and outputs.
 
 ### Note(s)
 
+* When parameterized this node will appear as a dropdown in the parameter panel.
+
+* Other names for this node include: EnumValue, Dropdown, Menu, Choose, Enum, Enumeration, Parameter.
 
 
-* When parameterized this node will appear as a dropdown in the Parameter Panel.
-* Setting a _min/max mode_ input to `Soft` will allow values outside the range of the values defined by the relevant _min_ and _max_ inputs. Setting it to `Hard` will not allow values outside the range of the values defined by the relevant _min_ and _max_ inputs.
-* Other names for this node include: Dropdown, Menu, Choose, Enum, Enumeration, Parameter.
-
-
-### Example(s)
+### Examples
 
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:2a6de14a-1611-4d3a-959f-a1c34eae6bca&version=latest" target="_blank">Switching between geometries</a>

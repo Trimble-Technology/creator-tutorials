@@ -1,11 +1,13 @@
 # Graph
 
-Trimble Creator's core concept is a graph. Trimble Creator graphs represent logic that computes geometry (and other data).
+---
 
-Graphs are a collection of connected nodes.
+The core concept of the app is a graph. Graphs represent logic that [computes](/concepts/GeneralConcepts/compute.md) geometry (and other data).
+
+Graphs are a collection of connected [nodes](/concepts/GeneralConcepts/node.md).
 
 <p align="center">
-  <img width="400" src="images\CreatorCow.png"/>
+  <img width="600" src="images\CreatorCow.png"/>
 </p>
 
 
@@ -13,12 +15,12 @@ Graphs are a collection of connected nodes.
 
 A graph describes:
 
-* A set of particular nodes, and their input and output properties.
-* Those nodes' input property values.
-* Connections between those nodes' properties.
-* Parameters and their values, which can be considered the graph's input.
-* A set of output nodes: which of the above nodes should be computed to obtain the desired result from the graph's logic.
-* The ephemeral state of the graph.
+* A set of particular [nodes](/concepts/GeneralConcepts/node.md), and their input and output properties.
+* Those nodes' [input properity values](/concepts/GeneralConcepts/inputOutput.md).
+* [Connections](/concepts/GeneralConcepts/connection.md) between those nodes' properties.
+* [Parameters](/concepts/GeneralConcepts/parameter.md) and their values, which can be considered the graph's input.
+* A set of [output nodes](/concepts/GeneralConcepts/outputNode.md): which of the above nodes should be [computed](/concepts/GeneralConcepts/compute.md) to obtain the desired result from the graph's logic.
+* The [ephemeral state](/concepts/GeneralConcepts/ephemeralState.md) of the graph.
 
 
-Materia graphs are directed acyclic graphs (DAG) that evaluate lazily.
+The graphs are directed acyclic graphs (<a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank">DAG</a>) that evaluate lazily.

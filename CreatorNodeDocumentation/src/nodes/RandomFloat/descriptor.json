@@ -1,0 +1,45 @@
+{
+    "name": "random number",
+    "alternateNames": [
+      "float",
+      "rand"
+    ],
+    "defaultNodeName": "random number",
+    "path": [
+      "math",
+      "random"
+    ],
+    "help": "Creates random value/s between 0 and 1.",
+    "input": {
+      "useSeed": {
+        "type": "boolean",
+        "default": true,
+        "displayName": "use seed"
+      },
+      "seed": {
+        "type": "integer",
+        "default": 0,
+        "displayName": "seed",
+        "hideWhen": "!useSeed"
+      },
+      "size": {
+        "type": "integer",
+        "default": 1,
+        "minimum": 1,
+        "displayName": "#",
+        "description": "# of numbers to output"
+      }
+    },
+    "type": "RandomFloat",
+    "output": {
+      "result": {
+        "type": "float",
+        "displayName": "result"
+      },
+      "result list": {
+        "type": "list:float",
+        "displayName": "result list"
+      }
+    },
+    "nodeClass": "math"
+  }

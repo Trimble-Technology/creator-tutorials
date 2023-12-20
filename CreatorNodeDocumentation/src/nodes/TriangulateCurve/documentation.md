@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * **_geometry_**
 
@@ -25,7 +25,7 @@
 
 * _input handling_
 
-  * Sets how the input curves are handled within the triangulation. This can be `first curve is outline, others are holes` (the first input curve is the outline and following input curves are holes within the resulting triangulation) or `all curves are outlines` (all input curves are outlines and no holes are made).
+  * Sets how the input curves are handled within the triangulation. This can be `first curve is outline, others are holes` (the first input curve is the outline and following input curves are holes within the resulting mesh) or `all curves are outlines` (all input curves are outlines and no holes are made).
 
 * _make convex hull_
 
@@ -60,7 +60,7 @@
   * A list of extra internal points that will force the creation of vertices at these points.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 
@@ -83,16 +83,18 @@
   * The list of z values of the points of the output primitives.
 
 
-### Note(s)
+### Notes
 
 
 
 * The `first curve is outline, others are holes` setting of the _input handling_ input results in a single primitive whereas the `all curves are outlines` setting results in a primitive for each input curve.
-* If the input curve is irregular and the resulting triangulate mesh results in “zero area triangles”, it is recommended to use the **clean mesh** node to fix the mesh.
-* Other names for this node include: Triangulate curve, Tessellate, Mesh, and Path to mesh.
+
+* If the input curve is irregular and the resulting triangulate mesh results in “zero area triangles”, it is recommended to use the [**Clean mesh**](/nodes/PolyClean/documentation.md) node to fix the mesh.
+
+* Other names for this node include: TriangulateCurve, Triangulate curve, Tessellate, Mesh, and Path to mesh.
 
 
-### Example(s):
+### Examples
 
 
 

@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * _start_
 
@@ -24,7 +24,7 @@
   * The value that defines how many segments the output cylinder has.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 
@@ -47,14 +47,12 @@
   * The list of z values of the points of the output primitives.
 
 
-### Note(s)
+### Notes
+
+* Other names for this node include: PolyCylinder, Poly cylinder, and Tube.
 
 
-
-* Other names for this node include: Tube and Poly cylinder.
-
-
-### Example(s)
+### Examples
 
 
 

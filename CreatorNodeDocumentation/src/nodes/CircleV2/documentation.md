@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * _type_
 
@@ -36,7 +36,7 @@
   * The value that defines the ending angle of the output circle.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 
@@ -61,16 +61,17 @@
 
 ### Note(s)
 
-
-
 * Only the `polyline` and `mesh` settings on the _type_ input have the _segments_, _start angle_, and _end angle_ inputs.
     * Adjusting the _start angle_ and _end angle_ inputs will create an arc/semicircle.
-* A mesh circle is unwelded by default.
+
+* A mesh circle is unwelded by default (between _start angle_ and _end angle_.).
+
 * The _segments_ input can be used to make any regular polygon (triangle, quadrilateral, pentagon, etc.).
-* Other names for this node include: Arc.
+
+* Other names for this node include: CircleV2 and Arc.
 
 
-### Example(s)
+### Examples
 
 
 

@@ -1,0 +1,45 @@
+{
+    "name": "xyz to vector",
+    "alternateNames": [
+      "float to vector",
+      "combine",
+      "assemble"
+    ],
+    "defaultNodeName": "xyz to vector",
+    "path": [
+      "math",
+      "vector"
+    ],
+    "help": "Creates a vector from x, y and z components.",
+    "input": {
+      "x": {
+        "type": "flexi:float",
+        "default": 0,
+        "displayName": "x"
+      },
+      "y": {
+        "type": "flexi:float",
+        "default": 0,
+        "displayName": "y"
+      },
+      "z": {
+        "type": "flexi:float",
+        "default": 0,
+        "displayName": "z"
+      }
+    },
+    "type": "XYZToVector",
+    "output": {
+      "vector": {
+        "type": "vector",
+        "description": "output vector",
+        "displayName": "vector"
+      },
+      "vector list": {
+        "type": "list:vector",
+        "description": "output vector list",
+        "displayName": "vector list"
+      }
+    },
+    "nodeClass": "math"
+  }

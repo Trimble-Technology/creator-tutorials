@@ -1,0 +1,52 @@
+{
+    "name": "range",
+    "alternateNames": [
+      "remap",
+      "lerp"
+    ],
+    "defaultNodeName": "range",
+    "path": [
+      "math",
+      "mapping"
+    ],
+    "help": "Remaps values of a given range to a new range.",
+    "input": {
+      "value": {
+        "type": "flexi:float",
+        "default": 0,
+        "displayName": "value"
+      },
+      "min": {
+        "type": "flexi:float",
+        "default": 0,
+        "displayName": "minimum in"
+      },
+      "max": {
+        "type": "flexi:float",
+        "default": 1,
+        "displayName": "maximum in"
+      },
+      "minOut": {
+        "type": "flexi:float",
+        "default": 0,
+        "displayName": "minimum out"
+      },
+      "maxOut": {
+        "type": "flexi:float",
+        "default": 1,
+        "displayName": "maximum out"
+      }
+    },
+    "type": "Range",
+    "output": {
+      "result": {
+        "type": "float",
+        "displayName": "result"
+      },
+      "result list": {
+        "type": "list:float",
+        "displayName": "result list"
+      }
+    },
+    "nodeClass": "math"
+  }

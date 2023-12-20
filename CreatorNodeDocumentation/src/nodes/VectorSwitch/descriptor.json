@@ -1,0 +1,91 @@
+{
+    "name": "vector switch",
+    "alternateNames": [
+      "case",
+      "if"
+    ],
+    "defaultNodeName": "vector switch",
+    "path": [
+      "math",
+      "switch"
+    ],
+    "help": "Switches between vector inputs using an index.",
+    "input": {
+      "index": {
+        "type": "integer",
+        "displayName": "index"
+      },
+      "vector0": {
+        "type": "flexi:vector",
+        "default": [
+          0,
+          0,
+          0
+        ],
+        "displayName": "vector 0"
+      },
+      "vector1": {
+        "type": "flexi:vector",
+        "default": [
+          0,
+          0,
+          0
+        ],
+        "displayName": "vector 1"
+      },
+      "vector2": {
+        "type": "flexi:vector",
+        "default": [
+          0,
+          0,
+          0
+        ],
+        "displayName": "vector 2"
+      },
+      "vector3": {
+        "type": "flexi:vector",
+        "default": [
+          0,
+          0,
+          0
+        ],
+        "displayName": "vector 3"
+      }
+    },
+    "type": "VectorSwitch",
+    "output": {
+      "vector": {
+        "type": "vector",
+        "displayName": "vector"
+      },
+      "x": {
+        "type": "float",
+        "displayName": "x"
+      },
+      "y": {
+        "type": "float",
+        "displayName": "y"
+      },
+      "z": {
+        "type": "float",
+        "displayName": "z"
+      },
+      "vector list": {
+        "type": "list:vector",
+        "displayName": "vector list"
+      },
+      "x list": {
+        "type": "list:float",
+        "displayName": "x list"
+      },
+      "y list": {
+        "type": "list:float",
+        "displayName": "y list"
+      },
+      "z list": {
+        "type": "list:float",
+        "displayName": "z list"
+      }
+    },
+    "nodeClass": "math"
+  }

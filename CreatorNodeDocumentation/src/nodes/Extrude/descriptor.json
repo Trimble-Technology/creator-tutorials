@@ -1,0 +1,66 @@
+{
+    "name": "extrude mesh",
+    "alternateNames": [],
+    "defaultNodeName": "extrude",
+    "path": [
+      "geometry",
+      "modify",
+      "mesh"
+    ],
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "distance": {
+        "type": "flexi:float",
+        "default": 1000,
+        "displayName": "distance"
+      },
+      "keep": {
+        "type": "enum",
+        "options": [
+          "all",
+          "sides",
+          "extruded cap",
+          "caps",
+          "sides & extruded cap"
+        ],
+        "displayName": "keep"
+      },
+      "flipDirection": {
+        "type": "boolean",
+        "displayName": "flip direction",
+        "default": false
+      },
+      "flipNormals": {
+        "type": "boolean",
+        "displayName": "flip normals",
+        "default": false
+      }
+    },
+    "type": "Extrude",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "displayName": "geometry"
+      },
+      "points": {
+        "type": "list:vector",
+        "displayName": "points"
+      },
+      "points.x": {
+        "type": "list:float",
+        "displayName": "points.x"
+      },
+      "points.y": {
+        "type": "list:float",
+        "displayName": "points.y"
+      },
+      "points.z": {
+        "type": "list:float",
+        "displayName": "points.z"
+      }
+    },
+    "nodeClass": "node"
+  }

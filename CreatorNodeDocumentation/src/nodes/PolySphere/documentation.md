@@ -5,7 +5,7 @@
 ---
 
 
-### Inputs
+#### Inputs
 
 * _center_
 
@@ -41,14 +41,14 @@
 
 * _theta start_
 
-  * The value that defines the start angle (in the same axis as the _rows _input) of the output sphere when the _type_ input is set to `column & rows`.
+  * The value that defines the start angle (in the same axis as the _rows_ input) of the output sphere when the _type_ input is set to `column & rows`.
 
 * _theta end_
 
-  * The value that defines the end angle (in the same axis as the _rows _input) of the output sphere when the _type_ input is set to `column & rows`.
+  * The value that defines the end angle (in the same axis as the _rows_ input) of the output sphere when the _type_ input is set to `column & rows`.
 
 
-### Outputs
+#### Outputs
 
 * **_geometry_**
 
@@ -71,15 +71,14 @@
   * The list of z values of the points of the output primitives.
 
 
-### Note(s)
+### Notes
+
+* When the _type_ input is set to `columns & rows`, adjusting the _phi_ and _theta_ start/end inputs will create domes and partial spheres.
+
+* Other names for this node include: PolySphere, Poly sphere, Icosphere, Ball, and Globe.
 
 
-
-* When the _type_ input is set to `columns & rows`, adjusting the _phi _and _theta _start/end inputs will create domes and partial spheres.
-* Other names for this node include: Icosphere, Ball, Poly sphere, and Globe.
-
-
-### Example(s)
+### Examples
 
 
 
