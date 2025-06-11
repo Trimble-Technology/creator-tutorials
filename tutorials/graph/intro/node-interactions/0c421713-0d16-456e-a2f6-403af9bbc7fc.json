@@ -21,7 +21,7 @@
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "whp:1a85a264-7ede-4074-9166-a1c20f3133a6",
+              "uri": "whp:52ee8dc5-306c-4c4c-adbb-ba127343e56e",
               "configuration": null
             }
           }
@@ -51,7 +51,7 @@
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "whp:d8c1b493-563d-46ce-9b76-7d6b8bc9892e",
+              "uri": "whp:5ac64193-bfad-43fe-abd8-cbd317876d96",
               "configuration": null
             }
           }
@@ -96,7 +96,7 @@
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "whp:91b8eba9-d86b-488a-90ba-625fdafe01f3",
+              "uri": "whp:5ac64193-bfad-43fe-abd8-cbd317876d96",
               "configuration": null
             }
           }
@@ -111,7 +111,7 @@
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "whp:e4fb226a-91c2-440d-9721-71fefc595554",
+              "uri": "whp:5ac64193-bfad-43fe-abd8-cbd317876d96",
               "configuration": null
             }
           }
@@ -126,7 +126,7 @@
           {
             "type": "loadMateriaGraph",
             "arguments": {
-              "uri": "whp:24314eb2-e7e8-44da-9f49-8f506502f53a",
+              "uri": "whp:5ac64193-bfad-43fe-abd8-cbd317876d96",
               "configuration": null
             }
           }
