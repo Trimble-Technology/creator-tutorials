@@ -50,7 +50,6 @@
     - [Graph asset](nodes/GraphAsset/documentation.md)
     - [Image asset](nodes/ImageAsset/documentation.md)
   - [Material & Texture]()
-    - [Image asset](nodes/ImageAsset/documentation.md)
     - [Material](nodes/SetMaterial/documentation.md)
     - [Set color](nodes/SetColor/documentation.md)
     - [Project UV](nodes/ProjectUV/documentation.md)
