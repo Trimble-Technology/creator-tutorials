@@ -1,5 +1,5 @@
 [book]
-authors = ["Cameron Wells"]
+authors = ["Cameron Wells, Max Chick"]
 language = "en"
 multilingual = false
 src = "src"
@@ -7,11 +7,12 @@ title = "Trimble Creator Node Documentation"
 
 [output.html]
 no-section-label = true
-fold.enable = false
+fold.enable = true
 fold.level = 0
 theme = "theme"
 default-theme = "light"
 preferred-dark-theme = "navy"
+additional-css = ["theme/css/custom.css"]
 
 [output.html.search]
 limit-results = 5
