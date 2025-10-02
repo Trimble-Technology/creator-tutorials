@@ -24,7 +24,26 @@ h6 { font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 0.9em; font-weight
   font-size: 1.6em;
   font-weight: 500;
 }
+/* Force print icon (Font Awesome) to white using its known id */
+#print-button.fa-print,
+#print-button.fa-print:before { /* ensure pseudo element glyph inherits */
+  color: #fff !important;
+}
 .menu-bar .icon-button i { color: #fff !important; }
+#print-button.fa-print,
+#print-button.fa-print:before { /* ensure pseudo element glyph inherits */
+  color: #fff !important;
+  transition: color .2s ease, transform .2s ease;
+}
+/* Generic top bar icon hover/focus (including print) */
+.menu-bar .icon-button:hover i,
+.menu-bar .icon-button:focus i,
+#print-button.fa-print:hover,
+#print-button.fa-print:focus {
+  color: #bed0ed !important; /* light accent */
+  transform: translateY(-1px);
+}
+
 
 /* Expand/collapse (hamburger) & tree toggle icons */
 .sidebar .toggle > div { font-size: 1.3em !important; }
@@ -40,16 +59,14 @@ h6 { font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 0.9em; font-weight
   padding-top: 1em; }
 .sidebar .chapter {
   font-family: 'Segoe UI', 'Arial', sans-serif;
-  font-weight: 400;              /* use a standard semi-bold weight */
+  font-weight: 400;
   font-size: 1.6rem;
-  letter-spacing: 0.5px;
-  color: #000;                   /* changed from #222 (grey) to true black */
   margin: 1.4em 0 0.4em;
 }
 .sidebar .active { 
   font-family: 'Segoe UI', 'Arial', sans-serif; 
-  font-weight: 350; 
-  color: #000 !important; 
+  font-weight: 400; 
+  color: #004f83 !important; 
 }
 
 /* Sidebar navigation links */
@@ -63,7 +80,7 @@ h6 { font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 0.9em; font-weight
   padding-left: 0.25em;
 }
 .sidebar a:hover { 
-  color: #333; 
+  color: #004f83 !important; 
 }
 
 /* Content area */
@@ -74,8 +91,19 @@ h6 { font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 0.9em; font-weight
   padding: 2em;
 }
 .content h1, .content h2, .content h3 { font-weight: bold; color: #1565c0; }
-.content a { color: #1565c0; text-decoration: underline; }
-.content a:hover { color: #0d47a1; }
+/* Inline links: remove default underline; add underline only on hover/focus for clarity */
+.content a { color: #1565c0; text-decoration: none; }
+.content a:hover, .content a:focus { color: #004f83; text-decoration: underline; }
+/* Inline code styling: grey background with orange text */
+.content :not(pre) > code {
+  color: #d98b57;           /* orange text */
+  background: #f0f0f0;      /* light grey background */
+  padding: 0 0.35em;
+  border-radius: 4px;
+  font-size: 0.95em;
+  font-family: 'Source Code Pro', 'Consolas', 'Courier New', monospace;
+  border: 1px solid #e0e0e0;
+}
 
 /* Node diagram decorative card */
 .node-diagram {
