@@ -12,29 +12,67 @@ h5 { font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 1em; font-weight: 
 h6 { font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 0.9em; font-weight: 400; }
 
 /* Top navigation bar */
-.menu-bar { background: #004f83 !important; color: #fff !important; font-family: 'Open Sans', Arial, sans-serif; border-bottom: 2px solid #bed0ed; }
-.menu-bar .menu-title { color: #ffffff !important; font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 1.6em; font-weight: 500; }
+.menu-bar {
+  background: #004f83 !important;
+  color: #fff !important;
+  font-family: 'Open Sans', Arial, sans-serif;
+  border-bottom: 2px solid #bed0ed;
+}
+.menu-bar .menu-title {
+  color: #ffffff !important;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  font-size: 1.6em;
+  font-weight: 500;
+}
 .menu-bar .icon-button i { color: #fff !important; }
 
 /* Expand/collapse (hamburger) & tree toggle icons */
 .sidebar .toggle > div { font-size: 1.3em !important; }
 
 /* Sidebar */
-.sidebar { background: #fafafa !important; border-right: 1px solid #fafafa; font-family: 'Open Sans', Arial, sans-serif; }
+.sidebar {
+  background: #fafafa !important;
+  border-right: 1px solid #fafafa;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
 .sidebar-scrollbox { font-family: 'Segoe UI', 'Arial', 'Helvetica Neue', sans-serif; padding-top: 1em; }
-.sidebar .chapter { font-family: 'Segoe UI', 'Arial', sans-serif; font-weight: 600; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 0.5px; color: #222; margin: 1.4em 0 0.4em; }
+.sidebar .chapter {
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #222;
+  margin: 1.4em 0 0.4em;
+}
 .sidebar .active { font-family: 'Segoe UI', 'Arial', sans-serif; font-weight: 600; color: #000 !important; }
 .sidebar a { font-family: 'Segoe UI', 'Arial', sans-serif; color: #1565c0; font-weight: 400; font-size: 1.2rem; line-height: 1.4; }
 .sidebar a:hover { color: #0d47a1; }
 
 /* Content area */
-.content { background: #fff; font-family: 'Open Sans', Arial, sans-serif; color: #222; padding: 2em; }
+.content {
+  background: #fff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #222;
+  padding: 2em;
+}
 .content h1, .content h2, .content h3 { font-weight: bold; color: #1565c0; }
 .content a { color: #1565c0; text-decoration: underline; }
 .content a:hover { color: #0d47a1; }
 
 /* Node diagram decorative card */
-.node-diagram { background: repeating-linear-gradient(90deg,#e0e0e0 0px,#e0e0e0 1px,transparent 1px,transparent 40px), repeating-linear-gradient(0deg,#e0e0e0 0px,#e0e0e0 1px,transparent 1px,transparent 40px); border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); padding: 2em; margin: 2em 0; }
+.node-diagram {
+   background: repeating-linear-gradient(90deg,#e0e0e0 0px,#e0e0e0 1px,transparent 1px,transparent 40px),
+                     repeating-linear-gradient(0deg,#e0e0e0 0px,#e0e0e0 1px,transparent 1px,transparent 40px);
+   border-radius: 8px;
+   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+   padding: 2em;
+   margin: 2em 0;
+}
 
 /* Responsive (mobile) */
-@media (max-width: 900px) { .sidebar { display: none !important; } .content { padding: 1em; } .menu-bar .menu-title { font-size: 1.2em; } }
+@media (max-width: 900px) {
+   .sidebar { display: none !important; }
+   .content { padding: 1em; }
+   .menu-bar .menu-title { font-size: 1.2em; }
+}
