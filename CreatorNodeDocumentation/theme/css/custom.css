@@ -1,7 +1,9 @@
-/* ==========================================================
-  Global heading styles (content area) 
-  Sets consistent typography scale for markdown-rendered h1–h6
-  ========================================================== */
+/* ==================================================================
+   Trimble Creator Node Docs – Custom Theme Overrides
+   Order: Headings | Top Bar | Sidebar | Content | Components | Media
+   ================================================================== */
+
+/* Headings (content area) */
 h1 { font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 2.5em; font-weight: 700; }
 h2 { font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 2em; font-weight: 600; }
 h3 { font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 1.5em; font-weight: 500; }
@@ -9,110 +11,30 @@ h4 { font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 1.2em; font-weight
 h5 { font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 1em; font-weight: 400; }
 h6 { font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 0.9em; font-weight: 400; }
 
-/* Sidebar scroll container: unify font with rest of UI */
-.sidebar-scrollbox {
-  font-family: 'Segoe UI', 'Arial', 'Helvetica Neue', sans-serif;
-}
-/* Expand/collapse arrow size in the sidebar tree */
-.sidebar .toggle > div {
-  font-size: 1.3em !important;
-}
-/* Top navigation bar (mdBook: .menu-bar) */
-.menu-bar {
-  background: #004f83 !important;
-  color: #fff !important;
-  font-family: 'Open Sans', Arial, sans-serif;
-  border-bottom: 2px solid #bed0ed;
-}
-.menu-bar .menu-title {
-  color: #ffffff !important;
-  font-family: 'Segoe UI', 'Arial', sans-serif;
-  font-size: 1.6em;
-  font-weight: 500;
-}
+/* Top navigation bar */
+.menu-bar { background: #004f83 !important; color: #fff !important; font-family: 'Open Sans', Arial, sans-serif; border-bottom: 2px solid #bed0ed; }
+.menu-bar .menu-title { color: #ffffff !important; font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 1.6em; font-weight: 500; }
+.menu-bar .icon-button i { color: #fff !important; }
 
-/* ==========================================================
-  Sidebar (navigation column) styles
-  ========================================================== */
-/* Container background & vertical divider */
-.sidebar {
-  background: #fafafa !important;
-  border-right: 1px solid #fafafa;
-  font-family: 'Open Sans', Arial, sans-serif;
-}
-/* Top spacing inside scrollable nav */
-.sidebar-scrollbox { padding-top: 1em; }
-/* Section heading labels (e.g., Nodes, Concepts) */
-.sidebar .chapter {
-  font-family: 'Segoe UI', 'Arial', sans-serif;
-  font-weight: 600;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  color: #222;
-  margin: 1.4em 0 0.4em;
-}
-/* Currently viewed page link */
-.sidebar .active {
-  font-family: 'Segoe UI', 'Arial', sans-serif;
-  font-weight: 600;
-  color: #000 !important;
-}
-/* All navigation links */
-.sidebar a {
-  font-family: 'Segoe UI', 'Arial', sans-serif;
-  color: #1565c0;
-  font-weight: 400;
-  font-size: 1.2rem;
-  line-height: 1.4;
-}
-/* Hover state for navigation links */
+/* Expand/collapse (hamburger) & tree toggle icons */
+.sidebar .toggle > div { font-size: 1.3em !important; }
+
+/* Sidebar */
+.sidebar { background: #fafafa !important; border-right: 1px solid #fafafa; font-family: 'Open Sans', Arial, sans-serif; }
+.sidebar-scrollbox { font-family: 'Segoe UI', 'Arial', 'Helvetica Neue', sans-serif; padding-top: 1em; }
+.sidebar .chapter { font-family: 'Segoe UI', 'Arial', sans-serif; font-weight: 600; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 0.5px; color: #222; margin: 1.4em 0 0.4em; }
+.sidebar .active { font-family: 'Segoe UI', 'Arial', sans-serif; font-weight: 600; color: #000 !important; }
+.sidebar a { font-family: 'Segoe UI', 'Arial', sans-serif; color: #1565c0; font-weight: 400; font-size: 1.2rem; line-height: 1.4; }
 .sidebar a:hover { color: #0d47a1; }
 
-/* ==========================================================
-  Main content body styles
-  ========================================================== */
-.menu-bar .icon-button i {
-  color: #fff !important;
-}
-
-.content {
-  background: #fff;
-  font-family: 'Open Sans', Arial, sans-serif;
-  color: #222;
-  padding: 2em;
-}
-.content h1, .content h2, .content h3 {
-  font-weight: bold;
-  color: #1565c0;
-}
-/* Inline links inside content */
+/* Content area */
+.content { background: #fff; font-family: 'Open Sans', Arial, sans-serif; color: #222; padding: 2em; }
+.content h1, .content h2, .content h3 { font-weight: bold; color: #1565c0; }
 .content a { color: #1565c0; text-decoration: underline; }
-.content a:hover {
-  color: #0d47a1;
-}
+.content a:hover { color: #0d47a1; }
 
-/* Decorative background card for node diagram imagery */
-.node-diagram {
-  background: repeating-linear-gradient(90deg, #e0e0e0 0px, #e0e0e0 1px, transparent 1px, transparent 40px),
-              repeating-linear-gradient(0deg, #e0e0e0 0px, #e0e0e0 1px, transparent 1px, transparent 40px);
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  padding: 2em;
-  margin: 2em 0;
-}
+/* Node diagram decorative card */
+.node-diagram { background: repeating-linear-gradient(90deg,#e0e0e0 0px,#e0e0e0 1px,transparent 1px,transparent 40px), repeating-linear-gradient(0deg,#e0e0e0 0px,#e0e0e0 1px,transparent 1px,transparent 40px); border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); padding: 2em; margin: 2em 0; }
 
-/* ==========================================================
-  Responsive adjustments (mobile / narrow widths)
-  ========================================================== */
-@media (max-width: 900px) {
-  .sidebar {
-    display: none !important;
-  }
-  .content {
-    padding: 1em;
-  }
-  .menu-bar .menu-title {
-    font-size: 1.2em;
-  }
-}
+/* Responsive (mobile) */
+@media (max-width: 900px) { .sidebar { display: none !important; } .content { padding: 1em; } .menu-bar .menu-title { font-size: 1.2em; } }
