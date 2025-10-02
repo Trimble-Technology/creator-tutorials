@@ -1,84 +1,209 @@
-/* Sidebar chevron arrow size */
-.sidebar .toggle > div {
-  font-size: 1.3em !important;
+/* =====================================================================================
+   Trimble Creator Node Documentation – Custom Theme Layer
+
+   Structure / Quick Nav:
+     1. Design Tokens (global CSS custom properties)
+     2. Per-Theme Overrides (mdBook theme classes)
+     3. Adaptive / Derived Colors (color-mix fallbacks)
+     4. Typography (headings)
+     5. Top Navigation Bar
+     6. Icon Buttons (top bar specific)
+     7. Sidebar (container + chapters + links)
+     8. Content Area (body text + links)
+     9. Inline Code Styling
+    10. Node Diagram Card
+    11. Responsive Adjustments
+
+   Conventions:
+     - All colors expressed via tokens:  --tc-* (Trimble Creator prefix)
+     - Theme overrides redefine tokens instead of altering component rules
+     - Avoid !important unless overriding upstream mdBook inline or high-specificity rules
+     - Keep selectors shallow; prefer variables for variation points
+
+   Adding a New Theme:
+     Create a block: html.<theme>, body.<theme> { ...token overrides... }
+     Override only the tokens that change; inherit the rest from :root.
+
+   Accessibility Notes:
+     - Hover colors derive from accent using color-mix to maintain relative contrast
+     - Content links underline on hover/focus for clarity & keyboard visibility
+     - Inline code uses background + border for contrast in light & dark themes
+
+   ===================================================================================== */
+/* 1. DESIGN TOKENS (light defaults; dark/alt themes override below) */
+:root {
+  --tc-accent: #004f83;
+  --tc-accent-alt: #1565c0;
+  /* Fallback hover (will be overridden adaptively if color-mix supported) */
+  --tc-accent-hover: #bed0ed;
+  --tc-text: #222;
+  --tc-text-strong: #000;
+  --tc-bg: #ffffff;
+  --tc-sidebar-bg: #fafafa;
+  --tc-border: #e0e0e0;
+  --tc-inline-code-fg: #d98b57;
+  --tc-inline-code-bg: #f0f0f0;
+  --tc-inline-code-border: #e0e0e0;
 }
-/* Header bar (mdBook uses .menu-bar) */
+/* 2. PER-THEME OVERRIDES (mdBook applies a class to <html> & <body>) */
+/* Light theme: uses root defaults (no explicit override block) */
+html.rust, body.rust {
+  --tc-accent: #b7410e;
+  --tc-accent-alt: #c85a24;
+  --tc-inline-code-fg: #d17a3d;
+}
+html.coal, body.coal {
+  --tc-text: #e2e2e2;
+  --tc-text-strong: #ffffff;
+  --tc-bg: #1c1e21;
+  --tc-sidebar-bg: #232529;
+  --tc-border: #34373b;
+  --tc-accent: #4aa3e0;
+  --tc-accent-alt: #61b4eb;
+  --tc-inline-code-bg: #2a2d31;
+  --tc-inline-code-border: #3a3e43;
+}
+html.navy, body.navy {
+  --tc-text: #e0e6f0;
+  --tc-text-strong: #ffffff;
+  --tc-bg: #14202d;
+  --tc-sidebar-bg: #192a3a;
+  --tc-border: #22394c;
+  --tc-accent: #2d85d3;
+  --tc-accent-alt: #49a0ea;
+  --tc-inline-code-bg: #203242;
+  --tc-inline-code-border: #2b4254;
+}
+html.ayu, body.ayu {
+  --tc-text: #e6e1cf;
+  --tc-text-strong: #fff9e8;
+  --tc-bg: #0f1419;
+  --tc-sidebar-bg: #131a21;
+  --tc-border: #2a3138;
+  --tc-accent: #39bae6;
+  --tc-accent-alt: #73d0ff;
+  --tc-inline-code-bg: #1c252c;
+  --tc-inline-code-border: #29323a;
+  --tc-inline-code-fg: #e6b673;
+}
+
+/* 3. ADAPTIVE / DERIVED COLORS
+   If supported, compute a consistent hover tone derived from accent.
+   Rationale: reduce per-theme manual tuning & keep recognisable brand hue. */
+@supports (color: color-mix(in srgb, white, black)) {
+  :root, html.rust, body.rust, html.coal, body.coal, html.navy, body.navy, html.ayu, body.ayu {
+    /* 55% accent + 45% white gives a readable pastel on accent backgrounds, independent of page bg */
+    --tc-accent-hover: color-mix(in srgb, var(--tc-accent) 55%, #ffffff);
+  }
+}
+
+/* 4. TYPOGRAPHY – HEADINGS */
+h1 { font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 2.5em; font-weight: 700; }
+h2 { font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 2em; font-weight: 600; }
+h3 { font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 1.5em; font-weight: 500; }
+h4 { font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 1.2em; font-weight: 500; }
+h5 { font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 1em; font-weight: 400; }
+h6 { font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 0.9em; font-weight: 400; }
+
+/* 5. TOP NAVIGATION BAR */
 .menu-bar {
-  background: #004f83 !important;
-  color: #fff !important;
+  background: var(--tc-accent) !important;
+  color: #fff !important; /* keep absolute white for top bar text */
   font-family: 'Open Sans', Arial, sans-serif;
   border-bottom: 2px solid #bed0ed;
 }
 .menu-bar .menu-title {
   color: #fff !important;
-  font-weight: bold;
-  font-size: 1.5em;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  font-size: 1.6em;
+  font-weight: 500;
+}
+/* 6. ICON BUTTONS (Top Bar)
+   Consolidated print icon styling; all icons share hover transform. */
+.menu-bar .icon-button i { color: #fff !important; }
+#print-button.fa-print,
+#print-button.fa-print:before { color: #fff !important; transition: color .2s ease, transform .2s ease; }
+.menu-bar .icon-button:hover i,
+.menu-bar .icon-button:focus i,
+#print-button.fa-print:hover,
+#print-button.fa-print:focus {
+  color: var(--tc-accent-hover) !important; /* adaptive accent hover (variable) */
+  transform: translateY(-1px);
 }
 
-/* Sidebar */
+/* 7. SIDEBAR */
+/* Expand / collapse toggle size */
+.sidebar .toggle > div { font-size: 1.3em !important; }
+
 .sidebar {
-  background: #f5f7fa !important;
-  border-right: 1px solid #e0e0e0;
+  background: var(--tc-sidebar-bg) !important;
+  border-right: 1px solid var(--tc-sidebar-bg);
   font-family: 'Open Sans', Arial, sans-serif;
 }
-.sidebar-scrollbox {
-  padding-top: 1em;
-}
+.sidebar-scrollbox { 
+  font-family: 'Segoe UI', 'Arial', 'Helvetica Neue', sans-serif; 
+  padding-top: 1em; }
 .sidebar .chapter {
-  font-weight: bold;
-  color: #222;
-  margin-top: 1em;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin: 1.4em 0 0.4em;
 }
-.sidebar .active {
-  font-weight: bold;
-  color: #0d47a1 !important;
-}
-.sidebar a {
-  color: #1565c0;
-  font-size: 1em;
+.sidebar .active { 
+  font-family: 'Segoe UI', 'Arial', sans-serif; 
+  font-weight: 400; 
+  color: var(--tc-accent) !important; 
 }
 
-/* Main content area */
-.menu-bar .icon-button i {
-  color: #fff !important;
+/* Sidebar navigation links */
+.sidebar a { 
+  font-family: 'Segoe UI', 'Arial', sans-serif; 
+  color: var(--tc-text-strong); 
+  font-weight: 400; 
+  font-size: 1.6rem; 
+  line-height: 1.4; 
+  text-decoration: none; 
+  padding-left: 0.25em;
 }
+.sidebar a:hover { 
+  color: var(--tc-accent) !important; /* keep direct accent for primary nav hover for clarity */
+}
+
+/* 8. CONTENT AREA */
 .content {
-  background: #fff;
+  background: var(--tc-bg);
   font-family: 'Open Sans', Arial, sans-serif;
-  color: #222;
+  color: var(--tc-text);
   padding: 2em;
 }
-.content h1, .content h2, .content h3 {
-  font-weight: bold;
-  color: #1565c0;
-}
-.content a {
-  color: #1565c0;
-  text-decoration: underline;
-}
-.content a:hover {
-  color: #0d47a1;
+.content h1, .content h2, .content h3 { font-weight: bold; color: var(--tc-accent-alt); }
+/* Inline links: remove underline by default; add on hover/focus for clarity & keyboard nav */
+.content a { color: var(--tc-accent-alt); text-decoration: none; }
+.content a:hover, .content a:focus { color: var(--tc-accent-hover); text-decoration: underline; }
+/* 9. INLINE CODE STYLING */
+.content :not(pre) > code {
+  color: var(--tc-inline-code-fg);
+  background: var(--tc-inline-code-bg);
+  padding: 0 0.35em;
+  border-radius: 4px;
+  font-size: 0.95em;
+  font-family: 'Source Code Pro', 'Consolas', 'Courier New', monospace;
+  border: 1px solid var(--tc-inline-code-border);
 }
 
-/* Node diagram card */
+/* 10. NODE DIAGRAM CARD */
 .node-diagram {
-  background: repeating-linear-gradient(90deg, #e0e0e0 0px, #e0e0e0 1px, transparent 1px, transparent 40px),
-              repeating-linear-gradient(0deg, #e0e0e0 0px, #e0e0e0 1px, transparent 1px, transparent 40px);
+  background: repeating-linear-gradient(90deg,var(--tc-border) 0px,var(--tc-border) 1px,transparent 1px,transparent 40px),
+          repeating-linear-gradient(0deg,var(--tc-border) 0px,var(--tc-border) 1px,transparent 1px,transparent 40px);
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   padding: 2em;
   margin: 2em 0;
 }
 
-/* Responsive layout */
+/* 11. RESPONSIVE (Mobile First Enhancements) */
 @media (max-width: 900px) {
-  .sidebar {
-    display: none !important;
-  }
-  .content {
-    padding: 1em;
-  }
-  .menu-bar .menu-title {
-    font-size: 1.2em;
-  }
+   .sidebar { display: none !important; }
+   .content { padding: 1em; }
+   .menu-bar .menu-title { font-size: 1.2em; }
 }
