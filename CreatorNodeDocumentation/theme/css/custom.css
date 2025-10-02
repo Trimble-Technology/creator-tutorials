@@ -2,6 +2,70 @@
    Trimble Creator Node Docs – Custom Theme Overrides
    Order: Headings | Top Bar | Sidebar | Content | Components | Media
    ================================================================== */
+/* Theme-aware color tokens (fallbacks chosen for light theme; mdBook themes may override by redefining these in :root for each theme) */
+:root {
+  --tc-accent: #004f83;
+  --tc-accent-alt: #1565c0;
+  /* Fallback hover (will be overridden adaptively if color-mix supported) */
+  --tc-accent-hover: #bed0ed;
+  --tc-text: #222;
+  --tc-text-strong: #000;
+  --tc-bg: #ffffff;
+  --tc-sidebar-bg: #fafafa;
+  --tc-border: #e0e0e0;
+  --tc-inline-code-fg: #d98b57;
+  --tc-inline-code-bg: #f0f0f0;
+  --tc-inline-code-border: #e0e0e0;
+}
+/* Per-mdBook-theme overrides (adjust palette to taste) */
+/* Light theme uses root defaults; override block intentionally omitted */
+html.rust, body.rust {
+  --tc-accent: #b7410e;
+  --tc-accent-alt: #c85a24;
+  --tc-inline-code-fg: #d17a3d;
+}
+html.coal, body.coal {
+  --tc-text: #e2e2e2;
+  --tc-text-strong: #ffffff;
+  --tc-bg: #1c1e21;
+  --tc-sidebar-bg: #232529;
+  --tc-border: #34373b;
+  --tc-accent: #4aa3e0;
+  --tc-accent-alt: #61b4eb;
+  --tc-inline-code-bg: #2a2d31;
+  --tc-inline-code-border: #3a3e43;
+}
+html.navy, body.navy {
+  --tc-text: #e0e6f0;
+  --tc-text-strong: #ffffff;
+  --tc-bg: #14202d;
+  --tc-sidebar-bg: #192a3a;
+  --tc-border: #22394c;
+  --tc-accent: #2d85d3;
+  --tc-accent-alt: #49a0ea;
+  --tc-inline-code-bg: #203242;
+  --tc-inline-code-border: #2b4254;
+}
+html.ayu, body.ayu {
+  --tc-text: #e6e1cf;
+  --tc-text-strong: #fff9e8;
+  --tc-bg: #0f1419;
+  --tc-sidebar-bg: #131a21;
+  --tc-border: #2a3138;
+  --tc-accent: #39bae6;
+  --tc-accent-alt: #73d0ff;
+  --tc-inline-code-bg: #1c252c;
+  --tc-inline-code-border: #29323a;
+  --tc-inline-code-fg: #e6b673;
+}
+
+/* Adaptive hover derivation: if browser supports color-mix, lighten accent toward white for a consistent lifted hover across themes */
+@supports (color: color-mix(in srgb, white, black)) {
+  :root, html.rust, body.rust, html.coal, body.coal, html.navy, body.navy, html.ayu, body.ayu {
+    /* 55% accent + 45% white gives a readable pastel on accent backgrounds, independent of page bg */
+    --tc-accent-hover: color-mix(in srgb, var(--tc-accent) 55%, #ffffff);
+  }
+}
 
 /* Headings (content area) */
 h1 { font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 2.5em; font-weight: 700; }
@@ -13,13 +77,13 @@ h6 { font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 0.9em; font-weight
 
 /* Top navigation bar */
 .menu-bar {
-  background: #004f83 !important;
-  color: #fff !important;
+  background: var(--tc-accent) !important;
+  color: #fff !important; /* keep absolute white for top bar text */
   font-family: 'Open Sans', Arial, sans-serif;
   border-bottom: 2px solid #bed0ed;
 }
 .menu-bar .menu-title {
-  color: #ffffff !important;
+  color: #fff !important;
   font-family: 'Segoe UI', 'Arial', sans-serif;
   font-size: 1.6em;
   font-weight: 500;
@@ -40,7 +104,7 @@ h6 { font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 0.9em; font-weight
 .menu-bar .icon-button:focus i,
 #print-button.fa-print:hover,
 #print-button.fa-print:focus {
-  color: #bed0ed !important; /* light accent */
+  color: var(--tc-accent-hover) !important; /* adaptive accent hover (variable) */
   transform: translateY(-1px);
 }
 
@@ -50,8 +114,8 @@ h6 { font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 0.9em; font-weight
 
 /* Sidebar */
 .sidebar {
-  background: #fafafa !important;
-  border-right: 1px solid #fafafa;
+  background: var(--tc-sidebar-bg) !important;
+  border-right: 1px solid var(--tc-sidebar-bg);
   font-family: 'Open Sans', Arial, sans-serif;
 }
 .sidebar-scrollbox { 
@@ -66,13 +130,13 @@ h6 { font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 0.9em; font-weight
 .sidebar .active { 
   font-family: 'Segoe UI', 'Arial', sans-serif; 
   font-weight: 400; 
-  color: #004f83 !important; 
+  color: var(--tc-accent) !important; 
 }
 
 /* Sidebar navigation links */
 .sidebar a { 
   font-family: 'Segoe UI', 'Arial', sans-serif; 
-  color: #000; 
+  color: var(--tc-text-strong); 
   font-weight: 400; 
   font-size: 1.6rem; 
   line-height: 1.4; 
@@ -80,39 +144,39 @@ h6 { font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 0.9em; font-weight
   padding-left: 0.25em;
 }
 .sidebar a:hover { 
-  color: #004f83 !important; 
+  color: var(--tc-accent) !important; /* keep direct accent for primary nav hover for clarity */
 }
 
 /* Content area */
 .content {
-  background: #fff;
+  background: var(--tc-bg);
   font-family: 'Open Sans', Arial, sans-serif;
-  color: #222;
+  color: var(--tc-text);
   padding: 2em;
 }
-.content h1, .content h2, .content h3 { font-weight: bold; color: #1565c0; }
+.content h1, .content h2, .content h3 { font-weight: bold; color: var(--tc-accent-alt); }
 /* Inline links: remove default underline; add underline only on hover/focus for clarity */
-.content a { color: #1565c0; text-decoration: none; }
-.content a:hover, .content a:focus { color: #004f83; text-decoration: underline; }
+.content a { color: var(--tc-accent-alt); text-decoration: none; }
+.content a:hover, .content a:focus { color: var(--tc-accent-hover); text-decoration: underline; }
 /* Inline code styling: grey background with orange text */
 .content :not(pre) > code {
-  color: #d98b57;           /* orange text */
-  background: #f0f0f0;      /* light grey background */
+  color: var(--tc-inline-code-fg);
+  background: var(--tc-inline-code-bg);
   padding: 0 0.35em;
   border-radius: 4px;
   font-size: 0.95em;
   font-family: 'Source Code Pro', 'Consolas', 'Courier New', monospace;
-  border: 1px solid #e0e0e0;
+  border: 1px solid var(--tc-inline-code-border);
 }
 
 /* Node diagram decorative card */
 .node-diagram {
-   background: repeating-linear-gradient(90deg,#e0e0e0 0px,#e0e0e0 1px,transparent 1px,transparent 40px),
-                     repeating-linear-gradient(0deg,#e0e0e0 0px,#e0e0e0 1px,transparent 1px,transparent 40px);
-   border-radius: 8px;
-   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-   padding: 2em;
-   margin: 2em 0;
+  background: repeating-linear-gradient(90deg,var(--tc-border) 0px,var(--tc-border) 1px,transparent 1px,transparent 40px),
+          repeating-linear-gradient(0deg,var(--tc-border) 0px,var(--tc-border) 1px,transparent 1px,transparent 40px);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 2em;
+  margin: 2em 0;
 }
 
 /* Responsive (mobile) */
