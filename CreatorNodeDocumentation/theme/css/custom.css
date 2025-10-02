@@ -35,19 +35,36 @@ h6 { font-family: 'Segoe UI', 'Arial', sans-serif; font-size: 0.9em; font-weight
   border-right: 1px solid #fafafa;
   font-family: 'Open Sans', Arial, sans-serif;
 }
-.sidebar-scrollbox { font-family: 'Segoe UI', 'Arial', 'Helvetica Neue', sans-serif; padding-top: 1em; }
+.sidebar-scrollbox { 
+  font-family: 'Segoe UI', 'Arial', 'Helvetica Neue', sans-serif; 
+  padding-top: 1em; }
 .sidebar .chapter {
   font-family: 'Segoe UI', 'Arial', sans-serif;
-  font-weight: 600;
-  font-size: 1.2rem;
-  text-transform: uppercase;
+  font-weight: 400;              /* use a standard semi-bold weight */
+  font-size: 1.6rem;
   letter-spacing: 0.5px;
-  color: #222;
+  color: #000;                   /* changed from #222 (grey) to true black */
   margin: 1.4em 0 0.4em;
 }
-.sidebar .active { font-family: 'Segoe UI', 'Arial', sans-serif; font-weight: 600; color: #000 !important; }
-.sidebar a { font-family: 'Segoe UI', 'Arial', sans-serif; color: #1565c0; font-weight: 400; font-size: 1.2rem; line-height: 1.4; }
-.sidebar a:hover { color: #0d47a1; }
+.sidebar .active { 
+  font-family: 'Segoe UI', 'Arial', sans-serif; 
+  font-weight: 350; 
+  color: #000 !important; 
+}
+
+/* Sidebar navigation links */
+.sidebar a { 
+  font-family: 'Segoe UI', 'Arial', sans-serif; 
+  color: #000; 
+  font-weight: 400; 
+  font-size: 1.6rem; 
+  line-height: 1.4; 
+  text-decoration: none; 
+  padding-left: 0.25em;
+}
+.sidebar a:hover { 
+  color: #333; 
+}
 
 /* Content area */
 .content {
