@@ -2,14 +2,14 @@
 
 ---
 
-In SketchUp, a Live Component’s behaviour is defined by a [graph](/concepts/GeneralConcepts/graph.md) authored in Trimble Creator.
+In SketchUp, a Live Component’s behavior is defined by a [graph](/concepts/GeneralConcepts/graph.md) authored in Trimble Creator.
 
 For more info on SketchUp Live Components, see the <a href="https://help.sketchup.com/en/sketchup-live-components" target="_blank">help page here</a>.
 
 
 ### Notable features
 
-There are a couple notable features you'll find in Trimble Creator that where specifically designed or enabled for SketchUp Live Components, they are listed below;
+There are a couple notable features you'll find in Trimble Creator that were specifically designed or enabled for SketchUp Live Components, they are listed below:
 
 * A Live Component can have a [Size frame](/concepts/GeneralConcepts/sizeFrame.md) which can be activated and used by a user in SketchUp using the Scale Tool.
 
