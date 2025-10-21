@@ -4,6 +4,32 @@
 
 ---
 
+# Concepts
+
+- [General concepts]()
+  - [SketchUp Live Components](concepts/GeneralConcepts/liveComponent.md)
+    - [Size frame](concepts/GeneralConcepts/sizeFrame.md)
+  - [Graph](concepts/GeneralConcepts/graph.md)
+    - [Node](concepts/GeneralConcepts/node.md)
+      - [Input & Output types](concepts/GeneralConcepts/inputOutput.md)
+    - [Connection](concepts/GeneralConcepts/connection.md)
+    - [Parameter](concepts/GeneralConcepts/parameter.md)
+    - [Output node](concepts/GeneralConcepts/outputNode.md)
+    - [Import & Export](concepts/GeneralConcepts/importExport.md)
+    - [Ephemeral state](concepts/GeneralConcepts/ephemeralState.md)
+    - [Compute](concepts/GeneralConcepts/compute.md)
+    - [Subgraph](concepts/GeneralConcepts/subgraphs.md)
+  - [Primitive](concepts/GeneralConcepts/primitive.md)
+    - [PolyMesh](concepts/GeneralConcepts/polyMesh.md)
+    - [NURBS curve](concepts/GeneralConcepts/nurbsCurve.md)
+    - [NURBS surface](concepts/GeneralConcepts/nurbsSurface.md)
+    - [Points](concepts/GeneralConcepts/points.md)
+    - [Locator](concepts/GeneralConcepts/locator.md)
+  - [Attribute](concepts/GeneralConcepts/attribute.md)
+  - [Asset](concepts/GeneralConcepts/assets.md)
+  - [Material](concepts/GeneralConcepts/material.md)
+
+
 # Nodes
 
 - [Value]()
@@ -213,26 +239,3 @@
   - [Combine data](nodes/CombineData/documentation.md)
   - [Ephemeral state](nodes/Ephemeral/documentation.md)
   - [Error check](nodes/Error/documentation.md)
-
-# Concepts
-
-- [General concepts]()
-  - [Graph](concepts/GeneralConcepts/graph.md)
-    - [Node](concepts/GeneralConcepts/node.md)
-      - [Input & Output types](concepts/GeneralConcepts/inputOutput.md)
-    - [Connection](concepts/GeneralConcepts/connection.md)
-    - [Parameter](concepts/GeneralConcepts/parameter.md)
-    - [Output node](concepts/GeneralConcepts/outputNode.md)
-    - [Import & Export](concepts/GeneralConcepts/importExport.md)
-    - [Ephemeral state](concepts/GeneralConcepts/ephemeralState.md)
-    - [Compute](concepts/GeneralConcepts/compute.md)
-    - [Subgraph](concepts/GeneralConcepts/subgraphs.md)
-  - [Primitive](concepts/GeneralConcepts/primitive.md)
-    - [PolyMesh](concepts/GeneralConcepts/polyMesh.md)
-    - [NURBS curve](concepts/GeneralConcepts/nurbsCurve.md)
-    - [NURBS surface](concepts/GeneralConcepts/nurbsSurface.md)
-    - [Points](concepts/GeneralConcepts/points.md)
-    - [Locator](concepts/GeneralConcepts/locator.md)
-  - [Attribute](concepts/GeneralConcepts/attribute.md)
-  - [Asset](concepts/GeneralConcepts/assets.md)
-  - [Material](concepts/GeneralConcepts/material.md)
