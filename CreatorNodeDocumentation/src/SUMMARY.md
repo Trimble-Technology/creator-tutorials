@@ -239,3 +239,22 @@
   - [Combine data](nodes/CombineData/documentation.md)
   - [Ephemeral state](nodes/Ephemeral/documentation.md)
   - [Error check](nodes/Error/documentation.md)
+- [Deprecated]()
+  - [Circle (V1)](nodes/Circle/documentation.md)
+  - [Tetrahedron (V1)](nodes/Tetrahedron/documentation.md)
+  - [Create Material]()  <!-- Find the .md file for this -->
+  - [Set Material](nodes/SetMaterial/documentation.md)
+  - [Combine Meshes (V1)]()  <!-- Find the .md file for this / maybe we only have the older one and not the newer -->
+  - [Extrude (V1)]()  <!-- Find the .md file for this / maybe we only have the older one and not the newer -->
+  - [Add Vectors (V1)](nodes/AddVectors/documentation.md)
+  - [Add Vectors (V2)]()  <!-- Find the .md file for this / maybe we only have the older one and not the newer -->
+  - [Random Vector (V1)](nodes/RandomVector/documentation.md)
+  - [String Split (V1)]()  <!-- Find the .md file for this / maybe we only have the older one and not the newer -->
+  - [Formula]()  <!-- .md file is missing from folder -->
+  - [Geometry Input (V1)]()  <!-- .md file is missing from folder -->
+  - [Create Material (V1)]()  <!-- .md file is non-existent -->
+- [Missing (needs to be classified)]()
+  - [Geometry Input]()  <!-- Find the .md file for this / maybe we only have the older one and not the newer -->
+  - [Apply Material]()  <!-- .md file is non-existent -->
+  - [Create Material]()  <!-- .md file is non-existent -->
+  - [Clamped List]()  <!-- .md file is non-existent -->
