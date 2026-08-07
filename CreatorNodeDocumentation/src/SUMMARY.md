@@ -243,7 +243,7 @@
   - [Circle (V1)](nodes/Circle/documentation.md)
   - [Tetrahedron (V1)](nodes/Tetrahedron/documentation.md)
   - [Create Material]()  <!-- Find the .md file for this -->
-  - [Set Material](nodes/SetMaterial/documentation.md)
+  - [Set Material]()  <!-- Find the .md file for this / this points at the same file as the current "Material" node above, so it's disabled until we have a dedicated old-version doc -->
   - [Combine Meshes (V1)]()  <!-- Find the .md file for this / maybe we only have the older one and not the newer -->
   - [Extrude (V1)]()  <!-- Find the .md file for this / maybe we only have the older one and not the newer -->
   - [Add Vectors (V1)](nodes/AddVectors/documentation.md)
