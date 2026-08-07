@@ -100,7 +100,9 @@ Glossary: "Graph viewer" = the panel showing the graph/nodes; "3D viewer" = the 
 
 ## Node documentation conventions
 
-Each node's `documentation.md` follows a consistent template: a one-line **bold italic** summary, then `#### Inputs` and `#### Outputs` sections (each xput as an italic bullet with an indented description), then optional `### Note(s)` and `### Example(s)` sections. Example links point to `creator.trimble.com/graph?assetURI=...` so a reader can open the live example graph. Follow this template for new nodes so the site stays consistent.
+Each node's `documentation.md` follows a consistent template: a one-line **bold italic** summary, then `#### Inputs` and `#### Outputs` sections (each xput as an italic bullet with an indented description), then optional `### Note(s)` and `### Example(s)` sections. Example links point to `creator.trimble.com/graph?assetURI=...` so a reader can open the live example graph.
+
+**For the full rulebook — exact template, spacing rules, the `geometry` bold-italic convention, deprecation callouts, `SUMMARY.md` wiring, and a pre-commit checklist — see `CreatorNodeDocumentation/DOCUMENTATION_PLAYBOOK.md`.** Follow it whenever writing a new or missing `documentation.md`.
 
 `descriptor.json` is the technical definition consumed by the app's node picker (name, path/category, inputs/outputs with types, node class) — keep it in sync with what `documentation.md` describes.
 
