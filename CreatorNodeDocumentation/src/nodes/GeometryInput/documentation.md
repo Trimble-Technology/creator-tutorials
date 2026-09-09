@@ -10,7 +10,7 @@
 * _json geometry_
 
   * The JSON encoded string that defines the geometry to parse. This can be a single polyline or PolyMesh, or an array of them.
-    * Defaults to an empty polyline (`{"id":"emptyPolyLine","points":[]}`), which parses to no geometry at all.
+    * Defaults to a flat, `1000` unit square polyline (`{"id":"emptyPolyLine","points":[[0,0,0],[1000,0,0],[1000,1000,0],[0,1000,0],[0,0,0]]}`) — despite the `emptyPolyLine` id, this is real geometry, not an absence of it.
 
 * _geometry schema_
 
@@ -54,7 +54,7 @@
 
 * Unlike the [**geometry asset**](/nodes/GeometryAsset/documentation.md) node, which references geometry uploaded to the graph ahead of time as an [**asset**](/concepts/GeneralConcepts/assets.md), this node receives its geometry each time the graph [**computes**](/concepts/GeneralConcepts/compute.md).
 
-* A graph using this node should resolve sensibly when no geometry has been supplied to it — the default empty polyline is what a graph sees before anything has been connected or applied.
+* A graph using this node should resolve sensibly when no geometry has been supplied to it — the default `1000` unit square polyline is what a graph sees before anything has been connected or applied.
 
 * Other names for this node include: GeometryInput.
 

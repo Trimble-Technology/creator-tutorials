@@ -35,7 +35,7 @@ The usual pattern is to measure the incoming geometry, then build against those 
 
 * It is up to the author to make sure the graph resolves sensibly for geometry it wasn't expecting. Things worth handling explicitly:
 
-    * Nothing supplied at all — the [**geometry input**](/nodes/GeometryInput/documentation.md) node's default is an empty polyline, so a graph should still produce something reasonable (or nothing at all) before it has been given a face.
+    * Nothing supplied at all — the [**geometry input**](/nodes/GeometryInput/documentation.md) node's default is a flat `1000` unit square polyline (not truly empty geometry, despite its `emptyPolyLine` id), so a graph should still produce something reasonable before it has been given a face.
 
     * Geometry outside the range the component was designed for, e.g. a face far smaller or larger than any sensible instance of the component.
 
