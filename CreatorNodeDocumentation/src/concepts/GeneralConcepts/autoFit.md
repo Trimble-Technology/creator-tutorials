@@ -20,7 +20,7 @@ Because the fit is recomputed rather than baked in, changing the face the Live C
 
 ### In Graph
 
-An AutoFit graph is built around a [**geometry input**](/nodes/GeometryInput/documentation.md) node instead of fixed dimensions. See the [geometry input](/concepts/GeneralConcepts/geometryInput.md) concept page for how that node works.
+An AutoFit graph is built around a [**geometry input**](/nodes/GeometryInput/documentation.md) node instead of fixed dimensions.
 
 The usual pattern is to measure the incoming geometry, then build against those measurements rather than against [parameter](/concepts/GeneralConcepts/parameter.md) values:
 

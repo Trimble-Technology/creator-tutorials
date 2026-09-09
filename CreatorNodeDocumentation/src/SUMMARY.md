@@ -10,7 +10,6 @@
   - [SketchUp Live Components](concepts/GeneralConcepts/liveComponent.md)
     - [Size frame](concepts/GeneralConcepts/sizeFrame.md)
     - [AutoFit](concepts/GeneralConcepts/autoFit.md)
-    - [Geometry input](concepts/GeneralConcepts/geometryInput.md)
   - [Graph](concepts/GeneralConcepts/graph.md)
     - [Node](concepts/GeneralConcepts/node.md)
       - [Input & Output types](concepts/GeneralConcepts/inputOutput.md)
