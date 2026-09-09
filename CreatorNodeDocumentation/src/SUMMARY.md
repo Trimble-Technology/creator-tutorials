@@ -9,6 +9,8 @@
 - [General concepts]()
   - [SketchUp Live Components](concepts/GeneralConcepts/liveComponent.md)
     - [Size frame](concepts/GeneralConcepts/sizeFrame.md)
+    - [AutoFit](concepts/GeneralConcepts/autoFit.md)
+    - [Geometry input](concepts/GeneralConcepts/geometryInput.md)
   - [Graph](concepts/GeneralConcepts/graph.md)
     - [Node](concepts/GeneralConcepts/node.md)
       - [Input & Output types](concepts/GeneralConcepts/inputOutput.md)
@@ -72,6 +74,7 @@
     - [Tetrahedron](nodes/TetrahedronV2/documentation.md)
   - [Import]()
     - [Geometry asset](nodes/GeometryAsset/documentation.md)
+    - [Geometry input](nodes/GeometryInput/documentation.md)
     - [Graph asset](nodes/GraphAsset/documentation.md)
     - [Image asset](nodes/ImageAsset/documentation.md)
   - [Material & Texture]()
@@ -139,7 +142,7 @@
   - [Switch](nodes/Switch/documentation.md)
 - [Lists]()
   - [Number lists]()
-    - [Clamped number list]()
+    - [Clamped number list](nodes/ClampedList/documentation.md)
     - [Closest value](nodes/ClosestValue/documentation.md)
     - [Combine number lists](nodes/CombineLists/documentation.md)
     - [Cull number list](nodes/CullList/documentation.md)
@@ -250,11 +253,9 @@
   - [Add Vectors (V2)]()  <!-- Find the .md file for this / maybe we only have the older one and not the newer -->
   - [Random Vector (V1)](nodes/RandomVector/documentation.md)
   - [String Split (V1)]()  <!-- Find the .md file for this / maybe we only have the older one and not the newer -->
-  - [Formula]()  <!-- .md file is missing from folder -->
+  - [Formula](nodes/Formula/documentation.md)
   - [Geometry Input (V1)]()  <!-- .md file is missing from folder -->
   - [Create Material (V1)]()  <!-- .md file is non-existent -->
 - [Missing (needs to be classified)]()
-  - [Geometry Input]()  <!-- Find the .md file for this / maybe we only have the older one and not the newer -->
   - [Apply Material]()  <!-- .md file is non-existent -->
   - [Create Material]()  <!-- .md file is non-existent -->
-  - [Clamped List]()  <!-- .md file is non-existent -->

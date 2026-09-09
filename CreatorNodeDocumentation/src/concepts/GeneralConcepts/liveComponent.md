@@ -13,6 +13,10 @@ There are a couple notable features you'll find in Trimble Creator that were spe
 
 * A Live Component can have a [Size frame](/concepts/GeneralConcepts/sizeFrame.md) which can be activated and used by a user in SketchUp using the Scale Tool.
 
+* A Live Component can [AutoFit](/concepts/GeneralConcepts/autoFit.md) to geometry that already exists in a user’s model, rebuilding itself to suit the face it is applied to.
+
+* A Live Component can receive that geometry through a [geometry input](/concepts/GeneralConcepts/geometryInput.md), which is the entry point for geometry authored outside of the graph.
+
 
 ### Authoring an LC
 
