@@ -180,7 +180,7 @@ Before you consider a doc finished, cross-check it against the node's `descripto
 
 A `documentation.md` file sitting in its node folder isn't enough on its own — it has to be wired into `CreatorNodeDocumentation/src/SUMMARY.md` or it won't appear in the sidebar/build at all:
 
-1. Find the node's category in `SUMMARY.md` (or the "Missing (needs to be classified)" section if you're not sure where it belongs yet).
+1. Find the node's category in `SUMMARY.md` (pick the matching live category, or *Deprecated* for superseded nodes).
 2. Turn its empty placeholder link into a real one: `- [Display Name]()` → `- [Display Name](nodes/NodeFolderName/documentation.md)`.
 3. **Check for duplicates before you commit** — the same target file can only appear once anywhere in `SUMMARY.md`, or `mdbook build`/`mdbook serve` will fail outright with a "Duplicate file in SUMMARY.md" error (this happened once already — see the "Fix duplicate SUMMARY.md entry" commit). If a node has multiple SUMMARY.md entries (e.g. a current version and a "(V1)" deprecated one), each needs its *own* `documentation.md` file — don't point two entries at the same file.
 4. Preview locally with `mdbook serve` (see `CreatorNodeDocumentation/README.md`) before pushing, to confirm the page builds and renders.
