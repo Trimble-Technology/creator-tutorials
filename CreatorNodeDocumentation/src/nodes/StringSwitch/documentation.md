@@ -11,30 +11,30 @@
 
   * The index of the string value to output. This can only be `0`, `1`, `2`, or `3`.
 
-* _value 0_
+* _string 1_
 
   * The string value of index `0`.
 
-* _value 1_
+* _string 2_
 
   * The string value of index `1`.
 
-* _value 2_
+* _string 3_
 
   * The string value of index `2`.
 
-* _value 3_
+* _string 4_
 
   * The string value of index `3`.
 
 
 #### Outputs
 
-* _result_
+* _string_
 
   * The string value of the selected index.
 
-* _result list_
+* _string list_
 
   * The list of string values of the selected index.
 

@@ -27,7 +27,7 @@
 
 * This operation is represented as `atan()` within the [**Expression**](/nodes/ExpressionParser/documentation.md) node.
 
-* Other names for this node include: Atan, and Inverse tangent.
+* Other names for this node include: Atan.
 
 
 ### Example(s)

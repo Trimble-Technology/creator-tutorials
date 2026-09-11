@@ -13,7 +13,7 @@
 
 * _angle threshold_
 
-  * The value that defines the maximum angle from which a curve is simplified.
+  * The angle between line segments above which the connecting point is discarded.
 
 
 #### Outputs

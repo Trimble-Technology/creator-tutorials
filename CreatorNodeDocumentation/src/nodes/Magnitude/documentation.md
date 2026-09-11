@@ -9,11 +9,11 @@
 
 * _vector_
 
-  * The vector value to subtract from.
+  * The vector value to measure.
 
 * _square magnitude_
 
-  * Sets whether to square the resulting magnitude or not.
+  * When `true`, returns the squared magnitude (does not take the square root after squaring values; faster).
 
 
 #### Outputs
@@ -29,7 +29,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Magnitude, Vector length, and Distance.
+* Other names for this node include: Magnitude, Vector Length, and Distance.
 
 
 ### Example(s)

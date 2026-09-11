@@ -1,6 +1,6 @@
 # Equal vectors
 
-**_Checks whether vector values are (almost) equal._**
+**_Checks whether vector values are equal._**
 
 ---
 

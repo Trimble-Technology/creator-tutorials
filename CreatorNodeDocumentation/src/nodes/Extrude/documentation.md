@@ -30,6 +30,10 @@
 
 #### Outputs
 
+* **_geometry_**
+
+  * Output primitives.
+
 * _points_
 
   * The list of points of the output primitives.
@@ -47,14 +51,12 @@
   * The list of z values of the points of the output primitives.
 
 
-  ### Note(s)
+### Note(s)
 
 * Other names for this node include: Extrude.
 
 
-### Examples
-
-
+### Example(s)
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:e5f67d6d-434f-4c5a-a0b2-443372979203&version=latest" target="_blank">Extrude mesh</a>
 * <a href="https://creator.trimble.com/graph?assetURI=whp:3ea02aa1-c685-4932-960e-0580ebcf86ed&version=latest" target="_blank">Weld angles</a>

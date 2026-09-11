@@ -53,7 +53,7 @@
       },
       "above index": {
         "type": "integer",
-        "description": "index in the original list, of the 'below' value;  -1 if value > highest list value",
+        "description": "index in the original list, of the 'above' value;  -1 if value > highest list value",
         "displayName": "above index"
       }
     },

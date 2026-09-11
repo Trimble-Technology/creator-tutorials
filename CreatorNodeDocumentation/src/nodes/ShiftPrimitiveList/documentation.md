@@ -4,36 +4,41 @@
 
 ---
 
+
 #### Inputs
 
 * **_geometry_**
 
   * Accepts a single geometry connection (unless the SHIFT key is held).
 
+* _shift_
+
+  * The value that defines the number of positions to shift the primitive order.
+
 
 #### Outputs
 
-*  **_geometry_**
+* **_geometry_**
 
-   * Output primitives.
+  * Output primitives.
 
 * _points_
 
-   * The list of points of the output primitives.
+  * The list of points of the output primitives.
 
 * _points.x_
 
-   * The list of x values of the points of the output primitives.
+  * The list of x values of the points of the output primitives.
 
 * _points.y_
 
-   * The list of y values of the points of the output primitives.
+  * The list of y values of the points of the output primitives.
 
 * _points.z_
 
-   * The list of z values of the points of the output primitives.
+  * The list of z values of the points of the output primitives.
 
-  
+
 ### Note(s)
 
 * Other names for this node include: ShiftPrimitiveList.

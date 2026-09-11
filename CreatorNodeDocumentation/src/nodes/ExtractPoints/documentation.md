@@ -1,4 +1,4 @@
-# Get Points
+# Get points
 
 **_Gets the points of input primitives using a mask._**
 
@@ -41,11 +41,11 @@
 
 ### Note(s)
 
-* Other names for this node include: ExtractPoints, Extract points, Isoparm, and NURBS.
+* Other names for this node include: ExtractPoints, Extract Points, Isoparm, and NURBS.
 
 
 ### Example(s)
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:a3ebded6-03dc-42a8-80b7-916bc37e56c4&version=latest" target="_blank">Get a point along a line</a>
 
-* <a href="https://creator.trimble.com/graph?assetURI=whp:8990d4f3-6b2e-43db-8fc0-2507d465361c" target="_blank">Get points from 2 lines</a>
+* <a href="https://creator.trimble.com/graph?assetURI=whp:8990d4f3-6b2e-43db-8fc0-2507d465361c&version=latest" target="_blank">Get points from 2 lines</a>

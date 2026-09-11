@@ -2,6 +2,8 @@
 
 **_Performs a sine function on a value._**
 
+---
+
 
 #### Inputs
 
@@ -27,7 +29,7 @@
 
 * This function operates on radians, not degrees. Use the [**Degrees to radians**](/nodes/DegToRad/documentation.md) node first if using degrees.
 
-* Other names for this node include: Sin, and Sinus.
+* Other names for this node include: Sin and Sinus.
 
 
 ### Example(s)

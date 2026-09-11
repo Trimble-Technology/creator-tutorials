@@ -29,7 +29,7 @@
 
 * This node uses radians. Use the [**Degrees to radians**](/nodes/DegToRad/documentation.md) node first if working with degrees.
 
-* Other names for this node include: Cos, and Cosinus.
+* Other names for this node include: Cos and Cosinus.
 
 
 ### Example(s)

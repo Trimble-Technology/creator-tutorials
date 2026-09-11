@@ -49,7 +49,7 @@
 
 ### Note(s)
 
-* Other names for this node include: PolyClean, Delete zero area, and Clean poly.
+* Other names for this node include: PolyClean, Delete Zero Area, and Clean Mesh.
 
 
 ### Example(s)

@@ -11,48 +11,60 @@
 
   * Accepts a single geometry connection (unless the SHIFT key is held).
 
+* _mode_
+
+  * Sets where the attribute is read from. This can be `per point` (from each point of the input geometry), `per primitive` (from each primitive of the input geometry), `on node` (from the node), or `on graph` (from the graph).
+
 * _type_
 
-  * Sets the type of attribute to add. This can be `per point` (added to each point of the input geometry), `per primitive` (added to each primitive of the input geometry), `on node` (added to the node), or `on graph` (added to the graph).
+  * Sets the data type of the attribute to read. This can be `boolean, integer or float`, `vector`, or `string`.
 
 * _attribute name_
 
-  * The name to give the attribute.
+  * The name of the attribute to read.
 
-* _value_
+* _default_
 
-  * The value to assign to the attribute. This can be any of the basic data types (number (number, integer, and boolean), vector (vector and color), and string).
+  * The value to output when the named attribute is not found. The active default input depends on the selected _type_: a number for `boolean, integer or float`, a vector for `vector`, or a string for `string`.
 
 
 #### Outputs
 
-* _points_
+* _number_
 
-  * The list of points of the output primitives.
+  * The attribute value as a number (when _type_ is `boolean, integer or float` and a single value is returned).
 
-* _points.x_
+* _vector_
 
-  * The list of x values of the points of the output primitives.
+  * The attribute value as a vector (when _type_ is `vector` and a single value is returned).
 
-* _points.y_
+* _string_
 
-  * The list of y values of the points of the output primitives.
+  * The attribute value as a string (when _type_ is `string` and a single value is returned).
 
-* _points.z_
+* _number list_
 
-  * The list of z values of the points of the output primitives.
+  * The attribute values as a number list (when reading per point or per primitive with _type_ `boolean, integer or float`).
+
+* _vector list_
+
+  * The attribute values as a vector list (when reading per point or per primitive with _type_ `vector`).
+
+* _string list_
+
+  * The attribute values as a string list (when reading per point or per primitive with _type_ `string`).
 
 
-### Notes
+### Note(s)
 
-* See [Attribute](/concepts/GeneralConcepts/attribute.md) for more information on attributes, and their function in the graph.
+* See [**Attribute**](/concepts/GeneralConcepts/attribute.md) for more information on attributes, and their function in the graph.
 
-* The _value_ input is a special type of input that can accept any type of data.
+* Use this node with the [**Add attribute**](/nodes/AddAttribute/documentation.md) node to retrieve attribute data that was previously written.
 
-* Other names for this node include: GetAttribute, Attribute to list, and Read attribute.
+* Other names for this node include: GetAttribute, Attribute To List, and Read Attribute.
 
 
-### Examples
+### Example(s)
 
 
 

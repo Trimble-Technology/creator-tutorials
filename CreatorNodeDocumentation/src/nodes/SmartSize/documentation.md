@@ -4,6 +4,7 @@
 
 ---
 
+
 #### Inputs
 
 * **_geometry_**
@@ -20,7 +21,7 @@
 
 * _reset size_
 
-  * Resets the _size_ input back to the input primitives original size.
+  * Resets the _size_ input back to the input primitives' original size.
 
 * _scale around_
 

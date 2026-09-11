@@ -11,15 +11,15 @@
 
   * The first value to check.
 
-* _value 1_
+* _value 2_
 
   * The second value to check.
 
-* _value 1_
+* _value 3_
 
   * The third value to check.
 
-* _value 1_
+* _value 4_
 
   * The fourth value to check.
 
@@ -32,12 +32,12 @@
 
 * _result list_
 
-  * The list of boolean values indicating whether any values in a are true or not.
+  * The list of boolean values indicating whether any values are true or not.
 
 
 ### Note(s)
 
-* Other names for this node include: ||.
+* Other names for this node include: Or and ||.
 
 
 ### Example(s)

@@ -25,6 +25,8 @@
 
 ### Note(s)
 
+* This operation is represented as `ceil()` within the [**Expression**](/nodes/ExpressionParser/documentation.md) node.
+
 * Other names for this node include: Round up, and Roof.
 
 

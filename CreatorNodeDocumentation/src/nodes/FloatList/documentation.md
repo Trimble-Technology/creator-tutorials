@@ -31,16 +31,15 @@
   * The number list as defined by the _list_ input.
 
 
-### Notes
-
+### Note(s)
 * A custom list can be made by clicking on the `<number list>` space of the _list_ input via the “Add Item” button.
 
 * When the _initialize_ input is `true`, manually inputted values will be overridden by the _default_ input value.
 
-* Other names for this node include: FloatList, Float list and Decimal list.
+* Other names for this node include: FloatList, Float, and Decimal.
 
 
-### Examples
+### Example(s)
 
 
 

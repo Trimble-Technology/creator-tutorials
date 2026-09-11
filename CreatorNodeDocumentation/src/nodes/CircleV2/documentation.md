@@ -71,8 +71,5 @@
 * Other names for this node include: CircleV2 and Arc.
 
 
-### Examples
-
-
-
+### Example(s)
 * <a href="https://creator.trimble.com/graph?assetURI=whp:34803f98-fb91-4c48-a4a4-ef9ad88c8fa1&version=latest" target="_blank">Circle</a>

@@ -53,10 +53,10 @@
 
 * This node can be used in conjunction with the [**get attribute**](/nodes/GetAttribute/documentation.md) node to later retrieve the attribute data.
 
-* Other names for this node include: AddAttribute, Set attribute and Write attribute.
+* Other names for this node include: AddAttribute, Set Attribute, and Write Attribute.
 
 
-### Examples
+### Example(s)
 
 
 

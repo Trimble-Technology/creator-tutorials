@@ -11,15 +11,15 @@
 
   * The first value to check.
 
-* _value 1_
+* _value 2_
 
   * The second value to check.
 
-* _value 1_
+* _value 3_
 
   * The third value to check.
 
-* _value 1_
+* _value 4_
 
   * The fourth value to check.
 
@@ -37,7 +37,7 @@
 
 ### Note(s)
 
-* Other names for this node include: &, &&.
+* Other names for this node include: And, &, and &&.
 
 
 ### Example(s)

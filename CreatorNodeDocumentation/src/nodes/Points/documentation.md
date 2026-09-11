@@ -1,4 +1,3 @@
-
 # Points
 
 **_Creates points at input positions._**
@@ -47,12 +46,16 @@
 
   * The list of z values of the points of the output primitives.
 
+* _selection_
+
+  * The bitmask of which points are selected.
+
 
 ### Note(s)
 
 * If the _positions_ input has a list of vectors connected to it, then the connected input will override the values in _init list_ when initialized.
 
-* Other names for this node include: Create points.
+* Other names for this node include: Points and Create Points.
 
 
 ### Example(s)

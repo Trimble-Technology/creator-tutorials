@@ -29,7 +29,7 @@
       },
       "mask": {
         "type": "list:boolean",
-        "description": "A bit mask of primitives to delete.",
+        "description": "A bit mask of primitives to apply the mode to.",
         "displayName": "mask"
       }
     },

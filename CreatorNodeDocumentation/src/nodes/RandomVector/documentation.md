@@ -50,3 +50,5 @@
 * If the _use seed_ input is set to `false`, a new random vector value will be created each time the node is computed.
 
 * Both the _use seed_ and _seed_ inputs are only relevant when the _spherical_ input is set to `false`.
+
+* Other names for this node include: RandomVector.

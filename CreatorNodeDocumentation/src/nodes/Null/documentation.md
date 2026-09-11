@@ -43,9 +43,9 @@
 
   * The first is where we can utilize its ability to output nothing. This can be useful in such cases where a graph can be configured to hide certain geometry of a final output (see the relevant example below).
 
-  * The second is where we can utilize its ability to output the exact same geometry that is input. The can be helpful in such cases to clean a graph's layout (see the relevant example below). 
+  * The second is where we can utilize its ability to output the exact same geometry that is input. This can be helpful in such cases to clean a graph's layout (see the relevant example below). 
 
-* Other names for this node include: Nothing, Layout, and Routing.
+* Other names for this node include: Null, Layout, and Routing.
 
 
 ### Example(s)

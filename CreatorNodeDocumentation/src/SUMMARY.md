@@ -27,8 +27,10 @@
     - [Points](concepts/GeneralConcepts/points.md)
     - [Locator](concepts/GeneralConcepts/locator.md)
   - [Attribute](concepts/GeneralConcepts/attribute.md)
+  - [Destructive operations](concepts/GeneralConcepts/destructive.md)
   - [Asset](concepts/GeneralConcepts/assets.md)
   - [Material](concepts/GeneralConcepts/material.md)
+  - [Miscellaneous](concepts/GeneralConcepts/misc.md)
 
 
 # Nodes
@@ -122,11 +124,11 @@
       - [Set points](nodes/SetPoints/documentation.md)
     - [Primitive]()
       - [Delete primitives](nodes/DeletePrimitives/documentation.md)
-      - [Get primtive](nodes/GetPrimitive/documentation.md)
+      - [Get primitive](nodes/GetPrimitive/documentation.md)
       - [Group](nodes/GroupPrimitives/documentation.md)
       - [Ungroup](nodes/UnGroupPrimitives/documentation.md)
-      - [Reverse primtive list](nodes/ReversePrimitiveList/documentation.md)
-      - [Shift primtive list](nodes/ShiftPrimitiveList/documentation.md)
+      - [Reverse primitive list](nodes/ReversePrimitiveList/documentation.md)
+      - [Shift primitive list](nodes/ShiftPrimitiveList/documentation.md)
     - [Boolean 3d geometry](nodes/MeshBoolean/documentation.md)
   - [Transform]()
     - [Align](nodes/Align/documentation.md)
@@ -156,7 +158,7 @@
   - [String Lists]()
     - [Combine string lists](nodes/CombineStringLists/documentation.md)
     - [Cull string list](nodes/CullStringList/documentation.md)
-    - [Find string in list](nodes/FindInStringList/documentation.md)
+    - [Find in string list](nodes/FindInStringList/documentation.md)
     - [Get string list item](nodes/GetStringListItem/documentation.md)
     - [Reverse string list](nodes/ReverseStringList/documentation.md)
     - [Set string list item](nodes/SetStringListItem/documentation.md)
@@ -244,17 +246,14 @@
 - [Deprecated]()
   - [Circle (V1)](nodes/Circle/documentation.md)
   - [Tetrahedron (V1)](nodes/Tetrahedron/documentation.md)
-  - [Create Material]()  <!-- Find the .md file for this -->
-  - [Set Material]()  <!-- Find the .md file for this / this points at the same file as the current "Material" node above, so it's disabled until we have a dedicated old-version doc -->
-  - [Combine Meshes (V1)]()  <!-- Find the .md file for this / maybe we only have the older one and not the newer -->
-  - [Extrude (V1)]()  <!-- Find the .md file for this / maybe we only have the older one and not the newer -->
   - [Add Vectors (V1)](nodes/AddVectors/documentation.md)
-  - [Add Vectors (V2)]()  <!-- Find the .md file for this / maybe we only have the older one and not the newer -->
   - [Random Vector (V1)](nodes/RandomVector/documentation.md)
-  - [String Split (V1)]()  <!-- Find the .md file for this / maybe we only have the older one and not the newer -->
   - [Formula](nodes/Formula/documentation.md)
-  - [Geometry Input (V1)]()  <!-- .md file is missing from folder -->
-  - [Create Material (V1)]()  <!-- .md file is non-existent -->
+  - [Create Material]()  <!-- TODO: documentation.md does not exist -->
+  - [Set Material]()  <!-- TODO: dedicated V1 doc missing; live Material node uses SetMaterial -->
+  - [Combine Meshes (V1)]()  <!-- TODO: documentation.md does not exist -->
+  - [Extrude (V1)]()  <!-- TODO: documentation.md does not exist -->
+  - [String Split (V1)]()  <!-- TODO: documentation.md does not exist -->
+  - [Geometry Input (V1)]()  <!-- TODO: documentation.md does not exist -->
 - [Missing (needs to be classified)]()
-  - [Apply Material]()  <!-- .md file is non-existent -->
-  - [Create Material]()  <!-- .md file is non-existent -->
+  - [Apply Material]()  <!-- TODO: documentation.md does not exist -->

@@ -31,7 +31,7 @@
 
 * This operation is represented as `%` within the [**Expression**](/nodes/ExpressionParser/documentation.md) node.
 
-* Other names for this node include: Mod, and %.
+* Other names for this node include: Modulo and %.
 
 
 ### Example(s)

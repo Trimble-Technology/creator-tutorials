@@ -17,7 +17,7 @@
 
 * _output opposite_
 
-  * Sets whether to invert the output geometry center or not.
+  * When `true`, outputs the opposite of the calculated center.
 
 
 #### Outputs
@@ -43,13 +43,11 @@
   * The list of vector values of the geometry centers of each individual input primitive.
 
 
-### Notes
+### Note(s)
+* Other names for this node include: GeometryCentroid, Center, Centroid, and Barycenter.
 
 
-* Other names for this node include: GeometryCentroid, Centroid, and Barycenter.
-
-
-### Examples
+### Example(s)
 
 
 

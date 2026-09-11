@@ -11,7 +11,7 @@
 
   * Accepts a single geometry connection (unless the SHIFT key is held).
 
-* _axis_
+* _projection axis_
 
   * Sets the axis in which the UV coordinates are projected. This can be `X`, `Y` or `Z`.
 
@@ -26,6 +26,18 @@
 * _repeat bounds_
 
   * Sets the bounds by which UV coordinates are projected. These can be `per object` (per each individual primitive) or `all objects` (over all input primitives).
+
+* _swap U & V_
+
+  * Sets whether to swap the U and V coordinates.
+
+* _flip U_
+
+  * Sets whether to flip the U coordinates.
+
+* _flip V_
+
+  * Sets whether to flip the V coordinates.
 
 
 #### Outputs
@@ -53,7 +65,7 @@
 
 ### Note(s)
 
-* Other names for this node include: ProjectUV, Texture, and Map.
+* Other names for this node include: ProjectUV and Texture.
 
 
 ### Example(s)

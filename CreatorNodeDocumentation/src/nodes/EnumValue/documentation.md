@@ -4,6 +4,7 @@
 
 ---
 
+
 #### Inputs
 
 * _value_
@@ -54,10 +55,10 @@
 
 * When parameterized this node will appear as a dropdown in the parameter panel.
 
-* Other names for this node include: EnumValue, Dropdown, Menu, Choose, Enum, Enumeration, Parameter.
+* Other names for this node include: EnumValue, Dropdown, Menu, Choose, Choice, Enumeration, and Parameter.
 
 
-### Examples
+### Example(s)
 
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:2a6de14a-1611-4d3a-959f-a1c34eae6bca&version=latest" target="_blank">Switching between geometries</a>

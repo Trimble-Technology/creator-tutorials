@@ -33,9 +33,9 @@
 
 ### Note(s)
 
-* Calculates the angle between two vectors from `0,0,0`. To use this node accurately be sure to have three vectors, the two to find the angle between, and one which the angle is taken from (if you know this third angle, you can transform the two vectors to `0,0,0` then perform the operation)
+* Calculates the angle between two vectors from `0,0,0`. To measure an angle at a different origin, use three vectors: the two to find the angle between, and the origin; transform the two vectors relative to that origin (so it becomes `0,0,0`) then perform the operation.
 
-* Other names for this node include: AngleBetween and Angle between vectors.
+* Other names for this node include: AngleBetween and Angle Between Vectors.
 
 
 ### Example(s)

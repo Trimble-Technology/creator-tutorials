@@ -1,4 +1,4 @@
-# Weld Vertices
+# Weld vertices
 
 **_Welds overlapping polygon triangle edges based on an angle threshold._**
 
@@ -33,7 +33,7 @@
 
 * _mask_
 
-  * The list of boolean values that defines which vertices to weld together. If empty, all vertices will be welded together.
+  * The list of boolean values that defines which input primitives to weld. If empty, all input primitives will be considered.
 
 
 #### Outputs
@@ -59,14 +59,12 @@
   * The list of z values of the points of the output primitives.
 
 
-### Notes
+### Note(s)
 
 * Other names for this node include: WeldVertices, Smooth normals, Merge points, and Weld polygons.
 
 
-### Examples
-
-
+### Example(s)
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:3ea02aa1-c685-4932-960e-0580ebcf86ed&version=latest" target="_blank">Weld angles</a>
 

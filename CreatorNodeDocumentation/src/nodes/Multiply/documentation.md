@@ -15,11 +15,11 @@
 
   * The second value for multiplication.
 
-* _value 3_
+* _value3_
 
   * The third value for multiplication.
 
-* _value 4_
+* _value4_
 
   * The fourth value for multiplication.
 
@@ -39,7 +39,7 @@
 
 * This operation is represented as `*` within the [**Expression**](/nodes/ExpressionParser/documentation.md) node.
 
-* Other names for this node include: *.
+* Other names for this node include: Multiply and *.
 
 
 ### Example(s)

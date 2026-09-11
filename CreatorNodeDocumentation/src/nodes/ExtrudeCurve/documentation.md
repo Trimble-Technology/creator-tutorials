@@ -17,7 +17,7 @@
 
 * _order_
 
-  * The value that defines the order of the output line. See [NURBS surface](/concepts/GeneralConcepts/nurbsSurface.md) for more information.
+  * The value that defines the order of the output NURBS surface. See [NURBS surface](/concepts/GeneralConcepts/nurbsSurface.md) for more information.
 
 * _number of spans_
 
@@ -53,8 +53,5 @@
 
 * Other names for this node include: ExtrudeCurve.
 
-### Examples
-
-
-
+### Example(s)
 * <a href="https://creator.trimble.com/graph?assetURI=whp:fb5b6019-be5a-4bc8-b2a4-624287e4a444&version=latest" target="_blank">Extrude curve</a>

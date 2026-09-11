@@ -35,18 +35,17 @@
   * The boolean value as defined by the _value_ input.
 
 
-### Notes
-
+### Note(s)
 * When parameterized this node will appear as a false/true toggle in the parameter panel.
 
 * A boolean value is in essence a `0` or `1` integer value. `0` is `false` and `1` is `true`.
 
 * The _value_ input can accept any numerical value (floating value or integer). The **boolean** node will convert a value of `0` to `false` (`0`) whereas any other value other than `0` will return `true` (`1`).
 
-* Other names for this node include: BooleanValue, Checkbox, State, Bit, Binary, On/Off, True/False, or Parameter.
+* Other names for this node include: BooleanValue, Checkbox, State, Bit, Binary, On off, and Parameter.
 
 
-### Examples
+### Example(s)
 
 
 

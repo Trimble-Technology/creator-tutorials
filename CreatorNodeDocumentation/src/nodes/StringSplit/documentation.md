@@ -1,4 +1,4 @@
-# Split strings
+# Split string
 
 **_Splits a string into a list of strings._**
 
@@ -9,7 +9,7 @@
 
 * _string_
 
-  * The first string value to split.
+  * The string value to split.
 
 * _separator_
 

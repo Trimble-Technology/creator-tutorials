@@ -31,6 +31,13 @@
   * The list of clamped values.
 
 
+### Note(s)
+
+* This operation can be expressed with nested `min()` / `max()` within the [**Expression**](/nodes/ExpressionParser/documentation.md) node.
+
+* Other names for this node include: Clamp.
+
+
 ### Example(s)
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:02b8ce1a-4a9b-458c-90f8-6ac7d036a722&version=latest" target="_blank">Clamp value</a>

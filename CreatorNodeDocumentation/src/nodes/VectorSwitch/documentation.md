@@ -11,32 +11,56 @@
 
   * The index of the vector value to output. This can only be `0`, `1`, `2`, or `3`.
 
-* _value 0_
+* _vector 0_
 
   * The vector value of index `0`.
 
-* _value 1_
+* _vector 1_
 
   * The vector value of index `1`.
 
-* _value 2_
+* _vector 2_
 
   * The vector value of index `2`.
 
-* _value 3_
+* _vector 3_
 
   * The vector value of index `3`.
 
 
 #### Outputs
 
-* _result_
+* _vector_
 
   * The vector value of the selected index.
 
-* _result list_
+* _x_
+
+  * The x component of the selected vector.
+
+* _y_
+
+  * The y component of the selected vector.
+
+* _z_
+
+  * The z component of the selected vector.
+
+* _vector list_
 
   * The list of vector values of the selected index.
+
+* _x list_
+
+  * The list of x components of the selected vector values.
+
+* _y list_
+
+  * The list of y components of the selected vector values.
+
+* _z list_
+
+  * The list of z components of the selected vector values.
 
 
 ### Note(s)

@@ -29,6 +29,8 @@
 
 ### Note(s)
 
+* This operation is represented as `min()` within the [**Expression**](/nodes/ExpressionParser/documentation.md) node.
+
 * Other names for this node include: Min.
 
 

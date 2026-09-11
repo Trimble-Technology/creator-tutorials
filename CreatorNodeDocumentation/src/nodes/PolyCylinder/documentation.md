@@ -47,12 +47,11 @@
   * The list of z values of the points of the output primitives.
 
 
-### Notes
+### Note(s)
+* Other names for this node include: PolyCylinder, Tube, and Poly Cylinder.
 
-* Other names for this node include: PolyCylinder, Poly cylinder, and Tube.
 
-
-### Examples
+### Example(s)
 
 
 

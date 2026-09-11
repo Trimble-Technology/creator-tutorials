@@ -105,4 +105,4 @@
 
 * The [**Expression**](/nodes/ExpressionParser/documentation.md) node that supersedes this one has fewer inputs, exposing only _a_, _b_, _c_, _d_, _x_, _y_, _z_, and _w_.
 
-* Other names for this node include: Formula parser.
+* Other names for this node include: Formula.

@@ -17,7 +17,7 @@
 
 * _segments_
 
-  * The value that defines the number of segments the input curves are subdivided into when the _mode_ input is set to `# of primitives`.
+  * The value that defines the number of segments the input curves are subdivided into when the _mode_ input is set to `# of segments`.
 
 * _length_
 
@@ -63,17 +63,16 @@
   * The list of lengths of the subdivided curves (full curve lengths, not curve segment lengths).
 
 
-### Notes
-
+### Note(s)
 * If the _mode_ input is set to `segment length` and the input value does not evenly divide the curve, the last segment length will be the remainder.
 
-* Other names for this node include: TessellateCurve, Tessellate curve, Redraw, and Divide curve.
+* Other names for this node include: TesselateCurve, Redraw, Divide, and Tessellate Curve.
 
 
-### Examples
+### Example(s)
 
 
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:988bd2be-bde4-48e8-bc03-ffef4efe8996&version=latest" target="_blank">Curve to polyline</a>
-* <a href="https://kind-dune-0f6b12f1e.1.azurestaticapps.net/?assetURI=whp:2162d907-1f8f-4cfe-bb9a-3a302b0a5038&version=latest" target="_blank">Tessellate a polyline into line segments</a>
-* <a href="https://kind-dune-0f6b12f1e.1.azurestaticapps.net/?assetURI=whp:90a9d506-7b56-4643-b174-3376a0546514&version=latest" target="_blank">Tessellate a polyline into segments across the length of the full line</a>
+* <a href="https://creator.trimble.com/graph?assetURI=whp:2162d907-1f8f-4cfe-bb9a-3a302b0a5038&version=latest" target="_blank">Tessellate a polyline into line segments</a>
+* <a href="https://creator.trimble.com/graph?assetURI=whp:90a9d506-7b56-4643-b174-3376a0546514&version=latest" target="_blank">Tessellate a polyline into segments across the length of the full line</a>

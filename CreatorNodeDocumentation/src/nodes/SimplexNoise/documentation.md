@@ -2,6 +2,8 @@
 
 **_Outputs a simplex noise based on input points._**
 
+---
+
 
 #### Inputs
 
@@ -29,7 +31,7 @@
 
 * This node calculates simplex noise, for more information regarding simplex noise see: <a href="https://en.wikipedia.org/wiki/Simplex_noise" target="_blank">Simplex Noise</a>.
 
-* Other names for this node include: SimplexNoise, Simplex noise.
+* Other names for this node include: SimplexNoise and Simplex.
 
 
 ### Example(s)

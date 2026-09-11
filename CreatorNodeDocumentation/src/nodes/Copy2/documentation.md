@@ -23,6 +23,14 @@
 
   * The rotation(s) that copied input primitives will orientate themselves to (based on the direction set by the _normals_ input). See the Note(s) section below for more information.
 
+* _use iterator(s)_
+
+  * Sets whether to use [**iterator**](/nodes/Iterator/documentation.md) nodes with this **copy using vectors** node.
+
+* _iterator tag_
+
+  * The tag of an [**iterator**](/nodes/Iterator/documentation.md) node to reference when _use iterator(s)_ is enabled.
+
 * _combine meshes_
 
   * Sets whether to combine all copied meshes into a singular mesh primitive. Only meshes are combined. Curves, NURBS surfaces, and other primitive types are ignored with this function.
@@ -30,7 +38,7 @@
 * _mode_
 
   * Sets the mode in which the _normals_ and _up vectors_ inputs are applied to input primitives.
-  
+
   * For example, when set to `4` X axis = tangent, Y axis = _up vectors_ input, and the Z axis = _normals_ input (in regards to the original orientation of the input primitives).
 
 
@@ -57,8 +65,7 @@
   * The list of z values of the points of the output primitives.
 
 
-#### Note(s)
-
+### Note(s)
 
 * The _positions_, _normals_, and _up vectors_ inputs can be visualized like so (when using a polyline and the _mode_ input is set to `4`):
 
@@ -76,12 +83,12 @@
 
 * The _combine meshes_ input has the same function as the [**combine meshes**](/nodes/CombineMeshes/documentation.md) node with the _group behavior_ input set to `exclude meshes from groups`.
 
-* Other names for this node include: Copy2, Duplicate, Instance, and Matrix.
+* Other names for this node include: Copy2, Duplicate, Loop, Instance, Matrix, and Matrice.
 
 
 #### Example(s)
 
 
-* <a href="https://creator.trimble.com/?viewLayout=verticalSplit&assetURI=whp:925537ea-6e85-4883-b8ca-ddca2eabd1c8&version=latest" target="_blank">Copy using vectors</a>
+* <a href="https://creator.trimble.com/graph?viewLayout=verticalSplit&assetURI=whp:925537ea-6e85-4883-b8ca-ddca2eabd1c8&version=latest" target="_blank">Copy using vectors</a>
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:b9cbcf7c-7a42-4f0f-b5b3-69a9243d869a&version=latest" target="_blank">Loft along curve</a>

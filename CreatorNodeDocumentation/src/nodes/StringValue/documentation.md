@@ -35,14 +35,13 @@
   * The string value as defined by the _value_ input.
 
 
-### Notes
-
+### Note(s)
 * When parameterized this node will appear as an input field in the parameter panel.
 
-* Other names for this node include: StringValue, Text, Word, and Parameter.
+* Other names for this node include: StringValue, Parameter, Text, and Word.
 
 
-### Examples
+### Example(s)
 
 
 

@@ -4,6 +4,7 @@
 
 ---
 
+
 #### Inputs
 
 * **_geometry_**
@@ -60,9 +61,12 @@
 
 ### Note(s)
 
-* The _mode_ inputs first three options (`around min`, `around center`, and `around max`) set the mirror axis position at the bounds of the input primitives.
+* The _mode_ input's first three options (`around min`, `around center`, and `around max`) set the mirror axis position at the bounds of the input primitives.
 
 * Mirrored primitives will also have their UV’s ([NURBS curves](/concepts/GeneralConcepts/nurbsCurve.md) and [surfaces](/concepts/GeneralConcepts/nurbsSurface.md)) and normals mirrored as well.
+
+
+* Other names for this node include: Mirror.
 
 
 ### Example(s)

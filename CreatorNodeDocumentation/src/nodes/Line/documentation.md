@@ -37,7 +37,7 @@
 
 * _order_
 
-  * The value that defines the order of the output line. See [NURBS curve](/concepts/GeneralConcepts/nurbsCurve.md) for more information.
+  * The value that defines the order of the output curve. See [NURBS curve](/concepts/GeneralConcepts/nurbsCurve.md) for more information.
 
 
 #### Outputs
@@ -63,15 +63,9 @@
   * The list of z values of the points of the output primitives.
 
 
-### Notes
+### Note(s)
+* Other names for this node include: Line.
 
 
-
-* Other names for this node include: Curve, and Polyline.
-
-
-### Examples
-
-
-
+### Example(s)
 * <a href="https://creator.trimble.com/graph?assetURI=whp:1b2f283c-c260-45c4-a95b-6728344d91d9&version=latest" target="_blank">Line modes</a>

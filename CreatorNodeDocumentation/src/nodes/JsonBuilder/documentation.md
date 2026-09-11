@@ -9,11 +9,11 @@
 
 * _mode_
 
-  * Sets the mode in which a JSON is built. This can be: `Array` or `Dictionary`.
+  * Sets the mode in which a JSON is built. This can be: `array` or `dictionary`.
 
 * _keys_
 
-  * The list of string values that defines the dictionary keys when _mode_ is set to `Dictionary`.
+  * The list of string values that defines the dictionary keys when _mode_ is set to `dictionary`.
 
 * _values_
 
@@ -29,11 +29,11 @@
 
 ### Note(s)
 
-* When the _mode_ input is set to `Dictionary` the input lists of _keys_ and _values_ must be of equal length.
+* When the _mode_ input is set to `dictionary` the input lists of _keys_ and _values_ must be of equal length.
 
 * Typically this node is used to build a JSON string to provide a list of parameters and values to a [**graph asset**](/nodes/GraphAsset/documentation.md) node.
 
-  * If you are building a parameter set for a graph asset, parameter names (a [**string list**](nodes/StringList/documentation.md)) need to be provided as _keys_, and values for those parameters need to be provided as _values_ within a `dictionary` format. 
+  * If you are building a parameter set for a graph asset, parameter names (a [**string list**](/nodes/StringList/documentation.md)) need to be provided as _keys_, and values for those parameters need to be provided as _values_ within a `dictionary` format.
 
   * As parameters can be of many different data types, a [**combine data**](/nodes/CombineData/documentation.md) node is often used to supply the input for the _values_ input.
 

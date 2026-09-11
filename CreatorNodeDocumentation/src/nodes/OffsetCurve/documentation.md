@@ -13,7 +13,7 @@
 
 * _work plane_
 
-  * The work plane in which the 2D offset operation will be performed in. This can be `X=0`, `Y=0`, or `Z=0`.
+  * The work plane in which the 2D offset operation will be performed in. This can be `X = 0`, `Y = 0`, or `Z = 0`.
 
 * _pre-flatten_
 
@@ -25,7 +25,7 @@
 
 * _join_
 
-  * Sets the type of join that will be performed at the vertices of the 2D offset. This can be  `miter`, `square`, `round`, or `simple (none)`.
+  * Sets the type of join that will be performed at the vertices of the 2D offset. This can be `miter`, `square`, `round`, or `none (simple)`.
 
 * _miter limit_
 
@@ -63,14 +63,14 @@
   * The list of z values of the points of the output curve primitives.
 
 
-### Notes
+### Note(s)
 
 * Both the _miter limit_ and _arc precision_ inputs only affect the `miter` and `round` join types respectively and will only be available when those types are defined in the _join_ input.
 
-* Other names for this node include: OffsetCurve, Offset curve, and Offset polygon.
+* Other names for this node include: OffsetCurve, Offset Curve, and Offset Polygon.
 
 
-### Examples
+### Example(s)
 
 
 

@@ -1,8 +1,9 @@
-# Split Surface
+# Split surface
 
 **_Splits NURBS surfaces along a U or V value._**
 
 ---
+
 
 #### Inputs
 
@@ -49,7 +50,8 @@
 
 ### Note(s)
 
-* Other names for this node include: SplitPatch, Split patch, Cut, Nurbs, Carve.
+* Other names for this node include: SplitPatch, Cut, NURBS, Split patch, and Carve.
+
 
 ### Example(s)
 

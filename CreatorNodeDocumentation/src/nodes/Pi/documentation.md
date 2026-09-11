@@ -21,7 +21,7 @@ No inputs.
 
 * Only outputs the value of pi up to 15 decimal places.
 
-* Other names for this node include: π.
+* Other names for this node include: Pi and Π.
 
 
 ### Example(s)

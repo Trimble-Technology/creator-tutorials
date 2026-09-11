@@ -25,7 +25,7 @@
 
 ### Note(s)
 
-* Other names for this node include: NumPoints, Number of points, Amount of points.
+* Other names for this node include: NumPoints, Number Of Points, and Amount Of Points.
 
 
 ### Example(s)

@@ -19,7 +19,7 @@
 
 * _scale_
 
-  * The vector value that defines the scale of the output tetrahedron.
+  * The value that defines the scale of the output tetrahedron.
 
 * _weld vertices_
 

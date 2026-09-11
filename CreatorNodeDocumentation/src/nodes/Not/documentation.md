@@ -25,7 +25,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Invert boolean, and !.
+* Other names for this node include: Not and !.
 
 
 ### Example(s)

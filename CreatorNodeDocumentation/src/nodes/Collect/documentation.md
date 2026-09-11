@@ -38,7 +38,7 @@
 ### Note(s)
 
 * This node simply gathers incoming primitives into a list, arranging them in the order of their associated geometry input connections.
-* Other names for this node include: Merge and Collate.
+* Other names for this node include: Collect, Merge, Group, Collate, and Test.
 
 
 ### Example(s)

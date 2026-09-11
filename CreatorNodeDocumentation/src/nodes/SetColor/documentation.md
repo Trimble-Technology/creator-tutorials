@@ -23,6 +23,14 @@
 
   * The value that defines the alpha (transparency) of the set color (between a range of `0` and `1`).
 
+* _edge color_
+
+  * The color value (vector) that defines the wireframe edge color when _set_ is `mesh wireframe colors`.
+
+* _edge alpha_
+
+  * The value that defines the alpha (transparency) of the edge color (between a range of `0` and `1`) when _set_ is `mesh wireframe colors`.
+
 * _primitive mask_
 
   * The list of boolean values that defines which input primitives to set the color to. If empty, all input primitives will be set to the defined color.
@@ -51,14 +59,14 @@
   * The list of z values of the points of the output primitives.
 
 
-### Notes
+### Note(s)
 
-* Other names for this node include: SetColor, Alpha, Wireframe, and Transparency.
+* Other names for this node include: SetColor, Alpha, Wireframe, Transparency, and Transparent.
 
 
-### Examples
+### Example(s)
 
 
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:bc96d8e6-ac0b-4daa-92e6-587764b8d6b4&version=latest" target="_blank">Set Color</a>
-* <a href="https://creator.trimble.com/?viewLayout=verticalSplit&assetURI=whp:d81bdd83-7204-4718-898b-645127deac74&version=latest" target="_blank">Deleting primitives with a boolean pattern</a>
+* <a href="https://creator.trimble.com/graph?viewLayout=verticalSplit&assetURI=whp:d81bdd83-7204-4718-898b-645127deac74&version=latest" target="_blank">Deleting primitives with a boolean pattern</a>

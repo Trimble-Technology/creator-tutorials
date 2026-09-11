@@ -11,9 +11,9 @@
 
   * Accepts multiple geometry connections.
 
-* _operation type_
+* _boolean type_
 
-  * Sets the type of boolean operation to perform on input geometry. This can be: `Union`, `Subtraction`, `Reverse subtraction`, `Intersection`, or `XOR`.
+  * Sets the type of boolean operation to perform on input geometry. This can be: `union`, `subtraction`, `reverse subtraction`, `intersection`, or `XOR`.
 
 * _weld_
 
@@ -51,13 +51,13 @@
 
     * Specifically this means geometry that is being operated on has faces that are within the same plane as each other (one example may be when unioning two boxes that have been aligned directly next to each other, where one side of each box touches a side of another). Often stretching an input geometry (with either the [**transform**](/nodes/TransformPrimitives/documentation.md) or [**smart size**](/nodes/SmartSize/documentation.md) nodes) so that there is a clear overlap, can help with more consistent behavior.
 
-  * Edges and vertices,
+  * Edges and vertices
 
     * A mesh 3D boolean operation utilizes vertices and edges of input meshes to perform operations. Therefore, it is often useful to pay attention to where particular geometries are positioned. Say for example we have a box that is subtracting from another box where the position of the subtracting box is positioned so that it lies directly in the middle of a triangle of the first box's mesh. In this instance, there are no intersecting edges or vertices of either mesh, thus making it difficult to calculate consistently.
 
 * This node is a [destructive operation](/concepts/GeneralConcepts/destructive.md).
 
-* Other names for this node include: MeshBoolean, Mesh boolean, 3D boolean, and CSG.
+* Other names for this node include: MeshBoolean, 3d Boolean, and CSG.
 
 
 ### Example(s)

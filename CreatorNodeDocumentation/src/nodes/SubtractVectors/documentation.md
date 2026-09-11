@@ -7,11 +7,11 @@
 
 #### Inputs
 
-* _vector 1_
+* _vector1_
 
   * The vector value to subtract from.
 
-* _vector 2_
+* _vector2_
 
   * The vector value to subtract with.
 
@@ -28,11 +28,11 @@
 
 * _result_
 
-  * The normalized vector.
+  * The result of the vector subtraction.
 
 * _result list_
 
-  * The list of results of normalized vectors.
+  * The list of results of vector subtraction.
 
 
 ### Note(s)

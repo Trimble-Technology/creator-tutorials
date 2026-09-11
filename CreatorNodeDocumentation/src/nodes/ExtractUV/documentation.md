@@ -7,11 +7,15 @@
 
 #### Inputs
 
-* _default u_
+* **_geometry_**
+
+  * Accepts a single geometry connection (unless the SHIFT key is held).
+
+* _default U_
 
   * The value to output if there are no U values on an input point.
 
-* _default v_
+* _default V_
 
   * The value to output if there are no V values on an input point.
 
@@ -29,9 +33,9 @@
 
 ### Note(s)
 
-* Currently only operates on [PolyMesh](/concepts/GeneralConcepts/polyMesh.md) primitives, not [NURBS surfaces](/concepts/GeneralConcepts/nurbsSurface.md) etc. If any primitive type other than a PolyMesh is input, the _default u_ and _default v_ values will be output.
+* Currently only operates on [**PolyMesh**](/concepts/GeneralConcepts/polyMesh.md) primitives, not [**NURBS surfaces**](/concepts/GeneralConcepts/nurbsSurface.md) etc. If any primitive type other than a PolyMesh is input, the _default U_ and _default V_ values will be output.
 
-* Other names for this node include: ExtractUV, Extract UVs.
+* Other names for this node include: ExtractUV and Extract UVs.
 
 
 ### Example(s)

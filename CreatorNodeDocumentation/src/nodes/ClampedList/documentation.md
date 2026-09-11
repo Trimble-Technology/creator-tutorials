@@ -54,4 +54,4 @@
 
 * Useful for tidying up the output of a [**Random number**](/nodes/RandomFloat/documentation.md) node, keeping generated values inside a usable range and stopping them from bunching together.
 
-* Other names for this node include: ClampedList and Clamped list.
+* Other names for this node include: ClampedList.

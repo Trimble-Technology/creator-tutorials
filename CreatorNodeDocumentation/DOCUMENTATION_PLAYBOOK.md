@@ -1,6 +1,6 @@
 # Node Documentation Playbook
 
-How to write a `documentation.md` file for a node in `CreatorNodeDocumentation/src/nodes/<NodeName>/`. This was reverse-engineered by analyzing all 174 existing `documentation.md` files for consistent patterns — where files disagreed, the majority convention was chosen. Follow this exactly for new or missing node docs so the reference site stays consistent.
+How to write a `documentation.md` file for a node in `CreatorNodeDocumentation/src/nodes/<NodeName>/`. This was reverse-engineered by analyzing all 177 existing `documentation.md` files for consistent patterns — where files disagreed, the majority convention was chosen. Follow this exactly for new or missing node docs so the reference site stays consistent.
 
 This complements (doesn't replace) the general writing style guide in the root `README.md` ("Tutorial Guidelines") — bold/italic/caps rules there apply here too.
 
@@ -73,7 +73,7 @@ Copy this and fill in the blanks. Line-for-line spacing matters (see "Exact spac
 
 (Note: the one existing example of this in the repo, `Circle/documentation.md`, has this section title as "DEPRICATED" and says "Superseeded" — both are typos. Use the correct spellings above for anything new; don't copy the typo.)
 
-**Inputs / Outputs (`#### `)** — heading level 4, exactly `#### Inputs` and `#### Outputs` (this is the dominant convention — 170/174 files use it; a handful of very old files use `### Inputs` at level 3 or "Inputs"/"Outputs" without the "#### " — don't follow those).
+**Inputs / Outputs (`#### `)** — heading level 4, exactly `#### Inputs` and `#### Outputs` (this is the dominant convention — nearly all 177 files use it; a handful of very old files use `### Inputs` at level 3 or "Inputs"/"Outputs" without the "#### " — don't follow those).
 
 Each xput is a bullet with its name in italics, followed by a blank line, then an indented (2-space) bullet with the description:
 
@@ -133,7 +133,7 @@ If an xput accepts multiple values or needs more explanation, you can add furthe
 **Note(s) (`### `)** — heading level 3, `### Note(s)` (not "Notes" — that's a legacy variant found in ~36 older files, don't use it for new docs). Use for caveats, edge cases, performance notes, or anything a user would trip over. Two conventions worth reusing:
 
 - If the node corresponds to an operator/function in the [**Expression**](/nodes/ExpressionParser/documentation.md) node, say so: `This operation is represented as \`+\` within the [**Expression**](/nodes/ExpressionParser/documentation.md) node.`
-- Nearly every node ends its Note(s) with an "other names" bullet (165/174 files do this) — see the dedicated rule below.
+- Nearly every node ends its Note(s) with an "other names" bullet (most of the 177 files do this) — see the dedicated rule below.
 
 **"Other names for this node include" bullet.** Pull this directly from `descriptor.json`:
 - If `alternateNames` is non-empty, list them Title Case (except literal symbols like `+`), comma-separated with "and" before the last: `Other names for this node include: Sum, Addition, +, and plus.`
@@ -160,7 +160,13 @@ Get the `assetURI` UUID from the actual example graph in Creator; the title is a
 - ALL CAPS — keyboard actions (`SHIFT`, `CTRL`), per the root style guide.
 - Internal links to other node docs: `[**Node Display Name**](/nodes/NodeFolderName/documentation.md)` — bold the link text, use the node's display name (not its folder/type name) as the link text, and use an absolute path starting with `/nodes/`.
 - Internal links to concept pages follow the same pattern: `[**Concept Name**](/concepts/GeneralConcepts/fileName.md)`.
-- No images are currently used in any node doc — text and the linked example graphs carry the explanation. If you think an image is genuinely needed, raise it rather than introducing the first one unilaterally.
+- Images are optional and should only be used when a diagram materially helps (existing examples: **Copy2**, **Cross**, **Range**, **Skin**, **SmartSize**). Place the image file beside `documentation.md` in the node folder, and embed it with centered HTML:
+
+  ```html
+  <p align="center"><img src="filename.ext" alt="..."></p>
+  ```
+
+  Prefer text and linked example graphs when an image would not add clarity.
 
 ## Keep it in sync with `descriptor.json`
 

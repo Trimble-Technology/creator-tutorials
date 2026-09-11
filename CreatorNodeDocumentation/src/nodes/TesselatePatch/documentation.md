@@ -25,7 +25,7 @@
 
 * _qualityV_
 
-  * The value that defines the quality for the U coordinate of the resulting triangulated mesh when _mode_ is set to `separate U & V quality`.
+  * The value that defines the quality for the V coordinate of the resulting triangulated mesh when _mode_ is set to `separate U & V quality`.
 
 
 #### Outputs
@@ -53,7 +53,7 @@
 
 ### Note(s)
 
-* Other names for this node include: TesselatePatch, NURBS to polygon, NURBS patch to triangles, Mesh, Tessellate, and Convert.
+* Other names for this node include: TesselatePatch, NURBS To Polygon, NURBS Patch To Triangles, Mesh, Tesselate, Tessellate, and Convert.
 
 
 ### Example(s)

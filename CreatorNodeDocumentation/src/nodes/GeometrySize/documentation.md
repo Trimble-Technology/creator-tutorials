@@ -35,15 +35,10 @@
   * The list of vector values of the geometry sizes of each individual input primitive.
 
 
-### Notes
-
-
+### Note(s)
 * Other names for this node include: GeometrySize.
 
 
 
-### Examples
-
-
-
+### Example(s)
 * <a href="https://creator.trimble.com/graph?assetURI=whp:db2e8f1e-4682-4580-89c4-b5b9ad60cc96&version=latest" target="_blank">Create a bounding box</a>

@@ -23,7 +23,7 @@
 
 * _vector 2_
 
-  * The first vector value for addition.
+  * The second vector value for addition.
 
 * _opposite vector 2_
 
@@ -31,7 +31,7 @@
 
 * _vector 3_
 
-  * The first vector value for addition.
+  * The third vector value for addition.
 
 * _opposite vector 3_
 
@@ -39,7 +39,7 @@
 
 * _vector 4_
 
-  * The first vector value for addition.
+  * The fourth vector value for addition.
 
 * _opposite vector 4_
 
@@ -67,4 +67,4 @@
 
 ### Note(s)
 
-* Other names for this node include: Sum and Addition.
+* Other names for this node include: AddVectors, Sum, and Addition.
