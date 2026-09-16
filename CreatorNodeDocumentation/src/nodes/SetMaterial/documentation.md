@@ -81,7 +81,7 @@
 
 * _bump_
 
-  * The value that defines the bump to set to the input primitives (between a range of `0` and `1`) when the _set bump_ input is set to `true`.
+  * The value that defines the bump to set to the input primitives (between a range of `-10` and `10`) when the _set bump_ input is set to `true`.
 
 * _bump texture_
 
@@ -93,7 +93,7 @@
 
 * _incandescence_
 
-  * The color value (vector) that defines the incandescence to set to the input primitives (between a range of `0` and `1`) when the _set incandescence_ input is set to `true`.
+  * The color value (vector) that defines the incandescence to set to the input primitives when the _set incandescence_ input is set to `true`.
 
 * _incandescence texture_
 
@@ -139,14 +139,13 @@
   * The list of z values of the points of the output primitives.
 
 
-### Notes
-
+### Note(s)
 * See [Material](/concepts/GeneralConcepts/material.md) for more information.
 
-* Other names for this node include: SetMaterial, Set Material, and Shader.
+* Other names for this node include: SetMaterial, Set Material, Shader, Shading, Roughness, Reflectance, Albedo, Opacity, Transparency, Emission, and Bump.
 
 
-### Examples
+### Example(s)
 
 
 

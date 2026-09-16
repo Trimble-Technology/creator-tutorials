@@ -29,7 +29,7 @@
 
 ### Note(s)
 
-* Other names for this node include: Smaller, and &lt;.
+* Other names for this node include: Less, Smaller, and <.
 
 
 ### Example(s)

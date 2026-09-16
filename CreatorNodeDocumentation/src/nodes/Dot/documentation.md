@@ -7,11 +7,11 @@
 
 #### Inputs
 
-* _vector 1_
+* _vector1_
 
   * The first vector value to perform the function on.
 
-* _vector 2_
+* _vector2_
 
   * The second vector value to perform the function on.
 
@@ -32,6 +32,7 @@
 * The dot product is the sum of two vectors’ components (x, y, and z values) that have been multiplied together. This results in a single number value.
 
 * Other names for this node include: Dot.
+
 
 ### Example(s)
 

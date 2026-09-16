@@ -17,7 +17,7 @@
 
 * _type_
 
-  * The string value that defines the position of the locator.
+  * The string value that defines the semantic type of the locator (e.g. `{"type": "snap"}`).
 
 
 #### Outputs
@@ -51,7 +51,7 @@
 
 * See [Locator](/concepts/GeneralConcepts/locator.md) for more information on the locator primitive type.
 
-* Other names for this node include: Handle, Snap, and Control point.
+* Other names for this node include: Locator, Handle, and Snap, and Control point.
 
 
 ### Example(s)

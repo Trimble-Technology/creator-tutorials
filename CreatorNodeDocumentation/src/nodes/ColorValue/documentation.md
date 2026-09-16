@@ -40,10 +40,10 @@
 * When parameterized this node will appear as three input fields and a color picker in the parameter panel.
 
 * A color value is defined by three values between `0` and `1`.
-    * Any input value above `1` will be rounded back down to `1`.
-    * Any input value below `0` will be rounded back up to `0`.
+    * Any input value above `1` will be clamped to `1`.
+    * Any input value below `0` will be clamped to `0`.
 
-    * The `0` - `1` range is the same as the RGB `0` - `255` range. See the [**range**](/nodes/Range/documentation.md) node to convert individual values.
+    * The `0` - `1` range maps to the RGB `0` - `255` range. See the [**range**](/nodes/Range/documentation.md) node to convert individual values.
 
 * Any vector values can be utilized as a color value.
 
@@ -52,10 +52,7 @@
 * Other names for this node include: ColorValue and Parameter.
 
 
-### Examples
-
-
-
+### Example(s)
 * <a href="https://creator.trimble.com/graph?assetURI=whp:bc96d8e6-ac0b-4daa-92e6-587764b8d6b4&version=latest" target="_blank">Set color</a>
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:f83cdeb2-5ca0-476e-8e71-c81ad5be4ebe&version=latest" target="_blank">Colors and vectors</a>

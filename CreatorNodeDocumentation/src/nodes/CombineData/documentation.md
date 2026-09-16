@@ -41,7 +41,7 @@
 
 * _expand mode_
 
-  * Sets how lists are expanded when combining them. This can be `Preserve lists` (keeps list nesting / does not expand lists), `Expand lists` (unpacks/expands lists by one level), or `Expand lists recursively` (unpacks/expands lists recursively into a single unnested list).
+  * Sets how lists are expanded when combining them. This can be `preserve lists` (keeps list nesting / does not expand lists), `expand lists` (unpacks/expands lists by one level), or `expand lists recursively` (unpacks/expands lists recursively into a single unnested list).
 
 
 #### Outputs

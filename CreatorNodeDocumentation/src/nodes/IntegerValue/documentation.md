@@ -4,6 +4,7 @@
 
 ---
 
+
 #### Inputs
 
 * _value_
@@ -49,27 +50,25 @@
 
 #### Outputs
 
-_value_
+* _value_
 
   * The integer value as defined by the _value_ input.
 
-_input is null_
+* _input is null_
 
   * Outputs a boolean value that indicates whether the _value_ input is `null` (`true`) or not (`false`).
 
 
-### Notes
+### Note(s)
 
 * When parameterized this node will appear as a slider and input field in the parameter panel.
 
-* Setting a _min/max mode_ input to `Soft` will allow values outside the range of the values defined by the relevant _min_ and _max_ inputs. Setting it to `Hard` will not allow values outside the range of the values defined by the relevant _min_ and _max_ inputs (thus clamping any values to this range).
+* Setting a _min/max mode_ input to `soft` will allow values outside the range of the values defined by the relevant _min_ and _max_ inputs. Setting it to `hard` will not allow values outside the range of the values defined by the relevant _min_ and _max_ inputs (thus clamping any values to this range).
 
 * Other names for this node include: IntegerValue, Whole, Number, and Parameter.
 
 
-### Examples
-
-
+### Example(s)
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:866137ad-bf24-4a85-8953-1c9ca1657d7b&version=latest" target="_blank">Isolating a primitive</a>
 * <a href="https://creator.trimble.com/graph?assetURI=whp:12e6e13a-5702-4623-807b-e0449f690afa&version=latest" target="_blank">Setting a point within a polyline</a>

@@ -31,6 +31,10 @@
 
   * The maximum value of the slider range.
 
+* _step_
+
+  * The step increment of the slider when the node is parameterized.
+
 * _hide control_
 
   * Hides the parameter control within the parameter panel when the node is parameterized.
@@ -52,25 +56,23 @@
 
 * _value_
 
-  * The integer value as defined by the _value_ input.
+  * The number (floating point) value as defined by the _value_ input.
 
 * _input is null_
 
   * Outputs a boolean value that indicates whether the _value_ input is `null` (`true`) or not (`false`).
 
 
-### Notes
+### Note(s)
 
 * When parameterized this node will appear as a slider and input field in the parameter panel.
 
-* Setting a _min/max mode_ input to `Soft` will allow values outside the range of the values defined by the relevant _min_ and _max_ inputs. Setting it to `Hard` will not allow values outside the range of the values defined by the relevant _min_ and _max_ inputs (thus clamping any values to this range).
+* Setting a _min/max mode_ input to `soft` will allow values outside the range of the values defined by the relevant _min_ and _max_ inputs. Setting it to `hard` will not allow values outside the range of the values defined by the relevant _min_ and _max_ inputs (thus clamping any values to this range).
 
 * Other names for this node include: FloatValue, Float, Double, Decimal, Real, and Parameter.
 
 
-### Examples
-
-
+### Example(s)
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:2b2bfb2f-ffeb-4cd3-ae15-fe1f0b59cf33&version=latest" target="_blank">Scaling a box</a>
 * <a href="https://creator.trimble.com/graph?assetURI=whp:b783bdc2-5bea-49b6-b68e-a7eabee7993c&version=latest" target="_blank">Smart sizing geometry</a>

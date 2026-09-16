@@ -59,9 +59,9 @@
 
 * The list of possible operations that can be performed by this node are as follows:
 
-  * +, -, *, /, \\, %, >, <, =>, =<, ==, =!, &&, ||, &, |, =^, **, ?:, min, max, sin, cos, tan, asin, acos, atan, atan2, sinh, cosh, tanh, round, ceil, floor, trunc, sqrt, pow, exp, log, log10, abs, sign, pi.
+  * +, -, *, /, \\, %, >, <, =>, =<, ==, =!, &&, ||, &, |, =^, **, ?:, min, max, sin, cos, tan, asin, acos, atan, atan2, sinh, cosh, tanh, round, ceil, floor, trunc, sqrt, pow, exp, log, log10, abs, sign.
 
-* Other names for this node include: ExpressionParser, Expression parser, and Formula.
+* Other names for this node include: ExpressionParser.
 
 
 ### Example(s)

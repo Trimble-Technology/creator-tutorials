@@ -7,11 +7,11 @@
 
 #### Inputs
 
-* _vector 1_
+* _vector1_
 
   * The first vector value to perform the function on.
 
-* _vector 2_
+* _vector2_
 
   * The second vector value to perform the function on.
 

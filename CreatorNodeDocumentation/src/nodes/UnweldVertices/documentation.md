@@ -35,12 +35,12 @@
   * The list of z values of the points of the output primitives.
 
 
-  ### Notes
+### Note(s)
 
-* Other names for this node include: UnweldVertices, Hard edges, and Facet.
+* Other names for this node include: UnweldVertices, Hard Edges, and Facet.
 
 
-### Examples
+### Example(s)
 
 
 

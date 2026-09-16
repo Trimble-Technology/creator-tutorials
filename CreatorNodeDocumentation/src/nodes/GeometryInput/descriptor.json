@@ -12,7 +12,7 @@
         "type": "string",
         "description": "input geometry as a JSON encoded string",
         "displayName": "json geometry",
-        "default": "{\"id\":\"emptyPolyLine\",\"points\":[]}"
+        "default": "{\"id\":\"emptyPolyLine\",\"points\":[[0,0,0],[1000,0,0],[1000,1000,0],[0,1000,0],[0,0,0]]}"
       },
       "geometrySchemaJSON": {
         "type": "string",

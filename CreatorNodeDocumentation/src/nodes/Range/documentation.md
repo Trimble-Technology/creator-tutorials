@@ -47,7 +47,7 @@
   <img width="600" src="RangeDiagram.gif"/>
 </p>
 
-* Other names for this node include: Remap and Lerp.
+* Other names for this node include: Range, Remap, and Lerp.
 
 
 ### Example(s)

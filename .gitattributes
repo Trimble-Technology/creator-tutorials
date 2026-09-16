@@ -1,0 +1,10 @@
+# Normalize line endings for all text files to LF in the repository.
+# This prevents every file from showing as "modified" just because Windows
+# checks files out with CRLF while the repo stores LF (or vice versa).
+* text=auto eol=lf
+
+# Keep binary/project files untouched
+*.trb binary
+*.png binary
+*.svg binary
+*.ico binary

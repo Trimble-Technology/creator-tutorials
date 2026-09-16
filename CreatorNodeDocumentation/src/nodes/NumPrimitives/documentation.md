@@ -13,19 +13,19 @@
 
 * _minus one_
 
-  * Sets whether to subtract 1 from the _number of primitives_ output or not.
+  * Sets whether to subtract 1 from the _numPrimitives_ output or not.
 
 
 #### Outputs
 
-* _number of primitives_
+* _numPrimitives_
 
   * The number of primitives.
 
 
 ### Note(s)
 
-* Other names for this node include: NumPrimitives, Number of primitives, and Amount of primitives.
+* Other names for this node include: NumPrimitives, Number Of Primitives, and Amount Of Primitives.
 
 
 ### Example(s)

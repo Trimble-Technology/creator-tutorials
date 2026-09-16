@@ -39,14 +39,13 @@
   * The list of z values of the points of the output primitives.
 
 
-### Notes
-
+### Note(s)
 * Group primitives can be ungrouped with the [**ungroup**](/nodes/UnGroupPrimitives/documentation.md) node.
 
-* Other names for this node include: GroupPrimitives, Group primitives, and Assemble.
+* Other names for this node include: GroupPrimitives, Group Primitives, and Assemble.
 
 
-### Examples
+### Example(s)
 
 
 

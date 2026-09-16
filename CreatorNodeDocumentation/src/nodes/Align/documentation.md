@@ -17,7 +17,7 @@
 
 * _x align target_
 
-  * Sets what boundary/value that primitives are aligned by in the x-axis. This can be `None` (which will not align primitives in the x-axis), `min`, `centroid`, or `max`.
+  * Sets what boundary/value that primitives are aligned by in the x-axis. This can be `none` (which will not align primitives in the x-axis), `min`, `centroid`, or `max`.
 
 * _x source_
 
@@ -37,7 +37,7 @@
 
 * _y align target_
 
-  * Sets what boundary/value that primitives are aligned by in the y-axis. This can be `None` (which will not align primitives in the y-axis), `min`, `centroid`, or `max`.
+  * Sets what boundary/value that primitives are aligned by in the y-axis. This can be `none` (which will not align primitives in the y-axis), `min`, `centroid`, or `max`.
 
 * _y source_
 
@@ -57,7 +57,7 @@
 
 * _z align target_
 
-  * Sets what boundary/value that primitives are aligned by in the z-axis. This can be `None` (which will not align primitives in the z-axis), `min`, `centroid`, or `max`.
+  * Sets what boundary/value that primitives are aligned by in the z-axis. This can be `none` (which will not align primitives in the z-axis), `min`, `centroid`, or `max`.
 
 * _z source_
 
@@ -108,8 +108,8 @@
 * When the _mode_ input is set to `between primitive connections` the primitives in each input geometry connection are treated as a group.
 
 
-### Examples
+* Other names for this node include: Align.
 
 
-
+### Example(s)
 * <a href="https://creator.trimble.com/graph?assetURI=whp:92e7e780-0b33-4970-bc97-d32c2f6ee4bc&version=latest" target="_blank">Align geometries</a>

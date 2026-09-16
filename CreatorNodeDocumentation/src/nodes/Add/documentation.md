@@ -39,7 +39,7 @@
 
 * This operation is represented as `+` within the [**Expression**](/nodes/ExpressionParser/documentation.md) node.
 
-* Other names for this node include: Sum, Addition, +, and plus.
+* Other names for this node include: Add, Sum, Addition, +, and Plus.
 
 
 ### Example(s)

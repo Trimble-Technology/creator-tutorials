@@ -13,7 +13,7 @@
 
 * _work plane_
 
-  * The work plane in which the 2D boolean operation will be performed in. This can be `X=0`, `Y=0`, or `Z=0`.
+  * The work plane in which the 2D boolean operation will be performed in. This can be `X = 0`, `Y = 0`, or `Z = 0`.
 
 * _pre-flatten_
 
@@ -25,7 +25,7 @@
 
 * _fill type_
 
-  * Sets the type of fill that is considered when the 2D boolean operation is performed. For more information visit: [http://www.angusj.com/delphi/clipper/documentation/Docs/Units/ClipperLib/Types/PolyFillType.htm](http://www.angusj.com/delphi/clipper/documentation/Docs/Units/ClipperLib/Types/PolyFillType.htm)
+  * Sets the type of fill that is considered when the 2D boolean operation is performed. This can be `even-odd`, `nonzero`, `positive`, or `negative`. For more information visit: [http://www.angusj.com/delphi/clipper/documentation/Docs/Units/ClipperLib/Types/PolyFillType.htm](http://www.angusj.com/delphi/clipper/documentation/Docs/Units/ClipperLib/Types/PolyFillType.htm)
 
 * _primary polygon_
 
@@ -70,10 +70,10 @@
 
 * Requires at least two curve/polygon input primitives.
 
-* Other names for this node include: CurveBoolean, Curve boolean, and Polygon boolean.
+* Other names for this node include: CurveBoolean, Curve, Polygon, Path, and 2D Boolean.
 
 
-### Examples
+### Example(s)
 
 
 

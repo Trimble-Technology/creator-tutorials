@@ -20,6 +20,10 @@ This is the <a href="https://creator.trimble.com/graph?assetURI=whp:b56d0b43-4d3
   <img width="600" src="images\CreatorCow.png"/>
 </p>
 
+> #### Recommendation
+>
+> Prefer simple material application over authoring UV coordinates or driving shading properties with detailed textures inside the graph. When a graph's geometry is applied in SketchUp, SketchUp automatically generates UV coordinates for `PolyMesh` primitives as part of applying a material, so most graphs don't need to project UVs or set up textures themselves to get reasonable texturing. Save [**project UV**](/nodes/ProjectUV/documentation.md) and texture-driven properties (see [Textures](#textures) and [UV mapping](#uv-mapping) below) for cases where SketchUp's automatic mapping genuinely isn't good enough.
+
 
 ### PBR Shading
 
@@ -145,6 +149,8 @@ The [**set color**](/nodes/SetColor/documentation.md) node modifies a primitive'
 
 Textures are images used to 'map' certain [shading properties](/concepts/GeneralConcepts/material.md#pbr-shading), like base color, roughness, or bump. This allows for variation of the property across the surface of geometry primitives. Example: make only parts transparent, or reflective.
 
+Driving a shading property with a texture also requires the primitive to carry UV coordinates (see [UV mapping](#uv-mapping) below), which adds authoring complexity. In most cases, a flat color and PBR value per property, applied through the [**material**](/nodes/SetMaterial/documentation.md) node, is simpler and enough — reach for textures only when a single value per property genuinely can't achieve the desired look.
+
 Import textures by [uploading them](/concepts/GeneralConcepts/importExport.md). They can then be loaded into a graph using the [**image asset**](/nodes/ImageAsset/documentation.md) node.
 
 To use them with materials, connect their _asset uri_ output to the desired texture input of a [**material**](/nodes/SetMaterial/documentation.md) node.
@@ -157,4 +163,6 @@ Whenever a texture is used in a material to vary a [shading property](/concepts/
 
 [`NURBS surface`](/concepts/GeneralConcepts/nurbsSurface.md) primitives carry UVs by design, but [`PolyMesh`](/concepts/GeneralConcepts/polyMesh.md) primitives sometimes need UVs to be added.
 
-In general, this requires sophisticated UV mapping tools.  This node provides basic ways of to applying UV coordinates onto `PolyMesh` primitives: [**project UV**](/nodes/ProjectUV/documentation.md).
+In general, this requires sophisticated UV mapping tools. This node provides basic ways of to applying UV coordinates onto `PolyMesh` primitives: [**project UV**](/nodes/ProjectUV/documentation.md).
+
+This is rarely necessary, though: SketchUp automatically generates UV coordinates for `PolyMesh` primitives when a material is applied to them in situ, so a graph that just sets a material via the [**material**](/nodes/SetMaterial/documentation.md) node (without a texture-driven property) doesn't need to author UVs at all. Reach for [**project UV**](/nodes/ProjectUV/documentation.md) only when a texture needs to be mapped in a specific way that SketchUp's automatic mapping doesn't produce.

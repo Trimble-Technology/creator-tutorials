@@ -19,7 +19,7 @@
 
   * The list of target points among which the closest points are found from the _source points_.
 
-* _calculate distance_
+* _calculate distances_
 
   * Sets whether to calculate the distances between the _source points_ and their nearest _target points_ or not.
 
@@ -60,12 +60,12 @@
 
 * _number of points within radius_
 
-  * The number of target points within the defined radius from each source point when the _mode_ intput is set to `number of points within radius`.
+  * The number of target points within the defined radius from each source point when the _mode_ input is set to `number of points within radius`.
 
 
 ### Note(s)
 
-* Other names for this node include: ClosestPointsToPoints, Nearest, Distance, Radius, and Neighbour.
+* Other names for this node include: ClosestPointsToPoints, Nearest Points, Distance, Radius, Neighbour, and Neighbor.
 
 
 ### Example(s)

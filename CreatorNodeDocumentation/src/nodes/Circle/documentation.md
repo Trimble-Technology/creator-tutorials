@@ -4,11 +4,11 @@
 
 ---
 
-> #### DEPRICATED
+> #### DEPRECATED
 >
 > Circle by NURBS does not work with flexi radius correctly.
 >
-> Superseeded by [Circle](/nodes/CircleV2/documentation.md)
+> Superseded by [Circle](/nodes/CircleV2/documentation.md)
 
 
 #### Inputs
@@ -65,7 +65,7 @@
   * The list of z values of the points of the output primitives.
 
 
-### Notes
+### Note(s)
 
 * Only the `polyline` and `mesh` settings on the _type_ input have the _segments_, _start angle_, and _end angle_ inputs.
     * Adjusting the _start angle_ and _end angle_ inputs will create an arc/semicircle.
@@ -74,10 +74,10 @@
 
 * The _segments_ input can be used to make any regular polygon (triangle, quadrilateral, pentagon, etc.).
 
-* Other names for this node include: Arc.
+* Other names for this node include: Circle and Arc.
 
 
-### Examples
+### Example(s)
 
 
 

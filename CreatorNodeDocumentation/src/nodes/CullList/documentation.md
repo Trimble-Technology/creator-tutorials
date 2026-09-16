@@ -1,4 +1,4 @@
-# Cull number lists
+# Cull number list
 
 **_Cull a number list using a mask._**
 
@@ -29,7 +29,7 @@
 
 ### Note(s)
 
-* Other names for this node include: CullList, Split list.
+* Other names for this node include: CullList.
 
 
 ### Example(s)

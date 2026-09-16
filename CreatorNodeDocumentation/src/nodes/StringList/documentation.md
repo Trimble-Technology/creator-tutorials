@@ -31,16 +31,15 @@
   * The string list as defined by the _list_ input.
 
 
-### Notes
-
+### Note(s)
 * A custom list can be made by clicking on the `<string list>` space of the _list_ input via the “Add Item” button.
 
 * When the _initialize_ input is `true`, manually inputted values will be overridden by the _default_ input value.
 
-* Other names for this node include: StringList, Text list, and Word list.
+* Other names for this node include: StringList and Text.
 
 
-### Examples
+### Example(s)
 
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:c7dc99f1-334b-47ae-9622-fb38812db203&version=latest" target="_blank">Changing choice options</a>

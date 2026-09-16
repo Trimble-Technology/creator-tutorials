@@ -13,7 +13,7 @@
 
 * _scale_
 
-  * The vector value that defines the scale of the output tetrahedron.
+  * The value that defines the scale of the output tetrahedron.
 
 * _weld vertices_
 
@@ -43,13 +43,9 @@
   * The list of z values of the points of the output primitives.
 
 
-### Notes
-
+### Note(s)
 * Other names for this node include: TetrahedronV2.
 
 
-### Examples
-
-
-
+### Example(s)
 * <a href="https://creator.trimble.com/graph?assetURI=whp:a63e8834-653b-465c-8567-82912ffb2791&version=latest" target="_blank">Tetrahedron</a>

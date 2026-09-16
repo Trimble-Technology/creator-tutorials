@@ -33,18 +33,18 @@
 
 ### Note(s)
 
-* The list of possible functions as as follows:
+* The list of possible functions is as follows:
 
   * `Linear`, `QuadraticIn`, `QuadraticOut`, `QuadraticInOut`, `CubicIn`, `CubicOut`, `CubicInOut`, `QuarticIn`, `QuarticOut`, `QuarticInOut`, `QuinticIn`, `QuinticOut`, `QuinticInOut`, `SinusoidalIn`, `SinusoidalOut`, `SinusoidalInOut`, `ExponentialIn`, `ExponentialOut`, `ExponentialInOut`, `CircularIn`, `CircularOut`, `CircularInOut`, `ElasticIn`, `ElasticOut`, `ElasticInOut`, `BackIn`, `BackOut`, `BackInOut`, `BounceIn`, `BounceOut`, or `BounceInOut`.
   * To see what each of these functions look like, have a look at the "Ease Visualization" example below.
 
-* Other names for this node include: Animation, Animate, Interpolate, Ramp, and Gradient.
+* Other names for this node include: Ease, Animation, Animate, Interpolate, Ramp, and Gradient.
 
 
 ### Example(s)
 
-* <a href="https://creator.trimble.com/graph?asset=whp:ccc52e9e-5b24-467d-a190-63bbcaada403&version=latest" target="_blank">Ease Visualization</a>
+* <a href="https://creator.trimble.com/graph?assetURI=whp:ccc52e9e-5b24-467d-a190-63bbcaada403&version=latest" target="_blank">Ease Visualization</a>
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:9fcc6f91-c9eb-4b58-bd23-a77689aa20ba&version=latest" target="_blank">Using UVs to deform meshes</a>
 
-* <a href="https://creator.trimble.com/graph?assetURI=whp:45738561-dcda-4b42-9c0b-4e645a341ca4&version=latestt" target="_blank">Using noise to distort points along a single axis</a>
+* <a href="https://creator.trimble.com/graph?assetURI=whp:45738561-dcda-4b42-9c0b-4e645a341ca4&version=latest" target="_blank">Using noise to distort points along a single axis</a>

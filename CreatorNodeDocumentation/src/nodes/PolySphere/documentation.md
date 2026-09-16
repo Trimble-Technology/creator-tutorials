@@ -25,27 +25,27 @@
 
 * _columns_
 
-  * The value that defines the number of columns of the output sphere when the _type_ input is set to `column & rows` or `CSG`.
+  * The value that defines the number of columns of the output sphere when the _type_ input is set to `columns & rows` or `CSG`.
 
 * _rows_
 
-  * The value that defines the number of rows of the output sphere when the _type_ input is set to `column & rows` or `CSG`.
+  * The value that defines the number of rows of the output sphere when the _type_ input is set to `columns & rows` or `CSG`.
 
 * _phi start_
 
-  * The value that defines the start angle (in the same axis as the _columns_ input) of the output sphere when the _type_ input is set to `column & rows`.
+  * The value that defines the start angle (in the same axis as the _columns_ input) of the output sphere when the _type_ input is set to `columns & rows`.
 
 * _phi end_
 
-  * The value that defines the end angle (in the same axis as the _columns_ input) of the output sphere when the _type_ input is set to `column & rows`.
+  * The value that defines the end angle (in the same axis as the _columns_ input) of the output sphere when the _type_ input is set to `columns & rows`.
 
 * _theta start_
 
-  * The value that defines the start angle (in the same axis as the _rows_ input) of the output sphere when the _type_ input is set to `column & rows`.
+  * The value that defines the start angle (in the same axis as the _rows_ input) of the output sphere when the _type_ input is set to `columns & rows`.
 
 * _theta end_
 
-  * The value that defines the end angle (in the same axis as the _rows_ input) of the output sphere when the _type_ input is set to `column & rows`.
+  * The value that defines the end angle (in the same axis as the _rows_ input) of the output sphere when the _type_ input is set to `columns & rows`.
 
 
 #### Outputs
@@ -71,14 +71,13 @@
   * The list of z values of the points of the output primitives.
 
 
-### Notes
-
+### Note(s)
 * When the _type_ input is set to `columns & rows`, adjusting the _phi_ and _theta_ start/end inputs will create domes and partial spheres.
 
-* Other names for this node include: PolySphere, Poly sphere, Icosphere, Ball, and Globe.
+* Other names for this node include: PolySphere, Icosphere, Globe, Ball, and Poly Sphere.
 
 
-### Examples
+### Example(s)
 
 
 

@@ -45,7 +45,7 @@
 
 ### Note(s)
 
-* Other names for this node include: UnrollCurve, Curve length.
+* Other names for this node include: UnrollCurve and Curve Length.
 
 
 ### Example(s)

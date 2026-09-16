@@ -51,12 +51,11 @@
   * The list of z values of the points of the output primitives.
 
 
-### Notes
+### Note(s)
+* Other names for this node include: SetPoints and Set Positions.
 
-* Other names for this node include: SetPoints, and Set positions.
 
-
-### Examples
+### Example(s)
 
 
 

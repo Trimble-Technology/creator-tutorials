@@ -13,7 +13,7 @@
 
 * _output opposite_
 
-  * Sets whether to invert the output geometry bounds or not.
+  * When `true`, swaps the output minimum and maximum bounds (min↔max).
 
 
 #### Outputs
@@ -51,15 +51,9 @@
   * The list of vector values of the maximum bounds of each individual input primitive.
 
 
-### Notes
+### Note(s)
+* Other names for this node include: GeometryBounds, Extent, Min, and Max.
 
 
-
-* Other names for this node include: GeometryBounds, Extent, Minimum, and Maximum.
-
-
-### Examples
-
-
-
+### Example(s)
 * <a href="https://creator.trimble.com/graph?assetURI=whp:88c3c301-2ad3-49ed-8bf4-caa94973665d&version=latest" target="_blank">Rotate around pivot</a>

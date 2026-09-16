@@ -22,8 +22,3 @@
 ### Note(s)
 
 * Other names for this node include: ReverseList.
-
-
-### Example(s)
-
-* No particular examples at this time. Check back later!

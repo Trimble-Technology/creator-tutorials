@@ -27,18 +27,17 @@
   * The name of the uploaded image asset (as a string value). 
 
 
-### Notes
-
+### Note(s)
 * Images can be uploaded to the graph by dragging and dropping the file into the graph viewer.
 
 * Following image file formats are supported for import:
     * JPEG / JPG
     * PNG
 
-* Other names for this node include: ImageAsset, Picture, Texture, Bitmap, JPEG, JPG, and PNG.
+* Other names for this node include: ImageAsset, Picture, Bitmap, and Texture.
 
 
-### Examples
+### Example(s)
 
 
 

@@ -30,20 +30,20 @@
 
 #### Outputs
 
-* _result_
+* _value_
 
   * The value of the selected index.
 
-* _result list_
+* _value as list_
 
   * The list of values of the selected index.
 
 
 ### Note(s)
 
-* Unlike the [Switch](/nodes/Switch/documentation.md) node, all upstream nodes of input connections are computed.
+* Unlike the [**Switch**](/nodes/Switch/documentation.md) node, all upstream nodes of input connections are computed.
 
-* Other names for this node include: FloatSwitch, Case, If, and Value switch.
+* Other names for this node include: FloatSwitch, Case, If, and Value Switch.
 
 
 ### Example(s)

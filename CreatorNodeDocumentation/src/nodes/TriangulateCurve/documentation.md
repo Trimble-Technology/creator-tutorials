@@ -13,7 +13,7 @@
 
 * _work plane_
 
-  * The work plane in which the triangulation will be performed in. This can be `X=0`, `Y=0`, or `Z=0`.
+  * The work plane in which the triangulation will be performed in. This can be `X = 0`, `Y = 0`, or `Z = 0`.
 
 * _pre-flatten_
 
@@ -25,7 +25,7 @@
 
 * _input handling_
 
-  * Sets how the input curves are handled within the triangulation. This can be `first curve is outline, others are holes` (the first input curve is the outline and following input curves are holes within the resulting mesh) or `all curves are outlines` (all input curves are outlines and no holes are made).
+  * Sets how the input curves are handled within the triangulation. This can be `first curve is outline, other curves are holes` (the first input curve is the outline and following input curves are holes within the resulting mesh) or `all curves are outlines` (all input curves are outlines and no holes are made).
 
 * _make convex hull_
 
@@ -83,19 +83,17 @@
   * The list of z values of the points of the output primitives.
 
 
-### Notes
+### Note(s)
 
-
-
-* The `first curve is outline, others are holes` setting of the _input handling_ input results in a single primitive whereas the `all curves are outlines` setting results in a primitive for each input curve.
+* The `first curve is outline, other curves are holes` setting of the _input handling_ input results in a single primitive whereas the `all curves are outlines` setting results in a primitive for each input curve.
 
 * If the input curve is irregular and the resulting triangulate mesh results in “zero area triangles”, it is recommended to use the [**Clean mesh**](/nodes/PolyClean/documentation.md) node to fix the mesh.
 
-* Other names for this node include: TriangulateCurve, Triangulate curve, Tessellate, Mesh, and Path to mesh.
+* Other names for this node include: TriangulateCurve, Create Polygon, Tesselate, Tessellate, Path, Curve, Mesh, and Path To Polygon.
 
 
-### Examples
+### Example(s)
 
 
 
-* <a href="https://kind-dune-0f6b12f1e.1.azurestaticapps.net/?assetURI=whp:c9ec5808-aa2a-452c-9938-96b9b590aade&version=latest" target="_blank">Triangulate an outline</a>
+* <a href="https://creator.trimble.com/graph?assetURI=whp:c9ec5808-aa2a-452c-9938-96b9b590aade&version=latest" target="_blank">Triangulate an outline</a>

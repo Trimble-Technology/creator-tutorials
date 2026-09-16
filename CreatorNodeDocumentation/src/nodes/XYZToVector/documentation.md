@@ -28,12 +28,12 @@
 
 * _vector list_
 
-  * The list of x vector values as defined by the _x_, _y_, and _z_ inputs.
+  * The list of vector values as defined by the _x_, _y_, and _z_ inputs.
 
 
 ### Note(s)
 
-* Other names for this node include: XYZToVector, Float to vector, Combine, and Assemble.
+* Other names for this node include: XYZToVector, Float To Vector, Combine, and Assemble.
 
 
 ### Example(s)

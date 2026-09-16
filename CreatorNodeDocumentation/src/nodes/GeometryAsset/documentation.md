@@ -64,10 +64,10 @@
         * Vertices, faces, groups, but no normals, nor UVs.
     * DXF
         * Polyline entity type only.
-* Other names for this node include: GeometryAsset, Geometry, Load, OBJ, IGES, IGS, STL, DXF, and TrimBIM.
+* Other names for this node include: GeometryAsset, Geo import, Load, Geometry, OBJ, IGES, IGS, and DXF.
 
 
-### Examples
+### Example(s)
 
 
 

@@ -69,7 +69,7 @@
 
 * The JSON string can be constructed using various methods, but it is recommended to use the [**Combine data**](/nodes/CombineData/documentation.md) and [**JSON builder**](/nodes/JsonBuilder/documentation.md) nodes to do so. An example of this can be found in the example graphs linked below.
 
-* Other names for this node include: GraphAsset, Graph import, Graph reference, Subgraph.
+* Other names for this node include: GraphAsset, Graph Import, and Graph Reference.
 
 
 ### Example(s)

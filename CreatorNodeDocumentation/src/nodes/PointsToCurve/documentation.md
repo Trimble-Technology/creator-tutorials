@@ -17,7 +17,7 @@
 
 * _order_
 
-  * The value that defines the order of the output line. See [NURBS curve](/concepts/GeneralConcepts/nurbsCurve.md) for more information.
+  * The value that defines the order of the output curve. See [NURBS curve](/concepts/GeneralConcepts/nurbsCurve.md) for more information.
 
 * _keepIncomingGeo_
 
@@ -51,12 +51,11 @@
   * The list of z values of the points of the output primitives.
 
 
-### Notes
+### Note(s)
+* Other names for this node include: PointsToCurve and Create Curve.
 
-* Other names for this node include: PointsToCurve and Create curve.
 
-
-### Examples
+### Example(s)
 
 
 

@@ -15,7 +15,7 @@
 
   * Sets the mode in which certain information is calculated and output.
 
-  * There are two different modes: `normals only`, and `normals, tangents and binormals (basis)`.
+  * There are two different modes: `normals only`, and `tangents, normals, binormals (basis)`.
 
 * _tangents_
 
@@ -32,6 +32,10 @@
 * _default normal_
 
   * The default normal value.
+
+* _scale_
+
+  * The value that defines the display scale of the calculated normals, tangents, and binormals.
 
 
 #### Outputs
@@ -69,8 +73,7 @@
   * The list of binormal values of the input primitives.
 
 
-### Examples
-
+### Example(s)
 * <a href="https://creator.trimble.com/graph?assetURI=whp:de8a6a01-27bb-4c73-80ee-89b4997807cc&version=latest" target="_blank">Curve point information</a>
 
 * <a href="https://creator.trimble.com/graph?assetURI=whp:f54a5965-07e7-4a97-877f-870bd5e25172&version=latest" target="_blank">Copy using vectors</a>

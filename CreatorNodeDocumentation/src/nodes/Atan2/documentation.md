@@ -31,7 +31,7 @@
 
 * This operation is represented as `atan2()` within the [**Expression**](/nodes/ExpressionParser/documentation.md) node.
 
-* Other names for this node include: Atan2, and 2-argument arctangent.
+* Other names for this node include: Atan2.
 
 
 ### Example(s)

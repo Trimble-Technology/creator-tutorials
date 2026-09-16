@@ -1,6 +1,6 @@
 # Set vector list items
 
-**_Sets multiple item values in a number list._**
+**_Sets multiple item values in a vector list._**
 
 ---
 

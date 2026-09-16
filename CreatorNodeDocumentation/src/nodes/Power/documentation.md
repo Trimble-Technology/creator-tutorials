@@ -33,9 +33,9 @@
 
   * Or in the context of this node’s inputs: _value 1<sup>value 2</sup>_
 
-* This operation is represented as `pow()` within the [Expression](/nodes/ExpressionParser/documentation.md) node.
+* This operation is represented as `pow()` within the [**Expression**](/nodes/ExpressionParser/documentation.md) node.
 
-* Other names for this node include: Exponentiation, and ^.  
+* Other names for this node include: Power and ^.
 
 
 ### Example(s)

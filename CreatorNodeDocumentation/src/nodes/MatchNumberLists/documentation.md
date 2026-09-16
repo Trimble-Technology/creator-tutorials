@@ -29,7 +29,7 @@
 
 ### Note(s)
 
-* This node returns two lists of booleans, one for each input list (same length) - items are true if the number at their index is found in the other list.
+* Each output list matches the length of its corresponding input; a value is `true` when that number appears anywhere in the other list.
 
 * Other names for this node include: MatchNumberLists.
 

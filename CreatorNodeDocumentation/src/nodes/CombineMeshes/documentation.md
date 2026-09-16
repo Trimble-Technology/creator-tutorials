@@ -39,18 +39,17 @@
   * The list of z values of the points of the output primitives.
 
 
-### Notes
-
+### Note(s)
 * If you wish to treat multiple primitives as a single primitive (whilst preserving individual primitives), use the [**group**](/nodes/GroupPrimitives/documentation.md) and [**ungroup**](/nodes/UnGroupPrimitives/documentation.md) nodes.
 
-* This node is a [destructive operation](/concepts/GeneralConcepts/destructive.md) if there are more than one primitive in it's **_geometry_** input.
+* This node is a [destructive operation](/concepts/GeneralConcepts/destructive.md) if there is more than one primitive in its **_geometry_** input.
 
 * If the input meshes have different [material](/concepts/GeneralConcepts/material.md) properties, the combined mesh will take on the properties of the last input mesh primitive.
 
-* Other names for this node include: CombineMeshes, Merge meshes, Unify meshes, and Join.
+* Other names for this node include: CombineMeshes, Merge Meshes, Unify Meshes, and Join.
 
 
-### Examples
+### Example(s)
 
 
 

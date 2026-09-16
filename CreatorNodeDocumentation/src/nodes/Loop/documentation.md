@@ -23,6 +23,10 @@
 
   * Sets whether the loop is cumulative or not. See the Notes section below for more information.
 
+* _combine meshes_
+
+  * Sets whether to combine all looped meshes into a singular mesh primitive. Only meshes are combined. Curves, NURBS surfaces, and other primitive types are ignored with this function. Hidden when _cumulative_ is enabled.
+
 
 #### Outputs
 
@@ -47,7 +51,7 @@
   * The list of z values of the points of the output primitives.
 
 
-### Notes
+### Note(s)
 
 * Loop types:
     * A non-cumulative loop (the default loop) is a type of loop that repeats the section of a graph between an [**iterator**](/nodes/Iterator/documentation.md) - **loop** node pair for the defined number of loops. The geometry output of the **loop** node with this type of loop is the result of every iteration/loop, acting similarly to the [**copy**](/nodes/Copy/documentation.md) node.
@@ -56,10 +60,10 @@
         
 * To be used in conjunction with an [**iterator**](/nodes/Iterator/documentation.md) node assigned with the same tag.
 
-* Other names for this node include: Iterate.
+* Other names for this node include: Iterate and Loop.
 
 
-### Examples
+### Example(s)
 
 
 

@@ -8,7 +8,7 @@
       "geometry",
       "uv"
     ],
-    "help": "Gets UVs from surface points",
+    "help": "Gets UVs from mesh points",
     "input": {
       "geometry": {
         "type": "geometry",

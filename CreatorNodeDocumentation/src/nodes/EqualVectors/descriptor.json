@@ -12,7 +12,7 @@
       "math",
       "compare"
     ],
-    "help": "Checks whether values are (almost) equal.",
+    "help": "Checks whether vectors are equal.",
     "input": {
       "vector1": {
         "type": "flexi:vector",

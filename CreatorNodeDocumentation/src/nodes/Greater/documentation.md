@@ -29,7 +29,7 @@
 
 ### Note(s)
 
-* Other names for this node include: More, Bigger, and >.
+* Other names for this node include: Greater, More, Bigger, and >.
 
 
 ### Example(s)

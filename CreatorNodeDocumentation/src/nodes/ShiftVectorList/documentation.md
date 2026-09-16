@@ -18,9 +18,21 @@
 
 #### Outputs
 
-* _list_
+* _vector list_
 
   * The shifted list of vector values.
+
+* _x list_
+
+  * The list of x components of the shifted vector list.
+
+* _y list_
+
+  * The list of y components of the shifted vector list.
+
+* _z list_
+
+  * The list of z components of the shifted vector list.
 
 
 ### Note(s)
