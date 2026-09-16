@@ -32,7 +32,8 @@ jobs:
     - name: Setup mdBook
       uses: peaceiris/actions-mdbook@v1
       with:
-        mdbook-version: '0.5.4'
+        # Pin to 0.4.x to match local `mdbook serve` styling. 0.5 changes the sidebar and theme CSS.
+        mdbook-version: '0.4.52'
 
     - name: Build mdBook
       run: |
