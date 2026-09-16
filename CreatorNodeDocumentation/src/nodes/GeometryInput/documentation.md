@@ -44,7 +44,7 @@
 
 * This node is how geometry authored outside of the graph gets into it — most graphs build every primitive they output, but a graph using this node instead reacts to whatever geometry it is given at [**compute**](/concepts/GeneralConcepts/compute.md) time.
 
-* When a [**Live Component**](/concepts/GeneralConcepts/liveComponent.md) is applied to a face in SketchUp, that face is converted to JSON and enters the graph through this node. This is what makes [**AutoFit**](/concepts/GeneralConcepts/autoFit.md) possible.
+* When a [**Live Component**](/concepts/GeneralConcepts/liveComponent.md) is applied to a face in SketchUp, that face is converted to JSON and enters the graph through this node.
 
 * The expected JSON format follows the polyline and PolyMesh definitions in the <a href="https://github.com/Trimble-Technology/eidos-json-schema" target="_blank">eidos-json-schema</a> repository. Only those two [**primitive**](/concepts/GeneralConcepts/primitive.md) types are supported — a [**NURBS curve**](/concepts/GeneralConcepts/nurbsCurve.md) or [**NURBS surface**](/concepts/GeneralConcepts/nurbsSurface.md) cannot be parsed by this node.
 
