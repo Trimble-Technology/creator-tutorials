@@ -4,12 +4,6 @@
 
 ---
 
-> #### DEPRECATED
->
-> The output mesh's UVs are not always accurately matched to points.
->
-> Superseded by [Combine meshes](/nodes/CombineMeshesV2/documentation.md)
-
 
 #### Inputs
 
@@ -53,4 +47,10 @@
 
 * If the input meshes have different [material](/concepts/GeneralConcepts/material.md) properties, the combined mesh will take on the properties of the last input mesh primitive.
 
-* Other names for this node include: CombineMeshes, Merge Meshes, Unify Meshes, and Join.
+* Other names for this node include: CombineMeshesV2, Merge Meshes, Unify Meshes, and Join.
+
+
+### Example(s)
+
+* <a href="https://creator.trimble.com/graph?assetURI=whp:99cc263d-67d8-4de1-9f6f-4a0bd4f2d975&version=latest" target="_blank">Combine meshes</a>
+* <a href="https://creator.trimble.com/graph?assetURI=whp:5866ad6e-2308-4113-b199-d6d875b7a175&version=latest" target="_blank">Point grids</a>

@@ -2,17 +2,17 @@
     "name": "geometry input",
     "alternateNames": [],
     "defaultNodeName": "geometry input",
-    "path":  [
+    "path": [
       "geometry",
       "import"
     ],
     "help": "Parses JSON encoded geometry elements. Currently supports singular and arrays of Polylines and Polymeshs from https://github.com/Trimble-Technology/eidos-json-schema.",
     "input": {
-      "geometryToParse": {
+      "value": {
         "type": "string",
         "description": "input geometry as a JSON encoded string",
         "displayName": "json geometry",
-        "default": "{\"id\":\"emptyPolyLine\",\"points\":[[0,0,0],[1000,0,0],[1000,1000,0],[0,1000,0],[0,0,0]]}"
+        "default": "{\"id\":\"emptyPolyLine\",\"points\":[ [0,0,0], [1000,0,0], [1000,1000,0], [0,1000,0], [0,0,0] ]}"
       },
       "geometrySchemaJSON": {
         "type": "string",
@@ -43,7 +43,7 @@
         "hideWhen": "guidanceType != 1"
       }
     },
-    "type": "GeometryInput",
+    "type": "GeometryInputV2",
     "output": {
       "geometry": {
         "type": "geometry",
@@ -70,9 +70,5 @@
         "description": "point positions z coordinate",
         "displayName": "points.z"
       }
-    },
-    "deprecated": {
-      "supersededBy": "GeometryInputV2",
-      "deprecationHelpString": "The field 'geometryToParse' of 'input' is renamed to 'value'."
     }
   }

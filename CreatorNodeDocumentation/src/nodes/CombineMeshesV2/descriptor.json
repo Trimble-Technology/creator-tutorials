@@ -28,7 +28,7 @@
         "displayName": "group behavior"
       }
     },
-    "type": "CombineMeshes",
+    "type": "CombineMeshesV2",
     "output": {
       "geometry": {
         "type": "geometry",
@@ -50,10 +50,6 @@
         "type": "list:float",
         "displayName": "points.z"
       }
-    },
-    "deprecated": {
-      "supersededBy": "CombineMeshesV2",
-      "deprecationHelpString": "The output mesh's UVs are not always accurately matched to points."
     },
     "nodeClass": "node"
   }

@@ -6,5 +6,5 @@ A destructive operation refers to a node's operation/function that will alter ge
 
 Some examples of nodes with destructive operations are:
 
-* [**Combine mesh**](/nodes/CombineMesh/documentation.md)
+* [**Combine meshes**](/nodes/CombineMeshesV2/documentation.md)
 * [**Boolean 3D geometry**](/nodes/MeshBoolean/documentation.md)

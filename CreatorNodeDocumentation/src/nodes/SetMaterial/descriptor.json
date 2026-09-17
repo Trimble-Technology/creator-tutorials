@@ -203,5 +203,9 @@
         "displayName": "points.z"
       }
     },
+    "deprecated": {
+      "supersededBy": "CreateMaterial",
+      "deprecationHelpString": "This node sets material properties directly on primitives."
+    },
     "nodeClass": "node"
   }

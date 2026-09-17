@@ -1,0 +1,153 @@
+{
+    "name": "create material",
+    "alternateNames": [
+      "definition",
+      "shader",
+      "shading",
+      "roughness",
+      "reflectance",
+      "albedo",
+      "opacity",
+      "transparency",
+      "emission",
+      "bump"
+    ],
+    "defaultNodeName": "create material",
+    "path": [
+      "geometry",
+      "material | texture"
+    ],
+    "help": "Creates a material definition.",
+    "input": {
+      "albedo": {
+        "type": "color",
+        "default": [
+          1,
+          1,
+          1
+        ],
+        "displayName": "base color",
+        "description": "albedo color"
+      },
+      "setAlbedoTexture": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "set base texture"
+      },
+      "albedoTexture": {
+        "type": "string",
+        "displayName": "base texture",
+        "description": "Image texture url(s) (or connect the url output of an image texture node).",
+        "hideWhen": "!setAlbedoTexture"
+      },
+      "setOpacity": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "set opacity"
+      },
+      "opacity": {
+        "type": "float",
+        "default": 1,
+        "minimum": 0,
+        "maximum": 1,
+        "description": "if < 1, the material becomes transparent",
+        "displayName": "opacity",
+        "hideWhen": "!setOpacity"
+      },
+      "UVscaleX": {
+        "type": "float",
+        "default": 1,
+        "displayName": "x scale"
+      },
+      "UVscaleY": {
+        "type": "float",
+        "default": 1,
+        "displayName": "y scale"
+      },
+      "setRoughness": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "set roughness"
+      },
+      "roughness": {
+        "type": "float",
+        "default": 1,
+        "minimum": 0,
+        "maximum": 1,
+        "displayName": "roughness",
+        "hideWhen": "!setRoughness"
+      },
+      "roughnessTexture": {
+        "type": "string",
+        "displayName": "roughness texture",
+        "description": "Image texture url(s) (or connect the url output of an image texture node).",
+        "hideWhen": "!setRoughness"
+      },
+      "setMetallic": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "set metallic"
+      },
+      "metallic": {
+        "type": "float",
+        "default": 0,
+        "minimum": 0,
+        "maximum": 1,
+        "displayName": "metallic",
+        "hideWhen": "!setMetallic"
+      },
+      "metallicTexture": {
+        "type": "string",
+        "displayName": "metallic texture",
+        "description": "Image texture url(s) (or connect the url output of an image texture node).",
+        "hideWhen": "!setMetallic"
+      },
+      "setNormalTexture": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "set normal texture"
+      },
+      "normalTextureScale": {
+        "type": "float",
+        "default": 0,
+        "minimum": -10,
+        "maximum": 10,
+        "displayName": "normal map",
+        "hideWhen": "!setNormalTexture"
+      },
+      "normalTexture": {
+        "type": "string",
+        "displayName": "normal map texture",
+        "description": "Image texture url(s) (or connect the url output of an image texture node).",
+        "hideWhen": "!setNormalTexture"
+      },
+      "setAmbientOcclusion": {
+        "type": "boolean",
+        "default": false,
+        "displayName": "set ambient occlusion"
+      },
+      "ambientOcclusionStrength": {
+        "type": "float",
+        "default": 0,
+        "minimum": -10,
+        "maximum": 10,
+        "displayName": "ambient occlusion",
+        "hideWhen": "!setAmbientOcclusion"
+      },
+      "ambientOcclusionTexture": {
+        "type": "string",
+        "displayName": "ambient occlusion texture",
+        "description": "Image texture url(s) (or connect the url output of an image texture node).",
+        "hideWhen": "!setAmbientOcclusion"
+      }
+    },
+    "type": "CreateMaterial",
+    "output": {
+      "materialReference": {
+        "type": "string",
+        "description": "reference to the applicable material",
+        "displayName": "material"
+      }
+    },
+    "nodeClass": "node"
+  }

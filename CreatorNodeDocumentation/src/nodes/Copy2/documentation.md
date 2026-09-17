@@ -81,7 +81,7 @@
 
     * Often vector rotations are described in handedness or chirality (See <a href="https://en.wikipedia.org/wiki/Right-hand_rule" target="_blank">here</a> for more information). In regards to the different modes: modes `0` and `1` are left-handed whereas modes `2`, `3`, and `4` are right-handed.
 
-* The _combine meshes_ input has the same function as the [**combine meshes**](/nodes/CombineMeshes/documentation.md) node with the _group behavior_ input set to `exclude meshes from groups`.
+* The _combine meshes_ input has the same function as the [**combine meshes**](/nodes/CombineMeshesV2/documentation.md) node with the _group behavior_ input set to `exclude meshes from groups`.
 
 * Other names for this node include: Copy2, Duplicate, Loop, Instance, Matrix, and Matrice.
 

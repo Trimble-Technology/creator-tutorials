@@ -75,11 +75,12 @@
     - [Tetrahedron](nodes/TetrahedronV2/documentation.md)
   - [Import]()
     - [Geometry asset](nodes/GeometryAsset/documentation.md)
-    - [Geometry input](nodes/GeometryInput/documentation.md)
+    - [Geometry input](nodes/GeometryInputV2/documentation.md)
     - [Graph asset](nodes/GraphAsset/documentation.md)
     - [Image asset](nodes/ImageAsset/documentation.md)
   - [Material & Texture]()
-    - [Material](nodes/SetMaterial/documentation.md)
+    - [Create material](nodes/CreateMaterial/documentation.md)
+    - [Apply material](nodes/ApplyMaterial/documentation.md)
     - [Set color](nodes/SetColor/documentation.md)
     - [Project UV](nodes/ProjectUV/documentation.md)
   - [Measure]()
@@ -110,7 +111,7 @@
       - [Triangulate surface](nodes/TesselatePatch/documentation.md)
     - [Mesh]()
       - [Clean mesh](nodes/PolyClean/documentation.md)
-      - [Combine meshes](nodes/CombineMeshes/documentation.md)
+      - [Combine meshes](nodes/CombineMeshesV2/documentation.md)
       - [Extrude mesh](nodes/Extrude/documentation.md)
       - [Flip mesh normals](nodes/ReverseMesh/documentation.md)
       - [Mesh boundary](nodes/MeshBoundary/documentation.md)
@@ -249,10 +250,6 @@
   - [Add Vectors (V1)](nodes/AddVectors/documentation.md)
   - [Random Vector (V1)](nodes/RandomVector/documentation.md)
   - [Formula](nodes/Formula/documentation.md)
-  - [Create Material]()  <!-- TODO: documentation.md does not exist -->
-  - [Set Material]()  <!-- TODO: dedicated V1 doc missing; live Material node uses SetMaterial -->
-  - [Apply Material]()  <!-- TODO: documentation.md does not exist -->
-  - [Combine Meshes (V1)]()  <!-- TODO: documentation.md does not exist -->
-  - [Extrude (V1)]()  <!-- TODO: documentation.md does not exist -->
-  - [String Split (V1)]()  <!-- TODO: documentation.md does not exist -->
-  - [Geometry Input (V1)]()  <!-- TODO: documentation.md does not exist -->
+  - [Material](nodes/SetMaterial/documentation.md)
+  - [Combine Meshes (V1)](nodes/CombineMeshes/documentation.md)
+  - [Geometry Input (V1)](nodes/GeometryInput/documentation.md)

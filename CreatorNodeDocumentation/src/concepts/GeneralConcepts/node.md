@@ -112,7 +112,7 @@ Errors can be 'caught' using graph logic, by the [**error check**](/nodes/Error/
 
 #### Rendering nodes
 
-* These nodes provide tools to apply [materials](/nodes/SetMaterial/documentation.md) and textures to geometry [primitives](/concepts/GeneralConcepts/primitive.md).
+* These nodes provide tools to apply [materials](/concepts/GeneralConcepts/material.md) and textures to geometry [primitives](/concepts/GeneralConcepts/primitive.md).
 * More information on the concept of Materials in the [graph](/concepts/GeneralConcepts/graph.md) can be found in the [Material](concepts/GeneralConcepts/material.md) concept section.
 
 #### Attribute nodes

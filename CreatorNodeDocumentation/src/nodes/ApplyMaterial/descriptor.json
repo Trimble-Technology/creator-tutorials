@@ -1,0 +1,46 @@
+{
+    "name": "apply material",
+    "alternateNames": [
+      "material",
+      "assign material",
+      "assign colour",
+      "assign color",
+      "paint",
+      "apply paint",
+      "bucket",
+      "paint bucket",
+      "set material",
+      "set color",
+      "shader",
+      "set shader",
+      "apply shader",
+      "assign shader"
+    ],
+    "defaultNodeName": "apply material",
+    "path": [
+      "geometry",
+      "material | texture"
+    ],
+    "help": "Applies the connected material to connected geometries.",
+    "input": {
+      "geometry": {
+        "type": "geometry",
+        "description": "input geometry",
+        "displayName": "geometry"
+      },
+      "materialReference": {
+        "type": "string",
+        "description": "material",
+        "displayName": "material"
+      }
+    },
+    "type": "ApplyMaterial",
+    "output": {
+      "geometry": {
+        "type": "geometry",
+        "description": "output geometry",
+        "displayName": "geometry"
+      }
+    },
+    "nodeClass": "node"
+  }

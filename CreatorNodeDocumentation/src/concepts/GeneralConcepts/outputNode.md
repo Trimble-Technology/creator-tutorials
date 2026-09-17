@@ -10,6 +10,6 @@ Modification to the graph state will trigger a graph evaluation, and potentially
   <img width="600" src="images/CreatorCow.png"/>
 </p>
 
-In the graph depicted above, the green highlighted [**material**](/nodes/SetMaterial/documentation.md) node is set to be an output, and as such, computed.
+In the graph depicted above, the green highlighted node is set to be an output, and as such, computed.
 
 It is possible for multiple [nodes](/concepts/GeneralConcepts/node.md) to be set to be the graph's output (e.g. by holding the SHIFT key when output selecting nodes in the graph viewer), in which case both of the output selected nodes will be [computed](/concepts/GeneralConcepts/compute.md).

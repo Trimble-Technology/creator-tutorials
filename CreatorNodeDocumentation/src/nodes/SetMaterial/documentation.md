@@ -4,6 +4,12 @@
 
 ---
 
+> #### DEPRECATED
+>
+> This node sets material properties directly on primitives.
+>
+> Superseded by [Create material](/nodes/CreateMaterial/documentation.md) and [Apply material](/nodes/ApplyMaterial/documentation.md)
+
 
 #### Inputs
 
@@ -140,6 +146,7 @@
 
 
 ### Note(s)
+
 * See [Material](/concepts/GeneralConcepts/material.md) for more information.
 
 * Other names for this node include: SetMaterial, Set Material, Shader, Shading, Roughness, Reflectance, Albedo, Opacity, Transparency, Emission, and Bump.
