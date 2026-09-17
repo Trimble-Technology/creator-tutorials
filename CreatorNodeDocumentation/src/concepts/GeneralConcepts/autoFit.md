@@ -4,13 +4,15 @@
 
 An AutoFit Live Component is a [Live Component](/concepts/GeneralConcepts/liveComponent.md)  featuring a **[geometry input](/nodes/GeometryInput/documentation.md)** node—it ingests SketchUp surfaces to automatically adapt its shape using a chosen face.
 
+![](images\AutofitExample.gif)
+
 ### In Situ
 
 When an AutoFit Live Component is applied to a face in SketchUp, that face is converted to JSON and passed into the [graph](/concepts/GeneralConcepts/graph.md) through its **[geometry input](/nodes/GeometryInput/documentation.md)** node. The graph then [computes](/concepts/GeneralConcepts/compute.md) its output utilizing this new geometry.
 
 Once placed an AutoFit Live Component can have its input geometry changed by right clicking and selecting 'Refit Live Component'.
 
-![](images\AutofitExample.gif)
+![](images\Refit.png)
 
 ### In Graph
 
